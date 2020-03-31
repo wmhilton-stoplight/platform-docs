@@ -5,7 +5,7 @@ Within Workspaces, the most important concept in Stoplight is "Projects". Projec
 
 ## What is a Project
 
-Projects in Stoplight are usually associated with a git repository, which can contain anything you would expect to find in a repository: source code, API descriptions, images, Markdown articles, maybe some excel spreadsheets. Stoplight will analyze the contents of a project looking for things it knows what to do with, and ignore the rest.
+Projects in Stoplight are usually associated with a Git repository, which can contain anything you would expect to find in a repository: source code, API descriptions, images, Markdown articles, maybe some excel spreadsheets. Stoplight will analyze the contents of a project looking for things it knows what to do with, and ignore the rest.
 
 Stoplight looks for: 
 
@@ -41,9 +41,7 @@ If the repository has Markdown articles, or API descriptions, then you will see 
 
 ## Brand New Projects
 
-Using the [Studio module]() you can create and edit the contents of your projects, and push changes back to the Git repository when you're done. 
-
-If you are starting a brand new project and there is nothing: no code, no API descriptions, and no documentation, this might be where you start, so you can get the full benefits of [API design-first](https://stoplight.io/api-design-guide/).
+Using [Studio](TODO design overview) you can create and edit the contents of your projects, and push changes back to the Git repository when you're done. 
 
 ## Projects without Git
 
