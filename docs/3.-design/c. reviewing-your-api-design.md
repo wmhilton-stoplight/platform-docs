@@ -8,6 +8,31 @@ When you're a solo developer working on an API design, the process is pretty sim
 
 When multiple developers are working on the API, and when multiple teams are all making multiple APIs, quality control can suddenly feel more important.
 
+## When to Review?
+
+When creating a new API from scratch, the first step to design, before you even open up Studio, is interviewing potential consumers and finding out their needs. Getting as many involved as possible and aggregating results to make the most popular use cases as easy and efficient as possible will help you make a good API. 
+
+Whatever designs, [mock-powered prototypes](TODO mock), or code-powered pilot/alpha APIs come from this can be reviewed. Much of this will happen outside of Stoplight, through Slack or your organizations general communication channels.
+
+After an API has launched, any new functionality and changes can also be reviewed. These will feel very similar to code reviews.
+
+Changes can be made at the same time as the code, then code and API description is reviewed in the same pull request at the same time, but that can lead to a lot of spam as API reviews trigger another round of code review, and vice versa. 
+
+Instead, it can help to make the API description changes _before_ the code is written, then if the API description gets a thumbs up the code can be written to that existing contract.
+
+## Who does Reviews?
+
+If there are only two API developers, then maybe each developer checks the others.
+
+If there are 1,000 API developers then maybe you need a dedicated team. These teams have many names:
+
+- API Design Reviewers
+- API Gatekeepers
+- API Center of Excellence
+- Architectural Committee
+
+Whatever size an organization is, developers alone should not be handling all reviews. Getting clients involved with the changes that are coming, before they're unleashed on the API ecosystem, can help increase moral, reduce code churn, and generally keep everyone on the same page.
+
 ## What to Look Out For
 
 **Are there breaking changes?**
@@ -26,6 +51,10 @@ API consumers generally don't enjoy guessing subtle differences between various 
 - If one uses camelCase for properties and another uses snake_case, maybe that could be mentioned.
 
 Spectral can help with a lot of this, allowing you to [create style guides for workspaces](TODO Spectral linting). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
+
+**Is this easy to implement?**
+
+Sometimes things are hard, but sometimes things are unnecessarily hard. If an API has been designed in a way that's just going to be a nightmare to implement, or involves making way too many HTTP calls to get a basic task done, this feedback can be made early on before more time and money is wasted.
 
 ## How does Design Review Work?
 
