@@ -1,0 +1,3 @@
+# Connecting to VCS
+
+The beginning of an awesome article...
