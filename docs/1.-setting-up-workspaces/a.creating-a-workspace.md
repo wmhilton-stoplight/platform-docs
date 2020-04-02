@@ -28,4 +28,4 @@ Then click `Continue`.
 4. Input the 6 digit confirmation code you received on your registered email address. Then click `Verify & Continue`
 5. Congrats, you have created your workspace at Stoplight! Let's create Amazing APIs now. To go to your newly created workspace click `Go to your-workspace-name workspace` 
 
-Next, [lets connect your VCS](b.connecting-to-vcs.md) to the workspace to maintain all your artifacts. 
+Next, [lets add your projects](b.adding-projects.md) to the workspace. 
