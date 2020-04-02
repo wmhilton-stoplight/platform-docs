@@ -4,7 +4,7 @@ tags: [Workspaces]
 
 # Creating a workspace
 
-Stoplight Platform enables you to drive consistency, discipline, and efficiency across your API teams by helping API teams across your organization work in a collaborative manner. The first step to enabling collaboration across your API lifecycle is grouping them into workspaces. 
+Stoplight Platform enables you to drive consistency, discipline, and efficiency across your API teams by helping folks across your organization work in a collaborative manner. The first step to enabling collaboration across your API lifecycle is grouping them into workspaces. 
 
 ## What is a workspace?
 
