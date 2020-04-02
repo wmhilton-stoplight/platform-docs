@@ -1,3 +1,7 @@
+---
+tags: [Design]
+---
+
 # Reviewing API Design
 
 When you're a solo developer working on an API design, the process is pretty simple:
@@ -12,7 +16,7 @@ When multiple developers are working on the API, and when multiple teams are all
 
 When creating a new API from scratch, the first step to design, before you even open up Studio, is interviewing potential consumers and finding out their needs. Getting as many involved as possible and aggregating results to make the most popular use cases as easy and efficient as possible will help you make a good API. 
 
-Whatever designs, [mock-powered prototypes](TODO mock), or code-powered pilot/alpha APIs come from this can be reviewed. Much of this will happen outside of Stoplight, through Slack or your organizations general communication channels.
+Whatever designs, [mock-powered prototypes]\(TODO mock), or code-powered pilot/alpha APIs come from this can be reviewed. Much of this will happen outside of Stoplight, through Slack or your organizations general communication channels.
 
 After an API has launched, any new functionality and changes can also be reviewed. These will feel very similar to code reviews.
 
@@ -50,7 +54,7 @@ API consumers generally don't enjoy guessing subtle differences between various 
 - If one API uses JSON:API and another uses Siren, maybe that's something to call out. 
 - If one uses camelCase for properties and another uses snake_case, maybe that could be mentioned.
 
-Spectral can help with a lot of this, allowing you to [create style guides for workspaces](TODO Spectral linting). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
+Spectral can help with a lot of this, allowing you to [create style guides for workspaces]\(TODO Spectral linting). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
 
 **Is this easy to implement?**
 
@@ -62,7 +66,7 @@ Most developers are used to changing to source code in version control systems v
 
 ### 1. Open a Project in Studio
 
-Whether you're [creating a new project](../1.-setting-up-workspaces/a. creating-a-workspace.md) or changing an existing one, pick a project to open in Studio.
+Whether you're [creating a new project]\(../1.-setting-up-workspaces/a. creating-a-workspace.md) or changing an existing one, pick a project to open in Studio.
 
 ### 2. Create a new Branch
 
@@ -70,11 +74,11 @@ A lot of Git repositories (especially those on GitHub) are configured to use [pr
 
 <!-- ![Typing a new branch name into the drawer in Studio.](../../assets/images/create-branch.png) -->
 
-Read more about [creating and switching branches](TODO 04-common-git-tasks.md#switching-branches).
+Read more about [creating and switching branches]\(TODO 04-common-git-tasks.md#switching-branches).
 
 ### 3. Make Changes, Commit, & Push
 
-When you're done making changes, [commit them, then push](TODO 04-common-git-tasks.md#committing-changes) the branch to the remote repository. 
+When you're done making changes, [commit them, then push]\(TODO 04-common-git-tasks.md#committing-changes) the branch to the remote repository. 
 
 ### 4. Open a Pull Request
 
@@ -89,9 +93,7 @@ How you create a pull request depends on where the project's repository is hoste
 
 You can publish from any branch, so click "Publish" and once the docs are published you will see a "View Docs". This will give you a link like this:
 
-```
-https://{workspace}.stoplight.io/p/docs/your-project?group=your-branch
-```
+    https://{workspace}.stoplight.io/p/docs/your-project?group=your-branch
 
 Put that link into the pull request you've just made so people can eyeball the documents instead of reading a bunch of YAML, making the review process much easier.
 
