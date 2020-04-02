@@ -1,7 +1,3 @@
----
-tags: [Design]
----
-
 # Reviewing API Design
 
 When you're a solo developer working on an API design, the process is pretty simple:
@@ -54,7 +50,7 @@ API consumers generally don't enjoy guessing subtle differences between various 
 - If one API uses JSON:API and another uses Siren, maybe that's something to call out. 
 - If one uses camelCase for properties and another uses snake_case, maybe that could be mentioned.
 
-Spectral can help with a lot of this, allowing you to [create style guides for workspaces]\(TODO Spectral linting). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
+Spectral can help with a lot of this, allowing you to [create style guides for workspaces](TODO Spectral linting). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
 
 **Is this easy to implement?**
 
@@ -93,7 +89,9 @@ How you create a pull request depends on where the project's repository is hoste
 
 You can publish from any branch, so click "Publish" and once the docs are published you will see a "View Docs". This will give you a link like this:
 
-    https://{workspace}.stoplight.io/p/docs/your-project?group=your-branch
+```
+https://{workspace}.stoplight.io/p/docs/your-project?group=your-branch
+```
 
 Put that link into the pull request you've just made so people can eyeball the documents instead of reading a bunch of YAML, making the review process much easier.
 
