@@ -1,9 +1,8 @@
 # Introduction to the Stoplight Platform 
 		
-From forming core new business models, providing critical integration hooks and improving efficiency inside the enterprise, APIs have become the chief driver of our move to a truly digital world. Their growing rise in importance means **shipping below par APIs isn't an option anymore**. 
+APIs have become the cornerstone of growth across businesses of all shapes and sizes. From core new business models, providing critical integration hooks and improving efficiency inside the enterprise, APIs have become the chief driver of our move to a truly digital world. Their growing rise in importance means **shipping below par APIs isn't an option anymore**. 
 		
 ### What is the Stoplight Platform?
-		
 
 Stoplight is a collaborative platform equipping your team with tooling across the API lifecycle that helps them build quality APIs efficiently. With stoplight your team can:
 
