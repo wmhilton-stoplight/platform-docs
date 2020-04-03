@@ -12,7 +12,7 @@ Projects in Stoplight are usually associated with a Git repository, which can co
 
 Stoplight looks for: 
 
-- API Description Documents in OpenAPI v2, OpenAPI v3, and JSON Schema.
+- API Description Documents (OpenAPI v2, OpenAPI v3, and JSON Schema)
 - Markdown articles
 - Images
 
@@ -28,7 +28,7 @@ When designing an API, you can start with the API descriptions before the API ev
 
 The quickest and recommended way to get projects into Stoplight is to pull them in from Git, and this can be done in Explorer. 
 
-<!--Stoplight platform is powered by your organization's Git provider (GitHub, GitLab, BitBucket e.t.c) ` No vendor lock in or unfamiliar tooling ;)`. Your API teams can collaborate on projects across your organization using the tooling they are familiar with, maintaining a single source of truth for their API artifats. You can use your provider to maintain roles and permissions on different projects. -->
+<!--Stoplight platform is powered by your organization's Git provider (GitHub, GitLab, BitBucket e.t.c) ` No vendor lock in or unfamiliar tooling ;)`. Your API teams can collaborate on projects across your organization using the tooling they are familiar with, maintaining a single source of truth for their API artifacts. You can use your provider to maintain roles and permissions on different projects. -->
 
 1. Login to your workspace and navigate to `Explorer`
 2. Click on `Add projects from your Git Provider`
@@ -52,4 +52,4 @@ Using [Studio](../3.-design/a.overview.md) you can create and edit the contents 
 
 Git is very popular, but not used by everyone. If a different version control system is in use like Mercurial, SVN, SourceSafe, Bazaar, or your team uses another way to keep all their work organized, Stoplight has you covered.
 
-[Stoplight CLI]\(#TODO Publishing via CLI) is a command-line tool, built as a NPM module, which can publish changes to Stoplight, and have them show up in Explorer just like any other project. They won't be editable in Studio, but the content will be available to read and search like anything else. 
+[Stoplight CLI](#TODO Publishing via CLI) is a command-line tool, built as a NPM module, which can publish changes to Stoplight, and have them show up in Explorer just like any other project. They won't be editable in Studio, but the content will be available to read and search like anything else. 
