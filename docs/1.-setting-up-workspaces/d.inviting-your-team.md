@@ -4,7 +4,7 @@ tags: [Workspaces]
 
 # Organizing your team
 
-Governance, design, development, documentation, and testing are all integral parts of creating and managing great APIs. This leads to the need for effective communication and exchange of information between different teams and departments. Stakeholders across the API lifecycle end up working in silos switching between different tools leading to inconsistencies, lack of collaboration and out of date information. 
+Governance, design, development, documentation, and testing are all integral parts of creating and managing great APIs. Stakeholders across the API lifecycle end up working in silos switching between different tools leading to inconsistencies, lack of collaboration and out of date information. 
 
 Stoplight Platform has been built with the modern API workflow in mind. It provides your team with the tooling to work in a single platform ensuring each stakeholder has the most up to date information, modern tooling, and visibility required to perform their job effectively.  
 
@@ -109,4 +109,3 @@ To whitelist your domain:
 2. 
 
 This can also be used to give quick access to your customers to view your API projects. To do that whitelist your customers domain with *guest* priveleges. 
-
