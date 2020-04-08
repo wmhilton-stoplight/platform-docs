@@ -25,7 +25,7 @@ Now that you know how to invite your team to Stoplight. Let's give you an overvi
 API champions in an organization are key proponents of bringing API change across an organization. Successful API programs have seen leaders evangelizing the need for key changes in the API lifecycle, leading initiatives among cross-functional teams. For these individuals, Stoplight Platform is a key tool in their armory as it gives them the required visibility across their organization. 
 
 Champions can:
-- Explore APIs across their organization using the explorer
+- Explore APIs across their organization using Explorer
 - Gauge the current state of APIs, documentation and identify areas where improvements are required
 - Establish guidelines for API design and documentation by creating standards
 - Create design libraries to promote reuse
