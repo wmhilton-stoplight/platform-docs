@@ -4,7 +4,7 @@ tags: [Governance]
 
 # Getting started with API Governance
 
-[API Governance]() programs are being undertaken across companies of all shapes and sizes, but that's not to say that all of them achieve their desired objectives. It is important to have a well-planned API governance initiative complemented by the right tools and inclusion of collaborators across the organization. 
+[API governance](TODO) is being undertaken across companies of all shapes and sizes, but that's not to say that all of them achieve their desired objectives. Some API governance efforts try to standardize too much too soon, and create overly restrictive rules which block legitimiate work. They can become a bottleneck, which API development teams will then try to circumnavigate instead of a benefit to them. This can usually be solved via cooperation with collaborators from across the organization, surveying them to find and solve legitimate problems that do not slow developers down. 
 
 To build a successful API governance program, thinking about governance in the right context is paramount. There's no single strategy that fits all circumstances and use-cases. Governance is often a balancing act and it's wise to take a light step-by-step approach. Stoplight's platform arms you with the tooling to help you at each stage of your initiative. 
 
@@ -31,7 +31,7 @@ Create an inventory of your existing APIs. You can use the platform to [add your
 With your inventory of APIs ready, you can start gauging the current status of your API landscape. Stoplight's Platform makes it easy to visualize and rationalize your APIs. After [adding your projects]() to the Explorer you can discover:
 
 - Existing APIs
-- API contracts and the formats being used e.g OAS3, Postman, RAML
+- API descriptions and the description formats being used e.g OpenAPI v3 Postman, RAML
 - Dependencies between endpoints, models, and articles in your organization
 - State of documentation for different APIs
 - Security policies being used 
