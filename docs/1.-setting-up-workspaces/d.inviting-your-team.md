@@ -18,7 +18,7 @@ Stoplight Platform has been built with the modern API workflow in mind. It provi
 
 Now that you know how to invite your team to Stoplight. Let's give you an overview of how various folks in your team can use the Stoplight Platform. This would help you to decide how (and when) to onboard each stakeholder in your organization. 
 
-#### Onboarding your team<br/> 
+#### Onboarding your team
 
 ##### Champion / Landscape Manager
 
@@ -34,7 +34,7 @@ Champions can:
 
 Champions are normally the first to be onboarded to the Stoplight Platform. We recommend giving them the **admin** role to give them visibility across teams and getting different API teams onboarded. 
 
-Are you a Champion? Get your fellow champions on board. <br/> 
+Are you a Champion? Get your fellow champions on board. 
 
 ##### Product Manager
 
@@ -50,7 +50,7 @@ Product Managers can:
 
 Product Managers for different teams are the first to be onboarded from their team. They tend to onboard other members of their team to start collaborating within their team. We recommend giving them the **maker** role. 
 
-Start identifying API teams within your organization and get their API product managers on board.<br/> 
+Start identifying API teams within your organization and get their API product managers on board.
 
 
 ##### Architect / Designer
@@ -65,7 +65,7 @@ Architects can:
 - Reuse schemas in the design library to ensure consistency
 - Test APIs being developed against their API design automatically
 
-Architects are usually invited by Champions or Product Managers of their API team. We recommend giving them the **maker** role to start creating new APIs and work effectively on existing projects.<br/>  
+Architects are usually invited by Champions or Product Managers of their API team. We recommend giving them the **maker** role to start creating new APIs and work effectively on existing projects.
 
 
 ##### Technical Writers
@@ -79,7 +79,7 @@ Technical writers can:
 - Create marketing content signifying the business needs of the API
 - Get feedback on documentation from stakeholders
 
-Technical writers are usually invited by Product Managers or Architects of their API team. We recommend giving them the **maker** role.<br/> 
+Technical writers are usually invited by Product Managers or Architects of their API team. We recommend giving them the **maker** role. 
 
 
 ##### Developers
@@ -93,7 +93,7 @@ Developers can:
 - Use the organization's API hub to explore documentation and try out the API
 - Develop and test their implementations against mock servers
 
-Developers are usually invited by Product Managers or Architects of their API team. We recommend giving internal developers the **maker** role. External developers or customers can be given the **Guest** role to give them access to a particular project. <br/> 
+Developers are usually invited by Product Managers or Architects of their API team. We recommend giving internal developers the **maker** role. External developers or customers can be given the **Guest** role to give them access to a particular project. 
 
 ##### **Evangelist**
 
