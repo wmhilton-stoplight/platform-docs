@@ -8,7 +8,7 @@ Governance, design, development, documentation, and testing are all integral par
 
 Stoplight Platform has been built with the modern API workflow in mind. It provides your team with the tooling to work in a single platform ensuring each stakeholder has the most up to date information, modern tooling, and visibility required to perform their job effectively.  
 
-#### Inviting a member to the workspace
+#### Inviting Workspace Members
 
 <!--To do Add info about roles-->
 
@@ -16,17 +16,17 @@ Stoplight Platform has been built with the modern API workflow in mind. It provi
 2. To add a member, enter the work email address of the person you want to add and select a role.
 <!--Screenshot-->
 
-Now that you know how to invite your team to Stoplight. Let's give you an overview of how various folks in your team can use the Stoplight Platform. This would help you to decide when and how to onboard each stakeholder in your organization. 
+Now that you know how to invite your team to Stoplight. Let's give you an overview of how various folks in your team can use the Stoplight Platform. This would help you to decide how (and when) to onboard each stakeholder in your organization. 
 
 #### Onboarding your team<br/> 
 
 ##### Champion / Landscape Manager
 
-API champions in an organization are key proponents of bringing API change across an organization. Successful API programs have seen leaders evangelizing the need for key changes in the API lifecycle, leading initiatives among cross-functional teams. For these individuals, Stoplight's platform is a key tool in their armory as it gives them the required visibility across their organization. 
+API champions in an organization are key proponents of bringing API change across an organization. Successful API programs have seen leaders evangelizing the need for key changes in the API lifecycle, leading initiatives among cross-functional teams. For these individuals, Stoplight Platform is a key tool in their armory as it gives them the required visibility across their organization. 
 
 Champions can:
 - Explore APIs across their organization using the explorer
-- Gauge the current state of their APIs, documentation and identify areas where improvements are required
+- Gauge the current state of APIs, documentation and identify areas where improvements are required
 - Establish guidelines for API design and documentation by creating standards
 - Create design libraries to promote reuse
 - Invite API teams working in silos to the workspace bringing them into governance initiatives
@@ -38,7 +38,7 @@ Are you a Champion? Get your fellow champions on board. <br/>
 
 ##### Product Manager
 
-API Product managers sit at the core of each API team making sure all the team members are successfully collaborating and moving in the direction required to meet the consumer requirements. They are responsible for overlooking the complete API lifecycle by setting clear KPIs, ensuring the design meets the business requirements and establishing good developer experience. 
+API Product Managers sit at the core of each API team making sure all the team members are successfully collaborating and moving in the direction required to meet the consumer requirements. They are responsible for overlooking the complete API lifecycle by setting clear KPIs, ensuring the design meets the business requirements and establishing good developer experience. 
 
 Product Managers can:
 - Verify design on Studio in collaboration with the architect against the API goals
