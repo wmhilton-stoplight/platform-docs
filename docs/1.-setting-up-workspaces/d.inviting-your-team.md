@@ -2,7 +2,7 @@
 tags: [Workspaces]
 ---
 
-# Organizing your team
+# Organizing Your Team
 
 Governance, design, development, documentation, and testing are all integral parts of creating and managing great APIs. Stakeholders across the API lifecycle end up working in silos switching between different tools leading to inconsistencies, lack of collaboration and out of date information. 
 
@@ -10,19 +10,19 @@ Stoplight Platform has been built with the modern API workflow in mind. It provi
 
 #### Inviting Workspace Members
 
-<!--To do Add info about roles-->
+<!--To-Do: Add info about roles-->
 
 1. Sign in to your workspace
 2. To add a member, enter the work email address of the person you want to add and select a role.
-<!--Screenshot-->
+<!--To-Do: Screenshot-->
 
 Now that you know how to invite your team to Stoplight. Let's give you an overview of how various folks in your team can use the Stoplight Platform. This would help you to decide how (and when) to onboard each stakeholder in your organization. 
 
-#### Onboarding your team
+#### Onboarding Your Team
 
 ##### Champion / Landscape Manager
 
-API champions in an organization are key proponents of bringing API change across an organization. Successful API programs have seen leaders evangelizing the need for key changes in the API lifecycle, leading initiatives among cross-functional teams. For these individuals, Stoplight Platform is a key tool in their armory as it gives them the required visibility across their organization. 
+API Champions in an organization are key proponents of bringing API change across an organization. Successful API programs have seen leaders evangelizing the need for key changes in the API lifecycle, leading initiatives among cross-functional teams. For these individuals, Stoplight Platform is a key tool in their armory as it gives them the required visibility across their organization. 
 
 Champions can:
 - Explore APIs across their organization using Explorer
@@ -34,7 +34,7 @@ Champions can:
 
 Champions are normally the first to be onboarded to the Stoplight Platform. We recommend giving them the **admin** role to give them visibility across teams and getting different API teams onboarded. 
 
-Are you a Champion? Get your fellow champions on board. 
+Are you a Champion? Get your fellow Champions on board. 
 
 ##### Product Manager
 
@@ -50,12 +50,12 @@ Product Managers can:
 
 Product Managers for different teams are the first to be onboarded from their team. They tend to onboard other members of their team to start collaborating within their team. We recommend giving them the **maker** role. 
 
-Start identifying API teams within your organization and get their API product managers on board.
+Start identifying API teams within your organization and get their API Product Managers on board.
 
 
 ##### Architect / Designer
 
-API architects or designers are responsible for all aspects of the design of an API. They make sure the design fulfills the business requirements, uses best practices and offers a great developer experience for API consumers. The designer also ensures that company-wide practices normally created by the API champions in the organization are followed. Normally, each API project would have an architect as part of the team managing it. 
+API Architects or Designers are responsible for all aspects of the design of an API. They make sure the design fulfills the business requirements, uses best practices and offers a great developer experience for API consumers. The designer also ensures that company-wide practices normally created by the API champions in the organization are followed. Normally, each API project would have an architect as part of the team managing it. 
 
 Architects can:
 - Design APIs in OpenAPI using an intuitive and easy-to-use graphical interface of Stoplight studio. 
@@ -70,16 +70,16 @@ Architects are usually invited by Champions or Product Managers of their API tea
 
 ##### Technical Writers
 
-Technical writers are responsible for documenting the API for all stakeholders in the API lifecycle. The documentation is used to communicate the usage of the API to external and internal developers, business stakeholders, evangelists and other teams in the organization. They work closely with the Product Manager and the architect to ensure the documentation is up to date and correctly reflects the design of the API.  
+Technical Writers are responsible for documenting the API for all stakeholders in the API lifecycle. The documentation is used to communicate the usage of the API to external and internal developers, business stakeholders, evangelists and other teams in the organization. They work closely with the Product Manager and the architect to ensure the documentation is up to date and correctly reflects the design of the API.  
 
-Technical writers can:
+Technical Writers can:
 - Write detailed descriptions for functions, parameters, and schemas using Stoplight Studio. They usually build on descriptions written by the API designer. 
 - Explore documentation for other APIs in the organization to ensure consistency
 - Document usage-based scenarios and tutorials for the API in markdown
 - Create marketing content signifying the business needs of the API
 - Get feedback on documentation from stakeholders
 
-Technical writers are usually invited by Product Managers or Architects of their API team. We recommend giving them the **maker** role. 
+Technical Writers are usually invited by Product Managers or Architects of their API team. We recommend giving them the **maker** role. 
 
 
 ##### Developers
@@ -99,7 +99,7 @@ Developers are usually invited by Product Managers or Architects of their API te
 
 <!--To Do-->
 
-#### Making your workspace disoverable
+#### Making Your Workspace Discoverable
 
 Inviting and managing team members in large teams can become a cumbersome process. We recommend whitelisting your company domain to allow folks in your organization get started quickly with predefined privileges and start contributing to your API program. 
 
