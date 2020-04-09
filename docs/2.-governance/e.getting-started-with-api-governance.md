@@ -12,26 +12,26 @@ While a lot of decisions would be taken in the context of your organization, the
 
 #### Identify Goals
 
-Before diving into the steps that you need to take to fuel governance in your organization, it's important to map out your API Program's objectives and issues. This could be done by conducting interviews with leaders and stakeholders in the API lifecycle. You could:
+Before diving into the steps that you need to take to fuel governance in your organization, it's important to map out your API program's objectives and issues. This could be done by conducting interviews with leaders and stakeholders in the API lifecycle. You could:
 
 - Make an organization chart identifying stakeholders across the organization
-- Understand API roadmap in terms of internal, partner and external services
+- Understand the API roadmap in terms of internal, partner and external services
 - Identify issues faced by development teams
 - Gather feedback from API consumers
-- Identify key goals e.g. Autonomy, Agility, Control
+- Identify key goals, e.g., autonomy, agility, control
 
 #### Find Your APIs
 
-A recurring problem that is seen in rapidly growing API programs is not knowing where your APIs are. Not knowing what services exist or what their current status leads to duplication, inconsistencies and unanticipated disruptions. *You can't fix what you don't know is broken*. 
+A recurring problem that is seen in rapidly growing API programs is not knowing where your APIs are. Not knowing what services exist or what their current status is leads to duplication, inconsistencies and unanticipated disruptions. *You can't fix what you don't know is broken*. 
 
 Create an inventory of your existing APIs. You can use the platform to [add your projects]<!--To-Do: Add link-->() from version control or other file systems. Creating this central view is necessary for achieving your governance goals. It's important to get as many of the APIs as you can across your organization into this inventory. 
 
-#### Explore Your landscape
+#### Explore Your Landscape
 
 With your inventory of APIs ready, you can start gauging the current status of your API landscape. Stoplight's Platform makes it easy to visualize and rationalize your APIs. After [adding your projects]<!--To-Do: Add link-->() to the Explorer you can discover:
 
 - Existing APIs
-- API descriptions and the description formats being used e.g OpenAPI v3, Postman, RAML
+- API descriptions and the description formats being used, e.g, OpenAPI v3, Postman, RAML
 - Dependencies between endpoints, models, and articles in your organization
 - State of documentation for different APIs
 - Security policies being used 
@@ -43,7 +43,7 @@ We recommend sharing this information with stakeholders using the Explorer. This
 
 One of the biggest reasons for inconsistency across your API program stems from teams working in silos. Governance initiatives are most effective when all stakeholders are on board. [Adding team members]<!--To-Do: Add link-->() like developers, technical writers, product managers, and business leaders into your Stoplight workspace would give them visibility to your APIs and guidelines while bridging the gap between different stakeholders. Having everyone on the same page makes your API program effective and valuable. 
 
-#### Promote Writing API descriptions
+#### Promote Writing API Descriptions
 
 An important discovery while exploring your API landscape is the current state of API descriptions being used in your organization. API descriptions have become an industry-wide practice and their adoption should be pushed in any organization. You should:
 
@@ -73,16 +73,16 @@ Often developers without access to existing resources end up creating duplicate 
 
 #### Enable API Discovery
 
-As the number of APIs in your portfolio grow folks need to have an easy way to discover your APIs. To enable this you should make a catalog of APIs with up to date documentation. 
+As the number of APIs in your portfolio grows, folks need to have an easy way to discover your APIs. To enable this, you should make a catalog of APIs with up to date documentation. 
 
 Using the Stoplight platform you can:
 
 - [Create a Documentation Hub]<!--To-Do: Add link-->() where teams can publish their APIs for internal and external consumption.
-- Add team members to your workspace to help them keep a track of dependencies using explorer. 
+- Add team members to your workspace to help them keep a track of dependencies using Explorer. 
 
 #### Promote Design-first for New APIs
 
-While enforcing API descriptions for your existing APIs is helpful, the true power of API descriptions is realized by following an [API Design-First]<!--To-Do: Add link-->() policy. Designing your APIs before development helps you get quick feedback, develop in parallel and test automatically. Help your architects get started with a new API design by sharing this [guide]<!--To-Do: Add link-->(). 
+While enforcing API descriptions for your existing APIs is helpful, the true power of API descriptions is realized by following an [API Design-first]<!--To-Do: Add link-->() policy. Designing your APIs before development helps you get quick feedback, develop in parallel and test automatically. Help your architects get started with a new API design by sharing this [guide]<!--To-Do: Add link-->(). 
 
 #### Implement Versioning
 
