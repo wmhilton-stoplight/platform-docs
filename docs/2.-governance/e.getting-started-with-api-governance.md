@@ -41,7 +41,7 @@ We recommend sharing this information with stakeholders using the Explorer. This
 
 #### Engage Stakeholders
 
-One of the biggest reasons for inconsistency across your API program stems from teams working in silos. Governance initiatives are most effective when all stakeholders are on board. [Adding team members]<!--To-Do: Add link-->() like developers, technical writers, product managers, and business leaders into your Stoplight workspace would give them visibility to your APIs and guidelines while bridging the gap between different stakeholders. Having everyone on the same page makes your API program effective and valuable. 
+One of the biggest reasons for inconsistency across your API program stems from teams working in silos, not communicating with each other or reviewing each others work. Governance initiatives are most effective when all stakeholders are on board. [Adding team members]<!--To-Do: Add link-->() like developers, technical writers, product managers, and business leaders into your Stoplight workspace would give them visibility to your APIs and guidelines while bridging the gap between different stakeholders. Having everyone on the same page makes your API program effective and valuable. 
 
 #### Promote Writing API Descriptions
 
