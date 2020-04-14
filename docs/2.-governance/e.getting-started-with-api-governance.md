@@ -12,7 +12,7 @@ While a lot of decisions would be taken in the context of your organization, the
 
 #### Identify Goals
 
-Before diving into the steps that you need to take to fuel governance in your organization, it's important to map out your API program's objectives and issues. This could be done by conducting interviews with leaders and stakeholders in the API lifecycle. You could:
+Before diving into governance in your organization, it's important to map out your API program's objectives and issues. This could be done by conducting interviews with leaders and stakeholders in the API lifecycle. You could:
 
 - Make an organization chart identifying stakeholders across the organization
 - Understand the API roadmap in terms of internal, partner and external services
