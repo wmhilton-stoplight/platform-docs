@@ -16,10 +16,11 @@ To create a new workspace:
 2.  Click on **My team isn't using Stoplight yet**.
     <!--To-Do: Screenshot from homepage-->
 3.  Fill in the form by entering your **Work email address**. Next, input the **Workspace name**. Your workspace would be live at `workspace-name.stoplight.io`
-    <!--theme:info-->
-    > The workspace name can be 2-20 characters, only letters, numbers, and dashes
-    >
-    > By default, the Workspace name would be prefilled from your domain i.e `your-company-domain.stoplight.com`
+    
+<!--theme:info-->
+> The workspace name can be 2-20 characters, only letters, numbers, and dashes
+>
+> By default, the Workspace name would be prefilled from your domain i.e `your-company-domain.stoplight.com`
 
 Then click `Continue`.
 
