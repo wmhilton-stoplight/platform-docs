@@ -4,37 +4,66 @@ tags: [Governance]
 
 ## Style Guides
 
-Ask 100 developers where a semicolon should go, and you'll either get 100
-answers, or a all-on-all fist fight. To save this from happening most
-API teams that grow beyond a handful will implement a style guide.
+Ask 100 developers where a semicolon should go, and you'll either get 100 answers, or a all-on-all fist fight. To save this from happening most API teams that grow beyond a handful will implement a style guide.
 
-Also known as API Design Guides, Design Guidelines, Style Books, or API Standards, the concept of "make a bunch of decision's and write them down" has helped API teams for decades.
+Also known as "API Design Guides", "Design Guidelines", "Style Books", or "API Standards", the concept of "make a bunch of decision's and write them down" has helped API teams for decades.
 
 These style guides might contain rules about how to handle versioning, filtering, error formats, naming conventions, pagination, or any of a million other variable parts of an API which different teams would likely make different decisions on.
 
+### Style Guide Ideas
+
+What sorts of decisions might go into a style guide? Well, you might want to cover some security concerns.
+
+- Ban "HTTP Basic" entirely.
+- Make sure every endpoint has some sort of security (OAuth 2, API Key, but not both).
+- IDs as integers let people [crawl your API](https://phil.tech/http/2015/09/03/auto-incrementing-to-destruction/) a bit too easily, switch to UUIDs in URLs.
+
+You might have noticed the APIs across your ecosystem use infinite different error formats, so why not help folks standardize error formats, and make those errors more useful.
+
+- Error format should be [RFC 7807](https://tools.ietf.org/html/rfc7807).
+- Your `20X` response seems to have errors in it, which is confusing.
+- There are no URLs in your errors, how can anyone find out more information about what went wrong?
+
+Everyone has a lot of opinions about API versioning, so why not write down the decisions once they're made to avoid litigating this again for every new API.
+
+- Keep [version numbers out of the URL](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way/)
+- Version numbers in headers please
+- Ban all versioning and enforce [evolution](https://apisyouwonthate.com/blog/api-evolution-for-rest-http-apis/) 🙊
+
+Whatever it is you want to do, you can avoid a lot of bike shedding by making some decisions and writing them down.
+
 ### Where Style Guides Live
 
-Some companies will write these down as Google Documents, an internal Wiki, maybe they're an example API description document somewhere with comments and examples. 
+Some companies will write these down as Google Documents, an internal Wiki, and some companies - even giant multi-million dollar corporations - provide a style guide in the form of one API description document somewhere with comments sprinkled in...
 
-Sometimes these get published, which can give useful insight into what big companies and government organizations consider to be a "good API" for them. [API Stylebook.com > Design Guidelines](http://apistylebook.com/design/guidelines/) is a collection of these style guides.
+Sometimes these style guides are published publicly, which can give useful insight into what big companies and government organizations consider to be a "good API" for them. [API Stylebook.com > Design Guidelines](http://apistylebook.com/design/guidelines/) is a collection of these style guides if you want to take a look and get some ideas.
 
-The trouble with these text-based documents is that they are large, terse documents which developers rarely read. If developers _do_ read them cover to cover, _and_ remember everything in there, that knowledge becomes partially out of date when new rules are added because they won't know about them until they re-read everything cover to cover again.
+The trouble with these text-based documents is that they are large, terse documents which developers rarely read. If developers _do_ read them cover to cover, the chanced of them remembering everything is pretty slip. Even if they somehow remember 100% of the words written down, that knowledge gets out-of-date when changes and additions to the style guide are made. 
 
-These days style guides can be automated by programming rules into a format which robots can understand:
+Unless you expect all API developers to regularly re-read the API Style Guide cover to cover, you might want to look into automating your style guide. How? Robots! 🤖
 
 - [Spectral](https://stoplight.io/open-source/spectral/) by [Stoplight](https://stoplight.io/)
 - [api-linter](https://github.com/googleapis/api-linter) by Google
 - [graphql-schema-linter](https://github.com/cjoudrey/graphql-schema-linter) by [Christian Joudrey](https://twitter.com/cjoudrey)
 
-We've built Spectral to be as flexible as possible for any type of JSON/YAML-based data, which includes built-in rules for OpenAPI, AsyncAPI, JSON Schema, but also means you could write custom rulesets for RAML, Kubernetes config, or anything else written in JSON or YAML.
+We've talk about Spectral here, because we quite like it. It's been designed to let you create style guides for anything in the form of "Rulesets", and comes with a few default rulesets for popular API Description formats like OpenAPI, AsyncAPI, and JSON Schema.
 
-### Example Rules
+<!-- theme: info -->
+> Seeing as Spectral works with JSON/YAML-based data, you could write custom rulesets for RAML, Kubernetes config, or any other structured data, but we're gonna focus on APIs here.
 
-Running Spectral CLI on OpenAPI files will be default use the [OpenAPI Ruleset](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/reference/openapi-rules.md). This ruleset will offer various suggestions which can be helpful for developers not entirely familiar with OpenAPI. 
+The style guides made with Spectral can focus on the API descriptions (helping developers new to OpenAPI write better quality, more readable, more consistent OpenAPI), or it can focus on the API the API description is describing, to help the API developers make better APIs. 
+
+Or a style guide can do both! 
+
+### Spectral Rulesets
+
+Spectral focuses a bit more on helping you write better API descriptions by default, because when it comes to making a "good API"... there's no such thing. There's lots of ways to do things badly, but there's a myriad of tradeoffs to most approaches which may work in some situations and not in others. 
+
+So, we help you write valid _and useful_ [OpenAPI](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/reference/openapi-rules.md) and [AsyncAPI](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/reference/asyncapi-rules.md) with our core rulesets, which you can then extend in your own custom style guides.
 
 For example, adding contact information to the API description is often overlooked, but massively useful for people who have questions about the API later.
 
-```
+```yaml
 openapi: '3.0.3'
 info:
   version: 1.0.0
@@ -42,16 +71,14 @@ info:
   license:
     name: MIT
 paths:
-  ...
+  # ...
 ```
-
-<!-- theme:warning -->
 
 This will trigger a warning:
 
 > Info object should contain `contact` object
 
-Another handy rule is catching out copy-and-paste mistakes like reusing an operationId between multiple operations. Seeing as many tools use this for unique URLs, and some code generators even use these to create function names, catching this out can solve a lot of confusion later.
+Another handy rule is catching out copy-and-paste mistakes like reusing an `operationId` between multiple operations. Seeing as many tools use this for unique URLs, and some code generators even use these to create function names, catching this out can solve a lot of confusion later.
 
 ```yaml
 paths:
@@ -74,9 +101,7 @@ Spectral will give anyone repeating an operationId a warning:
 
 > Every operation should have a unique `operationId`.
 
-Spectral avoids enforcing any opinions about the actual API being designed, but it's absolutely supported.
-
-Custom Rulesets can be used with rules that look at the values of the URIs, header names, etc. too. 
+Let's look at creating a style guide using "Custom Rulesets".
 
 ### Custom Rulesets with Spectral
 
@@ -209,31 +234,4 @@ except:
 ```
 
 
-If you already have a style guide, see how much of it you can solve with the build-in functions, then start to get more creative with custom functions to solve the organizations biggest issues. 
-
-Whether you focus on quality, consistency, or security, and whether you write rules for the API description document, the API implementation itself, or both, see how much you can get done before resorting to writing things up on a wiki. 
-
-We're hoping its most of it. 
-
-### Ideas
-
-Here are some ideas for things you can write rules for:
-
-### Security
-
-- Ban HTTP Basic entirely
-- Make sure every endpoint has some sort of security (OAuth 2, API Key, but not both)
-- Every response should support `application/vnd.api+json` ([JSON:API](https://jsonapi.org/)) not just plain-old JSON
-- ID's as integers let people [crawl your API](https://phil.tech/http/2015/09/03/auto-incrementing-to-destruction/) incredibly easily, switch to UUID
-
-#### Errors
-
-- Your `20X` response seems to have errors in it, which is confusing
-- There are no URLs in your errors, how can anyone find out more information about what went wrong?
-- Error format should be [RFC 7807](https://tools.ietf.org/html/rfc7807)
-
-#### Versioning
-
-- Keep [version numbers out of the URL](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way/)
-- Version numbers in headers please
-- Ban all versioning and [demand evolution](https://apisyouwonthate.com/blog/api-evolution-for-rest-http-apis/) (prepare for battle)
+If you already have a style guide, see how much of it you can solve with the build-in functions, then start to get more creative with custom functions to solve the organizations biggest issues.
