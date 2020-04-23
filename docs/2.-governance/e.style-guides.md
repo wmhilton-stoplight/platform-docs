@@ -8,7 +8,7 @@ Ask 100 developers where a semicolon should go, and you'll either get 100 answer
 
 Also known as "API Design Guides", "Design Guidelines", "Style Books", or "API Standards", the concept of "make a bunch of decision's and write them down" has helped API teams for decades.
 
-These style guides might contain rules about how to handle versioning, filtering, error formats, naming conventions, pagination, or any of a million other variable parts of an API which different teams would likely make different decisions on.
+These style guides might contain rules about how to handle versioning, filtering, error formats, naming conventions, pagination, or any of a million other variable parts of an API, which different teams would likely make different decisions on.
 
 ### Style Guide Ideas
 
@@ -146,7 +146,7 @@ Done early enough, this will shape the actual API as it is being developed. The 
 
 <!-- todo show spectral off in studio web -->
 
-If you're a code-first team then this is less ideal, as you'll potentially need to change code which exists in production just to get it to match this style guide.
+If you're a code-first team then this is not ideal, as you'll potentially need to change code which exists in production just to get it to match this style guide.
 
 [Custom functions](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/guides/custom-functions.md) can be created for more advanced use cases. Maybe you want to implement a dictionary check to ban British spelling of words like "flavour" - that should _of course_ be "flavor". 😅
 
@@ -162,7 +162,7 @@ Seeing as Spectral is a JavaScript library wrapped in a CLI, enforcing this styl
 
 Rulesets can just be defined as a file in a repository, but that will lead to every API having their own different rules, which somewhat defeats the purpose.
 
-One approach is to publish your ruleset to a publicly available URL, then folks can extend it in their repo:
+One approach is to publish your ruleset to a publicly available URL which folks can then extend in their repo:
 
 ```yaml
 extends: https://example.com/api/spectral.yaml
