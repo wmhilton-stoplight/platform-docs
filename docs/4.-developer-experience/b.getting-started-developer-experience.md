@@ -22,7 +22,7 @@ It's essential to populate and validate various parts of your API description to
 
  *You can generate this API-Key from [https://link-to-apikey-generation]()*
 
-Note: Do the same for security schemes on the endpoint level if they exist.
+> **Note:** Do the same for security schemes on the endpoint level if they exist.
 
 #### Names
 
