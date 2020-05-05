@@ -40,23 +40,17 @@ Within "Try it Now" you can talk to any server, but if you want to talk to the m
 
 Pretend it's real, is this a good API? Should you make any changes before you get this out to your team? 
 
-## Get the Mock Server URL
-
-You can grab an updated mock Server URL for any endpoint from the Explorer or Docs.
-
-![Hosted Mock URL](../../assets/images/hosted-mock-url.gif)
-
 ### Sample Code
 
 You don't have to use our HTTP client, you can bring any. You can use the Code Generation tab to export the request in the programming language of your choice, and if you like doing things on the command line you can copy the curl command.
-
-All you need to is replace the URL with the Mock Server URL. 
 
 ![Curl command](../../assets/images/curl-command.png)
 
 ### Any HTTP Client
 
 If none of that seems useful, you can just grab the Mock Server URL and compose the whole URL yourself.
+
+![Hosted Mock URL](../../assets/images/hosted-mock-url.gif)
 
 Consider the mock server to be a special server, just one that's not mentioned in your API description. So if you had an OpenAPI description with the following servers...
 
