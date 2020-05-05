@@ -83,7 +83,7 @@ Terms of Use are the legal agreement between you and your users. In the Terms of
 
 It's never pretty for developers trying to interact with your API and facing errors that they can't put a reason to. Being clear about the current status of your service is very helpful. You can use a service like [Statuspage]() to create one or build it yourself and make it part of your DX offering. 
 
-12. **SDKs**
+12. **Software Development Kits (SDKs)**
 
 With your previous steps sorted, it always helps to reduce the redundant tasks that a developer needs to perform. For that, providing SDKs in popular languages helps keep your developers happy and productive. With your OpenAPI spec designed and validated by the powerful Stoplight tooling, you can use this to generate and publish SDKs without much extra work. We'll stick to our promise of not locking you down in our platform and letting you use all the fantastic tooling out there. 
 
