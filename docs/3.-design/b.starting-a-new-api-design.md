@@ -75,7 +75,7 @@ You need a *Flight* and a *Passenger* model for this API. You already found a *F
 
 Before you save it, take a look at how naming and tagging is done in your organization in the Explorer. Make sure you're consistent with that. You can make rules for this by creating [custom style guides](To-do:link-style-guide) to enforce it automatically.
 
-- Next, add a field to the model. Give it a name, a short description, and choose a type. You can either use a native type or refer to another model using $ref. 
+- Next, add a field to the model. Give it a name, a short description, and choose a type. You can either use a native type or refer to another model using `$ref`. 
 - Add validations to enforce constraints or formats on data like enums or DateTime. These validations provide the user with the required context and guardrails to reduce mistakes. 
 
 Repeat this with all the fields. Again, keeping an eye on your organization's standards is essential.
