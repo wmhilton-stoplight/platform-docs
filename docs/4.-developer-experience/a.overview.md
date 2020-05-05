@@ -67,11 +67,11 @@ Marketing pages are for the business audience. You want these to be high level a
 
 The API reference with code samples is excellent for developers in the later stage of integration. For a newcomer starting with your API, you want to make it easy for them to navigate to creating their first integration. Developers learn best by doing. Create a quick start guide with the minimum steps required to perform the first action with your API. This can be a step-by-step guide on authentication, calling your most straightforward endpoint fulfilling the most common use case. Do not forget the code samples for these steps, and keep it easy.  
 
-8. Tutorials
+8. **Tutorials**
 
 While your API is used by developers to fulfill many use cases, there are always some that are more popular. It's best to identify those and create a tutorial for them. The description of steps should be easy to follow and concise. Clarity and brevity support the learning process and are a best practice for all kinds of documentation. It's also useful to create a sample application that you can add to GitHub. 
 
-9. Changelog
+9. **Changelog**
 
 The Changelog section of your API documentation lets your users know how stable your API is. It also lets them know if anything's changed, in the instance that one of their calls stops working. These are also very helpful for existing users migrating to a newer version of your API. You can take a look at [GitHub's changelog](To-Do: Link to GitHub Changelog) for an example of thorough changelog documentation. Stoplight Platform automatically generates changelogs for your Artifacts that can be used to keep these up to date. We'll talk about this in detail later. 
 

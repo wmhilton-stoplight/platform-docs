@@ -8,7 +8,7 @@ If the right people can't find your API documentation easily, there's not much u
 
 **For internal APIs**, you should use the Explorer to allow internal users to find, analyze, and search APIs. Star the important ones to make them easily accessible. Learn how to [invite members of your team](../1.-setting-up-workspaces/d.inviting-your-team.md) to the workspace to give them access to documentation.
 
-**For external APIs**, create a Docs Hub or if a Hub is already published, [add projects to it](). 
+**For external APIs**, create a Docs Hub or if a Hub is already published, add projects to it. 
 
 >Multiple Hubs can be created if the goal is to have different views for different users. 
 
