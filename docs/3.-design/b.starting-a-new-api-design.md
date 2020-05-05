@@ -86,7 +86,7 @@ With your model ready, you are all set to create an endpoint.
 
 ### Add Endpoints
 
-- Using pluralized names in paths is recommended, e.g., */passengers* but take a look at how it is done in your organization. You want it to be consistent. 
+- Using pluralized names in paths is recommended, e.g., `/passengers` but take a look at how it is done in your organization. You want it to be consistent. 
 - Give a friendly name to the HTTP actions. Let start with *Get Passengers*.
 
 Next, add request parameters. You can add Path, Query, and Body parameters. 

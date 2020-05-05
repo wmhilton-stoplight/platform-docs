@@ -52,7 +52,7 @@ Creating and finalizing a contract early-on allows teams across your organizatio
 
 #### Develop Faster
 
-You can generate server-side stubs and contract tests that take away the redundant work from your API developers while ensuring the APIs get developed correctly. 
+You can generate server-side stubs and contract tests that take away the redundant work from your API developers while ensuring the APIs get developed correctly. [OpenAPI.Tools](https://openapi.tools/#server) has a list of tools to serve your need for server-side stubs. 
 
 #### Validate and Test Efficiently
 
