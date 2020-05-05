@@ -34,7 +34,7 @@ When an API has been designed upfront, API consumers get a chance to play with a
 
 #### Reduce Cost
 
-Catching potential problems for clients early on avoids wasting time and money writing code, which is not going to solve a problem. These early iterations are a game-changer because changing the API specification takes minutes, not hours or days! It also reduces the chances of noticing major issues shortly after v1.0 launches, meaning you can put off v2.0 and v3.0 for a while, maybe indefinitely.
+Catching potential problems for clients early on avoids wasting time and money writing code which is not going to solve a problem. These early iterations are a game-changer because changing the API description takes minutes, not hours or days! It also reduces the chances of noticing major issues shortly after v1 launches, meaning you can put off v2 and v3 for a while, maybe indefinitely.
 
 What is the cost of a bad API? Try multiplying all of your tech debt by your number of users.
 
