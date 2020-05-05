@@ -85,7 +85,7 @@ It's never pretty for developers trying to interact with your API and facing err
 
 12. **Software Development Kits (SDKs)**
 
-With your previous steps sorted, it always helps to reduce the redundant tasks that a developer needs to perform. For that, providing SDKs in popular languages helps keep your developers happy and productive. With your OpenAPI spec designed and validated by the powerful Stoplight tooling, you can use this to generate and publish SDKs without much extra work. We'll stick to our promise of not locking you down in our platform and letting you use all the fantastic tooling out there. 
+With your previous steps sorted, it always helps to reduce the redundant tasks that a developer needs to perform. For that, providing SDKs in popular languages helps keep your developers happy and productive. With an OpenAPI description ready and validated by Stoplight tooling, you can use this to generate and publish SDKs without much extra work. We'll stick to our promise of not locking you down in our platform and letting you use all the fantastic tooling out there. 
 
 Ready to get started with checking these boxes with Stoplight? [Get Started](b.getting-started-developer-experience.md)
 
