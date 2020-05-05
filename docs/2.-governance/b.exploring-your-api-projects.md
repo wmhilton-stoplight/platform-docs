@@ -6,7 +6,7 @@ tags: [Governance]
 
 All APIs in your organization, whether internal or external, provide potential business value in terms of new use cases, increased productivity, or visibility. Thus, it is essential to manage all of them. 
 
-Organizations with a growing API stack and team, sometimes being developed in different parts of the globe, lose sight of what's already available and its current state, which leads to inconsistencies and duplication that cost the business dearly. The cost of adding a new API into your stack increases exponentially. 
+Organizations with a growing API stack and team, sometimes being developed in different parts of the globe, lose sight of what's already available and its current state, which leads to inconsistencies and duplication that cost the business dearly. Moreover, the cost of adding a new API into your stack increases exponentially. 
 
 Some common problems that start to surface are:
 
