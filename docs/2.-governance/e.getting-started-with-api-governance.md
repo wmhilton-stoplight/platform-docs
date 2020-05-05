@@ -77,7 +77,7 @@ As the number of APIs in your portfolio grows, folks need to have an easy way to
 
 Using the Stoplight Platform, you can:
 
-- [Create a Documentation Hub]<!--To-Do: Add link-->() where teams can publish their APIs for internal and external consumption.
+- [Create Documentation]<!--To-Do: Add link-->() where teams can publish their APIs for internal and external consumption.
 - Add team members to your workspace to help them keep track of dependencies using Explorer. 
 
 #### Promote Design-first for New APIs
