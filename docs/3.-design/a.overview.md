@@ -64,7 +64,7 @@ A design-first strategy ensures an up to date API description, consistent design
 
 #### Get to production faster
 
-Early feedback, automatic generation, parallel development, and quick testing all ensure that you get to market faster, beating your competition both in quality and speed. 
+Early feedback, parallel development if API server and API consumer, maybe even server code generation, and comprehensive contract testing all ensure that you get to market faster, beating your competition both in quality and speed. 
 
 <!-- TODO refactor functionality can talk about ## API Design-Catchup -->
 
