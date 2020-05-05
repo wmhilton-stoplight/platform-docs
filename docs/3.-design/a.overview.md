@@ -40,7 +40,7 @@ What is the cost of a bad API? Try multiplying all of your tech debt by your num
 
 #### Put Consumers First
 
-Getting started with implementation tends to couple your solution with the technology. Designing your API first ensures your solutions are technology agnostic and built with just the consumer in mind.
+Getting started with implementation tends to couple your solution with the technology. Designing your API first ensures your solutions are technology agnostic and built with a greater number of consumers in mind.
 
 #### Ensure Consistency
 
