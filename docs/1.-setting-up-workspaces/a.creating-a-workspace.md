@@ -24,7 +24,7 @@ To create a new workspace:
 
 Then click `Continue`.
 
-<!--To-Do: Screenshot from Create a Workspace page-->
+![create a worksapce](../../assets/images/create-worksapce-720.gif)
 
 4. Input the 6 digit confirmation code you received on your registered email address. Then click `Verify & Continue`
 5. Congrats, you have created your workspace at Stoplight! Let's create Amazing APIs now. To go to your newly created workspace click `Go to your-workspace-name workspace` 

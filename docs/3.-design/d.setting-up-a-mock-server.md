@@ -32,21 +32,29 @@ To talk to the HTTP mock servers, there's a few options.
 
 ### Try it Now
 
-Studio, Docs and Explorer all have a HTTP Client available in the Try it Now tab. This has hosted mocking built right in. You don't need to turn anything on, it's just there.
+Docs and Explorer both have a HTTP Client available in the Try it Now tab. This has hosted mocking built right in. You just need to enable mocking from the **Mocking** tab, and you're good to go.
 
-<!-- TODO image of try it now -->
+![Try it Now](../../assets/images/enable-mock.png)
 
 Within "Try it Now" you can talk to any server, but if you want to talk to the mock server open up the "Mocking" tab and enable it. Now any requests will be sent to the mock server, so you can get a feel for how this API is going to respond. 
 
 Pretend it's real, is this a good API? Should you make any changes before you get this out to your team? 
 
-## Sample Code
+## Get the Mock Server URL
+
+You can grab an updated mock Server URL for any endpoint from the Explorer or Docs.
+
+![Hosted Mock URL](../../assets/images/hosted-mock-url.gif)
+
+### Sample Code
 
 You don't have to use our HTTP client, you can bring any. You can use the Code Generation tab to export the request in the programming language of your choice, and if you like doing things on the command line you can copy the curl command.
 
-<!-- TODO image of curl command -->
+All you need to is replace the URL with the Mock Server URL. 
 
-## Any HTTP Client
+![Curl command](../../assets/images/curl-command.png)
+
+### Any HTTP Client
 
 If none of that seems useful, you can just grab the Mock Server URL and compose the whole URL yourself.
 
