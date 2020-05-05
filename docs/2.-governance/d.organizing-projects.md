@@ -2,7 +2,7 @@
 tags: [Governance]
 ---
 
-## Organizing Projects
+## Organize Projects
 
 Who controls what projects, how many APIs go in a repo, etc. are all decisions that need to be made within your organization. Stoplight has no bias towards a "monorepo" or a "multirepo" approach, it supports either. 
 

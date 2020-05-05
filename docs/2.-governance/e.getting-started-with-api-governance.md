@@ -2,9 +2,9 @@
 tags: [governance]
 ---
 
-# Getting Started with API Governance
+# Get Started with API Governance
 
-[API governance](<!--To-Do: Add link-->) is being undertaken across companies of all shapes and sizes, but that's not to say that all of them achieve their desired objectives. Some API governance efforts try to standardize too much too soon and create overly restrictive rules which block legitimate work. They can become a bottleneck, which API development teams will then try to circumnavigate instead of a benefit to them. This can usually be solved via cooperation with collaborators from across the organization, surveying them to find and solve legitimate problems that do not slow developers down. 
+[API governance](a.overview.md) is being undertaken across companies of all shapes and sizes, but that's not to say that all of them achieve their desired objectives. Some API governance efforts try to standardize too much too soon and create overly restrictive rules which block legitimate work. They can become a bottleneck, which API development teams will then try to circumnavigate instead of a benefit to them. This can usually be solved via cooperation with collaborators from across the organization, surveying them to find and solve legitimate problems that do not slow developers down. 
 
 To build a successful API governance program, thinking about governance in the right context is paramount. There's no single strategy that fits all circumstances and use-cases. Governance is often a balancing act, and it's wise to take a light step-by-step approach. Stoplight Platform arms you with the tooling to help you at each stage of your initiative. 
 
@@ -82,7 +82,7 @@ Using the Stoplight Platform, you can:
 
 #### Promote Design-first for New APIs
 
-While enforcing API descriptions for your existing APIs is helpful, the true power of API descriptions is realized by following an [API Design-first]<!--To-Do: Add link-->() policy. Designing your APIs before development helps you get quick feedback, develop in parallel, and test automatically. Help your architects get started with a new API design by sharing this [guide]<!--To-Do: Add link-->(). 
+While enforcing API descriptions for your existing APIs is helpful, the true power of API descriptions is realized by following an [API Design-first](../3.-design/a.overview.md) policy. Designing your APIs before development helps you get quick feedback, lets Frontend and Backend teams work in parallel, and test automatically. Help your architects get started with a new API design by sharing this [guide](../3.-design/b.starting-a-new-api-design.md). 
 
 #### Implement Versioning
 
