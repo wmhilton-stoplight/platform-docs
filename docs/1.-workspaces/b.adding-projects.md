@@ -28,18 +28,14 @@ When designing an API, you can start with the API descriptions before the API ev
 
 The quickest and recommended way to get projects into Stoplight is to pull them in from Git, and this can be done in Explorer. 
 
-1. Log in to your workspace and navigate to `Explorer`.
-2. Click on `Add projects from your Git Provider`.
+1. Log in to your workspace and navigate to **Explorer**.
+2. Click on **Add projects from your Git Provider**.
 >If you cannot connect your Git provider, use the [Stoplight CLI](#projects-without-git) in your CI to connect your existing projects.
-
 <!-- TODO Image of Explorer add a project from repositories -->
-
 3.  Click on the Git provider of your choice. 
-> If your git provider isn't listed or you're using a custom configuration lets get you set up [here](../5.-integrations/#custom-configuration-for-git.md). 
-
-4. Click on `Connect with *Your Git Provider*`. Follow the instructions on the popup screen to authenticate.
-
-5. Upon successful authentication, you should see your organizations listed. Choose the organization and select the repositories you want to import. Click `Add Projects`.
+> If your git provider isn't listed or you're using a custom configuration, lets get you set up [here](../5.-integrations/#custom-configuration-for-git.md). 
+4. Click on **Connect with *Your Git Provider***. Follow the instructions on the popup screen to authenticate.
+5. Upon successful authentication, you should see your organizations listed. Choose the organization and select the repositories you want to import. Next, click **Add Projects**.
 
 If the repository has Markdown articles or API descriptions, then you will see them show up once the analyzer is finished running. If not, you can start to [create this content](#brand-new-project) in your file system, by using Studio to create a new API or Markdown content.
 
@@ -53,17 +49,16 @@ Git is very popular, but not used by everyone. If a different version control sy
 
 Stoplight CLI is a command-line tool, built as an NPM module, which can publish changes to Stoplight, and have them show up in Explorer just like any other project. They won't be editable in Studio, but the content will be available to read and search like anything else. 
 
-1. Navigate to the `Add Projects` section and click on `Add project manually`.
+1. Navigate to the **Add Projects** section and click on **Add project manually**.
 2. Give this project a name, and click **Add Project**. This is going to create an empty project where you can then push data. 
-
 3. **Copy the command** on the screen. Next, navigate to the root folder of the project and **run this command**. This should push data to this project, and you can view it in Explorer. 
 
 You can add this command to your CI to update the contents whenever something changes.
 
 ## Custom configuration for Git
 
-1. Click on `Add Integrations` in the `Add projects from your Git Provider` section or the `Integrations` section in your workspace settings. 
-2. Click `Configure` in front of the Git provider you're looking to set up a custom configuration for. 
-3. Select `Customize integration settings` and add your desired configuration. Test it out by clicking `Test Settings`. Press `Save`. You're good to go! Happy [adding projects](#add-projects-from-Git-Provider).
+1. Click on **Add Integrations** in the **Add projects from your Git Provider** section or the **Integrations** section in your workspace settings. 
+2. Click **Configure** in front of the Git provider you're looking to set up a custom configuration for. 
+3. Select **Customize integration settings** and add your desired configuration. Test it out by clicking `Test Settings`. Press `Save`. You're good to go! Happy [adding projects](#add-projects-from-Git-Provider).
 
-If you didn't find a Git provider of your choice or your project isn't on Git, follow the instructions in `Projects without Git` section. 
+If you didn't find a Git provider of your choice or your project isn't on Git, follow the instructions in **Projects without Git** section. 
