@@ -38,7 +38,7 @@ Catching potential problems for clients early on avoids wasting time and money w
 
 What is the cost of a bad API? Try multiplying all of your tech debt by your number of users.
 
-#### Put Consumer First
+#### Put Consumers First
 
 Getting started with implementation tends to couple your solution with the technology. Designing your API first ensures your solutions are technology agnostic and built with just the consumer in mind.
 
