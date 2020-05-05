@@ -2,7 +2,7 @@
 tags: [Design]
 ---
 
-# Starting a new API design
+# Start a new API design
 
 Following the [API Design-first](./a.overview.md#API-Design-First) workflow, 
 
@@ -53,7 +53,7 @@ We need a *Flight* resource, so search for an existing *Flight* model.
 If you find some shared models that roughly describe how you think your resource should look then great, you've saved yourself some work! Click the Star, and we can use them later. Don't worry about models that have an extra or a missing field. The Studio has you covered! 
 
 
-## Designing the Interface
+## Design the Interface
 
 With your requirements ready and a list of reusable resources handy in the Explorer, jump into Studio and create a new project. 
 

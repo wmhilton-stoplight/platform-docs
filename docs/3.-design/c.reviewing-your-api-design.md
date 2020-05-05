@@ -1,4 +1,4 @@
-# Reviewing API Design
+# Review API Designs
 
 When you're a solo developer working on an API design, the process is pretty simple:
 
