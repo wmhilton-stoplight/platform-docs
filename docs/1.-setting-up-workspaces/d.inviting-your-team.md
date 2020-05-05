@@ -2,13 +2,13 @@
 tags: [Workspaces]
 ---
 
-# Organizing Your Team
+# Organize Your Team
 
 Governance, design, development, documentation, and testing are all integral parts of creating and managing great APIs. Stakeholders across the API lifecycle end up working in silos switching between different tools leading to inconsistencies, lack of collaboration and out of date information. 
 
 Stoplight Platform has been built with the modern API workflow in mind. It provides your team with the tooling to work in a single platform ensuring each stakeholder has the most up to date information, modern tooling, and visibility required to perform their job effectively.  
 
-#### Inviting Workspace Members
+#### Invite Workspace Members
 
 <!--To-Do: Add info about roles-->
 
@@ -18,7 +18,7 @@ Stoplight Platform has been built with the modern API workflow in mind. It provi
 
 Now that you know how to invite your team to Stoplight. Let's give you an overview of how various folks in your team can use the Stoplight Platform. This would help you to decide how (and when) to onboard each stakeholder in your organization. 
 
-#### Onboarding Your Team
+#### Onboard Your Team
 
 ##### Champion / Landscape Manager
 
@@ -95,17 +95,17 @@ Developers can:
 
 Developers are usually invited by Product Managers or Architects of their API team. We recommend giving internal developers the **maker** role. External developers or customers can be given the **Guest** role to give them access to a particular project. 
 
-##### **Evangelist**
-
-<!--To Do-->
-
-#### Making Your Workspace Discoverable
+#### Make Your Workspace Discoverable
 
 Inviting and managing team members in large teams can become a cumbersome process. We recommend whitelisting your company domain to allow folks in your organization get started quickly with predefined privileges and start contributing to your API program. 
 
-To whitelist your domain:
-<!--TO DO-->
-1. 
-2. 
+Do remember to share the workspace URL over your company email, Slack, or some other messaging service. Let everybody know your APIs have a friend now! 
+
+1. Navigate to the Settings of the workspace. 
+
+2. Click on **Add Domain**
+<!--To-do:Whitelist Gif-->
+
+3. Enter the domain you want to whitelist. e.g. yourcompany.com and select the default role for members who sign up. You can change their roles later. The recommended role would be a viewer or maker. 
 
 This can also be used to give quick access to your customers to view your API projects. To do that whitelist your customers domain with *guest* priveleges. 
