@@ -78,9 +78,9 @@ Using the Stoplight Platform, you can:
 - [Create Documentation](To-do:link-to-getting-started-with-docs) where teams can publish their APIs for internal and external consumption.
 - Add team members to your workspace to help them keep track of dependencies using Explorer. 
 
-#### Promote Design-first for New APIs
+#### Promote Design-First for New APIs
 
-While enforcing API descriptions for your existing APIs is helpful, the true power of API descriptions is realized by following an [API Design-first](../3.-design/a.overview.md) policy. Designing your APIs before development helps you get quick feedback, lets Frontend and Backend teams work in parallel, and test automatically. Help your architects get started with a new API design by sharing this [guide](../3.-design/b.starting-a-new-api-design.md). 
+While enforcing API descriptions for your existing APIs is helpful, the true power of API descriptions is realized by following an [API Design-First](../3.-design/a.overview.md) policy. Designing your APIs before development helps you get quick feedback, lets Frontend and Backend teams work in parallel, and test automatically. Help your architects get started with a new API design by sharing this [guide](../3.-design/b.starting-a-new-api-design.md). 
 
 #### Implement Versioning
 
@@ -101,3 +101,5 @@ Governance is an ongoing initiative. Explorer provides you with a bird's eye vie
 - Get more stakeholders on board
 - Evangelize about your APIs and governance initiatives 
 - Gather feedback
+
+> In addition to the current style guide enforcement on an API level, Stoplight Platform would soon have a Quality module that would allow enforcement of guidelines across all APIs. It will also help gauge and monitor the current status of style conformity across APIs.  
