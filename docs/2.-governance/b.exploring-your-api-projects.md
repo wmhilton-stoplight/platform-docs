@@ -33,25 +33,28 @@ With all your API artifacts in a single place, you can use this to:
 
 ### Find obscure APIs
 *You can't fix what you can't see.* APIs that have long become lost in the organization suddenly become available for developers to use and champions to govern, which helps avoid duplications and remove inconsistencies. Technical writers can improve documentation, API teams can write specs for these APIs which can help your business add value by using what is already available. 
+<!--To-do:Add screenshot of explorer search and filter-->
 
 ### Promote consistency
 When API designers can find existing models and example styles, they build more consistent interfaces. Engineers integrate more quickly, but also they'll have the information to design thoughtful APIs from the start. Technical writers can discover documentation for dor references. API designers can spot inconsistencies in their design and work towards making them consistent. 
 
-With a good view of your current state of design and documentation, you can create custom style guides to enforce consistency without drilling down too hard on the current practices. 
+With a good view of your current state of design and documentation, you can [create custom style guides](To-do:Link to style guides) to enforce consistency without drilling down too hard on the current practices. 
 
 Having all these assets discoverable for all APIs allows for the delivery of consistent API design, documentation, code samples, tests, and other essential aspects of operating an API. 
 
 ### Visualize Dependencies
 Track and visualize inbound and outbound dependencies between your schemas and APIs in the dependencies tab, which helps you keep track of how your changes may affect other dependent services. You can avoid breaking changes and plan versions proactively. Visualizing your dependencies also helps introduce changes that reduce the clutter. 
+<!--To-do:Add screenshot of dependency view-->
 
 ### Track Changes
 Go through changelogs of each asset to keep track of their progress. Inform consumers about changes that might affect them proactively. By using the dependency viewer and changelogs together, make sure all assets are up to date. 
+<!--To-do:Add screenshot of changelog-->
 
 ### Encourage reuse
 Explorer allows users to Star what's important, which enables easy discovery of API artifacts for reuse in future designs. Your technical writers, developers, and designers wouldn't be reinventing the wheel anymore. Technical writers can discover documentation to reuse and repurpose, designers can reuse schemas, and developers can reuse existing APIs in their implementations. 
+<!--To-do:Add screenshot of starred view-->
 
 ### Share with consumers
-Provide role-based access to your assets in Explorer, providing a single place for your team to work on them while consumers try them out. Get quick feedback early in your API lifecycle on your new API designs by sharing projects with guests in your workspace. They can read the API documentation, play with the hosted mock server, and even start building out potential solutions. 
-
+Provide role-based access to your consumers in Explorer, providing a single place for your team to work on them while consumers try them out. Get feedback early in your API lifecycle on your new API designs by sharing projects with guests in your workspace. They can read the API documentation, play with the hosted mock server, and even start building out potential solutions. [Add team memebers](To:do-Link to add team members) to get started. 
 
 
