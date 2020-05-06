@@ -41,7 +41,7 @@ Descriptions are a critical piece to create proper documentation. Use these fiel
 
 Applies to: `Endpoint` , `Endpoint Parameters` (Path, Header, Query), `Request Body`, `Responses`, `Response Fields`, `Models`, `Model Fields`
 
-#### Validations / Additional Properties
+#### Other Properties
 
 The "Validations" and "Additional Properties" sections provide important guardrails to the user, resulting in lesser mistakes and pleasant experience in general. You don't want the user to be guessing the possible values of a particular parameter. 
 
