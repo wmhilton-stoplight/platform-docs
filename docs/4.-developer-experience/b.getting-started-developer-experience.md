@@ -43,7 +43,7 @@ Applies to: `Endpoint` , `Endpoint Parameters` (Path, Header, Query), `Request B
 
 #### Validations / Additional Properties
 
-Validations and additional properties provide important guardrails to the user, resulting in lesser mistakes and pleasant experience in general. You don't want the user to be guessing the possible values of a particular parameter. 
+The "Validations" and "Additional Properties" sections provide important guardrails to the user, resulting in lesser mistakes and pleasant experience in general. You don't want the user to be guessing the possible values of a particular parameter. 
 
 - Choose the correct format. e.g., DateTime/Password
 - Provide a default value, which also helps with quick starts in code samples. 
