@@ -68,7 +68,7 @@ Whether you're [creating a new project](../1.-setting-up-workspaces/a.creating-a
 
 A lot of Git repositories (especially those on GitHub) are configured to use [protected branches](https://help.github.com/en/github/administering-a-repository/about-protected-branches), which means pushing to master is not possible. Maybe you can push to master, maybe not, but if you'd like other people to review your work, it is best to create a branch to keep the changes out of master until they've been reviewed.
 
-<!-- ![Typing a new branch name into the drawer in Studio.](../../assets/images/create-branch.png) -->
+![New branch in Studio](../../assets/images/new-branch-studio.gif)
 
 Read more about [creating and switching branches](TODO 04-common-git-tasks.md#switching-branches).
 

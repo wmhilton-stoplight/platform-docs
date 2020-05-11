@@ -30,17 +30,14 @@ The quickest and recommended way to get projects into Stoplight is to pull them 
 
 <!--Stoplight platform is powered by your organization's Git provider (GitHub, GitLab, BitBucket e.t.c) ` No vendor lock in or unfamiliar tooling ;)`. Your API teams can collaborate on projects across your organization using the tooling they are familiar with, maintaining a single source of truth for their API artifacts. You can use your provider to maintain roles and permissions on different projects. -->
 
-1. Login to your workspace and navigate to `Explorer`
-2. Click on `Add projects from your Git Provider`
-
-<!-- TODO Image of explorer add project from repositories -->
-
-3.  Click on the Git provider of your choice. 
+1. Login to your workspace and navigate to **Explorer**
+2. Click on **Add projects from your Git Provider** and choose the Git provider of your choice. Next click on **Connect with *Your Git Provider**`. Follow the instructions on the pop up screen to authenticate.
     > If your git provider isn't listed or you're using on-premise versions of a git provider lets get you setup [here](../5.-integrations/a.integration-with-git.md). 
 
-4. Click on `Connect with *Your Git Provider*`. Follow the instructions on the pop up screen to authenticate.
+![connect-git](../../assets/images/connect-git.gif)
 
-5. Upon successful authentication, you should see your organizations listed. Choose the organization, and select the repositories you want to import. Click `Add Projects`.
+5. Upon successful authentication, you should see your organizations listed. Choose the organization, and select the repositories you want to import. Click **Add Projects**.
+![add-projects](../../assets/images/add-projects-git.gif)
 
 If the repository has Markdown articles, or API descriptions, then you will see them show up once the analyzer is finished running. If not, you can start to [create this content](#brand-new-project) in your file system, by using Studio to create a new API,or Markdown content.
 
