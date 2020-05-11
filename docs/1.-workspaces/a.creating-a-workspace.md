@@ -8,7 +8,7 @@ Stoplight Platform enables you to drive consistency, discipline, and efficiency 
 
 ## What is a workspace?
 
-Workspaces in Stoplight are used to group API projects across your organization to promote visibility, standards, and reuse of artifacts. Depending on the structure of your organization and goals of your API program a workspace can contain projects across your organization, a particular function or a team. 
+Workspaces in Stoplight are used to group API projects across your organization to promote visibility, standards, and reuse of artifacts. Depending on the structure of your organization and goals of your API program you can choose to create a workspace for your whole organization, a particular function or a team. We at Stoplight recommend making a single workspace for your organiation and using roles and permissions in the platform to effectively manage your workflows.   
 
 To create a new workspace:
 
@@ -16,10 +16,11 @@ To create a new workspace:
 2.  Click on **My team isn't using Stoplight yet**.
     <!--To-Do: Screenshot from homepage-->
 3.  Fill in the form by entering your **Work email address**. Next, input the **Workspace name**. Your workspace would be live at `workspace-name.stoplight.io`
-    <!--theme:info-->
-    > The workspace name can be 2-20 characters, only letters, numbers, and dashes
-    >
-    > By default, the Workspace name would be prefilled from your domain i.e `your-company-domain.stoplight.com`
+    
+<!--theme:info-->
+> The workspace name can be 2-20 characters, only letters, numbers, and dashes
+>
+> By default, the Workspace name would be prefilled from your domain i.e `your-company-domain.stoplight.com`
 
 Then click `Continue`.
 
