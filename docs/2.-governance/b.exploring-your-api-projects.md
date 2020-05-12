@@ -6,7 +6,7 @@ tags: [Governance]
 
 All APIs in your organization, whether internal or external, provide potential business value in terms of new use cases, increased productivity, or visibility. Thus, it is essential to manage all of them. 
 
-Organizations with a growing API stack and team, sometimes being developed in different parts of the globe, lose sight of what's already available and its current state, which leads to inconsistencies and duplication that cost the business dearly. Moreover, the cost of adding a new API into your stack increases exponentially. 
+Organizations with a growing API stack and team, sometimes being developed in different parts of the globe, it's possible to lose sight of what's already available and its current state. Poor visibility into the currently available APIs leads to inconsistencies and duplication that cost the business dearly. Moreover, the cost of adding a new API into your stack increases exponentially. 
 
 Some common problems that start to surface are:
 
@@ -56,5 +56,4 @@ Explorer allows users to Star what's important, which enables easy discovery of 
 
 ### Share with consumers
 Provide role-based access to your consumers in Explorer, providing a single place for your team to work on them while consumers try them out. Get feedback early in your API lifecycle on your new API designs by sharing projects with guests in your workspace. They can read the API documentation, play with the hosted mock server, and even start building out potential solutions. [Add team memebers](To:do-Link to add team members) to get started. 
-
 
