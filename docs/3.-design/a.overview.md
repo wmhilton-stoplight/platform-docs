@@ -4,7 +4,7 @@ tags: [Design]
 
 # Overview
 
-Stoplight has an editor called Studio, which can help you write Markdown, but more importantly, it's a visual API Designer, with built-in support for working with API Descriptions, with support for the most popular format: OpenAPI (both v2 and v3). 
+Stoplight has an editor called Studio, which doubles as both a Markdown editor, and a visual API Designer. An API designer is a piece of software which helps you work with API Descriptions, specifically most popular formats: OpenAPI (both v2 and v3), and AsyncAPI. 
 
 ## What is an API Description
 
