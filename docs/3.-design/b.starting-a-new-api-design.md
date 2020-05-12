@@ -92,7 +92,7 @@ With your model ready, you are all set to create an endpoint.
 Next, add request parameters. You can add Path, Query, and Body parameters. 
 - Add parameters, choose a type, and add short descriptions. Validations like in models are essential to add additional constraints. 
 
-Next, let's use the model we created as the response type. 
+Finally, let's use the model we created as the response type. 
 - Using references lets you reuse models across multiple endpoints. You can also use existing models from other APIs. 
 - It's easy to skip errors, but they are important. Proper error handling saves loads of support time and frustrated developers.
 - You should add examples for each response type.  
