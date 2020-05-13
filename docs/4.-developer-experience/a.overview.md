@@ -4,7 +4,7 @@ tags: [Developer Experience]
 
 # Overview
 
-Good developer experience is the key to a useful, usable API. An API could be all-powerful, solving a problem and sublimely implemented, yet it won't matter one bit if users,  internal or external, can't figure out how to make it work. The aggregate experience of the user **discovering**, **learning to use**, and finally **integrating** with an API is termed as Developer Experience (DX). Developer Experience (DX) is the equivalent to User Experience (UX) for your APIs.
+Good Developer Experience (DX) is the key to a useful, usable API. An API could be all-powerful, solving a problem and sublimely implemented, yet it won't matter one bit if users can't figure out how to make it work. The aggregate experience of the user **discovering**, **learning to use**, and finally **integrating** with an API is termed as Developer Experience. DX is the equivalent to User Experience (UX) for your APIs.
 
 ### Why does it matter?
 
@@ -50,14 +50,73 @@ Novice developers and non-technical users get up to speed faster by experimentin
 5. **Code Samples**
 
 Stack Overflow is a developer's best friend for a reason. Most developers want to jump right into code, so providing them with ready to use samples in their language can lead to happy developers saying wonderful things about you and your API. This also helps avoid mistakes novice developers can make consuming your API - Happy and smaller support teams ;)
-
+<!--
+type: tab
+title: Python
+-->
 ```python
-import stoplight
+import http.client
 
-stoplight.create_amazing_dx()
+conn = http.client.HTTPConnection("null")
 
-print('Happy developers')
+conn.request("GET", "/todos.stoplight.io/todos")
+
+res = conn.getresponse()
+data = res.read()
+
+print(data.decode("utf-8"))
 ```
+<!--
+type: tab
+title: Ruby
+-->
+```ruby
+require 'uri'
+require 'net/http'
+
+url = URI("/todos.stoplight.io/todos")
+
+http = Net::HTTP.new(url.host, url.port)
+
+request = Net::HTTP::Get.new(url)
+
+response = http.request(request)
+puts response.read_body
+```
+<!--
+type: tab
+title: Java
+-->
+```java
+OkHttpClient client = new OkHttpClient();
+
+Request request = new Request.Builder()
+  .url("/todos.stoplight.io/todos")
+  .get()
+  .build();
+
+Response response = client.newCall(request).execute();
+```
+<!--
+type: tab
+title: C#
+-->
+```csharp
+var client = new HttpClient();
+
+var request = new HttpRequestMessage
+{
+    Method = HttpMethod.Get,
+    RequestUri = new Uri("/todos.stoplight.io/todos"),
+};
+
+using (var response = await client.SendAsync(request))
+{
+    response.EnsureSuccessStatusCode();
+    var body = await response.Content.ReadAsStringAsync();
+}
+```
+<!-- type: tab-end -->
 
 6. **Marketing Pages**
 
