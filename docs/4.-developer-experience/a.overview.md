@@ -134,7 +134,7 @@ While your API is used by developers to fulfill many use cases, there are always
 
 The Changelog section of your API documentation lets your users know how stable your API is. It also lets them know if anything's changed, in the instance that one of their calls stops working. These are also very helpful for existing users migrating to a newer version of your API. You can take a look at [GitHub's changelog](To-Do: Link to GitHub Changelog) for an example of thorough changelog documentation. Stoplight Platform automatically generates changelogs for your Artifacts that can be used to keep these up to date. We'll talk about this in detail later. 
 
-10. **Terms of Use**
+#### **Terms of Use**
 
 Terms of Use are the legal agreement between you and your users. In the Terms of Use section of your API documentation, you should include API limits, constraints, branding guidelines, and what usage is acceptable. Transparency goes very well with users, especially technical audiences. Developers love knowing everything. So, be very clear in what the terms and conditions are, avoiding putting these critical points in fine-print. 
 
