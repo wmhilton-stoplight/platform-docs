@@ -11,4 +11,4 @@ Effective governance consequentially ensures your APIs can be easily consumed by
 The most critical use case of this is experienced by organizations when they are building a large number of APIs that require consistency, discoverability, and quality inside their organizations, often between different departments, which just might be on the other side of the world.
 
 <!--To-Do: Add link-->
-[Get started with API Governance]() in your organization.
+[Get started with API Governance](b.getting-started-with-api-governance.md) in your organization.

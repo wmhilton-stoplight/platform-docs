@@ -12,7 +12,7 @@ When multiple developers are working on the API, and when multiple teams are all
 
 When creating a new API from scratch, the first step to design, before you even open up Studio, is interviewing potential consumers and finding out their needs. Getting as many involved as possible and aggregating results to make the most popular use cases as easy and efficient as possible will help you make a good API. 
 
-Whatever designs, [mock-powered prototypes](TODO mock), or code-powered pilot/alpha APIs come from this can be reviewed. Much of this will happen outside of Stoplight, through Slack or your organizations general communication channels.
+Whatever designs, [mock-powered prototypes](d.setting-up-a-mock-server.md), or code-powered pilot/alpha APIs come from this can be reviewed. Much of this will happen outside of Stoplight, through Slack or your organizations general communication channels.
 
 After an API has launched, any new functionality and changes can also be reviewed. These will feel very similar to code reviews.
 
@@ -50,7 +50,7 @@ API consumers generally don't enjoy guessing subtle differences between various 
 - If one API uses JSON:API and another uses Siren, maybe that's something to call out. 
 - If one uses camelCase for properties and another uses snake_case, maybe that could be mentioned.
 
-Spectral can help with a lot of this, allowing you to [create style guides for workspaces](TODO Spectral linting). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
+Spectral can help with a lot of this, allowing you to [create style guides for workspaces](../2.-governance/e.style-guides.md). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
 
 **Is this easy to implement?**
 

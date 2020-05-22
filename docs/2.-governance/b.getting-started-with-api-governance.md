@@ -35,11 +35,11 @@ With your inventory of APIs ready, you can start gauging the current status of y
 - Security policies being used 
 - Changelogs for different versions of APIs and Schemas 
 
-We recommend sharing this information with stakeholders using the Explorer. This information would come in handy in making governance decisions. Learn more about exploring your API landscape [here](<!--To-Do: Add link-->)
+We recommend sharing this information with stakeholders using the Explorer. This information would come in handy in making governance decisions. Learn more about exploring your API landscape [here](bb.exploring-your-api-projects.md)
 
 #### Engage Stakeholders
 
-One of the biggest reasons for inconsistency across your API program stems from teams working in silos, not communicating with each other, or reviewing each other's work. Governance initiatives are most effective when all stakeholders are on board. [Adding team members](<!--To-Do: Add link-->()) like developers, technical writers, product managers, and business leaders into your Stoplight workspace would give them visibility to your APIs and guidelines while bridging the gap between different stakeholders. Having everyone on the same page makes your API program effective and valuable. 
+One of the biggest reasons for inconsistency across your API program stems from teams working in silos, not communicating with each other, or reviewing each other's work. Governance initiatives are most effective when all stakeholders are on board. [Adding team members](../1.-workspaces/d.inviting-your-team.md) like developers, technical writers, product managers, and business leaders into your Stoplight workspace would give them visibility to your APIs and guidelines while bridging the gap between different stakeholders. Having everyone on the same page makes your API program effective and valuable. 
 
 #### Promote Writing API Descriptions
 
@@ -52,7 +52,7 @@ As your API program matures and adoption for API descriptions becomes common, yo
 
 #### Create Style Guidelines 
 
-It's important to standardize your API design to ensure consistency across your APIs. You can start that by [creating style guides](To-do:link to style-guidelines) in Stoplight that can be used to validate your API designs. 
+It's important to standardize your API design to ensure consistency across your APIs. You can start that by [creating style guides](e.style-guides.md) in Stoplight that can be used to validate your API designs. 
 
 While the goal is to have one set of enterprise-wide API governance rules, your learnings from previous steps would help you take a prudent step-by-step approach to this. Gauging what your teams are already doing, start converging them on a set of rules. You can start with a combination of mandatory rules and optional guidelines to help folks make better decisions. 
 
@@ -63,7 +63,7 @@ Examples of rules that you can apply:
 - Mandatory security for all paths
 - Only use a type of OAuth as the security scheme
 
-Learn more about [Style Guides](To-do:Link-to-style-guidelines).
+Learn more about [Style Guides](e.style-guides.md).
 
 #### Create a Design Library
 
@@ -75,7 +75,7 @@ As the number of APIs in your portfolio grows, folks need to have an easy way to
 
 Using the Stoplight Platform, you can:
 
-- [Create Documentation](To-do:link-to-getting-started-with-docs) where teams can publish their APIs for internal and external consumption.
+- [Create Documentation](../4.-developer-experience/b.getting-started-developer-experience.md) where teams can publish their APIs for internal and external consumption.
 - Add team members to your workspace to help them keep track of dependencies using Explorer. 
 
 #### Promote Design-First for New APIs
@@ -91,8 +91,8 @@ APIs often need modifications or sometimes deprecating, and versioning is theref
 Having to rely on your teams to manually apply your API governance rules is no fun for anyone, and not feasible when you're developing APIs at scale. Ensure your API governance rules are met before an API can be deployed. Deploying APIs with governance violations even internally is not recommended.
 
 Stoplight Platform makes this easy along the lifecycle using:
-- Automatic Style Guides[creating style guides](To-do:Link-sto-style-guildeline)
-- Contract Testing powered by [automatic mock servers](To-do:../3.-design/d.setting-up-a-mock-server.md)
+- Automatic Style Guides[creating style guides](e.style-guides.md)
+- Contract Testing powered by [automatic mock servers](../3.-design/d.setting-up-a-mock-server.md)
 
 #### Analyze and Improve
 

@@ -66,8 +66,6 @@ A design-first strategy ensures an up to date API description, consistent design
 
 Early feedback, parallel development if API server and API consumer, maybe even server code generation, and comprehensive contract testing all ensure that you get to market faster, beating your competition both in quality and speed. 
 
-<!-- TODO refactor functionality can talk about ## API Design-Catchup -->
-
 ## Stoplight Studio
 
 Stoplight Studio comes in two flavors:

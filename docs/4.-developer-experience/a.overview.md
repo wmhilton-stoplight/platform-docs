@@ -132,7 +132,7 @@ While your API is used by developers to fulfill many use cases, there are always
 
 #### **Changelog**
 
-The Changelog section of your API documentation lets your users know how stable your API is. It also lets them know if anything's changed, in the instance that one of their calls stops working. These are also very helpful for existing users migrating to a newer version of your API. You can take a look at [GitHub's changelog](To-Do: Link to GitHub Changelog) for an example of thorough changelog documentation. Stoplight Platform automatically generates changelogs for your Artifacts that can be used to keep these up to date. We'll talk about this in detail later. 
+The Changelog section of your API documentation lets your users know how stable your API is. It also lets them know if anything's changed, in the instance that one of their calls stops working. These are also very helpful for existing users migrating to a newer version of your API. You can take a look at [GitHub's changelog](https://developer.github.com/changes/) for an example of thorough changelog documentation. Stoplight Platform automatically generates changelogs for your Artifacts that can be used to keep these up to date. We'll talk about this in detail later. 
 
 #### **Terms of Use**
 
@@ -140,7 +140,7 @@ Terms of Use are the legal agreement between you and your users. In the Terms of
 
 #### **Status Page**
 
-It's never pretty for developers trying to interact with your API and facing errors that they can't put a reason to. Being clear about the current status of your service is very helpful. You can use a service like [Statuspage]() to create one or build it yourself and make it part of your DX offering. 
+It's never pretty for developers trying to interact with your API and facing errors that they can't put a reason to. Being clear about the current status of your service is very helpful. You can use a service like [Statuspage](https://www.statuspage.io/) to create one or build it yourself and make it part of your DX offering. 
 
 #### **Software Development Kits (SDKs)**
 
@@ -152,4 +152,4 @@ Ready to get started checking these boxes with Stoplight? [Get Started](b.gettin
 
 Well, if the right people can't find your API documentation easily, there's not much use of having a fantastic developer experience. For internal APIs, you should use the Explorer to allow your internal users to find, analyze, and search your APIs. Star the important ones to make them easily accessible. 
  
-For your External APIs to be discoverable, [create a Hub](). 
+For your External APIs to be discoverable, [create a Hub](c.creating-a-hub.md). 

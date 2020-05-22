@@ -37,7 +37,7 @@ Applies to: `Endpoint` , `Endpoint Parameters` (Path, Header, Query), `Request B
 
 #### Descriptions
 
-Descriptions are a critical piece to create proper documentation. Use these fields across the API description to explain important things to the user. The API designer should have added small descriptions as pointers, but the more detail you go into, the better it is. You can use [Markdown](To-DO:Link to stoplight markdown docs) to create informative and aesthetically pleasing descriptions. 
+Descriptions are a critical piece to create proper documentation. Use these fields across the API description to explain important things to the user. The API designer should have added small descriptions as pointers, but the more detail you go into, the better it is. You can use [Markdown](https://meta.stoplight.io/docs/studio/docs/Documentation/03a-stoplight-flavored-markdown.md) to create informative and aesthetically pleasing descriptions. 
 
 Applies to: `Endpoint` , `Endpoint Parameters` (Path, Header, Query), `Request Body`, `Responses`, `Response Fields`, `Models`, `Model Fields`
 
@@ -127,4 +127,4 @@ Stoplight keeps everything, including the OpenAPI in-sync with your Git repo. Yo
 
 ### Publishing Documentation
 
-With your documentation ready, let users experience it by [adding this project to an existing hub]() or [creating a new Hub](c.creating-a-hub.md). 
+With your documentation ready, let users experience it by adding this project to an existing hub or [creating a new Hub](c.creating-a-hub.md). 
