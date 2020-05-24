@@ -34,7 +34,7 @@ If you don't have your API artifacts like OpenAPI or JSON schema on a Git reposi
 
 ### Import Existing Files
 
-![import existing file](../../assets/images/import-existing-file-studio.gif)
+![import existing file](../../assets/images/import-existing-file.gif)
 
 Click `Import` to Import existing OpenAPI descriptions, JSON Schemas, Images, or Documentation.
 
@@ -51,7 +51,9 @@ This would create a Git repo and push the contents to that repo. This allows you
 
 ![promote-to-git](../../assets/images/promote-to-git.gif)
 
-Click `Push`, then click `Promote to  Git repo`. Choose your desired Git provider, organization, and name and click `Create Git Repository`.
+Click `Push`, then click `Promote to  Git repo`. 
+
+Choose your desired Git provider, organization, and name and click `Create Git Repository`.
 
 Next, commit your changes with a message by clicking `Commit`. 
 
