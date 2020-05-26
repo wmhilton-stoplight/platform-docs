@@ -38,4 +38,4 @@ In the workspace settings, add a URL to your logo. It's recommended to use a log
 
 ## Share with Users
 
-With your landing page ready, and projects set to the correct visibility, share the link to your workspace with external users to let them access the documentation. For internal team members [invite them](../1.-workspaces/d.inviting-your-team.md) to the workspace. 
+With your landing page ready, and projects set to the correct visibility, **share the link to your workspace with users** to let them access the documentation. For internal team members [invite them](../1.-workspaces/d.inviting-your-team.md) to the workspace. 
