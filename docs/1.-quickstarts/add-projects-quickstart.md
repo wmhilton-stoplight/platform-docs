@@ -20,9 +20,9 @@ The quickest and recommended way to get projects into Stoplight is to pull them 
 2. Click on the Git provider of your choice and then click `Connect with Your Git Provider`. Follow the instructions on the pop-up screen to authenticate.
 4. Upon successful authentication, you should see your organizations listed. Choose the organization and select the repositories you want to import. Click `Add Projects`.
 
-If the repository has Markdown articles or API descriptions, then you will see them show up. If not, you can start to [create this content](#brand-new-project) in your file system, by using Studio to create a new API or Markdown content.
+If the repository has Markdown articles or API descriptions, then you will see them show up.
 
-Next, lets [share this project](Todo:Link-to-doc-quickstart). 
+Next, lets [share this project](share-documentation-quickstart.md). 
 
 ## Import Local Files or Create a Blank Project
 
@@ -46,8 +46,8 @@ Play around, design, and edit using the intuitive interface.
 
 Add an OpenAPI description, Json Schema, Article, or Images by clicking on `Add`.
 
-### Promote this project to a Git repo
-This would create a Git repo and push the contents to that repo. This allows you to keep it in sync with changes on your Git provider. 
+### Promote to a Git repo (Recommended)
+To start sharing this project you can promote it to a Git repo. This would create a Git repo and push the imported/newly created content always keeping it in sync with the changes within or outside Studio. 
 
 ![promote-to-git](../../assets/images/promote-to-git.gif)
 
@@ -57,4 +57,14 @@ Choose your desired Git provider, organization, and name and click `Create Git R
 
 Next, commit your changes with a message by clicking `Commit`. 
 
-Next, lets [share this project](Todo:Link-to-doc-quickstart). 
+Next, lets [share this project](share-documentation-quickstart.md). 
+
+### Push to workspace
+
+If you don't want to push this content to a Git repo, you can push it to the workspace to start sharing it.
+
+![push-to-workspace](../../assets/images/push-to-workspace.png)
+
+Give it a useful name. Click `Push`, then click `Push to workspace`. 
+
+Next, lets [share this project](share-documentation-quickstart.md). 
