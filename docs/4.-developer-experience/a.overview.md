@@ -150,6 +150,6 @@ Ready to get started checking these boxes with Stoplight? [Get Started](b.gettin
 
 ### Make your APIs discoverable
 
-Well, if the right people can't find your API documentation easily, there's not much use of having a fantastic developer experience. For internal APIs, you should use the Explorer to allow your internal users to find, analyze, and search your APIs. Star the important ones to make them easily accessible. 
+Well, if the right people can't find your API documentation easily, there's not much use of having a fantastic developer experience. You can use project visbility settings to create internal, public and private documentation.
  
-For your External APIs to be discoverable, [create a Hub](c.creating-a-hub.md). 
+To make your APIs discoverable get started [here].(../1.-quickstarts/share-documentation-quickstart.md). 
