@@ -30,7 +30,7 @@ Champions can:
 - Establish guidelines for API design and documentation by creating standards
 - Create design libraries to promote reuse
 - Invite API teams working in silos to the workspace bringing them into governance initiatives
-- Use the explorer and hubs to evangelize the business value of APIs to other leaders in the company
+- Use the explorer and documentation to evangelize the business value of APIs to other leaders in the company
 
 Champions are normally the first to be onboarded to the Stoplight Platform. We recommend giving them the **admin** role to give them visibility across teams and getting different API teams onboarded. 
 
@@ -44,7 +44,7 @@ Product Managers can:
 - Verify design on Studio in collaboration with the architect against the API goals
 - Use inbuilt mocking to get quick feedback on their API designs from internal stakeholders and API consumers
 - Create and verify documentation in collaboration with technical writers
-- Provide consistent developer experience in line with industry expectations using Hubs.
+- Provide consistent developer experience in line with industry expectations using workspaces.
 - Publish and evangelize API documentation internally and externally
 - Create sample implementations while developing using mocking.
 
@@ -90,7 +90,7 @@ Developers can:
 - Use API designs to implement APIs
 - Keep up to date with changes in API design
 - Test their API implementations against contracts using proxies
-- Use the organization's API hub to explore documentation and try out the API
+- Use the organization's workspace to explore documentation and try out the API
 - Develop and test their implementations against mock servers
 
 Developers are usually invited by Product Managers or Architects of their API team. We recommend giving internal developers the **maker** role. External developers or customers can be given the **Guest** role to give them access to a particular project. 

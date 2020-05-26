@@ -30,4 +30,3 @@ Stoplight is a collaborative platform equiping your team with tooling across the
 #### Developer Experience with Stoplight
 1. [Overview](4.-documentation/a.overview.md)
 2. [Getting Started with Developer Experience](4.-developer-experience/b.getting-started-developer-experience.md)
-3. [Publishing Documentation](4.-developer-experience/c.creating-a-hub.md)
