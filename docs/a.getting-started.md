@@ -4,10 +4,14 @@ Stoplight is a collaborative platform equiping your team with tooling across the
 
 [Learn more about Stoplight Platform](b.introduction.md)
 
+#### Quickstart
+1. [Add API descriptions and Documentation](1.-quickstarts/add-projects-quickstart.md)
+2. [Share Documentation](1.-quickstarts/share-documentation-quickstart.md)
+
 #### Getting Started with Stoplight in your organization
 1. [Creating a Workspace](1.-setting-up-workspaces/a.creating-a-workspace.md)
 2. [Adding Projects](1.-setting-up-workspaces/b.connecting-to-vcs.md)
-4. [Inviting your team](1.-setting-up-workspaces/d.inviting-your-team.md)
+3. [Inviting your team](1.-setting-up-workspaces/d.inviting-your-team.md)
 
 #### Governance with Stoplight
 1. [Overview](2.-governance/a.overview.md)
