@@ -18,7 +18,9 @@ Under the visibility section, set the project visibility as `Internal`. This wou
 
 Under the visibility section, set the project visibility as `Internal` or `Private`. Next, give guests or partners access to the project documentation by adding them in `Members with Direct Access` section. 
 
-If the project is set to `Internal`, everybody in your workspace and users are given direct access would be able to view the documentation. If it's `Private`, only users with direct access would be able to view the documentation. 
+If the project is set to `Internal`, everybody in your workspace and users who have direct access would be able to view the documentation. 
+
+If it's `Private`, only users with direct access would be able to view the documentation. 
 
 ## Create a Landing Page
 
