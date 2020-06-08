@@ -68,7 +68,10 @@ paths:
 
 You could swap out that URL for your Hosted Prism URL:
 
-https://workspaces.TODOnothingworksyet/hello
+<!-- markdown-link-check-disable -->
+https://workspacename.stoplight.io/mocks/workspacename/todos
+<!-- markdown-link-check-enable -->
+
 
 The actual contents of the responses depends on the examples in the API Description, and if the request prefers static or dynamic mode, and if you requested specific status codes to come back. 
 

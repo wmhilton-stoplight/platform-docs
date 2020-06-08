@@ -62,7 +62,7 @@ Most developers are used to changing to source code in version control systems v
 
 ### 1. Open a Project in Studio
 
-Whether you're [creating a new project](../1.-setting-up-workspaces/a.creating-a-workspace.md) or changing an existing one, pick a project to open in Studio.
+Whether you're [creating a new project](../1.-workspaces/a.creating-a-workspace.md) or changing an existing one, pick a project to open in Studio.
 
 ### 2. Create a new Branch
 
