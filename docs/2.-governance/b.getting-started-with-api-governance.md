@@ -22,11 +22,11 @@ Before diving into governance in your organization, it's important to map out yo
 
 A recurring problem that is seen in rapidly growing API programs is not knowing where your APIs are—not knowing what services exist or their current status leads to duplication, inconsistencies, and unanticipated disruptions. *You can't fix what you don't know is broken*. 
 
-Create an inventory of your existing APIs. You can use Stoplight Platform to [add your projects](../1.-setting-up-workspaces/b.adding-projects.md) from version control or other file systems. Creating this central view is necessary for achieving your governance goals. It's important to get as many of the APIs as you can across your organization into this inventory. 
+Create an inventory of your existing APIs. You can use Stoplight Platform to [add your projects](../1.-workspaces/b.adding-projects.md) from version control or other file systems. Creating this central view is necessary for achieving your governance goals. It's important to get as many of the APIs as you can across your organization into this inventory. 
 
 #### Explore Your Landscape
 
-With your inventory of APIs ready, you can start gauging the current status of your API landscape. Stoplight Platform makes it easy to visualize and rationalize your APIs. After [adding your projects](../1.-setting-up-workspaces/b.adding-projects.md) to the Explorer you can discover:
+With your inventory of APIs ready, you can start gauging the current status of your API landscape. Stoplight Platform makes it easy to visualize and rationalize your APIs. After [adding your projects](../1.-workspaces/b.adding-projects.md) to the Explorer you can discover:
 
 - Existing APIs
 - API descriptions and the description formats being used, e.g., OpenAPI v3, Postman
@@ -45,7 +45,7 @@ One of the biggest reasons for inconsistency across your API program stems from 
 
 An important discovery while exploring your API landscape is the current state of API descriptions being used in your organization. API descriptions have become an industry-wide practice, and their adoption should be pushed in any organization. You should:
 
-- Evangelize the advantages of creating and updating API descriptions for all existing APIs. [Stoplight Studio](docs/3.-design/a.overview.md) is a powerful tool to start creating and managing your designs. 
+- Evangelize the advantages of creating and updating API descriptions for all existing APIs. [Stoplight Studio](../3.-design/a.overview.md) is a powerful tool to start creating and managing your designs. 
 - Converge teams on a single API description format. We recommend moving to OpenAPI v3 due to its extensive support and adoption. 
 
 As your API program matures and adoption for API descriptions becomes common, you can choose to make it mandatory to maintain an OpenAPI v3 for every API. As with most of your governance effort, you should take an incremental approach with this. 

@@ -18,7 +18,7 @@ Stoplight is a collaborative platform equiping your team with tooling across the
 2. [Getting Started with API governance](2.-governance/b.getting-started-with-api-governance.md)
 3. [Exploring your API projects](2.-governance/bb.exploring-your-api-projects.md)
 4. [Creating a design library](2.-governance/c.creating-a-design-library.md)
-5. [Organizing your Projects](12.-governance/d.organizing-projects.md)
+5. [Organizing your Projects](2.-governance/d.organizing-projects.md)
 6. [Creating Style Guides](2.-governance/e.style-guides.md)
 
 #### Design with Stoplight
@@ -28,5 +28,5 @@ Stoplight is a collaborative platform equiping your team with tooling across the
 4. [Setting up a Mock Server](3.-design/d.setting-up-a-mock-server.md)
 
 #### Developer Experience with Stoplight
-1. [Overview](4.-documentation/a.overview.md)
+1. [Overview](4.-developer-experience/a.overview.md)
 2. [Getting Started with Developer Experience](4.-developer-experience/b.getting-started-developer-experience.md)
