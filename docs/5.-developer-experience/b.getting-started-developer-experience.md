@@ -8,7 +8,7 @@ tags: [Documentation]
 
 Stoplight automatically generates an API reference from your API description. 
 
-> If you don't already have a API description ready, get started by [starting a new API design](../3.-design/b.starting-a-new-api-design.md).
+> If you don't already have a API description ready, get started by [starting a new API design](../4.-design/b.starting-a-new-api-design.md).
 
 It's essential to populate and validate various parts of your API description to create a top-notch API reference. Open up your API in Studio and let's start going through the pieces required to take your docs up a notch:
 
@@ -127,4 +127,4 @@ Stoplight keeps everything, including the OpenAPI in-sync with your Git repo. Yo
 
 ### Publishing Documentation
 
-With your documentation ready, let users experience it by [sharing it](../1.-quickstarts/share-documentation-quickstart.md). 
+With your documentation ready, let users experience it by [sharing it](../2.-quickstarts/share-documentation-quickstart.md). 

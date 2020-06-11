@@ -29,4 +29,4 @@ Stoplight is a collaborative platform equipping your team with tooling across th
   * Git
 		
 
-Ready to take your API program to the next level? Lets [get started](1.-workspaces/a.creating-a-workspace.md)
+Ready to take your API program to the next level? Lets [get started](2.-workspaces/a.creating-a-workspace.md)

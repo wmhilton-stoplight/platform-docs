@@ -50,7 +50,7 @@ API consumers generally don't enjoy guessing subtle differences between various 
 - If one API uses JSON:API and another uses Siren, maybe that's something to call out. 
 - If one uses camelCase for properties and another uses snake_case, maybe that could be mentioned.
 
-Spectral can help with a lot of this, allowing you to [create style guides for workspaces](../2.-governance/e.style-guides.md). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
+Spectral can help with a lot of this, allowing you to [create style guides for workspaces](../3.-governance/e.style-guides.md). This will catch a lot of trouble sooner, but humans can still check the results after for anything which doesn't have a Spectral rule.
 
 **Is this easy to implement?**
 
@@ -62,7 +62,7 @@ Most developers are used to changing to source code in version control systems v
 
 ### 1. Open a Project in Studio
 
-Whether you're [creating a new project](../1.-workspaces/a.creating-a-workspace.md) or changing an existing one, pick a project to open in Studio.
+Whether you're [creating a new project](../2.-workspaces/a.creating-a-workspace.md) or changing an existing one, pick a project to open in Studio.
 
 ### 2. Create a new Branch
 
