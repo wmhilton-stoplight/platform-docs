@@ -19,7 +19,7 @@ Some common problems that start to surface are:
 
 Explorer is a central repository for all design assets across your organization that would serve as a source of truth for stakeholders in different parts of the API lifecycle. The most crucial step to bringing sense and system to your APIs is to have visibility across all your APIs. Stoplight Explorer makes it easy for you to find, search, and manage your API artifacts. 
 
-After [adding projects](../1.-workspaces/b.adding-projects.md) into your workspace, Explorer analyzes these and makes an indexed, searchable view of your projects. While your teams continue to work in their current workflow, Explorer allows stakeholders to discover and work with multiple assets, keeping them up to date with projects across your organization. 
+After [adding projects](../2.-workspaces/b.adding-projects.md) into your workspace, Explorer analyzes these and makes an indexed, searchable view of your projects. While your teams continue to work in their current workflow, Explorer allows stakeholders to discover and work with multiple assets, keeping them up to date with projects across your organization. 
 
 The different assets that would be discoverable in Explorer are:
 
@@ -55,5 +55,5 @@ Explorer allows users to Star what's important, which enables easy discovery of 
 <!--To-do:Add screenshot of starred view-->
 
 ### Share with consumers
-Provide role-based access to your consumers in Explorer, providing a single place for your team to work on them while consumers try them out. Get feedback early in your API lifecycle on your new API designs by sharing projects with guests in your workspace. They can read the API documentation, play with the hosted mock server, and even start building out potential solutions. [Add team memebers](../1.-workspaces/d.inviting-your-team.md) to get started. 
+Provide role-based access to your consumers in Explorer, providing a single place for your team to work on them while consumers try them out. Get feedback early in your API lifecycle on your new API designs by sharing projects with guests in your workspace. They can read the API documentation, play with the hosted mock server, and even start building out potential solutions. [Add team memebers](../2.-workspaces/d.inviting-your-team.md) to get started. 
 

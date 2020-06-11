@@ -22,11 +22,11 @@ Before diving into governance in your organization, it's important to map out yo
 
 A recurring problem that is seen in rapidly growing API programs is not knowing where your APIs are—not knowing what services exist or their current status leads to duplication, inconsistencies, and unanticipated disruptions. *You can't fix what you don't know is broken*. 
 
-Create an inventory of your existing APIs. You can use Stoplight Platform to [add your projects](../1.-workspaces/b.adding-projects.md) from version control or other file systems. Creating this central view is necessary for achieving your governance goals. It's important to get as many of the APIs as you can across your organization into this inventory. 
+Create an inventory of your existing APIs. You can use Stoplight Platform to [add your projects](../2.-workspaces/b.adding-projects.md) from version control or other file systems. Creating this central view is necessary for achieving your governance goals. It's important to get as many of the APIs as you can across your organization into this inventory. 
 
 #### Explore Your Landscape
 
-With your inventory of APIs ready, you can start gauging the current status of your API landscape. Stoplight Platform makes it easy to visualize and rationalize your APIs. After [adding your projects](../1.-workspaces/b.adding-projects.md) to the Explorer you can discover:
+With your inventory of APIs ready, you can start gauging the current status of your API landscape. Stoplight Platform makes it easy to visualize and rationalize your APIs. After [adding your projects](../2.-workspaces/b.adding-projects.md) to the Explorer you can discover:
 
 - Existing APIs
 - API descriptions and the description formats being used, e.g., OpenAPI v3, Postman
@@ -39,13 +39,13 @@ We recommend sharing this information with stakeholders using the Explorer. This
 
 #### Engage Stakeholders
 
-One of the biggest reasons for inconsistency across your API program stems from teams working in silos, not communicating with each other, or reviewing each other's work. Governance initiatives are most effective when all stakeholders are on board. [Adding team members](../1.-workspaces/d.inviting-your-team.md) like developers, technical writers, product managers, and business leaders into your Stoplight workspace would give them visibility to your APIs and guidelines while bridging the gap between different stakeholders. Having everyone on the same page makes your API program effective and valuable. 
+One of the biggest reasons for inconsistency across your API program stems from teams working in silos, not communicating with each other, or reviewing each other's work. Governance initiatives are most effective when all stakeholders are on board. [Adding team members](../2.-workspaces/d.inviting-your-team.md) like developers, technical writers, product managers, and business leaders into your Stoplight workspace would give them visibility to your APIs and guidelines while bridging the gap between different stakeholders. Having everyone on the same page makes your API program effective and valuable. 
 
 #### Promote Writing API Descriptions
 
 An important discovery while exploring your API landscape is the current state of API descriptions being used in your organization. API descriptions have become an industry-wide practice, and their adoption should be pushed in any organization. You should:
 
-- Evangelize the advantages of creating and updating API descriptions for all existing APIs. [Stoplight Studio](../3.-design/a.overview.md) is a powerful tool to start creating and managing your designs. 
+- Evangelize the advantages of creating and updating API descriptions for all existing APIs. [Stoplight Studio](../4.-design/a.overview.md) is a powerful tool to start creating and managing your designs. 
 - Converge teams on a single API description format. We recommend moving to OpenAPI v3 due to its extensive support and adoption. 
 
 As your API program matures and adoption for API descriptions becomes common, you can choose to make it mandatory to maintain an OpenAPI v3 for every API. As with most of your governance effort, you should take an incremental approach with this. 
@@ -75,12 +75,12 @@ As the number of APIs in your portfolio grows, folks need to have an easy way to
 
 Using the Stoplight Platform, you can:
 
-- [Create Documentation](../4.-developer-experience/b.getting-started-developer-experience.md) where teams can publish their APIs for internal and external consumption.
+- [Create Documentation](../5.-developer-experience/b.getting-started-developer-experience.md) where teams can publish their APIs for internal and external consumption.
 - Add team members to your workspace to help them keep track of dependencies using Explorer. 
 
 #### Promote Design-First for New APIs
 
-While enforcing API descriptions for your existing APIs is helpful, the true power of API descriptions is realized by following an [API Design-First](../3.-design/a.overview.md) policy. Designing your APIs before development helps you get quick feedback, lets Frontend and Backend teams work in parallel, and test automatically. Help your architects get started with a new API design by sharing this [guide](../3.-design/b.starting-a-new-api-design.md). 
+While enforcing API descriptions for your existing APIs is helpful, the true power of API descriptions is realized by following an [API Design-First](../4.-design/a.overview.md) policy. Designing your APIs before development helps you get quick feedback, lets Frontend and Backend teams work in parallel, and test automatically. Help your architects get started with a new API design by sharing this [guide](../4.-design/b.starting-a-new-api-design.md). 
 
 #### Implement Versioning
 
@@ -92,7 +92,7 @@ Having to rely on your teams to manually apply your API governance rules is no f
 
 Stoplight Platform makes this easy along the lifecycle using:
 - Automatic Style Guides[creating style guides](e.style-guides.md)
-- Contract Testing powered by [automatic mock servers](../3.-design/d.setting-up-a-mock-server.md)
+- Contract Testing powered by [automatic mock servers](../4.-design/d.setting-up-a-mock-server.md)
 
 #### Analyze and Improve
 
