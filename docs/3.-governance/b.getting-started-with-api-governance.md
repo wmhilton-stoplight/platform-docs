@@ -26,7 +26,7 @@ Create an inventory of your existing APIs. You can use Stoplight Platform to [ad
 
 #### Explore Your Landscape
 
-With your inventory of APIs ready, you can start gauging the current status of your API landscape. Stoplight Platform makes it easy to visualize and rationalize your APIs. After [adding your projects](../1.-workspaces/b.adding-projects.md) to the Explorer you can discover:
+With your inventory of APIs ready, you can start gauging the current status of your API landscape. Stoplight Platform makes it easy to visualize and rationalize your APIs. After [adding your projects](../2.-workspaces/b.adding-projects.md) to the Explorer you can discover:
 
 - Existing APIs
 - API descriptions and the description formats being used, e.g., OpenAPI v3, Postman
