@@ -52,7 +52,7 @@ As your API program matures and adoption for API descriptions becomes common, yo
 
 #### Create Style Guidelines 
 
-It's important to standardize your API design to ensure consistency across your APIs. You can start that by [creating style guides](e.style-guides.md) in Stoplight that can be used to validate your API designs. 
+It's important to standardize your API design to ensure consistency across your APIs. You can start that by [creating style guides](d.style-guides.md) in Stoplight that can be used to validate your API designs. 
 
 While the goal is to have one set of enterprise-wide API governance rules, your learnings from previous steps would help you take a prudent step-by-step approach to this. Gauging what your teams are already doing, start converging them on a set of rules. You can start with a combination of mandatory rules and optional guidelines to help folks make better decisions. 
 
@@ -63,7 +63,7 @@ Examples of rules that you can apply:
 - Mandatory security for all paths
 - Only use a type of OAuth as the security scheme
 
-Learn more about [Style Guides](e.style-guides.md).
+Learn more about [Style Guides](d.style-guides.md).
 
 #### Create a Design Library
 
@@ -91,7 +91,7 @@ APIs often need modifications or sometimes deprecating, and versioning is theref
 Having to rely on your teams to manually apply your API governance rules is no fun for anyone, and not feasible when you're developing APIs at scale. Ensure your API governance rules are met before an API can be deployed. Deploying APIs with governance violations even internally is not recommended.
 
 Stoplight Platform makes this easy along the lifecycle using:
-- Automatic Style Guides[creating style guides](e.style-guides.md)
+- Automatic Style Guides[creating style guides](d.style-guides.md)
 - Contract Testing powered by [automatic mock servers](../3.-design/d.setting-up-a-mock-server.md)
 
 #### Analyze and Improve
