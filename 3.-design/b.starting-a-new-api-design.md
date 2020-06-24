@@ -4,7 +4,7 @@ tags: [Design]
 
 # Start a new API design
 
-Following the [API Design-first](./a.overview.md#API-Design-First) workflow, 
+Following the [API Design-first](./a.overview.md#API-Design-First) workflow, you are creating an API Descriptions before the API exists.
 
 ## Define the intent of the API
 
@@ -63,7 +63,7 @@ Get started by creating an API. Give it a title and a description. There are oth
 
 API security schemes protect your API resources by authenticating apps or users that consume your API. There are a number of standard authentication protocols you can pick from, each with their own strengths and weaknesses. 
 
-It's recommended to choose an authentication type that is already being used in other APIs in your organization. This promotes ease-of-use and consistency for developers consuming different APIs. Read more about security [here](<!--To-do:security docs-->).
+It's recommended to choose an authentication type that is already being used in other APIs in your organization. This promotes ease-of-use and consistency for developers consuming different APIs. Read more about security [here](https://meta.stoplight.io/docs/studio/docs/Design-and-Modeling/10-api-security.md).
 
 ### Create Models
 
