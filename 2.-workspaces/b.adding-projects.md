@@ -41,7 +41,7 @@ If the repository has Markdown articles or API descriptions, then you will see t
 
 ## Brand New Projects
 
-Using [Stoplight Studio](../4.-design/a.overview.md), you can create and edit the contents of your projects and push changes back to the Git repository when you're done.
+Using [Stoplight Studio](../3.-design/a.overview.md), you can create and edit the contents of your projects and push changes back to the Git repository when you're done.
 
 ## Projects without Git
 
