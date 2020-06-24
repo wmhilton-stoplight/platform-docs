@@ -55,5 +55,4 @@ Explorer allows users to Star what's important, which enables easy discovery of 
 <!--To-do:Add screenshot of starred view-->
 
 ### Share with consumers
-Provide role-based access to your consumers in Explorer, providing a single place for your team to work on them while consumers try them out. Get feedback early in your API lifecycle on your new API designs by sharing projects with guests in your workspace. They can read the API documentation, play with the hosted mock server, and even start building out potential solutions. [Add team memebers](../2.-workspaces/d.inviting-your-team.md) to get started. 
-
+Provide role-based access to your consumers in Explorer, providing a single place for your team to work on them while consumers try them out. Get feedback early in your API lifecycle on your new API designs by sharing projects with guests in your workspace. They can read the API documentation, play with the hosted mock server, and even start building out potential solutions. [Add team members](../2.-workspaces/d.inviting-your-team.md) to get started. 

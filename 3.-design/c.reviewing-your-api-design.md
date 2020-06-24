@@ -70,11 +70,11 @@ A lot of Git repositories (especially those on GitHub) are configured to use [pr
 
 ![New branch in Studio](../assets/images/new-branch-studio.gif)
 
-Read more about [creating and switching branches](TODO 04-common-git-tasks.md#switching-branches).
+Read more about [creating and switching branches](https://meta.stoplight.io/docs/studio/docs/Basics/04-common-git-tasks.md#switching-branches).
 
 ### 3. Make Changes, Commit, & Push
 
-When you're done making changes, [commit them, then push](TODO 04-common-git-tasks.md#committing-changes) the branch to the remote repository. 
+When you're done making changes, [commit them, then push](https://meta.stoplight.io/docs/studio/docs/Basics/04-common-git-tasks.md#committing-changes) the branch to the remote repository. 
 
 ### 4. Open a Pull Request
 
