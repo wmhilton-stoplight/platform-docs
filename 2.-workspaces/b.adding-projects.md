@@ -8,7 +8,7 @@ Within Workspaces, the most important concept in Stoplight is "Projects". Projec
 
 ## What is a Project
 
-Projects in Stoplight are usually associated with a Git repository, which can contain anything you would expect to find in a repository: source code, API descriptions, images, Markdown articles, maybe some excel spreadsheets. Stoplight will analyze the contents of a project looking for things it knows what to do with, and ignore the rest.
+Projects in Stoplight are usually associated with a Git repository, which can contain anything you would expect to find in a repository: source code, API descriptions, images, Markdown articles, maybe some Excel spreadsheets. Stoplight will analyze the contents of a project looking for files it knows how to analyze, and ignore the rest.
 
 Stoplight looks for: 
 
