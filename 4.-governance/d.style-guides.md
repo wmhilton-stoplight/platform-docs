@@ -59,7 +59,7 @@ Or a style guide can do both!
 
 Spectral focuses a bit more on helping you write better API descriptions by default, because when it comes to making a "good API"... there's no such thing. There's lots of ways to do things badly, but there's a myriad of tradeoffs to most approaches which may work in some situations and not in others. 
 
-So, we help you write valid _and useful_ [OpenAPI](https://meta.stoplight.io/docs/spectral/docs/reference/openapi-rules.md) and [AsyncAPI](https://meta.stoplight.ip/d/stoplightio/spectral/docs/reference/asyncapi-rules.md) with our core rulesets, which you can then extend in your own custom style guides.
+So, we help you write valid _and useful_ [OpenAPI](https://meta.stoplight.io/docs/spectral/docs/reference/openapi-rules.md) and [AsyncAPI](https://meta.stoplight.io/spectral/docs/reference/asyncapi-rules.md) with our core rulesets, which you can then extend in your own custom style guides.
 
 For example, adding contact information to the API description is often overlooked, but massively useful for people who have questions about the API later.
 
@@ -168,7 +168,7 @@ One approach is to publish your ruleset to a publicly available URL which folks 
 extends: https://example.com/api/spectral.yaml
 ```
 
-Alternatively, especially if you need [custom functions](https://meta.stoplight.ip/d/stoplightio/spectral/docs/guides/5-custom-functions.md), you can [publish a ruleset as a NPM module](https://meta.stoplight.io/docs/spectral/docs/guides/7-sharing-rulesets.md#NPM).
+Alternatively, especially if you need [custom functions](https://meta.stoplight.io/spectral/docs/guides/5-custom-functions.md), you can [publish a ruleset as a NPM module](https://meta.stoplight.io/docs/spectral/docs/guides/7-sharing-rulesets.md#NPM).
 
 ```yaml
 extends: example-npm-ruleset
