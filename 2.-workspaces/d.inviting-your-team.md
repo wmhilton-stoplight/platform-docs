@@ -102,7 +102,9 @@ Inviting and managing team members in large teams can become a cumbersome proces
 
 Integrations can be set up for SAML or LDAP if these are already in use at your organization, or even easier is the "Approved Email Domain" approach. 
 
-We recommend approving your company domain to allow folks in your organization get started quickly with predefined privileges and start contributing to your API program. Anyone with an email for the domain you add to this list will automatically be approved, so if your email domain is `twilio.com` and `margaret@twilio.com` tries to create an account then they'll be allowed in.
+We recommend approving your company domain to allow folks in your organization get started quickly with predefined privileges and start contributing to your API program. Anyone with an email for the domain you add to this list will automatically be approved with whatever default permissions are configured.
+
+![](../assets/images/approved-email.png)
 
 Do remember to share the workspace URL over your company email, Slack, or some other messaging service, so that people can start exploring all the APIs!
 
@@ -110,8 +112,4 @@ Do remember to share the workspace URL over your company email, Slack, or some o
 
 2. Click on **Add Domain**
 
-<!--To-do:approve Gif-->
-
-1. Enter the domain you want to approve. e.g. "yourcompany.com" and select the default role for members who sign up. You can change their roles later. The recommended role would be a viewer or maker. 
-
-This can also be used to give quick access to your customers to view your API projects. To do that approve your customers domain with *guest* privileges. 
+3. Enter the domain you want to approve. e.g. "yourcompany.com" and select the default role for members who sign up. You can change their roles later. The recommended role would be a viewer or maker. 

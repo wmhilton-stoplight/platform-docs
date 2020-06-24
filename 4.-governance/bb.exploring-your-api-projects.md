@@ -38,7 +38,7 @@ With all your API artifacts in a single place, you can use this to:
 ### Promote consistency
 When API designers can find existing models and example styles, they build more consistent interfaces. Engineers integrate more quickly, but also they'll have the information to design thoughtful APIs from the start. Technical writers can discover documentation for dor references. API designers can spot inconsistencies in their design and work towards making them consistent. 
 
-With a good view of your current state of design and documentation, you can [create custom style guides](e.style-guides.md) to enforce consistency without drilling down too hard on the current practices. 
+With a good view of your current state of design and documentation, you can [create custom style guides](d.style-guides.md) to enforce consistency without drilling down too hard on the current practices. 
 
 Having all these assets discoverable for all APIs allows for the delivery of consistent API design, documentation, code samples, tests, and other essential aspects of operating an API. 
 
