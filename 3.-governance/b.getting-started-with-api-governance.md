@@ -67,13 +67,13 @@ Learn more about [Style Guides](e.style-guides.md).
 
 #### Create a Design Library
 
-Often developers without access to existing resources end up creating duplicate code that leads to inconsistencies and maintenance nightmares. You need to identify reusable design components and put them in a central repository. You can do this by [creating a design library]<!--To-Do: Add link-->() in the Stoplight Platform. This can then be used in APIs across your organization.   
+Often developers without access to existing resources end up creating duplicate code that leads to inconsistencies and maintenance nightmares. You need to identify reusable design components and put them in a central repository. You can do this by [creating a design library](c.creating-a-design-library.md) in Stoplight Platform. This can then be used in APIs across your organization.   
 
 #### Enable API Discovery
 
 As the number of APIs in your portfolio grows, folks need to have an easy way to discover your APIs. To enable this, you should make a catalog of APIs with up to date documentation. 
 
-Using the Stoplight Platform, you can:
+Using Stoplight Platform, you can:
 
 - [Create Documentation](../5.-developer-experience/b.getting-started-developer-experience.md) where teams can publish their APIs for internal and external consumption.
 - Add team members to your workspace to help them keep track of dependencies using Explorer. 

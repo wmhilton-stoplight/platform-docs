@@ -1,32 +1,35 @@
-# Introduction to the Stoplight Platform 
+# Introduction to Stoplight Platform 
 		
-APIs have become the cornerstone of growth across businesses of all shapes and sizes. From core new business models, providing critical integration hooks and improving efficiency inside the enterprise, APIs have become the chief driver of our move to a truly digital world. Their growing rise in importance means **shipping below par APIs isn't an option anymore**. 
+APIs have become the cornerstone of growth across organizations of all shapes and sizes. In the past APIs might have been an afterthought, created to satisfy integration requirements at a later point, but now they drive core new business models, providing critical integrations and improving efficiency throughout multiple products. 
+
+With the rise in importance means **shipping poorly planned APIs isn't an option anymore**, and Stoplight aims to bring together all the tools you need to make sure you're APIs are the best they can be.
 		
-### What is the Stoplight Platform?
+### What is Stoplight Platform?
 
-Stoplight is a collaborative platform equipping your team with tooling across the API lifecycle that helps them build quality APIs efficiently. With stoplight your team can:
+Stoplight Platform offers tooling across the API lifecycle that helps them build quality APIs efficiently. With Stoplight Platform your team can:
 
-- `Govern`: **Promote reuse, consistency, and quality across your company** by exploring artifacts, creating common design libraries and style guides using our powerful explorer. 
-		
-
-- `Design`: Help your architects **design beautiful APIs quickly** following standards using an easy to use intuitive UI. 
-		
-
-- `Develop`: Arm your developers to **develop APIs efficiently by helping teams build and test in parallel** conforming to the API design using out of the box mocking.
+- `Design`: Help API architects **design excellent APIs quickly** providing machine readable API descriptions using standards (like OpenAPI), through an easy to use intuitive UI. 
 		
 
-- `Document`: **Provide an amazing developer experience for your internal and external developers** by publishing beautiful documentation with a request builder and code samples.
+- `Develop`: Allow your API developers to create prototype APIs with no code using our out-of-the-box mocking servers, to **develop APIs and API clients in parallel** instead of using the waterfall model.
 		
 
-- `Collaborate`: Create workspaces, manage roles and permissions powered by integrated tooling on top of your favorite version control system to **collaborate in real-time without losing your single source of truth**. 
+- `Document`: **Provide an amazing developer experience for your internal and external developers** by publishing beautiful documentation, with a built in HTTP client and code samples.
+		
+
+- `Collaborate`: Create workspaces, manage roles, and permissions, powered by integrated tooling on top of your favorite version control system to **collaborate in real-time without losing your single source of truth**. 
+		
+
+- `Govern`: **Promote reuse, consistency, and quality across your company** by exploring artifacts, creating common design libraries using our powerful Explorer, and leveraging automated style guides to make sure your APIs are the best they can be. 
 		
 
 - `Integrate`: Stoplight is powered by industry-leading standards that help your team on board quickly and use our tooling without being locked in at any part of the lifecycle. Our tooling is based on:
 		
-  * Open API spec
+  * OpenAPI Specification
   * JSON Schema
   * Markdown
   * Git
-		
 
-Ready to take your API program to the next level? Lets [get started](2.-workspaces/a.creating-a-workspace.md)
+All of these files can live in your existing version control systems so you maintain full control over your source of truth at all times, no awkward syncs, or repetitive import/export cycles.
+
+Ready to start planning and creating APIs? Let's [get started](2.-workspaces/a.creating-a-workspace.md)!

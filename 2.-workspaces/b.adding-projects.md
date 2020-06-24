@@ -33,7 +33,7 @@ The quickest and recommended way to get projects into Stoplight is to pull them 
 >If you cannot connect your Git provider, use the [Stoplight CLI](#projects-without-git) in your CI to connect your existing projects.
 <!-- TODO Image of Explorer add a project from repositories -->
 3.  Click on the Git provider of your choice. 
-> If your git provider isn't listed or you're using a custom configuration, lets get you set up [here](Todo:Add custom git provider article). 
+> If your git provider isn't listed or you're using a custom configuration, lets get you set up [here](#custom-configuration-for-git). 
 4. Click on **Connect with *Your Git Provider***. Follow the instructions on the popup screen to authenticate.
 5. Upon successful authentication, you should see your organizations listed. Choose the organization and select the repositories you want to import. Next, click **Add Projects**.
 
@@ -41,7 +41,7 @@ If the repository has Markdown articles or API descriptions, then you will see t
 
 ## Brand New Projects
 
-Using [Studio](../4.-design/a.overview.md), you can create and edit the contents of your projects and push changes back to the Git repository when you're done.
+Using [Stoplight Studio](../4.-design/a.overview.md), you can create and edit the contents of your projects and push changes back to the Git repository when you're done.
 
 ## Projects without Git
 
