@@ -1,6 +1,4 @@
----
-title: Publishing
----
+# Publishing
 
 Whenever changes are made to your API descriptions or Markdown documentation, whether that is done in Stoplight Studio or anywhere else, you want to get those changes reflected in Documentation, Mock Servers, Explorer, the Design Library, etc.
 
