@@ -47,6 +47,10 @@ The funny-looking stars in the `"include"` are a [glob](https://en.wikipedia.org
 
 ## Reference
 
+### `editor`
+
+- `lineWidth` (optional) - Set the length that lines can be in Studio before they're wrapped in Code view. This will help avoid rewriting YAML values, so long as they're within the line length.
+
 ### `exclude`
 
 Any file or directory matching the pattern listed in `exclude` won't be indexed by Stoplight.
