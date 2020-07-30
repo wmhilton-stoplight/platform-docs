@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Stoplight Platform supports all sorts of workflows for API design and documentation: Design-First and Code-First being the most common. Design First suggest teams are creating API descriptions in description formats like OpenAPI and JSON Schema, and writing code that corresponds to that description later. Code-First suggests teams are creating all the code first, then writing API Reference documentation later somehow, either in Google Docs, Spreadsheets, a Content Management System, Postman Collections, or OpenAPI based toolng.
+Stoplight Platform supports all sorts of workflows for API design and documentation: Design-First and Code-First being the most common. Design First suggest teams are creating API descriptions in formats like OpenAPI and JSON Schema, and writing code that corresponds to that description later. Code-First suggests teams are creating all the code first, then writing API Reference documentation later somehow, either in Google Docs, Spreadsheets, a Content Management System, Postman Collections, or OpenAPI based tooling.
 
 If your organiation is moving from code-first to design-first, you might be faced with the prospect of manually creating OpenAPI for every single request and response for every single API, and that is not an exciting prospect, so it's common to try and find shortcuts. 
 
@@ -12,7 +12,7 @@ This Postman Collection can be converted into am API description, which can then
 
 ## How do I migrate?
 
-Postman can Inport OpenAPI, but there is no Export OpenAPI featue for Postman Collections. 
+Postman can Import OpenAPI, but there is no Export OpenAPI feature for Postman Collections. 
 
 > [Import Postman Collections is on our roadmap](https://roadmap.stoplight.io/c/48-support-for-postman-collections), please vote for that feature if it is of interest to you. 
 
@@ -51,7 +51,7 @@ Now, let's create a Stoplight Workspace and add your projects.
 
 API Descriptions can live in with source code, or in totally seperate projects, it's up to you. 
 
-Assuming you'd like the API description to live in the same prohect as the code its using, open that project in Stoplight Platform, then click "Edit in Studio".
+Assuming you'd like the API description to live in the same project as the code its using, open that project in Stoplight Platform, then click "Edit in Studio".
 
 Add a new API with the "+" icon.
 
@@ -108,5 +108,4 @@ https://{workspace}.stoplight.io/docs/{project}
 ```
 
 If you have any trouble, click the Support icon in the user menu and we'll help you out!
-
 
