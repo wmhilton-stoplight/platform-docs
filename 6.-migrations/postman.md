@@ -26,7 +26,7 @@ Postman Collections do not contain any information about the "schema" (a.k.a Mod
 
 ![](../assets/images/postman-export.png)
 
-Now export the Postman Collection by clicking on the "..." icon on the sidebar. You'll be asked which Postman Collection version should be used for the export, and "2.1" is fine. 
+Now export the Postman Collection by clicking on the "..." icon on the sidebar. You'll be asked which Postman Collection version should be used for the export, and "2.1" is fine. When exporting the [Twitter Developer Labs](https://developer.twitter.com/en/docs/labs/overview/introduction) Postman Collection, the file was named `Twitter Developer Labs.postman_collection.json`.
 
 Click "Export" again and save the file anywhere you like.
 
@@ -36,9 +36,9 @@ Next, use their [Transformer tool](https://www.apimatic.io/dashboard?modal=trans
 
 ![](../assets/images/transformer.png)
 
-When exporting the [Twitter Developer Labs](https://developer.twitter.com/en/docs/labs/overview/introduction) Postman Collection, the file was named `Twitter Developer Labs.postman_collection.json`.
+After going through the Transformer, the example collection we've been working with was called `Twitter Developer Labs.postman_collection.json-OpenApi3Yaml.yaml`.
 
-_Repeat these steps for each of the Postman Collecitons you want to migrate, and save all the OpenAPI documents in a folder ready for importing to Stoplight._
+_Repeat these steps for each of the Postman Collections you want to migrate, and save all the OpenAPI documents in a folder ready for importing to Stoplight._
 
 ### New Stoplight Workspace
 
@@ -49,7 +49,7 @@ Now, let's create a Stoplight Workspace and add your projects.
 
 ### Importing OpenAPI to Stoplight
 
-API Descriptions can live in with source code, or in totally seperate projects, it's up to you. 
+API Descriptions can live in with source code, or in totally separate projects, it's up to you. 
 
 Assuming you'd like the API description to live in the same project as the code its using, open that project in Stoplight Platform, then click "Edit in Studio".
 
@@ -93,7 +93,7 @@ There's all sorts of other stuff that can be improved, and Studio should let you
 
 ### Invite Your Team
 
-The fastest way to get your team moved over to Stoplight Platform is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's signup page. 
+The fastest way to get your team moved over to Stoplight Platform is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's sign-up page. 
 
 Alternatively, you can also [invite members](../2.-workspaces/d.inviting-your-team.md) individually using their email.
 
@@ -108,4 +108,3 @@ https://{workspace}.stoplight.io/docs/{project}
 ```
 
 If you have any trouble, click the Support icon in the user menu and we'll help you out!
-
