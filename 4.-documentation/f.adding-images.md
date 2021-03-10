@@ -46,7 +46,7 @@ Once the images are inside your projects, you can place them on your documentati
 
 **Splendid! Your documentation now contains images. Your users are gonna love it 👏**
 
-## Example:
+## Example
 
 ![Add Images](../assets/images/add_images_4.png)
 
