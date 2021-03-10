@@ -168,6 +168,11 @@
       "uri": "4.-documentation/e.configure-analytics.md"
     },
     {
+      "type": "item",
+      "title": "Adding Images",
+      "uri": "4.-documentation/f.adding-images.md"
+    },
+    {
       "type": "divider",
       "title": "Governance"
     },
