@@ -53,7 +53,7 @@ Once the images are inside your projects, you can place them on your documentati
 <!-- theme: warning -->
 > 👉 **Limitations:** Currently Stoplight Docs only supports displaying images within public Git repositories. If you're working in a private Git repository, you'll need to host the images on a public cloud service such as Imgur or Amazon S3. 
 
-If you'd like for us to prioritize this feature, please give it a vote on our public roadmap: [https://roadmap.stoplight.io/c/100-display-images-from-private-git-repositories]
+If you'd like for us to prioritize this feature, please [give it a vote](https://roadmap.stoplight.io/c/100-display-images-from-private-git-repositories) on our public roadmap.
 
 ## What's Next?
 
