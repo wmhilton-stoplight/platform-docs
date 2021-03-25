@@ -222,6 +222,11 @@
     },
     {
       "type": "item",
+      "title": "Migrating from V1",
+      "uri": "6.-migrations/v1.md"
+    },
+    {
+      "type": "item",
       "title": "Migrating from Postman",
       "uri": "6.-migrations/postman.md"
     }
