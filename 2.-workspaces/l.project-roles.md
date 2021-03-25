@@ -34,7 +34,6 @@ Project roles determine who can edit projects and their settings. These roles in
 
 ![Project Roles](../assets/images/project-roles.png)
 
-
 **Viewer**: Viewers can view documentation and consume mock servers **including unpublished branches**.
 
 **Editor**: Editors in addition to viewer access, can edit private projects. They can also view project settings and automation logs. To edit these settigns, members require admin access. Internal/public projects can be edited by makers across the workspace. 
