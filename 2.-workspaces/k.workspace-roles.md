@@ -1,12 +1,10 @@
-# Manage Workspace Roles
+# Workspace Roles
 
 Stoplight is an all-in-one platform that covers all integral parts of the API lifecycle including design, documentation, development, and governance.
 
 This requires different stakeholders from your organization to be on the platform, and you can invite them as **members** on your workspace.
 
 Having all your collaborators on a single platform helps promote **visibility** and **reusability** of artifacts across your organization, but you may not want these stakeholders to have the same level of access. You can easily limit that by defining their **workspace and project roles.**
-
-## Workspace Roles
 
 > To find out how to invite members to your workspace and assign roles, read our guide [**Inviting Team Members**](d.inviting-your-team.md)
 
