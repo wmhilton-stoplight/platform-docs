@@ -8,7 +8,7 @@ Visbility and permission settings within projects allow granular control over wh
 
 Project visbility determines who can view projects within or outside the workspace. 
 
-**Private**: Only members with direct acess can view the projects.
+**Private**: Only members with direct acess can view/edit the projects.
 
 **Internal**: Anybody within the workspace can view the published branches of the project except guests. Guests need direct access to the project. Makers within the workspace can edit these projects.
 
@@ -37,9 +37,9 @@ Project roles determine who can edit projects and their settings. These roles in
 
 **Viewer**: Viewers can view documentation and consume mock servers **including unpublished branches**.
 
-**Editor**: Makers in addition to viewer access, can edit this project.They can also view project settings and automation logs. To edit these settigns, members require admin access.
+**Editor**: Editors in addition to viewer access, can edit private projects. They can also view project settings and automation logs. To edit these settigns, members require admin access. Internal/public projects can be edited by makers across the workspace. 
 
-**Admin**: Admins in addition to maker access can update visbility, manage branches, add members and delete the project. 
+**Admin**: Admins in addition to editor access can update visbility, manage branches, add members and delete the project. 
 
 > Project creators start as the only admin when a project is created. *Everybody elese including workspace owners/admins would require the project admin to add them explictly in the project in order to manage settings and/or view unpublished branches*.
 
