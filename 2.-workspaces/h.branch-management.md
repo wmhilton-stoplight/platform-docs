@@ -25,7 +25,7 @@ Currently, explorer, mock servers, and the design library will only show content
 There are two types of branches shown in the versions dropdown:
 
 - **Published branches** (called "Versions") are viewable to everyone including Guest and Viewer roles.
-- **Unpublished branches** are only viewable to workspace Makers, Admins, and Owners.
+- **Unpublished branches** are only viewable to users with direct access to the project.
 
 One use-case for unpublished branches is checking how documentation looks in a Pull Request before merging it. If you do [API Design Reviews](../3.-design/c.reviewing-your-api-design.md), unpublished branches would be part of that process.
 

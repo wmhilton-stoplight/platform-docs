@@ -1,4 +1,4 @@
-# Using a Custom Domain
+# Use a Custom Domain
 
 Using a custom domain allows you to host your Stoplight workspace from a domain
 fully under your control. To setup a custom domain for your Stoplight workspace,
