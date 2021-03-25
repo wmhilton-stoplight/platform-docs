@@ -86,8 +86,18 @@
     },
     {
       "type": "item",
-      "title": "Organize Your Team",
+      "title": "Invite Members",
       "uri": "2.-workspaces/d.inviting-your-team.md"
+    },
+    {
+      "type": "item",
+      "title": "Manage Workspace Roles",
+      "uri": "2.-workspaces/k.workspace-roles.md"
+    },
+    {
+      "type": "item",
+      "title": "Manage Project Access",
+      "uri": "2.-workspaces/l.project-roles.md"
     },
     {
       "type": "item",
