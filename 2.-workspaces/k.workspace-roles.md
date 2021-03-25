@@ -8,7 +8,7 @@ Having all your collaborators on a single platform helps promote **visibility** 
 
 ## Workspace Roles
 
-> To find out how to invite members to your workspace and assign roles, read our guide [**Inviting Team Members**]()
+> To find out how to invite members to your workspace and assign roles, read our guide [**Inviting Team Members**](d.inviting-your-team.md)
 
 Workspace roles on Stoplight are predefined according to varying access needs. You can assign these roles whenever you invite a new member to your workspace. These roles include: 
 
