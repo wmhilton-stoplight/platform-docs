@@ -18,7 +18,7 @@ Project visbility determines who can view projects within or outside the workspa
 
 ### Change Project Visbility
 
-To update the project visibility or add users to a project, navigate to the **Manage Access** tab in the project settings screen (using the cog icon next to **Edit in Studio**). From this screen, you will be able to modify the visibility settings of a project
+To update the project visibility or add users to a project, click on the **Share** button (next to **Edit in Studio**). From here, you will be able to modify the visibility settings of a project
 
 ![](../assets/images/manage-project-access.png)
 
@@ -44,7 +44,7 @@ Project roles determine who can edit projects and their settings. These roles in
 
 ### Grant Project Permissions
 
-To add users to a project, navigate to the **Manage Access** tab in the project settings screen (using the cog icon next to **Edit in Studio**). From this screen, you will be able to add members with appropiate roles to the project
+To add users to a project, click on the **Share** button (next to **Edit in Studio**). From here, you will be able to add members with appropiate roles to the project
 
 ![Direct Access](../assets/images/direct-access.png)
 
