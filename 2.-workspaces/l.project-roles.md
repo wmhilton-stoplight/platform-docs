@@ -25,7 +25,6 @@ To update the project visibility or add users to a project, click on the **Share
 > - Their role in the **project**, or
 > - The **visibility settings** of the project (private, public, or internal)
 
-
 ## Project Roles
 
 Project roles determines the level of access for each project member. These roles include:
@@ -57,7 +56,6 @@ View the full list of permissions for each role below:
 
 > **Note:** In order to edit Git projects, users will still need permissions in both Stoplight and the Git repository.
 
-
 ### Grant Project Permissions
 
 Every Project member can add members to the project with their role or lower. For example, a Project Editor can add a new member with either the Editor role or Viewer role but not with the Admin or Owner role.
@@ -66,9 +64,29 @@ To add users to a project, click on the **Share** button (next to **Edit in Stud
 
 ![Direct Access](../assets/images/direct-access.png)
 
-
 ### Request Project Permissions
 
 If you need access to a project, the project's owner can add you as a member or upgrade your role. To find out who is the project owner, hover over their avatar in the projects list.
 
 ![](../assets/images/projects-list-project-owner.png)
+
+## Project Ownership
+
+Every project must have only one Owner. Before the Owner can leave a project, they are required to transfer ownership to another project member. 
+
+### Transfer Project Ownership
+
+To transfer ownership, open the **Share** dialog and change the member's role to "Owner". Once confirmed, your role will change to "Admin" and the selected member will become the Owner.
+
+![](../assets/images/transfer-project-ownership.png)
+
+### Remove a Project Owner
+
+When removing a Member from the Workspace or downgrading a Member to a Guest, you will automatically take ownership of all projects they currently own. You can then transfer ownership of those projects to another member if you wish.
+
+![](../assets/images/remove-workspace-member-transfer.png)
+
+
+
+
+
