@@ -69,6 +69,6 @@ To add users to a project, click on the **Share** button (next to **Edit in Stud
 
 ### Request Project Permissions
 
-If you need access to a project, you can the project's owner to add you to the project or upgrade your project role. You can find a project's owner by hovering over their avatar in the projects list.
+If you need access to a project, the project's owner can add you as a member or upgrade your role. To find out who is the project owner, hover over their avatar in the projects list.
 
 ![](../assets/images/projects-list-project-owner.png)
