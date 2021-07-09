@@ -148,4 +148,4 @@ It's never pretty for developers trying to interact with your API and facing err
 
 Well, if the right people can't find your API documentation easily, there's not much use of having a fantastic developer experience. You can use project visibility settings to create internal, public and private documentation.
  
-To make your APIs discoverable get started [here].(../1.-quickstarts/share-documentation-quickstart.md). 
+To make your APIs discoverable get started [here](../1.-quickstarts/share-documentation-quickstart.md). 
