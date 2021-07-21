@@ -58,7 +58,7 @@ TLS verification process from completing.
 
 > To learn more about CAA records and what they are used for, see the Let's
 > Encrypt documentation [here](https://letsencrypt.org/docs/caa/). You can
-> perform a CAA lookup on your domain [here](https://dnslookup.online/caa.html)
+> perform a CAA lookup on your domain [here](https://www.entrust.com/resources/certificate-solutions/tools/caa-lookup)
 > for reference.
 
 To resolve this issue, use either option below:
