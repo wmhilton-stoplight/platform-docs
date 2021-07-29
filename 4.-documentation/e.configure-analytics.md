@@ -4,9 +4,9 @@
 
 ## Overview
 
-> This feature is available on the [Stoplight **Starter** plan](https://stoplight.io/pricing/), and above.
-
 [Google Tag Manger](https://marketingplatform.google.com/about/tag-manager/) is a free tool that allows you to manage and deploy marketing tags, such as analytic scripts or tracking pixels, to your website. Google Tag Manger offers several built-in tags including Google Analytics, CrazyEgg, Hotjar, LinkedIn Insight and more!
+
+> This feature is available on the [Stoplight **Starter** plan](https://stoplight.io/pricing/), and above.
 
 ## How it works
 
