@@ -32,7 +32,7 @@ Or more simply, maybe you use Subversion or another version control system inste
 
 Whatever the reason, the process is the same.
 
-![The Automation tab in Project Settings contains two options: 1) install the webhook, 2) a command you can copy and paste, more details on this to follow.](../assets/images/automation.png)
+![The Automation tab in Project Settings contains a command you can copy and paste, more details on this to follow.](![cli-push.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/En5VTdCDhGA))
 
 1. Make sure you are in the root directory of the project.
 
