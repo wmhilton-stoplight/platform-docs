@@ -24,8 +24,14 @@ Stoplight Platform is first and foremost an API design management tool, which ca
 ### Documentation with Stoplight
 
 1. [Overview](4.-documentation/a.overview.md)
-1. [Types of Documentation](4.-documentation/b.types-of-documentation.md)
-2. [Quality API Reference Documentation](4.-documentation/c.quality-api-reference-docs.md)
+2. [Types of Documentation](4.-documentation/b.types-of-documentation.md)
+3. [Quality API Reference Documentation](4.-documentation/c.quality-api-reference-docs.md)
+4. [Custom Domains](2.-workspaces/j.custom-domains.md)
+5. [Customize the Sidebar](4.-documentation/d.table-of-contents.md)
+6. [Configure Analytics](4.-documentation/e.configure-analytics.md)
+7. [Configure Localize](4.-documentation/e1.configure-localize.md)
+8. [Redirects](4.-documentation/e2.configure-redirects.md)
+7. [Add images](4.-documentation/f.adding-images.md)
 
 ### Governance with Stoplight
 

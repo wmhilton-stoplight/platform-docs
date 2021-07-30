@@ -17,9 +17,51 @@ This shift leads to a number of benefits:
 
 The list above describes some of the large fundamental opportunities our new approach opens up. Beyond that there are of course dozens of new features and enhancements packed into the new Platform.
 
-## When can I migrate?
+## How do I migrate?
 
-While the new Stoplight Platform includes a lot of new functionality, there are some features from NEXT that have not yet made their way over. We are taking this opportunity to re-imagine and improve the functionality listed below, and will be rolling it out through the rest of the year. If any of the features below are critical to your workflow, we suggest that you wait to migrate until the relevant features are released. You can continue to use Stoplight NEXT without disruption until then.
+To start, head over to Stoplight Platform and [create a workspace](https://stoplight.io/welcome/create) for your company. Note that while you might have multiple organizations for your company in Stoplight NEXT, you will only have one workspace for your company on the new Stoplight Platform.
+
+After creating your workspace, you should land on the NEXT Migration screen. If not, click on your workspace name in the top left of the screen and navigate to "Settings". From there you should see a "NEXT Migration" tab.
+
+If you don't see the "NEXT Migration" tab, you can navigate there directly by adding `/admin/legacy-migration/next` to the end of your workspace URL.
+
+![Getting to the NEXT Migration screen](../assets/images/next-migration-screen.png)
+
+Now you'll need to retrieve your NEXT access token to start the migration process. In a new browser tab, navigate to your [account settings in NEXT](https://next.stoplight.io/profile/access-tokens) and create an API token.
+
+![](../assets/images/next-account-settings.png)
+
+![](../assets/images/next-access-token.png)
+
+Copy the first access token and paste it into the input on the NEXT Migration screen in Stoplight Platform. If successful, you'll see a list of all the NEXT orgs you own and all of their projects.
+
+Choose the NEXT projects you want to migrate to your Stoplight Platform workspace. After selecting at least one project, you'll see a button to migrate them.
+
+![NEXT migration button](../assets/images/next-migration-button.png)
+
+Wait a few moments for the projects to migrate and you'll see them appear in your left sidebar. Success!
+
+You can continue this migration process as many times as you want. If you migrate the same project multiple times, **it will overwrite the existing project data in Stoplight Platform**. This will allow you to migrate projects at your own pace until NEXT is officially shutdown.
+
+## Limitations
+
+### Migration tool
+
+The NEXT Migration tool can migrate all of your NEXT projects, including all versions, OpenAPI files, Markdown files, and a single Hub file per project.
+
+However, there are a some items that won't be migrated:
+
+- **Members** - the roles and permission system is slightly different in Stoplight Platform (see FAQ below), so Stoplight won't be able to migrate your teammates. You can [configure an allowed email domain](../2.-workspaces/allowed-email-domains.md) so your teammates can automatically join your workspace or [invite them manually by email](../2.-workspaces/d.inviting-your-team.md).
+- **Teams** - Stoplight is currently developing [Groups](https://roadmap.stoplight.io/c/137-workspace-groups) functionality.
+- **Multiple Hubs** - Only one Hub will be migrated per project. The migration tool will try to find a published `main.hub` file or the most recently published Hub file. If there are no published Hubs, the most recently edited Hub will be chosen. If you have multiple Hubs in a NEXT project and want them all migrated, you will need to move each Hub into its own NEXT project.
+- **Hub Layout** - Stoplight Platform's documentation layout is completely driven by the sidebar, so the Hub's header and footer items will not be migrated. However, the migration tool will transform all of the Hub's pages and routes into markdown files, while keeping them in the same order in the sidebar as the Hub's table of contents. Once migrated, you will be able to [customize the sidebar](../4.-documentation/d.table-of-contents.md).
+- **Hosted docs** - Stoplight won't be able to migrate your hosted documentation settings, such as themes, [custom domains](../2.-workspaces/j.custom-domains.md), [authentication](../2.-workspaces/e.configuring-authentication.md), and [analytics](../4.-documentation/e.configure-analytics.md). You will need to reconfigure these in your new Workspace's settings.
+- **HTML, CSS and JS** - Stoplight Platform does not support HTML, CSS or JS. If you need a fully customizable documentation, please take a look at our open source tool, [Elements](https://stoplight.io/open-source/elements/) to embed your API reference documentation into a custom developer portal.
+- **Scenarios** - Stoplight Platform does not support Scenarios. If you need contract testing, please take a look at our open source tool, [Prism](https://stoplight.io/open-source/prism/), and its built in [Validation Proxy](https://meta.stoplight.io/docs/prism/ZG9jOjk3-validation-proxy).
+
+### Stoplight Platform vs Stoplight NEXT
+
+While the new Stoplight Platform includes a lot of new functionality, there are some features from NEXT that have not yet made their way over. We are taking this opportunity to re-imagine and improve the functionality listed below, and will be rolling it out through the rest of the year.
 
 Each feature is linked to a card on our public roadmap, and we encourage you to follow the features relevant to you - we'll notify you as each is released.
 
@@ -30,76 +72,13 @@ Each feature is linked to a card on our public roadmap, and we encourage you to 
 | [~~Docs: Table of Contents ordering~~](https://roadmap.stoplight.io/c/59-customize-docs-sidebar-ordering)          |  Launched   | Completely custom ordering of your docs sidebar. By default, files will be organized alphabetically, matching the order in the filesystem |
 | [~~Design: Shared parameters/responses~~](https://roadmap.stoplight.io/c/138-support-for-openapi-shared-responses) |  Launched   | Form based editing for OpenAPI shared components                                                                                          |
 | [~~Docs: Integrations~~](https://roadmap.stoplight.io/c/64-analytics-integrations)                                 |  Launched   | First class support for integrations like Google Analytics, Segment, Intercom, etc                                                        |
-| [Docs: Custom CSS, JS, and HTML](https://roadmap.stoplight.io/c/57-embeddable-component-library)                   | In progress | Rich component library for creating custom API docs site                                                                                  |
-| [Docs: Try It OAuth token generation](https://roadmap.stoplight.io/c/58-request-maker-authentication)              | Short-term  | Generate OAuth 1 & 2 tokens for HTTP requests in Try It                                                                                   |
-| [Design: Lifecycle Tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)                                         |  Mid-term   | Add tags to build workflows around your API lifecycle                                                                                     |
-| [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                                              |  Mid-term   | Create and resolve discussions on API designs and docs                                                                                    |
+| [~~Docs: Custom CSS, JS, and HTML~~](https://roadmap.stoplight.io/c/57-embeddable-component-library)               |  Launched   | Elements: a rich component library for creating custom API docs site                                                                      |
+| [Docs: Try It OAuth token generation](https://roadmap.stoplight.io/c/58-request-maker-authentication)              | Considering  | Generate OAuth 1 & 2 tokens for HTTP requests in Try It                                                                                   |
+| [Design: Lifecycle Tags](https://roadmap.stoplight.io/c/65-lifecycle-tags)                                         | Considering | Add tags to build workflows around your API lifecycle                                                                                     |
+| [Discussions](https://roadmap.stoplight.io/c/61-discussions-comments)                                              | Considering | Create and resolve discussions on API designs and docs                                                                                    |
 | [Docs: Custom variables](https://roadmap.stoplight.io/c/47-custom-variables)                                       | Considering | Allow users to set a variable once and have it used everywhere                                                                            |
 | [Docs: Redirects](https://roadmap.stoplight.io/c/68-redirects)                                                     | Considering | Automatic redirects when docs routes are changed                                                                                          |
 | [Design: CRUD Builder](https://roadmap.stoplight.io/c/63-crud-builder)                                             | Considering | Automatically generate a list of CRUD endpoints for a schema                                                                              |
-
-## How do I migrate?
-
-> If you feel comfortable and ready to migrate, please follow the steps below. If you have any questions concerns, please don't hesitate to [reach out](mailto:support@stoplight.io) and we will schedule time to assist you. We understand that this not a trivial migration, and are here to help!
->
-> Also keep in mind that you can of course copy API design files from NEXT into your existing Git repositories. This approach makes sense if you want to start managing these design assets in the same Git repos that store the code. If you are wondering which approach is best for you, please get in touch and we'll schedule some time to help you decide.
-
-Because we've updated our approach to where your data is stored and managed (your VCS rather than our homegrown backend), this migration is a bit more involved. The goal of this migration is to move your data from Stoplight NEXT to Git repos in your VCS, and then to connect those Git repos to your new Stoplight Workspace.
-
-### Migrating Project
-
-First, let's move the contents of your NEXT project into your own VCS provider.
-
-#### Clone and Push Away
-
-You may have cloned your NEXT project before, but if not, we've take a look at [this guide](https://docs.stoplight.io/platform/projects/git-repo#how-to-clone-your-stoplight-git-repository) to get the project's contents to a folder on your computer.
-
-```shell
-git clone --bare https://git.stoplight.io/example-organization/next-project.git
-cd next-project
-```
-
-Next, create a new git repository in your VCS provider ([Github](https://help.github.com/en/github/getting-started-with-github/create-a-repo), [Gitlab](https://docs.gitlab.com/ee/gitlab-basics/create-project.html), [Bitbucket](https://confluence.atlassian.com/bitbucket/create-a-git-repository-759857290.html), etc).
-
-When it's created, find the "repository URL" and push the project contents from your computer into your new git repository. In your terminal, while in the root of your project folder, run the following commands to push the files and history into your new Git repository.
-
-```bash
-git push --mirror git@github.com:example-organization/new-project.git
-```
-
-At this point, you should see the contents of your project in your new Git repository in your VCS.
-
-_Repeat these steps for each of the NEXT projects you want to migrate._
-
-#### New Stoplight Workspace
-
-Now, let's create a Stoplight Workspace and add your projects.
-
-1. [Create](https://stoplight.io/welcome/create) your new [Stoplight Workspace](../2.-workspaces/a.creating-a-workspace.md).
-2. Please follow this [step-by-step guide](../1.-quickstarts/add-projects-quickstart.md#connect-an-existing-git-project) to connect your VCS account and add your new projects.
-
-#### Invite Your Team
-
-The fastest way to get your team moved over to Stoplight Platform is to [configure an email domain](../2.-workspaces/d.inviting-your-team.md#make-your-workspace-discoverable) and share a link to your workspace's signup page.
-
-Alternatively, you can also [invite members](../2.-workspaces/d.inviting-your-team.md) individually using their email.
-
-### Migrating Documentation
-
-If you have published documentation for external stakeholders (customers, the general public, etc), there are a couple of things to consider before migrating.
-
-1. Are you using a hub file (versus publishing an OpenAPI file)? If the answer is yes, then we recommend you wait until we release our hub migration tool (short term).
-2. Are you using a lot of custom CSS or custom JS? If the answer is yes, then we recommend you wait until we release our new [web components](https://roadmap.stoplight.io/c/57-embeddable-component-library), which will allow for a similar level of cutomizability.
-
-If neither of the above are relevant to your use case, then you can probably migrate! We recommend that you [reach out](mailto:support@stoplight.io) and we will schedule some time to meet and make your migration as smooth as possible.
-
-### Delete your Next Account
-
-Once you're satisfied all your projects are migrated from Next to Platform, there's an option to delete your old Next account under [account settings](https://next.stoplight.io/profile).
-
-![Under Next account settings there is a button labeled Remove Account](../assets/images/next-delete-account.png)
-
-Make sure you're an owner of the organizations you want to remove when you delete your account, otherwise it will still be there.
 
 ## FAQ
 

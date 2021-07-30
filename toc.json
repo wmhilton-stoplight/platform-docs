@@ -81,6 +81,11 @@
     },
     {
       "type": "item",
+      "title": "Allowed Email Domains",
+      "uri": "2.-workspaces/allowed-email-domains.md"
+    },
+    {
+      "type": "item",
       "title": "Workspace Roles",
       "uri": "2.-workspaces/k.workspace-roles.md"
     },
@@ -173,17 +178,27 @@
     },
     {
       "type": "item",
-      "title": "Customizing the Sidebar",
+      "title": "Customize the Sidebar",
       "uri": "4.-documentation/d.table-of-contents.md"
     },
     {
       "type": "item",
-      "title": "Configure analytics",
+      "title": "Configure Analytics",
       "uri": "4.-documentation/e.configure-analytics.md"
     },
     {
       "type": "item",
-      "title": "Adding Images",
+      "title": "Configure Localize",
+      "uri": "4.-documentation/e1.configure-localize.md"
+    },
+    {
+      "type": "item",
+      "title": "Redirects",
+      "uri": "4.-documentation/e2.configure-redirects.md"
+    },
+    {
+      "type": "item",
+      "title": "Add Images",
       "uri": "4.-documentation/f.adding-images.md"
     },
     {
