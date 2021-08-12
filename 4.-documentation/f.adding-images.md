@@ -9,51 +9,22 @@ Visual help on your documentation compliments the text on it, and gets your user
 You can add multiple images within a documentation file. 
 
 <!-- theme: info -->
-> 👉 **Note:** Supported  image formats include: **JPEG,** **JPG** and **GIF**
+> 👉 **Note:** Supported  image formats include: **JPEG,** **JPG**, **PNG** and **GIF**
 
-Images within your projects are listed under the **Files** section. 
+## Adding Images to Projects
 
-![Add Images](../assets/images/add_images_1.png)
+Drag and drop image or copy and paste an image into a markdown article to upload it. 
 
-<!-- theme: info -->
-> 👉 **Note:** If you already have image files stored in a cloned Git Repository, adhere to the Studio Directory Structure to access those files in Studio. 
+![Add an Image](../assets/images/image-upload.gif)
 
-## **Adding Images to your Projects**
+> These images are stored in Stoplight and respect project permissions i.e. Private vs Internal.
 
-Adding images to your projects is fairly easy. You can add one or multiple at the same time. To do that: 
+## Customize Images
 
-1. From your dashboard, select your **project** and open **Studio**. 
-2.  Click the **+** button on the top left of the page, and select I**mage** from the dropdown. Or select **Image** from the Studio landing page. 
-
-![Add Images](../assets/images/add_images_2.png)
-
-3. Select the i**mages** you want to upload from your file explorer. By default, images will be stored in the **assets/images** folder in your file tree.
-
-4. You can also just right click the images folder and click **Import** to add **images.** 
-
-![Add Images](../assets/images/add_images_3.png)
-
-5. Once you are done, **push** images to your **Git repo**, by clicking the **push** button. 
-
-## Placing Images inside Documentation
-
-Once the images are inside your projects, you can place them on your documentation pages. It's very easy. 
-
-1. Select the docs file where you want to add images and open the Markdown editor. 
-2. Inside editor use the following syntax  `![Alt Text](File Location)` to place the image. 
-3. Make sure you add the relative path to the image.
-4. Once you are done, click **push** to push changes to Git. 
+To customize images like adding backgrounds, captions or focus, check out [images in Stoplight Flavored Markdown](03a-stoplight-flavored-markdown.md).
 
 **Splendid! Your documentation now contains images. Your users are gonna love it 👏**
 
-## Example
-
-![Add Images](../assets/images/add_images_4.png)
-
-<!-- theme: warning -->
-> 👉 **Limitations:** Currently Stoplight Docs only supports displaying images within public Git repositories. If you're working in a private Git repository, you'll need to host the images on a public cloud service such as Imgur or Amazon S3. 
-
-If you'd like for us to prioritize this feature, please [give it a vote](https://roadmap.stoplight.io/c/100-display-images-from-private-git-repositories) on our public roadmap.
 
 ## What's Next?
 
