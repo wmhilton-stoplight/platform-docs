@@ -21,7 +21,7 @@ Drag and drop image or copy and paste an image into a markdown article to upload
 
 ## Customize Images
 
-To customize images like adding backgrounds, captions or focus, check out [images in Stoplight Flavored Markdown](03a-stoplight-flavored-markdown.md).
+To customize images like adding backgrounds, captions or focus, check out [images in Stoplight Flavored Markdown](https://meta.stoplight.io/docs/studio/ZG9jOjg0-stoplight-flavored-markdown-smd).
 
 **Splendid! Your documentation now contains images. Your users are gonna love it 👏**
 

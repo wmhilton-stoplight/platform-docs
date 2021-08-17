@@ -76,6 +76,11 @@
     },
     {
       "type": "item",
+      "title": "Groups",
+      "uri": "2.-workspaces/m.groups.md"
+    },
+    {
+      "type": "item",
       "title": "Invite Members",
       "uri": "2.-workspaces/d.inviting-your-team.md"
     },
