@@ -100,6 +100,11 @@
       "uri": "2.-workspaces/e.configuring-authentication.md"
     },
     {
+      "type": "item",
+      "title": "Activity Logs",
+      "uri": "2.-workspaces/n.activity-logs.md"
+    },
+    {
       "type": "divider",
       "title": "Projects"
     },
