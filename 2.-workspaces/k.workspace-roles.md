@@ -12,7 +12,7 @@ Workspace roles on Stoplight are predefined according to varying access needs. Y
 
 ![Workspace Roles](../assets/images/workspace-roles.png)
 
-**Guests**: can view documentation for projects that they are granted explicit access to. Guests are folks outside your company or organization, such as partners who require authentitcated access to the documentation.
+**Guests**: can view documentation for projects that they are granted explicit access to. Guests are folks outside your company or organization, such as partners who require authenticated access to the documentation.
 
 **Viewer**: can view documentation and consume mock servers. Viewers are usually developers and other stakeholders inside the organization consuming the API but don't need to make changes to API design and docs. Viewers can view **published branches** of all internal projects and **all branches** of projects they are granted direct access to. [Learn how to add members to a project](l.project-roles.md)
 
