@@ -47,6 +47,7 @@ Stoplight tracks the following information for every event:
 | **Deleted a project**                   | A project is deleted                                               |
 | **Renamed a project**                   | A project is renamed                                               |
 | **Moved a project**                     | A project is moved to a different group or is removed from a group |
+| **Updated contents of a project**                     | The project's contents were updated via Studio Web, CLI, or Webhook (worker) |
 | **Changed visibility of a project**     | The project's visibility is changed                                |
 | **Changed default branch of a project** | The project's default branch is changed                            |
 | **Membership changed**                  | A member is added, removed or role is changed                      |
