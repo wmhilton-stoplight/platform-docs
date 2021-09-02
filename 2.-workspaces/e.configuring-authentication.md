@@ -1,3 +1,9 @@
+<!-- theme: warning -->
+> #### Important Change Affecting SAML Integrations
+>
+> Starting October 1st, 2021, the callback URL for all SAML integrations must include the workspace slug in order to function. Other integrations are *not* affected. 
+
+
 # Single Sign-On
 
 Stoplight can connect with popular auth providers to simplify your authentication flows. 
@@ -16,23 +22,6 @@ We support the following Auth/Single Sign-On (SSO) providers:
 - Azure Devops
 
 To configure popular Git providers as auth providers follow [this guide](configure-git/a.configuring-git.md).
-
-## LDAP
-
-> This feature is available on the Stoplight **Professional** plan and above.
-
-You can use a Lightweight Directory Access Protocol (LDAP) authentication server to authenticate users with Stoplight. LDAP is an open-standard protocol for use with online directory services.
-
-1. Navigate to the Integrations section in your Stoplight workspace settings. 
-2. Click **Install/Configure** beside LDAP. 
-3. Provide the following information:
- - **URL**: The LDAP host, e.g. **ldap://ldap.example.com**. If the hostname is behind a firewall, you may need to [add our IPs to your allowlist](../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider).
- - **Bind DN**: The LDAP user that performs user lookups to authenticate other users when they sign in. This is typically a service account created specifically for third-party integrations. Use a fully qualified name, such as **cn=Administrator,cn=Users,dc=Example,dc=com**.
- - **Bind Credentials**: The password for the domain search user.
- - **Search Base**: The fully qualified Distinguished Name (DN) of an LDAP subtree you want to search for users and groups. You can add as many as you like; however, each group must be defined in the same domain base as the users that belong to it. e.g. **dc=Example,dc=com**.
- - **Search Filter**: Filters can be used to restrict the numbers of users or groups that are permitted to access an application.  In essence, the filter limits what part of the LDAP tree the application syncs from.  Read more about writing filters [here.](https://confluence.atlassian.com/kb/how-to-write-ldap-search-filters-792496933.html)
-4. Click **Install**.
-
 
 ## SAML
 
@@ -59,8 +48,8 @@ Before continuing, be sure to:
   - Issuer - This value defaults to "`stoplight`"
   <!-- markdown-link-check-disable -->
   - Callback URL - This value is provided during the configuration, and defaults
-    to a value similar to https://\<workspace\>.stoplight.io/oauth/callback.
-<!-- markdown-link-check-enable -->
+    to a value similar to **https://\<workspace\>.stoplight.io/oauth/callback**.
+  <!-- markdown-link-check-enable -->
   - Attributes - The attributes (described below) are required by Stoplight to
     successfully authenticate users.
 - Be logged in to Stoplight as an Administrator
@@ -84,23 +73,48 @@ authentication with the SAML IdP:
 ### Configuring the SAML Integration
 
 To configure a SAML integration, first navigate to your workspace
-**Integrations** screen and find the "SAML" integration option:
+**Settings** screen and find the "SAML" integration option:
 
-![](../assets/images/saml-integration.png)
+![saml-integration-new.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/vbmyME0NfHg)
 
 Which will open a dialog to configure the SAML settings for the integration:
 
-![](../assets/images/saml-configuration.png)
+![saml-settings.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/zvb9c5E72C0)
+
+Configuration options include:
+- Name - Customizable name users will see when authenticating
+- Entry Point - SAML entrypoint provided by your identity provider.
+- Identifier Format - This SAML ID format should match what your identity provider expencts. `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` is typical.
+- Identity Provider Public Certificate - Public certificate provided by your identity provider. Note that this must be in string format.
+- Issuer - Should match what the identity provider expects.
+- Callback Url - Read-only value to be set in your identity provider configuration. This callback URL must include your workspace name as of October 1st. For example, `https://<workspace>.stoplight.io/oauth/callback`.
 
 > If your SAML IdP is behind a firewall, you may need to [add our IPs to your
 > allowlist](../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider).
 
-### Okta
+### SAML Integration Guides
+Stoplight has tested Service Provider (SP) initiated and Identity Provider (IP) initiated flows for the following providers:
 
-If using [Okta](https://www.okta.com), below is a sample service configuration
-for Okta that should help get you started:
+- [Azure](saml-walkthroughs/azure-integration-guide.md)
+- [Okta](saml-walkthroughs/okta-integration-guide.md)
+- [OneLogin](saml-walkthroughs/onelogin-integration-guide.md)
+- [Ping](saml-walkthroughs/ping-integration-guide.md)
 
-![](../assets/images/saml-okta.png)
 
-> **Note** that the `apiguild.stoplight.io` workspace URL should be updated to
-> point to your workspace URL instead (ie, `example.stoplight.io`).
+## LDAP
+
+> This feature is available on the Stoplight **Professional** plan and above.
+
+You can use a Lightweight Directory Access Protocol (LDAP) authentication server to authenticate users with Stoplight. LDAP is an open-standard protocol for use with online directory services.
+
+1. Navigate to the Integrations section in your Stoplight workspace settings. 
+2. Click **Install/Configure** beside LDAP. 
+3. Provide the following information:
+ - **URL**: The LDAP host, e.g. **ldap://ldap.example.com**. If the hostname is behind a firewall, you may need to [add our IPs to your allowlist](../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider).
+ - **Bind DN**: The LDAP user that performs user lookups to authenticate other users when they sign in. This is typically a service account created specifically for third-party integrations. Use a fully qualified name, such as **cn=Administrator,cn=Users,dc=Example,dc=com**.
+ - **Bind Credentials**: The password for the domain search user.
+ - **Search Base**: The fully qualified Distinguished Name (DN) of an LDAP subtree you want to search for users and groups. You can add as many as you like; however, each group must be defined in the same domain base as the users that belong to it. e.g. **dc=Example,dc=com**.
+ - **Search Filter**: Filters can be used to restrict the numbers of users or groups that are permitted to access an application.  In essence, the filter limits what part of the LDAP tree the application syncs from.  Read more about writing filters [here.](https://confluence.atlassian.com/kb/how-to-write-ldap-search-filters-792496933.html)
+4. Click **Install**.
+
+

@@ -100,6 +100,32 @@
       "uri": "2.-workspaces/e.configuring-authentication.md"
     },
     {
+      "type": "group",
+      "title": "SAML Setup Guides",
+      "items": [
+        {
+          "type": "item",
+          "title": "Azure",
+          "uri": "2.-workspaces/saml-walkthroughs/azure-integration-guide.md"
+        },
+        {
+          "type": "item",
+          "title": "Okta",
+          "uri": "2.-workspaces/saml-walkthroughs/okta-integration-guide.md"
+        },
+        {
+          "type": "item",
+          "title": "OneLogin",
+          "uri": "2.-workspaces/saml-walkthroughs/onelogin-integration-guide.md"
+        },
+        {
+          "type": "item",
+          "title": "Ping",
+          "uri": "2.-workspaces/saml-walkthroughs/ping-integration-guide.md"
+        }
+      ]
+    },
+    {
       "type": "item",
       "title": "Activity Logs",
       "uri": "2.-workspaces/n.activity-logs.md"
