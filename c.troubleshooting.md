@@ -29,7 +29,7 @@ If you have a `toc.json` file present in your project, double check the contents
 to make sure the files you want to publish are listed. 
 
 For more information on this feature, see
-[here](./4.-documentation/d.table-of-contents.md).
+[here](4.-documentation/Sidebar/d.table-of-contents.md).
 
 ### Is the branch you are on published in the project settings?
 

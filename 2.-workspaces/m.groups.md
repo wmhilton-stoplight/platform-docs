@@ -2,48 +2,74 @@
 
 Groups allow you to organize projects in your sidebar and grant project access to users in bulk.
 
-<!-- theme: warning -->
-
-> This functionality is in **alpha** and subject to change.
-
-## Group Visibility & Access
-Group visibility defines what account type(s) can see or join a group.
-
-**Public**
-Anyone can see this group, but only workspace Members can join this group.
-
-**Internal**
-Only workspace Members can see and join this group. Workspace Guests cannot see this group unless they are added as a group member.
-
-## Group Member Roles
-Being part of a group automatically grants you read access to all projects in that group. *This currently includes Private projects.* Use this to quickly onboard new clients, engineers, and doc writers.
-
-Additional roles give further control over the contents of the group.
-
 <!-- theme: info -->
-> A group member’s role does not currently apply to the projects within the group. For example, group Editors do not automatically have edit access on every project in the group.
+> This feature is available on the Stoplight **Professional** and **Enterprise** plans.
 
+## Creating Groups
 
-|                                    | Viewer | Editor | Admin | Owner |
-|------------------------------------|--------|--------|-------|-------|
-| Can view all projects in the group | X      | X      | X     | X     |
-| Invite members                     | X      | X      | X     | X     |
-| Add projects                       |        | X      | X     | X     |
-| View group settings                |        | X      | X     | X     |
-| Remove members                     |        |        | X     | X     |
-| Change group settings              |        |        | X     | X     |
-| Change members role                |        |        | X     | X     |
-| Change group visibility            |        |        | X     | X     |
-| Remove projects                    |        |        | X     | X     |
-| Transfer ownership of the group    |        |        |       | X     |
-| Delete the group                   |        |        |       | X     |
+https://www.youtube.com/watch?v=d5e5Ac-6_U4
 
 
 ## Project Organization
 
-Joining groups and their projects populates your sidebar. Making groups and projects public adds the same helpful nested structure to your public docs too.
+Joining groups and their projects populates your sidebar. Making public groups with public projects adds the same helpful nested structure to your external docs too.
+
+<!-- theme: success -->
+> Discover [how to populate your sidebar](4.-documentation/Sidebar/a.customize-sidebar.md) and pin your favorite projects.
 
 <!-- focus: center -->
 ![amazin_stop_small.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/9sSyrT8ZVYM)
+
+## Moving Projects
+There are a couple ways to move projects into a group:
+
+**Option 1: Move a Project to a Group from the Projects List**
+
+<!-- focus: top -->
+![project_list_move_project.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/snuSLkPTcRQ 'From the menu in the Projects list')
+
+**Option 2: Move a Project to a Group from the Project Settings**
+
+<!-- 
+focus: bottom 
+bg: primary 
+-->
+![project_settings.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/gVH1Ilae6yE 'From the project settings page')
+
+
+## Group Visibility & Access
+Similar to [Project visibility](2.-workspaces/l.project-roles.md), Group visibility defines what account type(s) can see or join a group. It also impacts what kinds of projects can belong to that group.
+
+**Public** groups, and any public projects in them, will be visible to everyone including logged out users. Use Public groups to organize your public-facing API documentation.
+
+**Internal** groups can only be seen by workspace members. Workspace Guests cannot see this group unless they are added as a group member. Public projects are *not* allowed in internal groups so you can rest assured that nothing in an Internal Group will be publicly exposed.
+
+## Group Member Roles
+
+|                                 | Viewer | Editor | Admin | Owner |
+|---------------------------------|--------|--------|-------|-------|
+| Can invite members*              | ✅      | ✅      | ✅     | ✅     |
+| Can add projects                |        | ✅      | ✅     | ✅     |
+| Can view group settings         |        | ✅      | ✅     | ✅     |
+| Remove members                  |        |        | ✅     | ✅     |
+| Change group settings           |        |        | ✅     | ✅     |
+| Change members role             |        |        | ✅     | ✅     |
+| Change group visibility         |        |        | ✅     | ✅     |
+| Remove projects                 |        |        | ✅     | ✅     |
+| Transfer ownership of the group |        |        |       | ✅     |
+| Delete the group                |        |        |       | ✅     |
+
+> Note: Members can only invite members with their role or below. e.g. An Editor can invite a member as an editor or viewer. 
+
+## Project Access for Group Members
+Every member of a group will automatically have access to the *non-private* projects in that group. By default, a user's role in a group (e.g., Viewer, Editor) is **inherited** by the project.
+
+However, project administrators can overwrite this default behavior to customize access for the group.
+
+![Design_for__Project_Share_Dialog_Revamp_·_stoplightio_platform-internal.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/n81heWVncHo)
+
+Learn more about how to [Manage Project Access](2.-workspaces/l.project-roles.md).
+
+
 
 

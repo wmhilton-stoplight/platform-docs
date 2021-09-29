@@ -1,4 +1,4 @@
-# Customizing the Sidebar
+# Project Sidebar
 
 Project documentation contains a single left sidebar called the **Table of Contents** (or ToC). The [default structure](#the-default-structure) of this sidebar loosely follows the filesystem of the project, with a few exceptions for APIs and models. You can [customize the appearance](#customizing-the-sidebar) of this sidebar using a Table of Contents file (`toc.json`), which supports:
 
@@ -6,7 +6,7 @@ Project documentation contains a single left sidebar called the **Table of Conte
 - Overriding the title of a file in the sidebar
 - Selectively exposing files in the sidebar, allowing you to hide items by not including them in your Table of Contents file
 
-![studio demo documentation](../assets/images/studio-demo-docs.png)
+![studio demo documentation](../../assets/images/studio-demo-docs.png)
 
 > ### Limitations
 > 
@@ -22,7 +22,7 @@ Project documentation contains a single left sidebar called the **Table of Conte
 
 There are three types of entities in the Table of Contents:
 
-![toc element overview](../assets/images/toc-overview.png)
+![toc element overview](../../assets/images/toc-overview.png)
 
 ### Dividers
 
@@ -59,7 +59,7 @@ Note:
 
 > **TIP**: The easiest way to get a file's URI in Studio is to click the `...` button next to the file, click the "copy path" menu item then paste the contents.
 >
-> ![studio copy path](../assets/images/studio-copy-path.gif)
+> ![studio copy path](../../assets/images/studio-copy-path.gif)
 
 ### Example
 
@@ -102,7 +102,7 @@ title: toc.json
 
 The above `toc.json` file displays the following structure in the docs sidebar.
 
-![custom toc example](../assets/images/custom-toc-example.png)
+![custom toc example](../../assets/images/custom-toc-example.png)
 
 
 ## The Default Structure

@@ -80,6 +80,27 @@
       "uri": "2.-workspaces/m.groups.md"
     },
     {
+      "type": "group",
+      "title": "Customize the Sidebar",
+      "items": [
+        {
+          "type": "item",
+          "title": "Overview",
+          "uri": "4.-documentation/Sidebar/a.customize-sidebar.md"
+        },
+        {
+          "type": "item",
+          "title": "Workspace Sidebar",
+          "uri": "4.-documentation/Sidebar/a.workspace-sidebar.md"
+        },
+        {
+          "type": "item",
+          "title": "Project Sidebar",
+          "uri": "4.-documentation/Sidebar/d.table-of-contents.md"
+        }
+      ]
+    },
+    {
       "type": "item",
       "title": "Invite Members",
       "uri": "2.-workspaces/d.inviting-your-team.md"
