@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=d5e5Ac-6_U4
 Joining groups and their projects populates your sidebar. Making public groups with public projects adds the same helpful nested structure to your external docs too.
 
 <!-- theme: success -->
-> Discover [how to populate your sidebar](4.-documentation/Sidebar/a.customize-sidebar.md) and pin your favorite projects.
+> Discover [how to populate your sidebar](../4.-documentation/Sidebar/a.customize-sidebar.md) and pin your favorite projects.
 
 <!-- focus: center -->
 ![amazin_stop_small.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/9sSyrT8ZVYM)
@@ -38,7 +38,7 @@ bg: primary
 
 
 ## Group Visibility & Access
-Similar to [Project visibility](2.-workspaces/l.project-roles.md), Group visibility defines what account type(s) can see or join a group. It also impacts what kinds of projects can belong to that group.
+Similar to [Project visibility](l.project-roles.md), Group visibility defines what account type(s) can see or join a group. It also impacts what kinds of projects can belong to that group.
 
 **Public** groups, and any public projects in them, will be visible to everyone including logged out users. Use Public groups to organize your public-facing API documentation.
 
@@ -68,7 +68,7 @@ However, project administrators can overwrite this default behavior to customize
 
 ![Design_for__Project_Share_Dialog_Revamp_·_stoplightio_platform-internal.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/n81heWVncHo)
 
-Learn more about how to [Manage Project Access](2.-workspaces/l.project-roles.md).
+Learn more about how to [Manage Project Access](l.project-roles.md).
 
 
 
