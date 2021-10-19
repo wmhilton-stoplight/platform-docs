@@ -10,7 +10,7 @@ Project visibility determines who can view projects within or outside the worksp
 
 **Private**: Only Workspace Members and Guests with direct project access can view the project.
 
-**Internal**: All Workspace Members can view the project. Guests need direct access to the project.
+**Internal**: All Workspace Members can view the project. Guests need direct access to the project. New projects have internal visibility by default. 
 
 **Public**: Everyone including anonymous visitors can view project.
 
@@ -62,8 +62,6 @@ Every Project member can add members to the project with their role or lower. Fo
 
 To add users to a project, click on the **Share** button (next to **Edit in Studio**). From here, you will be able to add existing Workspace members by their username or invite new members by email.
 
-![Direct Access](../assets/images/direct-access.png)
-
 ### Request Project Permissions
 
 If you need access to a project, the project's owner can add you as a member or upgrade your role. To find out who is the project owner, hover over their avatar in the projects list.
@@ -78,13 +76,20 @@ Every project must have only one Owner. Before the Owner can leave a project, th
 
 To transfer ownership, open the **Share** dialog and change the member's role to "Owner". Once confirmed, your role will change to "Admin" and the selected member will become the Owner.
 
+<!--
+focus: false
+-->
 ![](../assets/images/transfer-project-ownership.png)
 
 ### Remove a Project Owner
 
 When removing a Member from the Workspace or downgrading a Member to a Guest, you will automatically take ownership of all projects they currently own. You can then transfer ownership of those projects to another member if you wish.
 
-![](../assets/images/remove-workspace-member-transfer.png)
+<!--
+focus: false
+-->
+![remove-workspace-member-transfer.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/08dqEfmITlA)
+
 
 
 

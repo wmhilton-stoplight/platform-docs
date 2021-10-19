@@ -21,21 +21,15 @@ Joining groups and their projects populates your sidebar. Making public groups w
 ![amazin_stop_small.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/9sSyrT8ZVYM)
 
 ## Moving Projects
-There are a couple ways to move projects into a group:
+There are a couple ways to move projects into a group.
 
-**Option 1: Move a Project to a Group from the Projects List**
+**Option 1: Move a Single Project to a Group from the Projects List**
 
-<!-- focus: top -->
-![project_list_move_project.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/snuSLkPTcRQ 'From the menu in the Projects list')
+![project_list_move_project.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/za5fPvBFhDg)
 
-**Option 2: Move a Project to a Group from the Project Settings**
+**Option 2: Move Multiple Projects to a Group from the Projects List**
 
-<!-- 
-focus: bottom 
-bg: primary 
--->
-![project_settings.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/gVH1Ilae6yE 'From the project settings page')
-
+![project_settings.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/0Lt57dlIpDc)
 
 ## Group Visibility & Access
 Similar to [Project visibility](l.project-roles.md), Group visibility defines what account type(s) can see or join a group. It also impacts what kinds of projects can belong to that group.
@@ -64,9 +58,9 @@ Similar to [Project visibility](l.project-roles.md), Group visibility defines wh
 ## Project Access for Group Members
 Every member of a group will automatically have access to the *non-private* projects in that group. By default, a user's role in a group (e.g., Viewer, Editor) is **inherited** by the project.
 
-However, project administrators can overwrite this default behavior to customize access for the group.
+However, project administrators can overwrite this default behavior to customize access for the group from the Share Project window.
 
-![Design_for__Project_Share_Dialog_Revamp_·_stoplightio_platform-internal.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/n81heWVncHo)
+![project-access-for-group-members.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/RtI9C5YVrMU)
 
 Learn more about how to [Manage Project Access](l.project-roles.md).
 

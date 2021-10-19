@@ -18,7 +18,7 @@ We support the following Git providers.
 
 - <i class="Icon fab fa-microsoft fa-2x" style="color: rgb(32, 80, 129);"> </i> Azure Devops
 
-If you don't see the Git Provider you're looking for, take a look at our [roadmap](https://roadmap.stoplight.io/) to keep an eye on what's coming next. You can also use [Stoplight CLI](/docs/platform/ZG9jOjQ1NTQxMw-work-with-local-projects) to push projects to Stoplight Platform.
+If you don't see the Git Provider you're looking for, take a look at our [roadmap](https://roadmap.stoplight.io/) to keep an eye on what's coming next. You can also use [Stoplight CLI](../f.working-with-local-projects.md) to push projects to Stoplight Platform.
 
 ## Configure Cloud Git Providers
 

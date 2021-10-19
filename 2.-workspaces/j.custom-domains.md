@@ -47,8 +47,7 @@ cloud).
 
 ![](../assets/images/custom_domain_cloudflare.png)
 
-You can read more about what this means in the CloudFlare documentation
-[here](https://support.cloudflare.com/hc/en-us/articles/200169626-What-subdomains-are-appropriate-for-orange-gray-clouds-).
+You can read more about what this means in the CloudFlare documentation.
 
 ### The connection has timed out
 
