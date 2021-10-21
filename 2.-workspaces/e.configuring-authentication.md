@@ -1,7 +1,7 @@
 <!-- theme: warning -->
 > #### Important Change Affecting SAML Integrations
 >
-> Starting October 1st, 2021, the callback URL for all SAML integrations must include the workspace slug in order to function. Other integrations are *not* affected. 
+> Starting October 1, 2021, the callback URL for all SAML integrations must include the workspace slug. Other integrations are *not* affected. 
 
 
 # Single Sign-On
@@ -21,48 +21,40 @@ We support the following Auth/Single Sign-On (SSO) providers:
 - Gitea
 - Azure Devops
 
+Stoplight currently supports multiple SAML integrations when  authentication starts from Stoplight. Only one integration where authentication starts from an identity provider (IDP) is supported per workspace. When you have multiple SAML integrations configured, you can specify which of these will serve as your IDP integration.
+
+<!-- focus: center -->
+![saml_idps.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/52MimIggF7g)
+
 To configure popular Git providers as auth providers follow [this guide](configure-git/a.configuring-git.md).
 
 ## SAML
 
 > This feature is available on the Stoplight **Professional** plan and above.
 
-Organizations that need enhanced security requirements can configure SAML SSO,
-allowing you to authenticate users to Stoplight with your own corporate Identity
-Provider (IdP).
+Organizations that need enhanced security requirements can configure SAML SSO, allowing you to authenticate users to Stoplight with your own corporate Identity Provider (IdP).
 
 ### Prerequisites
 
 Before continuing, be sure to:
 
-- Contact the team responsible for your organization's SAML configuration for
-  the following pieces of information that must be configured within Stoplight:
-  - SAML Entry Point URL - This is the URL where applications integrating with a
-    SAML IdP must first direct users
-  - SAML Identifier Format - Stoplight defaults to using a "persistent" name
-    identifier format, however some SAML providers require a specific format
-    ("unspecified", for example)
-- Some fields will also need to be configured within the SAML IdP directly. Pass
-  along the following pieces of information to the team responsible for your
-  organization's SAML configuration:
+- Contact the team responsible for your organization's SAML configuration for the following pieces of information that must be configured within Stoplight:
+  - SAML Entry Point URL - This is the URL where applications integrating with a SAML IdP must first direct users
+  - SAML Identifier Format - Stoplight defaults to using a "persistent" name identifier format, however some SAML providers require a specific format ("unspecified", for example)
+- Some fields will also need to be configured within the SAML IdP directly. Pass along the following pieces of information to the team responsible for your organization's SAML configuration:
   - Issuer - This value defaults to "`stoplight`"
   <!-- markdown-link-check-disable -->
-  - Callback URL - This value is provided during the configuration, and defaults
-    to a value similar to **https://\<workspace\>.stoplight.io/oauth/callback**.
+  - Callback URL - This value is provided during the configuration, and defaults to a value similar to **https://\<workspace\>.stoplight.io/oauth/callback**.
   <!-- markdown-link-check-enable -->
-  - Attributes - The attributes (described below) are required by Stoplight to
-    successfully authenticate users.
-- Be logged in to Stoplight as an Administrator
+  - Attributes - The attributes (described below) are required by Stoplight to successfully authenticate users.
+- Be logged in to Stoplight as an administrator
 
 ### SAML Assertion Requirements 
 
-In addition to the items above, the following SAML attributes need to be
-provided in the assertion data coming to Stoplight upon successful
-authentication with the SAML IdP:
+In addition to the items above, the following SAML attributes need to be provided in the assertion data coming to Stoplight upon successful authentication with the SAML IdP:
 
 - External ID - This corresponds to the "`nameID`" field in the SAML response
-- Username - This corresponds to one of the following fields in the SAML
-  response (in order of precedence):
+- Username - This corresponds to one of the following fields in the SAML response (in order of precedence):
   - `userName`
   - `urn:oid:2.5.4.42`
   - `displayName`
@@ -72,10 +64,8 @@ authentication with the SAML IdP:
 
 ### Configuring the SAML Integration
 
-To configure a SAML integration, first navigate to your workspace
-**Settings** screen and find the "SAML" integration option:
-
-![saml-integration-new.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/vbmyME0NfHg)
+To configure a SAML integration, navigate to your workspace
+**Settings** screen, and then select the "SAML" integration option.
 
 Which will open a dialog to configure the SAML settings for the integration:
 
