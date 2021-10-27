@@ -43,7 +43,7 @@ cd /home/src/my-project/
 2. Run the push command, passing in the project token associated with this project. This will send all the API design and documentation related files to Stoplight, and ignore any unrelated files.
 
 ```bash
-npx @stoplight/cli@4 push --ci-token {project-token} --url https://{workspace-name}.stoplight.io
+npx @stoplight/cli@5 push --ci-token {project-token} --url https://{workspace-name}.stoplight.io
 ```
 
 > Note that nodeJS version 12 or greater is required to run the CLI. You can
