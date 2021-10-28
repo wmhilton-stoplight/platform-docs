@@ -20,10 +20,6 @@ The fastest way to onboard your teammates is by configuring an [Allowed email do
 
 4.  Enter one or more work **Email Addresses** of your teammates, select a **Role**, and then select **Send Invite.** 
 
-<!--
-focus: center
-bg: primary
--->
 ![Add Members](../assets/images/invite-add-member.png)
 
 Since you would be inviting different stakeholders from different parts of the API Lifecycle, you can limit and restrict who gets access to what. 
