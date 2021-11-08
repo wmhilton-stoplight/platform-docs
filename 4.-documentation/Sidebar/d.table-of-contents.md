@@ -1,6 +1,6 @@
 # Project Sidebar
 
-Project documentation contains a single left sidebar called the **Table of Contents** (or ToC). The [default structure](#the-default-structure) of this sidebar loosely follows the filesystem of the project, with a few exceptions for APIs and models. You can [customize the appearance]customize the  sidebar using a Table of Contents file (`toc.json`), which supports:
+Project documentation contains a single left sidebar called the **Table of Contents** (or ToC). The [default structure](#the-default-structure) of this sidebar loosely follows the filesystem of the project, with a few exceptions for APIs and models. You can customize the appearance of this sidebar using a Table of Contents file (`toc.json`), which supports:
 
 - Customizing the order of files in the sidebar
 - Overriding the title of a file in the sidebar

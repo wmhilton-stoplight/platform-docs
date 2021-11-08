@@ -4,7 +4,7 @@ With your project added to Stoplight, you are now ready to share your API docume
 
 ## Managing Project-Level Access
 
-To update the project visibility or add users to a project, navigate to the **Manage Access** tab in the project settings screen (using the cog icon next to **Edit in Studio**). From this screen, you will be able to modify the visibility settings of a project
+To update the project visibility or add users to a project, select the **Share** button when you are editing a project. 
 
 ![](../assets/images/manage-project-access.png)
 
