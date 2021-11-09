@@ -9,19 +9,19 @@ Visual help on your documentation compliments the text on it, and gets your user
 You can add multiple images within a documentation file. 
 
 <!-- theme: info -->
-> 👉 **Note:** Supported  image formats include: **JPEG,** **JPG**, **PNG** and **GIF**
+> 👉 **Note:** Supported  image formats include: **JPEG,** **JPG**, **PNG** and **GIF**.
 
 ## Adding Images to Projects
 
-Drag and drop image or copy and paste an image into a markdown article to upload it. 
+Drag and drop an image or copy and paste an image into a markdown article to upload it. 
 
 ![Add an Image](../assets/images/image-upload.gif)
 
-> These images are stored in Stoplight and respect project permissions i.e. Private vs Internal.
+> These images are stored in Stoplight and respect project permissions (private vs. internal).
 
 ## Customize Images
 
-To customize images like adding backgrounds, captions or focus, check out [images in Stoplight Flavored Markdown](https://meta.stoplight.io/docs/studio/ZG9jOjg0-stoplight-flavored-markdown-smd).
+To customize images, such as adding backgrounds, captions or focus, check out [images in Stoplight Flavored Markdown](https://meta.stoplight.io/docs/studio/ZG9jOjg0-stoplight-flavored-markdown-smd).
 
 **Splendid! Your documentation now contains images. Your users are gonna love it 👏**
 
