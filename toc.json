@@ -100,22 +100,7 @@
         }
       ]
     },
-    {
-      "type": "item",
-      "title": "Invite Members",
-      "uri": "2.-workspaces/d.inviting-your-team.md"
-    },
-    {
-      "type": "item",
-      "title": "Allowed Email Domains",
-      "uri": "2.-workspaces/allowed-email-domains.md"
-    },
-    {
-      "type": "item",
-      "title": "Workspace Roles",
-      "uri": "2.-workspaces/k.workspace-roles.md"
-    },
-    {
+        {
       "type": "item",
       "title": "Single Sign-On",
       "uri": "2.-workspaces/e.configuring-authentication.md"
@@ -153,6 +138,41 @@
     },
     {
       "type": "divider",
+      "title": "Manage User Access"
+     },
+          {
+       "type": "group",
+       "title": "Manage Workspace Access",
+       "items": [
+         {
+            "type": "item",
+            "title": "Manage Workspace Members",
+            "uri": "2.-workspaces/d.inviting-your-team.md"
+          },
+         {
+            "type": "item",
+            "title": "Allowed Email Domains",
+            "uri": "2.-workspaces/allowed-email-domains.md"
+          },
+         {
+            "type": "item",
+            "title": "Workspace Roles",
+            "uri": "2.-workspaces/k.workspace-roles.md"
+         }
+        ]
+      },
+    {
+      "type": "item",
+      "title": "Manage Project Access",
+      "uri": "2.-workspaces/l.project-roles.md"
+    },
+      {
+      "type": "item",
+      "title": "Manage Group Access",
+      "uri": "2.-workspaces/o.group-access.md"
+    },
+    {
+      "type": "divider",
       "title": "Projects"
     },
     {
@@ -160,12 +180,7 @@
       "title": "Add Projects",
       "uri": "2.-workspaces/b.adding-projects.md"
     },
-    {
-      "type": "item",
-      "title": "Manage Project Access",
-      "uri": "2.-workspaces/l.project-roles.md"
-    },
-    {
+        {
       "type": "item",
       "title": "Configure Projects",
       "uri": "2.-workspaces/c.config.md"
