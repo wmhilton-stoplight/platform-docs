@@ -137,6 +137,11 @@
       "uri": "2.-workspaces/n.activity-logs.md"
     },
     {
+      "type": "item",
+      "title": "Billing",
+      "uri": "2.-workspaces/billing.md"
+    },
+    {
       "type": "divider",
       "title": "Manage User Access"
      },
