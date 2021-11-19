@@ -147,7 +147,7 @@
      },
           {
        "type": "group",
-       "title": "Manage Workspace Access",
+       "title": "Workspace Access",
        "items": [
          {
             "type": "item",

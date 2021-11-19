@@ -1,49 +1,44 @@
 # Use a Custom Domain
 
-Using a custom domain allows you to host your Stoplight workspace from a domain
-fully under your control. To setup a custom domain for your Stoplight workspace,
-follow the steps below:
+Use a custom domain to host your Stoplight workspace from a domain fully under your control. 
 
-![](../assets/images/custom_domain.png)
+Once properly configured: 
 
-1. Select Workspace settings from the top-left drop-down
-2. In Settings > Basics > Custom Domain
-3. Enter the custom domain you would like to use. To complete the configuration
-   process, you will need to create a CNAME DNS record for your domain that
-   points to `ingress.stoplight.io`.
+- You can access the Stoplight workspace from the custom domain.
+- An SSL certificate for your domain will automatically be generated with [Let's Encrypt](https://letsencrypt.org/). 
+- A "noindex" tag will be automatically included on your Stoplight workspace domain to provide the best SEO indexing for your custom domain.
 
-Once properly configured, accessing the custom domain should allow you to access
-the Stoplight workspace and an SSL certificate for your domain will
-automatically be generated with [Let's Encrypt](https://letsencrypt.org/).
+![](../assets/images/custom-domain.png)
 
-A "noindex" tag will be automatically included on your Stoplight workspace domain in order to provide the best SEO indexing for your custom domain.
+To setup a custom domain for your Stoplight workspace:
 
-### Additional options
+1. From the workspace home page, select **Settings**. 
+2. Select the right arrow next to **Domain**.
+3. Enter your custom domain. 
 
-Once your domain has been configured, you can optionally [enable analytics using Google Tag Manger](../4.-documentation/e.configure-analytics.md) and hide the "Sign in" button from the sidebar when your Workspace is loaded from your domain.
-
-![Custom Domain Options](../assets/images/configure-google-tag-manager.png)
+To complete the configuration process, you must create a CNAME DNS record for your domain that points to `ingress.stoplight.io`.
 
 > ### Limitations
 >
-> Stoplight currently requires the **full domain** to be allocated for use,
-> meaning that it is not possible to expose documentation from a single path or
-> route. As an example, the domain "api.example.com" can be used to host your
-> Stoplight documentation, however "example.com/api" (note the "/api" base path)
-> cannot.
+> Stoplight currently requires the **full domain** to be allocated for use, meaning that it is not possible to expose documentation from a single path or route. As an example, the domain "api.example.com" can be used to host your Stoplight documentation, however "example.com/api" (note the "/api" base path) cannot.
 >
-> See the roadmap item
-> [here](https://roadmap.stoplight.io/c/57-embeddable-component-library) for
+> See the [roadmap item](https://roadmap.stoplight.io/c/57-embeddable-component-library) for
 > more information on how we plan on addressing this limitation in the future.
 
+## Additional Options
+
+Once your domain has been configured, you can set these options:
+
+- **Analytics**: [Enable analytics using Google Tag Manger](../4.-documentation/e.configure-analytics.md).
+- **Redirects**: Use to move documentation without breaking links. See [Redirects](../4.-documentation/e2.configure-redirects.md)
+- **Localize**: Use to [configure an integration](../4.-documentation/e1.configure-localize.md) to Localize.
+- **Hide Sign In Button**: Enable to remove sign-in options from the sidebar when your Workspace is loaded from your domain.
 
 ## Troubleshooting
 
 ### Cloudflare-hosted domains
 
-If you are using [Cloudflare](https://cloudflare.com/), be sure to set your
-CNAME record to "DNS Only" (signified by a grey cloud, and **not** an orange
-cloud).
+If you are using [Cloudflare](https://cloudflare.com/), be sure to set your CNAME record to "DNS Only" (signified by a grey cloud, and **not** an orange cloud).
 
 ![](../assets/images/custom_domain_cloudflare.png)
 
@@ -51,22 +46,16 @@ You can read more about what this means in the CloudFlare documentation.
 
 ### The connection has timed out
 
-If you see an error related to "The connection has timed out", this typically
-means that a CAA DNS record is present on your domain, which is preventing the
-TLS verification process from completing.
+If you see an error related to "The connection has timed out", this typically means that a CAA DNS record is present on your domain, which is preventing the TLS verification process from completing.
 
-> To learn more about CAA records and what they are used for, see the Let's
-> Encrypt documentation [here](https://letsencrypt.org/docs/caa/). You can
-> perform a CAA lookup on your domain [here](https://www.entrust.com/resources/certificate-solutions/tools/caa-lookup)
+> To learn more about CAA records and what they are used for, see the [Let's Encrypt documentation](https://letsencrypt.org/docs/caa/). You can
+> perform a [CAA lookup on your domain](https://www.entrust.com/resources/certificate-solutions/tools/caa-lookup)
 > for reference.
 
 To resolve this issue, use either option below:
 
-- **RECOMMENDED** Add `letsencrypt.org` to the CAA record to allow Let's Encrypt
-  to generate certificates for your domain.
+- **RECOMMENDED** Add `letsencrypt.org` to the CAA record to allow Let's Encrypt to generate certificates for your domain.
 
-- **NOT RECOMMENDED** Remove the CAA DNS record from your domain, which will
-  allow any authority to generate certificates for the domain.
+- **NOT RECOMMENDED** Remove the CAA DNS record from your domain, which will allow any authority to generate certificates for the domain.
 
-Once updated, try to navigate to your custom domain again to verify the issue
-has been resolved.
+Once updated, try to navigate to your custom domain again to verify the issue has been resolved.
