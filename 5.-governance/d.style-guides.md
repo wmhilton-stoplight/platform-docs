@@ -4,9 +4,9 @@ tags: [Governance]
 
 ## Style Guides
 
-Ask 100 developers where a semicolon should go, and you'll either get 100 answers, or a all-on-all fist fight. To save this from happening most API teams that grow beyond a handful will implement a style guide.
+Ask 100 developers where a semicolon should go, and you'll either get 100 answers or an all-on-all fistfight. To save this from happening most API teams that grow beyond a handful will implement a style guide.
 
-Also known as "API Design Guides", "Design Guidelines", "Style Books", or "API Standards", the concept of "make a bunch of decision's and write them down" has helped API teams for decades.
+Also known as "API Design Guides", "Design Guidelines", "Style Books", or "API Standards", the concept of "make a bunch of decisions and write them down" has helped API teams for decades.
 
 These style guides might contain rules about how to handle versioning, filtering, error formats, naming conventions, pagination, or any of a million other variable parts of an API, which different teams would likely make different decisions on.
 
@@ -27,10 +27,10 @@ You might have noticed the APIs across your ecosystem use infinite different err
 Everyone has a lot of opinions about API versioning, so why not write down the decisions once they're made to avoid litigating this again for every new API.
 
 - Keep [version numbers out of the URL](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way/)
-- Version numbers in headers please
+- Version numbers in headers, please
 - Ban all versioning and enforce [evolution](https://apisyouwonthate.com/blog/api-evolution-for-rest-http-apis/) 🙊
 
-Whatever it is you want to do, you can avoid a lot of bike shedding by making some decisions and writing them down.
+Whatever it is you want to do, you can avoid a lot of bikeshedding by making some decisions and writing them down.
 
 ### Where Style Guides Live
 
@@ -38,7 +38,7 @@ Some companies will write these down as Google Documents, an internal Wiki, and 
 
 Sometimes these style guides are published publicly, which can give useful insight into what big companies and government organizations consider to be a "good API" for them. [API Stylebook.com > Design Guidelines](http://apistylebook.com/design/guidelines/) is a collection of these style guides if you want to take a look and get some ideas.
 
-The trouble with these text-based documents is that they are large, terse documents which developers rarely read. If developers _do_ read them cover to cover, the chanced of them remembering everything is pretty slip. Even if they somehow remember 100% of the words written down, that knowledge gets out-of-date when changes and additions to the style guide are made. 
+The trouble with these text-based documents is that they are large, terse documents that developers rarely read. If developers _do_ read them cover to cover, the chances of them remembering everything is pretty slip. Even if they somehow remember 100% of the words written down, that knowledge gets out-of-date when changes and additions to the style guide are made. 
 
 Unless you expect all API developers to regularly re-read the API Style Guide cover to cover, you might want to look into automating your style guide. How? Robots! 🤖
 
@@ -51,13 +51,13 @@ We talk about Spectral here, because we quite like it, and because it's been des
 <!-- theme: info -->
 > Seeing as Spectral works with JSON/YAML-based data, you could write custom rulesets for RAML, Kubernetes config, or any other structured data, but we're gonna focus on APIs here.
 
-The style guides made with Spectral can focus on the API descriptions (helping developers new to OpenAPI write better quality, more readable, more consistent OpenAPI), or it can focus on the API the API description is describing, to help the API developers make better APIs. 
+The style guides made with Spectral can focus on the API descriptions (helping developers new to OpenAPI write better quality, more readable, more consistent OpenAPI), or it can focus on the API description it's describing, to help the API developers make better APIs. 
 
 Or a style guide can do both! 
 
 ### Spectral Rulesets
 
-Spectral focuses a bit more on helping you write better API descriptions by default, because when it comes to making a "good API"... there's no such thing. There's lots of ways to do things badly, but there's a myriad of tradeoffs to most approaches which may work in some situations and not in others. 
+Spectral focuses a bit more on helping you write better API descriptions by default, because when it comes to making a "good API"... there's no such thing. There are lots of ways to do things badly, but there's a myriad of tradeoffs to most approaches that may work in some situations and not in others. 
 
 So, we help you write valid _and useful_ [OpenAPI](https://meta.stoplight.io/docs/spectral/docs/reference/openapi-rules.md) and [AsyncAPI](https://meta.stoplight.io/docs/spectral/docs/reference/asyncapi-rules.md) with our core rulesets, which you can then extend in your own custom style guides.
 
@@ -146,9 +146,9 @@ Done early enough, this will shape the actual API as it is being developed. The 
 
 ![](../assets/images/spectral-studio.gif)
 
-If you're a code-first team then this is not ideal, as you'll potentially need to change code which exists in production just to get it to match this style guide.
+If you're a code-first team then this is not ideal, as you'll potentially need to change code that exists in production just to get it to match this style guide.
 
-[Custom functions](https://meta.stoplight.io/docs/spectral/docs/guides/5-custom-functions.md) can be created for more advanced use cases. Maybe you want to implement a dictionary check to ban British spelling of words like "flavour" - that should _of course_ be "flavor". 😅
+[Custom functions](https://meta.stoplight.io/docs/spectral/docs/guides/5-custom-functions.md) can be created for more advanced use cases. Maybe you want to implement a dictionary check to ban the British spelling of words like "flavour" - that should _of course_ be "flavor". 😅
 
 #### Automation
 
@@ -160,7 +160,7 @@ Seeing as Spectral is a JavaScript library wrapped in a CLI, enforcing this styl
 
 #### Distributing Rulesets
 
-Rulesets can just be defined as a file in a repository, but that will lead to every API having their own different rules, which somewhat defeats the purpose.
+Rulesets can just be defined as a file in a repository, but that will lead to every API having its own different rules, which somewhat defeats the purpose.
 
 One approach is to publish your ruleset to a publicly available URL which folks can then extend in their repo:
 
@@ -168,13 +168,13 @@ One approach is to publish your ruleset to a publicly available URL which folks 
 extends: https://example.com/api/spectral.yaml
 ```
 
-Alternatively, especially if you need [custom functions](https://meta.stoplight.io/docs/spectral/docs/guides/5-custom-functions.md), you can [publish a ruleset as a NPM module](https://meta.stoplight.io/docs/spectral/docs/guides/7-sharing-rulesets.md#NPM).
+Alternatively, especially if you need [custom functions](https://meta.stoplight.io/docs/spectral/docs/guides/5-custom-functions.md), you can [publish a ruleset as an NPM module](https://meta.stoplight.io/docs/spectral/docs/guides/7-sharing-rulesets.md#NPM).
 
 ```yaml
 extends: example-npm-ruleset
 ```
 
-Pegging a ruleset on given version can be done in the following manner:
+Pegging a ruleset on a given version can be done in the following manner:
 
 ```json
 {
@@ -186,7 +186,7 @@ Pegging a ruleset on given version can be done in the following manner:
 
 New rulesets can be added as your style guide evolves, as new problems occur and new standards need to be met.
 
-For example, the API Governance team decides that all APIs need to be running on HTTPS, and only HTTPS. No HTTP allowed anywhere in the company. They could add this rule:
+For example, the API Governance team decides that all APIs need to be running on HTTPS, and only HTTPS. No HTTP is allowed anywhere in the company. They could add this rule:
 
 ```yaml
   oas2-hosts-https-only:
@@ -219,7 +219,7 @@ A few weeks or months later when you know most people have implemented this chan
 
 This change will start to show up in Studio as a warning, which will also fail Spectral CLI and trigger a failed build in any Continuous Integration running it too. 
 
-Doing this at the right time for the right reason is a powerful tool to communicate change across large organizations, but using this too heavy handedly can be a problem.
+Doing this at the right time for the right reason is a powerful tool to communicate change across large organizations, but using this too heavy-handedly can be a problem.
 
 If there are any problems (like hotfixes cannot go out because of CI failures) then anyone can disable rules for specific resources using a feature we call [Exceptions](https://meta.stoplight.io/docs/spectral/docs/guides/6-exceptions.md): 
 
@@ -234,4 +234,4 @@ except:
 ```
 
 
-If you already have a style guide, see how much of it you can solve with the build-in functions, then start to get more creative with custom functions to solve the organizations biggest issues.
+If you already have a style guide, see how much of it you can solve with the build-in functions, then start to get more creative with custom functions to solve the organization's biggest issues.
