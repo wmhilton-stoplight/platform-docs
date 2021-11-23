@@ -17,28 +17,30 @@
     },
     {
       "type": "divider",
-      "title": "Quickstarts"
-    },
-    {
-      "type": "item",
-      "title": "Add Projects",
-      "uri": "1.-quickstarts/add-projects-quickstart.md"
-    },
-    {
-      "type": "item",
-      "title": "Share Documentation",
-      "uri": "1.-quickstarts/share-documentation-quickstart.md"
-    },
-    {
-      "type": "divider",
       "title": "Workspaces"
     },
     {
       "type": "item",
-      "title": "Creating a workspace",
+      "title": "Create a workspace",
       "uri": "2.-workspaces/a.creating-a-workspace.md"
     },
     {
+      "type": "group",
+      "title": "Workspace Settings",
+      "items": [
+        {
+        "type": "item",
+        "title": "Change the Look and Feel",
+        "uri": "2.-workspaces/b1-change-look-and-feel.md"
+        },
+        {
+      "type": "item",
+      "title": "Custom Domains",
+      "uri": "2.-workspaces/j.custom-domains.md"
+        }
+      ]
+    },
+        {
       "type": "group",
       "title": "Configure Git",
       "items": [
@@ -247,11 +249,6 @@
       "type": "item",
       "title": "Quality API Reference Documentation",
       "uri": "4.-documentation/c.quality-api-reference-docs.md"
-    },
-    {
-      "type": "item",
-      "title": "Custom Domains",
-      "uri": "2.-workspaces/j.custom-domains.md"
     },
     {
       "type": "item",

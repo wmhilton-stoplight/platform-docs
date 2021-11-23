@@ -80,8 +80,8 @@ git push origin master:main
 
 - [GitHub Cloud Instructions](https://docs.github.com/en/github/administering-a-repository/setting-the-default-branch)
 - [GitHub Enterprise Instructions](https://docs.github.com/en/enterprise/2.21/user/github/administering-a-repository/setting-the-default-branch)
-- [GitLab Cloud Instructions](https://docs.gitlab.com/ee/user/project/repository/branches/)
-- [GitLab Server Instructions](https://docs.gitlab.com/ee/user/project/repository/branches/#default-branch)
+- [GitLab Cloud Instructions](https://docs.gitlab.com/ee/user/project/repository/branches/)<!-- markdown-link-check-disable -->
+- [GitLab Server Instructions](https://docs.gitlab.com/ee/user/project/repository/branches/#default-branch)<!-- markdown-link-check-enable -->
 
 5. Remove the old branch from your Git repository.
 

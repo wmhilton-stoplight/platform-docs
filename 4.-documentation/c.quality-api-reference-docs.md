@@ -67,4 +67,4 @@ Stoplight keeps everything, including the OpenAPI in-sync with your Git repo. Yo
 
 ## Publishing Documentation
 
-With your documentation ready, let users experience it by [sharing it](../1.-quickstarts/share-documentation-quickstart.md). 
+With your documentation ready, let users experience it by sharing it. For external users, share your URL. For internal or private projects, [invite users](../2.-workspaces/d.inviting-your-team.md) to the workspace directly. 

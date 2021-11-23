@@ -45,7 +45,7 @@ _Repeat these steps for each of the Postman Collections you want to migrate, and
 Now, let's create a Stoplight Workspace and add your projects.
 
 1. [Create](https://stoplight.io/welcome/create) your new [Stoplight Workspace](../2.-workspaces/a.creating-a-workspace.md).
-2. Please follow this [step-by-step guide](../1.-quickstarts/add-projects-quickstart.md#connect-an-existing-git-project) to connect your VCS account and add your new projects.
+2. Follow [these steps](../2.-workspaces/configure-git/a.configuring-git.md) to connect your VCS account and add your new projects.
 
 ### Importing OpenAPI to Stoplight
 
