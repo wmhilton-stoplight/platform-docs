@@ -6,7 +6,7 @@ tags: [Governance]
 
 Ask 100 developers where a semicolon should go, and you'll either get 100 answers or an all-on-all fistfight. To save this from happening most API teams that grow beyond a handful will implement a style guide.
 
-Also known as "API Design Guides", "Design Guidelines", "Style Books", or "API Standards", the concept of "make a bunch of decisions and write them down" has helped API teams for decades.
+Also known as "API Design Guides," "Design Guidelines," "Style Books," or "API Standards," the concept of "make a bunch of decisions and write them down" has helped API teams for decades.
 
 These style guides might contain rules about how to handle versioning, filtering, error formats, naming conventions, pagination, or any of a million other variable parts of an API, which different teams would likely make different decisions on.
 
