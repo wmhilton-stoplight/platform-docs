@@ -4,13 +4,20 @@ tags: [Workspaces]
 
 # Manage Workspace Members
 
-Stoplight is an all-in-one platform that covers all integral parts of the API lifecycle including design, documentation development, and governance. This requires different stakeholders from your organization to be on the platform.
+Stoplight is an all-in-one platform that covers all integral parts of the API lifecycle including design, documentation development, and governance. This requires different stakeholders from inside and possibly outside your organization to use the platform.
 
 Having all of your collaborators on a single platform helps promote **visibility** and **reusability** of artifacts across your organization, but you may need different levels of access for your stakeholders. You can easily limit that by defining their [workspace roles](k.workspace-roles.md) and [project roles](l.project-roles.md).
 
-Once your workspace is set up, you can invite your colleagues and partners to collaborate on API design, view documentation, and access mock servers.
+Once your workspace is set up, you can invite your colleagues and partners. 
 
-You can invite up to 5 workspace members on the **Free** and **Starter** plans, then add more members as you scale up. 
+There are two types of workspace users:
+
+- **Members**: Roles can range from viewers to owners. Members are typically stakeholders in your organization. Depending on their role, these are typically can collaborate on API design, view documentation, and access mock servers. 
+- **Guests**: Restricted to view documentation for projects they've been invited to. These users are typically people outside your company or organization, such as partners, who require authenticated access to the documentation.
+
+Learn more about [Workspace Roles](k.workspace-roles.md).
+
+>The number of workspace members and guests you can invite depends on your [Stoplight plan](https://stoplight.io/pricing/).
 
 ## Invite Members to Your Workspace 
 
@@ -37,18 +44,30 @@ To change the default role or remove the domain, select the arrow to the right o
 
 If users register for your workspace with an email address that does not match your domain, they are not added. You can manually approve join requests for these users from the **Members Settings** page.
 
-1. Select members with a role of "pending."
-2. Select the **Approve Request** check box.
-3. Select the role for the users.
-4. Select **Approve**.
+1. From the workspace home page, select **Members**. 
+2. Select members with a role of "pending."
+3. Select the **Approve Request** check box.
+4. Select the role for the users.
+5. Select **Approve**.
 
 ![Approve Requests](../assets/images/approve-requests.png)
 
 ## Manage Workspace Access
 
-Since you will likely invite stakeholders from different parts of the API Lifecycle, you can limit and restrict who gets access to what. 
+Since you will likely invite stakeholders from different parts of the API Lifecycle, you can limit and restrict who gets access to what. You can change roles for specific users as needed. 
 
-**Note:**  Learn more about organizing your team and assigning roles here: [**Workspace Roles.**](k.workspace-roles.md) 
+To assign roles for your workspace:
+
+1. From the workspace home page, select **Members**. 
+2. Select one or more users, and then select the **Change Role** icon.
+
+### Change Guest Access 
+
+Guests are not considered members of your workspace, so their access is limited to viewing projects they are invited to. If the needs of our organization change, you can:
+
+- **Upgrade guest access**: Change guests' roles to the Viewer role or above.
+- **Downgrade to guest access**: Change members' roles to guest to restrict their acccess to only projects they've been invited to. 
+
 
 
 

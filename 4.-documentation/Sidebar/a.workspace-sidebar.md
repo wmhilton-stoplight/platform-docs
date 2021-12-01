@@ -22,7 +22,7 @@ All logged-in workspace members, except guests, can populate their sidebar by na
 To help ease project setup, the sidebar for guests automatically shows:
 
 - Public projects
-- Projects that guests have been invited to or joined
-- Non-private projects in groups that guests have been invited to or joined
+- Projects that guests have been invited to
+- Non-private projects in groups that guests have been invited to
 
 
