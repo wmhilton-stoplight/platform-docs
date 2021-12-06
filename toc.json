@@ -143,9 +143,38 @@
       "title": "Billing",
       "uri": "2.-workspaces/billing.md"
     },
+       {
+      "type": "divider",
+      "title": "Projects"
+    },
+    {
+      "type": "item",
+      "title": "Add Projects",
+      "uri": "2.-workspaces/b.adding-projects.md"
+    },
+        {
+      "type": "item",
+      "title": "Configure Projects",
+      "uri": "2.-workspaces/c.config.md"
+    },
+    {
+      "type": "item",
+      "title": "Work with Local Projects",
+      "uri": "2.-workspaces/f.working-with-local-projects.md"
+    },
+    {
+      "type": "item",
+      "title": "Publishing",
+      "uri": "2.-workspaces/g.automating-publishing.md"
+    },
+    {
+      "type": "item",
+      "title": "Branch Management",
+      "uri": "2.-workspaces/h.branch-management.md"
+    },
     {
       "type": "divider",
-      "title": "Manage User Access"
+      "title": "User Access"
      },
           {
        "type": "group",
@@ -178,36 +207,7 @@
       "title": "Manage Group Access",
       "uri": "2.-workspaces/o.group-access.md"
     },
-    {
-      "type": "divider",
-      "title": "Projects"
-    },
-    {
-      "type": "item",
-      "title": "Add Projects",
-      "uri": "2.-workspaces/b.adding-projects.md"
-    },
-        {
-      "type": "item",
-      "title": "Configure Projects",
-      "uri": "2.-workspaces/c.config.md"
-    },
-    {
-      "type": "item",
-      "title": "Work with Local Projects",
-      "uri": "2.-workspaces/f.working-with-local-projects.md"
-    },
-    {
-      "type": "item",
-      "title": "Publishing",
-      "uri": "2.-workspaces/g.automating-publishing.md"
-    },
-    {
-      "type": "item",
-      "title": "Branch Management",
-      "uri": "2.-workspaces/h.branch-management.md"
-    },
-    {
+     {
       "type": "divider",
       "title": "Design"
     },
@@ -230,6 +230,74 @@
       "type": "item",
       "title": "Working with Mock Servers",
       "uri": "3.-design/d.setting-up-a-mock-server.md"
+    },
+    {
+      "type": "divider",
+      "title": "Style Guides"
+     },
+    {
+      "type": "item",
+      "title": "Overview",
+      "uri":  "2a.-style-guides/a.style-guide-projects.md"
+    },
+    {
+      "type": "item",
+      "title": "Rule Examples",
+      "uri":  "2a.-style-guides/g-rule-examples.md"
+    },
+    {
+      "type": "item",
+      "title": "Create a Style Guide",
+      "uri": "2a.-style-guides/a1.create-style-guide.md"
+    },    
+    {
+      "type":"item",
+      "title": "Create Targets",
+      "uri":  "2a.-style-guides/b-create-targets.md"
+    },
+    {
+      "type":"item",
+      "title": "Create Rules",
+      "uri":  "2a.-style-guides/c-create-rules.md"
+    },
+    {
+      "type":"item",
+      "title": "Publish Style Guides",
+      "uri":  "2a.-style-guides/e.publish-style-guide.md"
+    },
+        {
+      "type":"item",
+      "title": "Enable Style Guides",
+      "uri":  "2a.-style-guides/d-enable-style-guide.md"
+    },
+    {
+      "type":"item",
+      "title": "Refresh Style Guides",
+      "uri":  "2a.-style-guides/f.refresh-style-guide.md"
+    },
+    {
+      "type": "divider",
+      "title": "Governance"
+    },
+    {
+      "type": "item",
+      "title": "Overview",
+      "uri": "5.-governance/a.overview.md"
+    },
+    {
+      "type": "item",
+      "title": "Get Started with API Governance",
+      "uri": "5.-governance/b.getting-started-with-api-governance.md"
+    },
+    {
+      "type": "item",
+      "title": "Exploring your API projects",
+      "uri": "5.-governance/bb.exploring-your-api-projects.md"
+    },
+    {
+      "type": "item",
+      "title": "Style Guides",
+      "uri": "5.-governance/d.style-guides.md"
     },
     {
       "type": "divider",
@@ -275,31 +343,7 @@
       "title": "Add Images",
       "uri": "4.-documentation/f.adding-images.md"
     },
-    {
-      "type": "divider",
-      "title": "Governance"
-    },
-    {
-      "type": "item",
-      "title": "Overview",
-      "uri": "5.-governance/a.overview.md"
-    },
-    {
-      "type": "item",
-      "title": "Get Started with API Governance",
-      "uri": "5.-governance/b.getting-started-with-api-governance.md"
-    },
-    {
-      "type": "item",
-      "title": "Exploring your API projects",
-      "uri": "5.-governance/bb.exploring-your-api-projects.md"
-    },
-    {
-      "type": "item",
-      "title": "Style Guides",
-      "uri": "5.-governance/d.style-guides.md"
-    },
-    {
+        {
       "type": "divider",
       "title": "Migrations"
     },
