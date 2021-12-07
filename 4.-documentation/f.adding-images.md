@@ -1,30 +1,37 @@
-# Adding Images
+# Add Images
 
-Adding images in Stoplight is now easier than ever. Add images to your project to create beautiful documentation layouts that supplement text content.
+Visual help on your documentation compliments the text on it and helps users reach their goals more quickly. Add flowcharts, infographics, or screenshots to **Getting Started guides** and **Authentication guides** to help better explain flows and use cases. 
 
-## Why add Images?
+There are two ways to add images to a project:
 
-Visual help on your documentation compliments the text on it, and gets your users to their goals faster. Add flowcharts, infographics or screenshots on pages like **Getting Started guides** and **Authentication guides** to help explain flows and use cases better. 
+- **Drag-and-drop**: This is the easiest and preferred method of adding images, which are stored in Stoplight and respect project permissions (private vs. internal).
+- **Import**: For projects connected to Git or another version control system, import files. Use this method if tracking changes to images is important to you or if the image is shared with another publishing tool.
 
-You can add multiple images within a documentation file. 
+You can add multiple images to any documentation file. Supported  image formats include: **JPEG,** **JPG**, **PNG**, and **GIF**.
 
-<!-- theme: info -->
-> 👉 **Note:** Supported  image formats include: **JPEG,** **JPG**, **PNG** and **GIF**.
+## Drag-and-drop Images
 
-## Adding Images to Projects
-
-Drag and drop an image or copy and paste an image into a markdown article to upload it. 
+1. Edit a project, and then open a documentation (.md) file in code view.
+2. Drag and drop an image or copy and paste an image.
+3. Preview the image.
 
 ![Add an Image](../assets/images/image-upload.gif)
 
-> These images are stored in Stoplight and respect project permissions (private vs. internal).
+## Import Images
+
+<!-- theme: warning -->
+> **Warning**: This option is only available for public Git repositories. Use the drag-and-drop method for adding images to projects that are not connected to public Git repositories.
+
+1. Edit a project.
+2. Select the **Add** icon at the top of the left panel, and then select **Import File**.
+3. Navigate to and import an image file. If they do not already exist, an `assets\images` directory is added to your **Files** tab, and the image is imported into that.
+4. Reference the image in a Markdown file. (For easy linking, right-click on an image in the assets/images tab, and then select **Copy Relative Path**.)
+
+    `![Image Example](assets/images/style-guides-paths-target.png)`
 
 ## Customize Images
 
 To customize images, such as adding backgrounds, captions or focus, check out [images in Stoplight Flavored Markdown](https://meta.stoplight.io/docs/studio/ZG9jOjg0-stoplight-flavored-markdown-smd).
-
-**Splendid! Your documentation now contains images. Your users are gonna love it 👏**
-
 
 ## What's Next?
 

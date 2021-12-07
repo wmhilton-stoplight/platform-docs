@@ -31,7 +31,7 @@ Once sent, your invitations are set to pending and your team members are sent an
 
 ## Allow Access by Email Domain
 
-The fastest way to onboard your teammates is by configuring an [Allowed email domain](./allowed-email-domains.md) and sending them a link to your workspace. This enables them to join your workspace without an invitation.
+The fastest way to onboard your teammates is by configuring an [approved email domain](./allowed-email-domains.md) and sending them a link to your workspace. This enables them to join your workspace without an invitation.
 
 1. From the workspace home page, select **Settings**.
 2. In the **Approved Domains** section, select **Add**.

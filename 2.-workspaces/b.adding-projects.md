@@ -11,7 +11,7 @@ Stoplight processes these assets in projects:
 - API description documents in OpenAPI (versions 3.1, 3.0, and 2.0) and JSON Schema.
 - Style guides 
 - Markdown articles
-- Images
+- Images (**JPEG,** **JPG**, **PNG** and **GIF** formats supported)
 
 Different types of projects will contain different combinations. Here are a few ways projects might be used:
 

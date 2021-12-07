@@ -9,14 +9,13 @@ Below you will find answers to commonly encountered questions.
 Below are a few common reasons why APIs/models/articles may not show up in the
 documentation for a Stoplight project.
 
-### Is there a `.stoplight.json` configuration file present in your repo?
+### Is there a Stoplight Config file present in your repo?
 
-The `.stoplight.json` (or `.stoplight.yaml`) file can be used to include or
-exclude paths in your repository from being exposed in the documentation. Double
-check the project configuration to make sure the file you are looking for have
+Use the **Stoplight Config** (`.stoplight.json`) file to include or
+exclude paths in your repository from being exposed in the documentation. Verify the project configuration to make sure the file you are looking for has
 not been excluded (or the file is in the include path).
 
-For more information on this feature, see [here](./2.-workspaces/c.config.md).
+For more information on this feature, see [Project Configuration](./2.-workspaces/c.config.md).
 
 ### Is there a `toc.json` file present in your repo?
 
