@@ -103,9 +103,9 @@ We aim to support the following browsers and minimum versions.
 
 |               | Chrome | Safari        | Firefox | Edge          |
 | ------------- | ------ | ------------- | ------- | ------------- |
-| Documentation | 68     | 12            | 60      | 18            |
-| Platform      | 68     | 12            | 60      | Not Supported |
-| Studio        | 75     | Not Supported | 68      | Not Supported |
+| Documentation | 90     | 14            | 91      | 95            |
+| Platform      | 90     | 14            | 91      | 95 |
+| Studio        | 90     | Not Supported | 91      | Not Supported |
 
 Things may work outside of these browsers and these versions, but there might be unexpected problems as we won't be testing those environments.
 
