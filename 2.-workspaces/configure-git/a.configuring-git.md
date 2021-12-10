@@ -14,8 +14,6 @@ We support the following Git providers.
 
 - <i class="Icon fab fa-gitlab fa-2x" style="color: rgb(252, 109, 38);"> </i> GitLab
 
-- <i class="Icon fab fa-git-square fa-2x" style="color: rgb(90, 165, 9);"> </i> Gitea
-
 - <i class="Icon fab fa-microsoft fa-2x" style="color: rgb(32, 80, 129);"> </i> Azure Devops
 
 If you don't see the Git Provider you're looking for, take a look at our [roadmap](https://roadmap.stoplight.io/) to keep an eye on what's coming next. You can also use [Stoplight CLI](../f.working-with-local-projects.md) to push projects to Stoplight Platform.
@@ -30,11 +28,9 @@ Cloud-hosted Git providers are configured out of the box in Stoplight. The follo
 
 - <i class="Icon fab fa-gitlab fa-2x" style="color: rgb(252, 109, 38);"> </i> GitLab
 
-1. Install your desired Git provider from the integrations section in your workspace settings. 
-
-![Install integrations from Workspace Settings > Integrations](../../assets/images/git_integrations.png)
-
-2. Select **Use Default Configuration** and click **Install**. 
+1. Select **Settings** from the workspace home page.
+2. From the **Integrations** section, select **Add** next to your preferred Git provider.
+3. Select **Use Default Configuration,** and the select **Save**. 
 
 If you have a self-hosted deployment or are looking for custom integration settings, use the guides below.
 
@@ -48,6 +44,5 @@ Configure your Git Provider using the guides below:
 - [Bitbucket Server](c.bitbucket-server.md)
 - [GitHub Enterprise](d.github-enterprise.md)
 - [GitLab](e.gitlab.md)
-- [Gitea](f.gitea.md)
 
 > If your self hosted Git provider is behind a firewall, please [add our IPs to your allowlist](../../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider) on port 443 over HTTPS. 

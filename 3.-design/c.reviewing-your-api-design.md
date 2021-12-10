@@ -81,7 +81,6 @@ When you're done making changes, [commit them, then push](https://meta.stoplight
 How you create a pull request depends on where the project's repository is hosted:
 
 - **BitBucket:** [Create a Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
-- **Gitea:** [Create a Pull Request](https://docs.gitea.io/en-us/pull-request/)
 - **GitHub:** [Create a Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 - **GitLab:** [Create a Merge Request](https://docs.gitlab.com/ee/user/project/merge_requests/)
 

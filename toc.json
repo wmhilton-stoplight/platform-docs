@@ -68,11 +68,6 @@
           "type": "item",
           "title": "GitLab",
           "uri": "2.-workspaces/configure-git/e.gitlab.md"
-        },
-        {
-          "type": "item",
-          "title": "Gitea",
-          "uri": "2.-workspaces/configure-git/f.gitea.md"
         }
       ]
     },

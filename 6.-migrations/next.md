@@ -128,7 +128,6 @@ Currently Stoplight Platform supports the following Auth providers:
 - Bitbucket Server
 - GitHub
 - GitLab
-- Gitea
 - Azure Devops
 
 For more information on how this all works, read our [Single Sign-on Documentation](../2.-workspaces/e.configuring-authentication.md).

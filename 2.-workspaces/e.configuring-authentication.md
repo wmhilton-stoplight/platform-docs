@@ -18,7 +18,6 @@ We support the following Auth/Single Sign-On (SSO) providers:
 - Bitbucket Server
 - GitHub
 - GitLab
-- Gitea
 - Azure Devops
 
 Stoplight currently supports multiple SAML integrations when  authentication starts from Stoplight. Only one integration where authentication starts from an identity provider (IDP) is supported per workspace. When you have multiple SAML integrations configured, you can specify which of these will serve as your IDP integration.
