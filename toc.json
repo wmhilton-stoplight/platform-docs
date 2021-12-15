@@ -147,6 +147,11 @@
       "title": "Add Projects",
       "uri": "2.-workspaces/b.adding-projects.md"
     },
+    { 
+      "type": "item",
+      "title": "Work with Files",
+      "uri": "7.-projects/working-with-files.md"
+    },
         {
       "type": "item",
       "title": "Configure Projects",
