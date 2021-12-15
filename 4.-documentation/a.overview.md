@@ -26,13 +26,14 @@ Your developer experience must cater to both kinds of consumers. You want them t
 
 #### API Reference
 
-An accurate, up-to-date, and detailed API reference is one of the essential pieces of your developer experience. An API reference contains:
+An accurate, up-to-date, and detailed API reference is one of the essential pieces of your developer experience. 
 
-- Authentication information
-- Endpoint descriptions, parameters, and responses
-- Example requests and responses
-- Models
-- Error messages
+API reference documentation has a couple of simple goals:
+
+- Help developers understand what’s possible with your API
+- Show developers how to move from documentation to code
+
+This documentation focuses on all the endpoints (a.k.a "operations") available in an API, and helps explain potential input and output values that can be in requests and responses. Some API reference documentation will just show an example, but it's more useful to expand upon that and explain not just what those values mean, but what other values could also be valid in various contexts.
 
 _Learn more about [API reference documentation with Stoplight](./b.types-of-documentation.md)._
 
@@ -57,7 +58,7 @@ Novice developers and non-technical users get up to speed faster by experimentin
 
 #### Code Samples
 
-Stack Overflow is a developer's best friend for a reason. Most developers want to jump right into code, so providing them with ready to use samples in their language can lead to happy developers saying wonderful things about you and your API. This also helps avoid mistakes novice developers can make consuming your API - Happy and smaller support teams ;)
+Stack Overflow is a developer's best friend for a reason. Most developers want to jump right into code, so providing them with ready to use samples in their language can lead to happy developers saying wonderful things about you and your API. This also helps avoid mistakes novice developers can make consuming your API. 
 <!--
 type: tab
 title: Python
