@@ -18,7 +18,10 @@ Style guides contain rules that help you govern versioning, filtering, error for
 
 Once you apply style guides, you'll receive immediate feedback in the **Validation List** if your API designs do not comply. 
 
-![Style Guide Feedback](../assets/images/style-guide-feedback.png)
+<!-- focus: center -->
+
+![style-guide-feedback.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/FtYY1iwFkkI)
+
 
 See our [rule examples](g-rule-examples.md) to get started.
 

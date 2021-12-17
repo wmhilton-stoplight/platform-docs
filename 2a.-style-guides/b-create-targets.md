@@ -23,11 +23,12 @@ To create a target:
     - Add a JSON path to targeta specific area of an API specification.
 
 ## Target Example
-To enforce rules on tags, create an OAS3.1 target with this JSON path:
+To enforce rules on paths, create an OAS3.1 target with this JSON path:
 
-`$.tags[*]`
+`$.paths.*`
 
-![Style guide target example](../assets/images/style-guide-target-example.png) 
+![style-guide-paths-target.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/IfZMdlRQr0A)
+
 
 [What's Next: Create Rules](c-create-rules.md)
 
