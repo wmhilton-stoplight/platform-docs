@@ -4,6 +4,16 @@ Below you will find answers to commonly encountered questions.
 
 > If you are having trouble and cannot find a suitable answer, don't hesitate to [let us know](mailto:support@stoplight.io).
 
+## Why is "Try It" returning network errors?
+
+Try these solutions:
+
+1. Verify that your computer is connected to the internet.
+
+2. Make sure the API is running and available under the specified URL.
+
+3. If you've checked all of the above and still experiencing issues, check if the API supports [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). Requests from browsers will be blocked for APIs that do not have appropriate CORS headers set up for *.//stoplight.io.
+
 ## Why are files missing from my project documentation?
 
 Below are a few common reasons why APIs/models/articles may not show up in the
@@ -33,32 +43,33 @@ For more information on this feature, see
 ### Is the branch you are on published in the project settings?
 
 Verify that the branch you are pushing your updates to is published and
-available. The published and available branches can be found under the project
-Settings tab.
+listed. The published and available branches can be found under the project
+**Settings** page.
 
-![Branch Overview](assets/images/branches_overview.png)
+![Branch Overview](assets/images/branches-overview.png)
 
-For more information on how to manage, expose, and re-label branches, see here.
+For more information on how to manage, expose, and re-label branches, see [Branch Management](2.-workspaces/h.branch-management.md).
 
-### If all else fails, check the "Automation" tab
+### If all else fails, check the Automation tab
 
-If your project is connected to a Git repository, there is an "Automation" tab
-available in the project settings which should provide more information on what
+If your project is connected to a Git repository, use the **Automation** tab
+in the project **Settings ** page which should provide more information on what
 events were received and if they were successfully published.
 
-![Automation Tab](assets/images/automation_tab.png)
+![Automation Tab](assets/images/automation-tab.png)
 
-When reviewing the Automation tab, ask yourself if your recent pushes to the
-repository are showing up. If not, it may point to an issue with the webhook
+When reviewing the **Automation** tab, verify that recent pushes to the
+repository are listed. If not, it may point to an issue with the webhook
 configuration. Try re-installing the webhook to resolve.
 
 Errors will be highlighted in red. Pending tasks are highlighted in purple. 
 
 > If you are seeing errors or other issues, don't hesitate to reach out to
-[support@stoplight.io](mailto:support@stoplight.io) to investigate further.
+>[support@stoplight.io](mailto:support@stoplight.io) to investigate further.
+
 ## Why is there an "Others" section in the sidebar?
 
-If you're seeing an "Others" section in the sidebar of your project documentation...
+If you're seeing an "Others" section in the sidebar of your project documentation:
 
 ![Others](assets/images/others_missing_tag.png)
 

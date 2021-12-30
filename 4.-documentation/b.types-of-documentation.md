@@ -99,7 +99,7 @@ Use tutorials to expand on specific use cases.
 For example, pagination may not be fully covered in your API Reference Documentation. A tutorial for how pagination works for your API is a great place to explain why you chose your specific pagination approach [of the many that exist](https://www.citusdata.com/blog/2016/03/30/five-ways-to-paginate/), and explain how your users should interact with it. E.g.: [Slack](https://api.slack.com/docs/pagination) and [Stripe](https://stripe.com/docs/api/pagination).
 
 ### Troubleshooting Guides
-Explain how your [error objects](https://apisyouwonthate.com/blog/creating-good-api-errors-in-rest-graphql-and-grpc/) work, what common status codes mean so you don't need to document 500, 501, 502 on every single operation, and any other useful information that can help users troubleshoot your API. 
+Explain how your [error objects](https://apisyouwonthate.com/blog/useful-api-errors-for-rest-graphql-and-grpc) work, what common status codes mean so you don't need to document 500, 501, 502 on every single operation, and any other useful information that can help users troubleshoot your API. 
 
 Check out our quick-start guide on [creating Documentation with Studio](https://meta.stoplight.io/docs/studio/docs/Documentation/01-getting-started.md).
 

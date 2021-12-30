@@ -25,7 +25,8 @@ Joining groups and their projects populates your sidebar. Making public groups w
 ![amazin_stop_small.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/9sSyrT8ZVYM)
 
 ## Moving Projects
-There are a couple ways to move projects into a group.
+
+Project owners can move projects in and out of groups they own. Workspace owners can also move projects in and out of groups.
 
 **Option 1: Move a Single Project to a Group from the Projects List**
 

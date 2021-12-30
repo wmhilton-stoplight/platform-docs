@@ -21,6 +21,7 @@ Similar to [Project visibility](l.project-roles.md), Group visibility defines wh
 | Change members role             |        |        | ✅     | ✅     |
 | Change group visibility         |        |        | ✅     | ✅     |
 | Remove projects                 |        |        | ✅     | ✅     |
+| Move projects in and out of groups |     |        |       | ✅     |
 | Transfer ownership of the group |        |        |       | ✅     |
 | Delete the group                |        |        |       | ✅     |
 

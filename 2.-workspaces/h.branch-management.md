@@ -72,7 +72,7 @@ git push origin master:main
 
 2. Now we have two probably identical branches. Pop over to your project settings to change it.
 
-![Under Project Settings the Branches section has a Default Branch dropdown](../assets/images/branches_overview.png)
+![Under Project Settings the Branches section has a Default Branch dropdown](../assets/images/branches-overview.png)
 
 3. Change the default branch using the dropdown, and you should see a message letting you know the default branch was updated successfully.
 
