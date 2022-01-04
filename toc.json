@@ -21,7 +21,7 @@
     },
     {
       "type": "item",
-      "title": "Create a workspace",
+      "title": "Create a Workspace",
       "uri": "2.-workspaces/a.creating-a-workspace.md"
     },
     {
@@ -37,6 +37,16 @@
       "type": "item",
       "title": "Custom Domains",
       "uri": "2.-workspaces/j.custom-domains.md"
+        },
+        {
+      "type": "item",
+      "title": "Activity Logs",
+      "uri": "2.-workspaces/n.activity-logs.md"
+        },
+        {
+      "type": "item",
+      "title": "Billing",
+      "uri": "2.-workspaces/billing.md"
         }
       ]
     },
@@ -128,17 +138,38 @@
         }
       ]
     },
-    {
-      "type": "item",
-      "title": "Activity Logs",
-      "uri": "2.-workspaces/n.activity-logs.md"
-    },
-    {
-      "type": "item",
-      "title": "Billing",
-      "uri": "2.-workspaces/billing.md"
-    },
-       {
+      {
+      "type": "group",
+      "title": "Explore Projects",
+      "items": [
+         {
+            "type": "item",
+            "title": "Overview",
+            "uri": "explorer/overview.md"
+          },
+         {
+            "type": "item",
+            "title": "Search and Filter",
+            "uri": "explorer/search-and-filter.md"
+          },
+         {
+            "type": "item",
+            "title": "Set Favorite Nodes",
+            "uri": "explorer/set-favorite-nodes.md"
+         },
+         {
+            "type": "item",
+            "title": "Track Dependencies",
+            "uri": "explorer/track-dependencies.md"
+         },
+         {
+            "type": "item",
+            "title": "View Changelogs",
+            "uri": "explorer/view-changelogs.md"
+         }
+        ]
+      },
+     {
       "type": "divider",
       "title": "Projects"
     },
@@ -221,7 +252,7 @@
       "title": "Start a new API design",
       "uri": "3.-design/b.starting-a-new-api-design.md"
     },
-    {
+      {
       "type": "item",
       "title": "Review API Designs",
       "uri": "3.-design/c.reviewing-your-api-design.md"
@@ -275,7 +306,7 @@
       "title": "Refresh Style Guides",
       "uri":  "2a.-style-guides/f.refresh-style-guide.md"
     },
-    {
+        {
       "type": "divider",
       "title": "Governance"
     },
@@ -291,15 +322,10 @@
     },
     {
       "type": "item",
-      "title": "Exploring your API projects",
-      "uri": "5.-governance/bb.exploring-your-api-projects.md"
-    },
-    {
-      "type": "item",
       "title": "Style Guides",
       "uri": "5.-governance/d.style-guides.md"
     },
-    {
+        {
       "type": "divider",
       "title": "Documentation"
     },
@@ -317,11 +343,6 @@
       "type": "item",
       "title": "Quality API Reference Documentation",
       "uri": "4.-documentation/c.quality-api-reference-docs.md"
-    },
-    {
-      "type": "item",
-      "title": "Customize the Sidebar",
-      "uri": "4.-documentation/d.table-of-contents.md"
     },
     {
       "type": "item",
@@ -343,7 +364,7 @@
       "title": "Add Images",
       "uri": "4.-documentation/f.adding-images.md"
     },
-        {
+    {  
       "type": "divider",
       "title": "Migrations"
     },

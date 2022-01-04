@@ -35,7 +35,7 @@ With your inventory of APIs ready, you can start gauging the current status of y
 - Security policies being used 
 - Changelogs for different versions of APIs and Schemas 
 
-We recommend sharing this information with stakeholders using the Explorer. This information would come in handy in making governance decisions. Learn more about exploring your API landscape [here](bb.exploring-your-api-projects.md)
+We recommend sharing this information with stakeholders using the Explorer. This information would come in handy in making governance decisions. Learn more about [exploring your API landscape](../explorer/overview.md).
 
 #### Engage Stakeholders
 
