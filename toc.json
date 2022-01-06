@@ -189,16 +189,32 @@
       "uri": "2.-workspaces/c.config.md"
     },
     {
-      "type": "item",
-      "title": "Work with Local Projects",
-      "uri": "2.-workspaces/f.working-with-local-projects.md"
-    },
-    {
-      "type": "item",
-      "title": "Publishing",
-      "uri": "2.-workspaces/g.automating-publishing.md"
-    },
-    {
+       "type": "group",
+       "title": "Publishing",
+       "items": [
+           {
+            "type": "item",
+            "title": "Overview",
+            "uri": "2.-workspaces/g.automating-publishing.md"
+           },
+           {
+            "type": "item",
+            "title": "Git Projects",
+            "uri": "7.-projects/publishing-git-projects.md"
+           },
+            {
+            "type": "item",
+            "title": "Stoplight Projects",
+            "uri": "7.-projects/publishing-stoplight-projects.md"
+           },            
+           {
+            "type": "item",
+            "title": "Stoplight CLI",
+            "uri": "2.-workspaces/f.working-with-local-projects.md"
+           }
+       ]
+     },
+     {
       "type": "item",
       "title": "Branch Management",
       "uri": "2.-workspaces/h.branch-management.md"

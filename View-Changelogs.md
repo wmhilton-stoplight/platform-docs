@@ -1,3 +1,0 @@
-# View Changelogs
-
-The beginning of an awesome article...

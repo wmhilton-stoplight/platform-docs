@@ -86,6 +86,7 @@ To add projects from Git:
 2. Select an option under **Git Project**.
 3. Select  **Connect**. Follow the instructions on the popup screen to authorize.
 4. Upon successful authentication, choose your organization, and then select the repositories you want to import.
+5. The **Install Webhooks** option is selected by default. This enables automatic publishing from your project when changes are pushed to the repository. Clear this option to disable automatic publishing. See [Publishing Git Projects](../7.-projects/publishing-git-projects.md) for details. 
 5. Next, select **Add Git Project**.
 
 Once the project is created and the anaylzer has completed, it will contain Markdown articles and API descriptions that are stored in the Git repository. Use [Stoplight Studio](../3.-design/a.overview.md) to modify these files.
