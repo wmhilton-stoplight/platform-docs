@@ -1,11 +1,10 @@
 # Groups
 
-Groups allow you to organize projects in your sidebar and grant project access to users in bulk.
 
 <!-- theme: info -->
 > This feature is available on the Stoplight **Professional** and **Enterprise** plans.
 
-## Creating Groups
+## Create Groups
 
 https://www.youtube.com/watch?v=d5e5Ac-6_U4
 
@@ -16,17 +15,16 @@ https://www.youtube.com/watch?v=d5e5Ac-6_U4
 
 ## Project Organization
 
-Joining groups and their projects populates your sidebar. Making public groups with public projects adds the same helpful nested structure to your external docs too.
+To add groups to your workspace sidebar, pin one or more of the projects in the group. See [Workspace Sidebar](../4.-documentation/Sidebar/a.workspace-sidebar.md).
 
-<!-- theme: success -->
-> Discover [how to populate your sidebar](../4.-documentation/Sidebar/a.customize-sidebar.md) and pin your favorite projects.
+Making public groups with public projects also adds the same helpful nested structure to your external docs. 
 
 <!-- focus: center -->
 ![amazin_stop_small.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/9sSyrT8ZVYM)
 
 ## Moving Projects
 
-Project owners can move projects in and out of groups they own. Workspace owners can also move projects in and out of groups.
+Project owners can move invididual projects in and out of groups they own. Workspace owners can any project in and out of groups and can do so in bulk.
 
 **Option 1: Move a Single Project to a Group from the Projects List**
 
