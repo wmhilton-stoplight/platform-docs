@@ -40,9 +40,11 @@ The fastest way to onboard your teammates is by configuring an [approved email d
 
 To change the default role or remove the domain, select the arrow to the right of the domain.
 
-### Approve Join Requests
+## Approve Join Requests
 
-If users register for your workspace with an email address that does not match your domain, they are not added. You can manually approve join requests for these users from the **Members Settings** page.
+You must approve join requests when users want to join your workspace. If you allow access by email domain, you must approve join requests for users who register for your workspace with an email address that does not match your domain.
+
+Workspace owners and administrators are notified by email when users try to join their workspace. Click the link in the email to approve requests. You can also manually approve join requests from the **Members Settings** page.
 
 1. From the workspace home page, select **Members**. 
 2. Select members with a role of "pending."
@@ -50,7 +52,8 @@ If users register for your workspace with an email address that does not match y
 4. Select the role for the users.
 5. Select **Approve**.
 
-![Approve Requests](../assets/images/approve-requests.png)
+![approve-requests.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/eUIWFYsOXOU)
+
 
 ## Manage Workspace Access
 
