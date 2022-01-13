@@ -63,6 +63,7 @@ Permissions for each project role:
 | Edit in Studio            | ✅     | ✅     | ✅      |        |         |
 | Track branches            | ✅     | ✅     | ✅      |        |         |
 | View settings             | ✅     | ✅     | ✅      |        |        |
+| Enable style guides       | ✅     | ✅     | ✅    |        |        |
 | Edit settings             | ✅     | ✅     |        |        |        |
 | Remove members            | ✅     | ✅     |        |        |        |
 | Remove project            | ✅     |       |        |        |        |

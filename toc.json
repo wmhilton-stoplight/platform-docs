@@ -297,7 +297,12 @@
       "title": "Rule Examples",
       "uri":  "2a.-style-guides/g-rule-examples.md"
     },
-    {
+    { 
+      "type":"group",
+      "title": "Create Style Guides",
+       "items": 
+    [
+         {
       "type": "item",
       "title": "Create a Style Guide",
       "uri": "2a.-style-guides/a1.create-style-guide.md"
@@ -313,6 +318,13 @@
       "uri":  "2a.-style-guides/c-create-rules.md"
     },
     {
+      "type":"item",
+      "title": "Create Custom Functions",
+      "uri":  "2a.-style-guides/h-create-custom-functions.md"
+    }
+    ]
+    },
+       {
       "type":"item",
       "title": "Publish Style Guides",
       "uri":  "2a.-style-guides/e.publish-style-guide.md"

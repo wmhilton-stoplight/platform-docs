@@ -7,12 +7,12 @@
 You can enable style guides in any API project. Once you add style guides, you can:
 
 - Disable inherited rules
-- Create local targets
-- Create local rules
+- Create local targets, custom functions, and rules
+- Use inherited targets and custom functions in new rules
 
 To enable a style guide:
 
-1. Edit a project.
+1. Edit an API project.
 2. Select the **Styles** tab in the left pane.
 3. On the Overview pane, select **+ Add/Edit** from the **Enabled Style Guides** page. 
 4. In the **Style Guides** dialog box, select one or more style guides, and then select **Save**.

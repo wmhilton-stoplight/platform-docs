@@ -6,23 +6,25 @@
 
 See our [rule examples](g-rule-examples.md) to get started.
 
+## Add a Rule
+
 To create a rule:
 
-1. Open a style guide project. 
+1. Edit a style guide project. 
 2. In the **Rules** area of the left pane, select the plus icon next to Local to open the **Rules** editor in the right pane.
 3. Configure the three main rule areas:
-    - [**Rule Settings**](#Rule-Settings)
-    - [**Given**](#Given-Settings) 
-    - [**Then**](#Then-Settings)
+    - [Rule Settings](#Rule-Settings)
+    - [Given](#Given-Settings)
+    - [Then](#Then-Settings)
 
-## Rule Settings
+### Rule Settings
 
 Set severity, name, message returned in validation, and the description for documenting the rule.
 
 - **Rule severity**
-
-   Options are error, warning, information, and hint. When applied to an API project, the severity levels appear in the **API Design** editor. You can also choose to disable a rule.
+   Options are error, warning, information, and hint. When applied to an API project, the severity levels appear in the **API Design** editor. 
    ![Rule severity icons](../assets/images/rule-severity-indicators.png)
+   You can also choose to disable a rule.
 
 - **Name**
 
@@ -58,7 +60,7 @@ Set the area of the API specification the rule applies to.
 
 ### Then Settings
 
-Set the function that will evaluate your API design content. You can use Spotlight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions) or create your own. (For early access, use the provided core functions.)
+Set the function that will evaluate your API design content. You can use Spotlight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions) or [create your own](h-create-custom-functions.md). 
 
 [What's Next: Publish Style Guide](e.publish-style-guide.md)
 
