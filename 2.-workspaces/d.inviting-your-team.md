@@ -12,8 +12,8 @@ Once your workspace is set up, you can invite your colleagues and partners.
 
 There are two types of workspace users:
 
-- **Members**: Roles can range from viewers to owners. Members are typically stakeholders in your organization. Depending on their role, these are typically can collaborate on API design, view documentation, and access mock servers. 
-- **Guests**: Restricted to view documentation for projects they've been invited to. These users are typically people outside your company or organization, such as partners, who require authenticated access to the documentation.
+- **Members**: Roles can range from viewers to owners. Members are stakeholders in your organization. Depending on their role, members collaborate on API design, view documentation, and access mock servers. 
+- **Guests**: Restricted to viewing documentation for projects they've been invited to. These users are people outside your company or organization, such as partners, who require authenticated access to the documentation.
 
 Learn more about [Workspace Roles](k.workspace-roles.md).
 
