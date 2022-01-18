@@ -38,7 +38,7 @@ If you have a self-hosted deployment or are looking for custom integration setti
 <!-- theme: warning -->
 > This feature is available on the **Pro** plan and above
 
-Configure your Git Provider using the guides below:
+Configure your Git provider using the guides below:
 
 - [Bitbucket Cloud](b.bitbucket-cloud.md)
 - [Bitbucket Server](c.bitbucket-server.md)

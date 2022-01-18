@@ -83,6 +83,11 @@
           "type": "item",
           "title": "GitLab",
           "uri": "2.-workspaces/configure-git/e.gitlab.md"
+        },
+        {
+          "type": "item",
+          "title": "Troubleshoot Git",
+          "uri": "2.-workspaces/configure-git/f-troubleshoot-git.md"
         }
       ]
     },

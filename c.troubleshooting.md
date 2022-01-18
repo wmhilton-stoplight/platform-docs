@@ -53,7 +53,7 @@ For more information on how to manage, expose, and re-label branches, see [Branc
 ### If all else fails, check the Automation tab
 
 If your project is connected to a Git repository, use the **Automation** tab
-in the project **Settings ** page which should provide more information on what
+in the project **Settings** page which should provide more information on what
 events were received and if they were successfully published.
 
 ![Automation Tab](assets/images/automation-tab.png)

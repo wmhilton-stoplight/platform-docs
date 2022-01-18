@@ -1,34 +1,40 @@
 # GitLab
 
-> This feature is available on the Stoplight **Pro** plan, and above
+> This feature is available on the Stoplight **Pro** plan and above.
 
-Configure your GitLab integration by following the instructions below:
+Configure your GitLab integration by following these instructions.
 
-**GitLab**
+## GitLab Setup
 
-1. To add a new application via your profile, navigate to **Profile Settings > Applications** and select **New Application**.
-2. In the application form, enter a Name e.g `Stoplight Integration`, and set the Redirect URI as: `https://stoplight.io/oauth/callback`. Click **Submit**.
+1. Verify that [HTTP/HTTPS access is enabled](https://docs.gitlab.com/ee/user/admin_area/settings/visibility_and_access_controls.html#configure-enabled-git-access-protocols) in Gitlab.
+2. Navigate to **Profile Settings > Edit Profile> Applications** to add a new application via your profile.
+3. Add the following information on the **New Application** form:
+   * **Name**: Enter a Name (e.g `Stoplight Integration`).
+   * **Redirect URI**: Set as `https://stoplight.io/oauth/callback`.
+   * **Expire access token**: Clear this checkbox.
+   * **Scopes**: Select `api`.
+4. Select **Save application**.
 
-**Stoplight Workspace**
-
-3. Navigate to the Integrations section in your Stoplight workspace settings. 
-4. Click **Install/Configure** beside GitLab. Select **Customize integration settings**. 
-5. Add the following information:
- - **Host URL**: This is the URL where your instance of GitLab is hosted.
- - **API URL**: This is the URL of the API of your instance of GitLab. This is usually: `{HostURL}/api/v4`
- - **Client ID:** You can find this as `Application ID` under the application settings for the newly created app. 
- - **Client Secret**: You can find this as `Secret` under the application settings for the newly created app. 
-6. Click **Install**. 
-
-If successful, [add projects](../b.adding-projects.md) to start working with projects from your GitLab instance.
-
-If you receive an error verify the following and try again:
-
-- Client ID and Client Secret are correct
-- Host and API URL is correct
+![GitLab Setup](https://stoplight.io/api/v1/projects/cHJqOjI/images/vAVNMM9zwOg)
 
 Read more about [creating a GitLab OAuth App](https://docs.gitlab.com/ee/integration/oauth_provider.html#adding-an-application-through-the-profile).
 
-If connected behind a firewall verify the following:
+## Stoplight Setup
 
-Stoplight's IP addresses are added to your [allowlist](../../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider) on port 443. 
+1. Select **Settings** from the workspace home page, then navigate to the **Integrations** section.
+2. Select **Add** for GitLab.
+3. Select **Customize integration settings**, and then add the following information:
+   - **Host URL**: This is the URL where your instance of GitLab is hosted.
+   - **API URL**: This is the URL of the API of your instance of GitLab. This is usually: `{HostURL}/api/v4`
+   - **Client ID:** This ss `Application ID` under the application settings for the app you created in GitLab.
+   - **Client Secret**: You can find this as `Secret` under the application settings for the newly created app.
+4. Test your settings.
+5. Select **Save**.
+
+![Stoplight GitLab Settings](https://stoplight.io/api/v1/projects/cHJqOjI/images/plEmHRzDhWM)
+
+If successful, [add projects](../b.adding-projects.md) to start working with projects from your GitLab instance.
+
+## Troubleshooting
+
+See [Troubleshoot Git](f-troubleshoot-git.md) for guidance on resolving connection issues.
