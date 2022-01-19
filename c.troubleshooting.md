@@ -84,13 +84,7 @@ You can find more information on the default order of the project sidebar (as we
 
 ## How do I export a file from Stoplight?
 
-If you need to retrieve a file published in Stoplight, the quickest way to do so is using the **Export** buttons found in both Explorer and your project documentation.
-
-***Exporting using Explorer***
-![Export through Explorer](assets/images/export_explorer.png)
-
-***Exporting within Studio***
-![Export through Studio](assets/images/export_studio.png)
+If you need to retrieve a file published in Stoplight, see [Export Files](7.-projects/export-api-file.md). 
 
 ### What are the differences between Original, Bundled, Dereferenced.
 1. Original - is the raw file keeping the $refs

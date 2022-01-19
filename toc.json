@@ -229,6 +229,11 @@
       "title": "Branch Management",
       "uri": "2.-workspaces/h.branch-management.md"
     },
+         {
+      "type": "item",
+      "title": "Export Files",
+      "uri": "7.-projects/export-api-file.md"
+    },
     {
       "type": "divider",
       "title": "User Access"
