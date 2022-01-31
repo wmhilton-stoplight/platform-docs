@@ -27,7 +27,7 @@ There are two types of branches shown in the versions dropdown:
 - **Published branches** (called "Versions") are viewable to everyone including Guest and Viewer roles.
 - **Unpublished branches** are only viewable to users with direct access to the project.
 
-One use-case for unpublished branches is checking how documentation looks in a Pull Request before merging it. If you do [API Design Reviews](../3.-design/c.reviewing-your-api-design.md), unpublished branches would be part of that process.
+One use-case for unpublished branches is checking how documentation looks in a Pull Request before merging it. If you do [API Design Reviews](https://meta.stoplight.io/docs/api-best-practices/ZG9jOjM2NTQ2Mjk1-review-api-designs), unpublished branches would be part of that process.
 
 If you don't like the branch names as they're displayed, you can give them a display name within Stoplight.
 

@@ -2,7 +2,7 @@
 tags: [Governance]
 ---
 
-## Style Guides
+## Legacy Style Guides
 
 Ask 100 developers where a semicolon should go, and you'll either get 100 answers or an all-on-all fistfight. To save this from happening most API teams that grow beyond a handful will implement a style guide.
 

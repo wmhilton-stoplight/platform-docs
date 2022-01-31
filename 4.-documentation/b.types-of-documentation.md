@@ -12,13 +12,13 @@ With Stoplight, you can easily deliver:
 - Quick Start Guides
 - How-to Tutorials
 
-Stoplight documentation also provides API consoles and automatic sample code. Learn more in the [Documentation Overview](a.overview.md). 
+Stoplight documentation also provides API consoles and automatic sample code. 
 
 ## API Reference
 
 Stoplight automatically generates API reference documentation from your API descriptions. After you publish a project with an OpenAPI document, API reference documentation becomes available. By reusing request and response examples that exist or creating examples from default and example property values, you can automatically create high-quality API reference documentation.
 
-> If you don't already have an API description, get started by [creating a new API design](../3.-design/b.starting-a-new-api-design.md) or converting some other machine-readable formats like RAML, HAL, or Postman, to OpenAPI with [Apimatic Transformer](https://www.apimatic.io/transformer/).
+> If you don't already have an API description, get started by creating a new API design or converting some other machine-readable formats like RAML, HAL, or Postman, to OpenAPI with [Apimatic Transformer](https://www.apimatic.io/transformer/).
 
 Stoplight API reference documentation includes:
 
@@ -26,7 +26,7 @@ Stoplight API reference documentation includes:
 - **Endpoints**: Paths, descriptions, parameters, responses, examples, and error messages.
 - **Models**: Schemas and examples. 
 
-See [Quality API Reference Docs](c.quality-api-reference-docs.md) for guidance.
+See [Quality API Reference Docs](https://meta.stoplight.io/docs/api-best-practices/ZG9jOjM2NTM5Nzc1-quality-api-reference-documentation) for guidance.
 
 ### API Overview
 
@@ -101,6 +101,6 @@ For example, pagination may not be fully covered in your API Reference Documenta
 ### Troubleshooting Guides
 Explain how your [error objects](https://apisyouwonthate.com/blog/useful-api-errors-for-rest-graphql-and-grpc) work, what common status codes mean so you don't need to document 500, 501, 502 on every single operation, and any other useful information that can help users troubleshoot your API. 
 
-Check out our quick-start guide on [creating Documentation with Studio](https://meta.stoplight.io/docs/studio/docs/Documentation/01-getting-started.md).
+
 
 

@@ -56,7 +56,7 @@ Stoplight projects offer realtime collaboration. Data is stored in Stoplight. A 
 2. From the **Add a Project** page, select **Create Blank Project**.
 3. Provide a name for your project, and then set the [project visibility](l.project-roles.md). 
 4. Select **Create Project**.
-5. Select **Edit** to design your API with [Stoplight Studio](../3.-design/a.overview.md).
+5. Select **Edit** to design your API with Stoplight Studio.
 
 ### Import an OpenAPI File
 
@@ -65,7 +65,7 @@ Stoplight projects offer realtime collaboration. Data is stored in Stoplight. A 
 3. Provide a name for your project, and then set the [project visibility](l.project-roles.md). 
 4. Select **Create Project & Import File**.
 5. Select the OpenAPI file to import, and then select **Import**.
-6. Use [Stoplight Studio](../3.-design/a.overview.md) to update the API.
+6. Use Stoplight Studio to update the API.
 
 ## Add Projects from Git
 
@@ -89,7 +89,7 @@ To add projects from Git:
 5. The **Install Webhooks** option is selected by default. This enables automatic publishing from your project when changes are pushed to the repository. Clear this option to disable automatic publishing. See [Publishing Git Projects](../7.-projects/publishing-git-projects.md) for details. 
 5. Next, select **Add Git Project**.
 
-Once the project is created and the anaylzer has completed, it will contain Markdown articles and API descriptions that are stored in the Git repository. Use [Stoplight Studio](../3.-design/a.overview.md) to modify these files.
+Once the project is created and the anaylzer has completed, it will contain Markdown articles and API descriptions that are stored in the Git repository. Use Stoplight Studio to modify these files.
 
 ### Custom Git Configurations
 

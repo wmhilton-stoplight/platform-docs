@@ -1,435 +1,498 @@
 {
-  "items": [
-    {
-      "type": "item",
-      "title": "Welcome to the Stoplight Docs!",
-      "uri": "a.introduction.md"
-    },
-    {
-      "type": "item",
-      "title": "Introduction to Stoplight Platform",
-      "uri": "b.overview.md"
-    },
-    {
-      "type": "item",
-      "title": "FAQ",
-      "uri": "c.troubleshooting.md"
-    },
-    {
-      "type": "divider",
-      "title": "Workspaces"
-    },
-    {
-      "type": "item",
-      "title": "Create a Workspace",
-      "uri": "2.-workspaces/a.creating-a-workspace.md"
-    },
-    {
-      "type": "group",
-      "title": "Workspace Settings",
-      "items": [
-        {
-        "type": "item",
-        "title": "Change the Look and Feel",
-        "uri": "2.-workspaces/b1-change-look-and-feel.md"
-        },
-        {
-        "type": "item",
-        "title": "Custom Domains",
-        "uri": "2.-workspaces/j.custom-domains.md"
-        },
-        {
-        "type": "item",
-        "title": "Activity Logs",
-        "uri": "2.-workspaces/n.activity-logs.md"
-        },
-        {
-      "type": "item",
-      "title": "Billing",
-      "uri": "2.-workspaces/billing.md"
-        },
-        {
-        "type": "item",
-        "title": "Account Settings",
-        "uri": "2.-workspaces/q-account-settings.md"
-        }
-      ]
-    },
-        {
-      "type": "group",
-      "title": "Configure Git",
-      "items": [
-        {
-          "type": "item",
-          "title": "Overview",
-          "uri": "2.-workspaces/configure-git/a.configuring-git.md"
-        },
-        {
-          "type": "item",
-          "title": "Bitbucket Cloud",
-          "uri": "2.-workspaces/configure-git/b.bitbucket-cloud.md"
-        },
-        {
-          "type": "item",
-          "title": "Bitbucket Server",
-          "uri": "2.-workspaces/configure-git/c.bitbucket-server.md"
-        },
-        {
-          "type": "item",
-          "title": "GitHub Enterprise",
-          "uri": "2.-workspaces/configure-git/d.github-enterprise.md"
-        },
-        {
-          "type": "item",
-          "title": "GitLab",
-          "uri": "2.-workspaces/configure-git/e.gitlab.md"
-        },
-        {
-          "type": "item",
-          "title": "Troubleshoot Git",
-          "uri": "2.-workspaces/configure-git/f-troubleshoot-git.md"
-        }
-      ]
-    },
-    {
-      "type": "item",
-      "title": "Groups",
-      "uri": "2.-workspaces/m.groups.md"
-    },
-    {
-      "type": "group",
-      "title": "Customize the Sidebar",
-      "items": [
-        {
-          "type": "item",
-          "title": "Overview",
-          "uri": "4.-documentation/Sidebar/a.customize-sidebar.md"
-        },
-        {
-          "type": "item",
-          "title": "Workspace Sidebar",
-          "uri": "4.-documentation/Sidebar/a.workspace-sidebar.md"
-        },
-        {
-          "type": "item",
-          "title": "Project Sidebar",
-          "uri": "4.-documentation/Sidebar/d.table-of-contents.md"
-        }
-      ]
-    },
-        {
-      "type": "item",
-      "title": "Single Sign-On",
-      "uri": "2.-workspaces/e.configuring-authentication.md"
-    },
-    {
-      "type": "group",
-      "title": "SAML Setup Guides",
-      "items": [
-        {
-          "type": "item",
-          "title": "Azure",
-          "uri": "2.-workspaces/saml-walkthroughs/azure-integration-guide.md"
-        },
-        {
-          "type": "item",
-          "title": "Okta",
-          "uri": "2.-workspaces/saml-walkthroughs/okta-integration-guide.md"
-        },
-        {
-          "type": "item",
-          "title": "OneLogin",
-          "uri": "2.-workspaces/saml-walkthroughs/onelogin-integration-guide.md"
-        },
-        {
-          "type": "item",
-          "title": "Ping",
-          "uri": "2.-workspaces/saml-walkthroughs/ping-integration-guide.md"
-        }
-      ]
-    },
-      {
-      "type": "group",
-      "title": "Explore Projects",
-      "items": [
-         {
-            "type": "item",
-            "title": "Overview",
-            "uri": "explorer/overview.md"
-          },
-         {
-            "type": "item",
-            "title": "Search and Filter",
-            "uri": "explorer/search-and-filter.md"
-          },
-         {
-            "type": "item",
-            "title": "Set Favorite Nodes",
-            "uri": "explorer/set-favorite-nodes.md"
-         },
-         {
-            "type": "item",
-            "title": "Track Dependencies",
-            "uri": "explorer/track-dependencies.md"
-         },
-         {
-            "type": "item",
-            "title": "View Changelogs",
-            "uri": "explorer/view-changelogs.md"
-         }
-        ]
-      },
-     {
-      "type": "divider",
-      "title": "Projects"
-    },
-    {
-      "type": "item",
-      "title": "Add Projects",
-      "uri": "2.-workspaces/b.adding-projects.md"
-    },
-    { 
-      "type": "item",
-      "title": "Work with Files",
-      "uri": "7.-projects/working-with-files.md"
-    },
-        {
-      "type": "item",
-      "title": "Configure Projects",
-      "uri": "2.-workspaces/c.config.md"
-    },
-    {
-       "type": "group",
-       "title": "Publishing",
-       "items": [
-           {
-            "type": "item",
-            "title": "Overview",
-            "uri": "2.-workspaces/g.automating-publishing.md"
-           },
-           {
-            "type": "item",
-            "title": "Git Projects",
-            "uri": "7.-projects/publishing-git-projects.md"
-           },
-            {
-            "type": "item",
-            "title": "Stoplight Projects",
-            "uri": "7.-projects/publishing-stoplight-projects.md"
-           },            
-           {
-            "type": "item",
-            "title": "Stoplight CLI",
-            "uri": "2.-workspaces/f.working-with-local-projects.md"
-           }
-       ]
-     },
-     {
-      "type": "item",
-      "title": "Branch Management",
-      "uri": "2.-workspaces/h.branch-management.md"
-    },
-         {
-      "type": "item",
-      "title": "Export Files",
-      "uri": "7.-projects/export-api-file.md"
-    },
-    {
-      "type": "divider",
-      "title": "User Access"
-     },
-          {
-       "type": "group",
-       "title": "Workspace Access",
-       "items": [
-         {
-            "type": "item",
-            "title": "Manage Workspace Members",
-            "uri": "2.-workspaces/d.inviting-your-team.md"
-          },
-         {
-            "type": "item",
-            "title": "Allowed Email Domains",
-            "uri": "2.-workspaces/allowed-email-domains.md"
-          },
-         {
-            "type": "item",
-            "title": "Workspace Roles",
-            "uri": "2.-workspaces/k.workspace-roles.md"
-         }
-        ]
-      },
-    {
-      "type": "item",
-      "title": "Manage Project Access",
-      "uri": "2.-workspaces/l.project-roles.md"
-    },
-      {
-      "type": "item",
-      "title": "Manage Group Access",
-      "uri": "2.-workspaces/o.group-access.md"
-    },
-     {
-      "type": "divider",
-      "title": "Design"
-    },
-    {
-      "type": "item",
-      "title": "Overview",
-      "uri": "3.-design/a.overview.md"
-    },
-    {
-      "type": "item",
-      "title": "Start a new API design",
-      "uri": "3.-design/b.starting-a-new-api-design.md"
-    },
-      {
-      "type": "item",
-      "title": "Review API Designs",
-      "uri": "3.-design/c.reviewing-your-api-design.md"
-    },
-    {
-      "type": "item",
-      "title": "Working with Mock Servers",
-      "uri": "3.-design/d.setting-up-a-mock-server.md"
-    },
-    {
-      "type": "divider",
-      "title": "Style Guides"
-     },
-    {
-      "type": "item",
-      "title": "Overview",
-      "uri":  "2a.-style-guides/a.style-guide-projects.md"
-    },
-    {
-      "type": "item",
-      "title": "Rule Examples",
-      "uri":  "2a.-style-guides/g-rule-examples.md"
-    },
-    { 
-      "type":"group",
-      "title": "Create Style Guides",
-       "items": 
-    [
-         {
-      "type": "item",
-      "title": "Create a Style Guide",
-      "uri": "2a.-style-guides/a1.create-style-guide.md"
-    },    
-    {
-      "type":"item",
-      "title": "Create Targets",
-      "uri":  "2a.-style-guides/b-create-targets.md"
-    },
-    {
-      "type":"item",
-      "title": "Create Rules",
-      "uri":  "2a.-style-guides/c-create-rules.md"
-    },
-    {
-      "type":"item",
-      "title": "Create Custom Functions",
-      "uri":  "2a.-style-guides/h-create-custom-functions.md"
-    }
-    ]
-    },
+    "items":[
        {
-      "type":"item",
-      "title": "Publish Style Guides",
-      "uri":  "2a.-style-guides/e.publish-style-guide.md"
-    },
-        {
-      "type":"item",
-      "title": "Enable Style Guides",
-      "uri":  "2a.-style-guides/d-enable-style-guide.md"
-    },
-    {
-      "type":"item",
-      "title": "Refresh Style Guides",
-      "uri":  "2a.-style-guides/f.refresh-style-guide.md"
-    },
-        {
-      "type": "divider",
-      "title": "Governance"
-    },
-    {
-      "type": "item",
-      "title": "Overview",
-      "uri": "5.-governance/a.overview.md"
-    },
-    {
-      "type": "item",
-      "title": "Get Started with API Governance",
-      "uri": "5.-governance/b.getting-started-with-api-governance.md"
-    },
-    {
-      "type": "item",
-      "title": "Style Guides",
-      "uri": "5.-governance/d.style-guides.md"
-    },
-        {
-      "type": "divider",
-      "title": "Documentation"
-    },
-    {
-      "type": "item",
-      "title": "Overview",
-      "uri": "4.-documentation/a.overview.md"
-    },
-    {
-      "type": "item",
-      "title": "Types of Documentation",
-      "uri": "4.-documentation/b.types-of-documentation.md"
-    },
-    {
-      "type": "item",
-      "title": "Quality API Reference Documentation",
-      "uri": "4.-documentation/c.quality-api-reference-docs.md"
-    },
-    {
-      "type": "item",
-      "title": "Configure Analytics",
-      "uri": "4.-documentation/e.configure-analytics.md"
-    },
-    {
-      "type": "item",
-      "title": "Configure Localize",
-      "uri": "4.-documentation/e1.configure-localize.md"
-    },
-    {
-      "type": "item",
-      "title": "Redirects",
-      "uri": "4.-documentation/e2.configure-redirects.md"
-    },
-    {
-      "type": "item",
-      "title": "Add Images",
-      "uri": "4.-documentation/f.adding-images.md"
-    },
-    {  
-      "type": "divider",
-      "title": "Migrations"
-    },
-    {
-      "type": "item",
-      "title": "Migrating from Stoplight Classic",
-      "uri": "6.-migrations/classic.md"
-    },
-    {
-      "type": "item",
-      "title": "Migrating from Stoplight NEXT",
-      "uri": "6.-migrations/next.md"
-    },
-    {
-      "type": "item",
-      "title": "Migrating from V1",
-      "uri": "6.-migrations/v1.md"
-    },
-    {
-      "type": "item",
-      "title": "Migrating from Postman",
-      "uri": "6.-migrations/postman.md"
-    }
-  ]
-}
+          "type":"item",
+          "title":"Welcome to the Stoplight Docs!",
+          "uri":"a.introduction.md"
+       },
+       {
+          "type":"item",
+          "title":"Introduction to Stoplight Platform",
+          "uri":"b.overview.md"
+       },
+       {
+          "type":"divider",
+          "title":"API Design"
+       },
+       {
+          "type":"group",
+          "title":"Design in Studio",
+          "items":[
+             {
+                "type":"item",
+                "title":"Overview",
+                "uri":"3.-design/design-overview.md"
+             },
+             {
+                "type":"item",
+                "title":"API Security",
+                "uri":"3.-design/api-security.md"
+             },
+             {
+                "type":"item",
+                "title":"Work with Models",
+                "uri":"3.-design/http-endpoints.md"
+             },
+             {
+                "type":"item",
+                "title":"Shared Components",
+                "uri":"3.-design/shared-components.md"
+             },
+             {
+                "type":"item",
+                "title":"Try It",
+                "uri":"3.-design/try-it.md"
+             },
+             {
+                "type":"item",
+                "title":"Get Request Samples",
+                "uri":"3.-design/get-request-samples.md"
+             },
+             {
+                "type":"item",
+                "title":"Work with Mock Servers",
+                "uri":"3.-design/setting-up-a-mock-server.md"
+             },
+             {
+                "type":"item",
+                "title":"Use References",
+                "uri":"3.-design/use-references.md"
+             },
+             {
+                "type":"item",
+                "title":"Validation and Linting",
+                "uri":"3.-design/validation-and-linting.md"
+             }
+          ]
+       },
+       {
+          "type":"group",
+          "title":"Explore Projects",
+          "items":[
+             {
+                "type":"item",
+                "title":"Overview",
+                "uri":"explorer/overview.md"
+             },
+             {
+                "type":"item",
+                "title":"Search and Filter",
+                "uri":"explorer/search-and-filter.md"
+             },
+             {
+                "type":"item",
+                "title":"Set Favorite Nodes",
+                "uri":"explorer/set-favorite-nodes.md"
+             },
+             {
+                "type":"item",
+                "title":"Track Dependencies",
+                "uri":"explorer/track-dependencies.md"
+             },
+             {
+                "type":"item",
+                "title":"View Changelogs",
+                "uri":"explorer/view-changelogs.md"
+             }
+          ]
+       },
+       {
+          "type":"divider",
+          "title":"Governance"
+       },
+       {
+          "type":"group",
+          "title":"Style Guides",
+          "items":[
+             {
+                "type":"item",
+                "title":"Overview",
+                "uri":"2a.-style-guides/a.style-guide-projects.md"
+             },
+             {
+                "type":"item",
+                "title":"Rule Examples",
+                "uri":"2a.-style-guides/g-rule-examples.md"
+             },
+             {
+                "type":"group",
+                "title":"Create Style Guides",
+                "items":[
+                   {
+                      "type":"item",
+                      "title":"Create a Style Guide",
+                      "uri":"2a.-style-guides/a1.create-style-guide.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Create Targets",
+                      "uri":"2a.-style-guides/b-create-targets.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Create Rules",
+                      "uri":"2a.-style-guides/c-create-rules.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Create Custom Functions",
+                      "uri":"2a.-style-guides/h-create-custom-functions.md"
+                   }
+                ]
+             },
+             {
+                "type":"item",
+                "title":"Publish Style Guides",
+                "uri":"2a.-style-guides/e.publish-style-guide.md"
+             },
+             {
+                "type":"item",
+                "title":"Enable Style Guides",
+                "uri":"2a.-style-guides/d-enable-style-guide.md"
+             },
+             {
+                "type":"item",
+                "title":"Refresh Style Guides",
+                "uri":"2a.-style-guides/f.refresh-style-guide.md"
+             },
+             {
+                "type":"item",
+                "title":"Legacy Style Guides",
+                "uri":"2a.-style-guides/d.style-guides.md"
+             }
+          ]
+       },
+       {
+          "type":"divider",
+          "title":"Documentation"
+       },
+       {
+          "type":"group",
+          "title":"Document in Studio",
+          "items":[
+             {
+                "type":"item",
+                "title":"Types of Documentation",
+                "uri":"4.-documentation/b.types-of-documentation.md"
+             },
+             {
+                "type":"item",
+                "title":"Link Between Articles",
+                "uri":"4.-documentation/linking-between-articles.md"
+             },
+             {
+                "type":"item",
+                "title":"Add Images",
+                "uri":"4.-documentation/f.adding-images.md"
+             },
+             {
+                "type":"item",
+                "title":"Redirects",
+                "uri":"4.-documentation/e2.configure-redirects.md"
+             }
+          ]
+       },
+       {
+          "type":"group",
+          "title":"Writing Tips",
+          "items":[
+             {
+                "type":"item",
+                "title":"Markdown Basics",
+                "uri":"4.-documentation/markdown-basics.md"
+             },
+             {
+                "type":"item",
+                "title":"Stoplight-flavored Markdown",
+                "uri":"4.-documentation/stoplight-flavored-markdown.md"
+             }
+          ]
+       },
+       {
+          "type":"divider",
+          "title":"Administration"
+       },
+       {
+          "type":"group",
+          "title":"Workspaces",
+          "items":[
+             {
+                "type":"item",
+                "title":"Create a Workspace",
+                "uri":"2.-workspaces/a.creating-a-workspace.md"
+             },
+             {
+                "type":"group",
+                "title":"Workspace Settings",
+                "items":[
+                   {
+                      "type":"item",
+                      "title":"Change the Look and Feel",
+                      "uri":"2.-workspaces/b1-change-look-and-feel.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Custom Domains",
+                      "uri":"2.-workspaces/j.custom-domains.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Activity Logs",
+                      "uri":"2.-workspaces/n.activity-logs.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Billing",
+                      "uri":"2.-workspaces/billing.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Account Settings",
+                      "uri":"2.-workspaces/q-account-settings.md"
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "type":"group",
+          "title":"Projects",
+          "items":[
+             {
+                "type":"item",
+                "title":"Add Projects",
+                "uri":"2.-workspaces/b.adding-projects.md"
+             },
+             {
+                "type":"item",
+                "title":"Work with Files",
+                "uri":"7.-projects/working-with-files.md"
+             },
+             {
+                "type":"item",
+                "title":"Export Files",
+                "uri":"7.-projects/export-api-file.md"
+             },
+             {
+                "type":"item",
+                "title":"Configure Projects",
+                "uri":"2.-workspaces/c.config.md"
+             },
+             {
+                "type":"group",
+                "title":"Publishing",
+                "items":[
+                   {
+                      "type":"item",
+                      "title":"Overview",
+                      "uri":"2.-workspaces/g.automating-publishing.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Git Projects",
+                      "uri":"7.-projects/publishing-git-projects.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Stoplight Projects",
+                      "uri":"7.-projects/publishing-stoplight-projects.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Stoplight CLI",
+                      "uri":"2.-workspaces/f.working-with-local-projects.md"
+                   }
+                ]
+             },
+             {
+                "type":"item",
+                "title":"Branch Management",
+                "uri":"2.-workspaces/h.branch-management.md"
+             }
+          ]
+       },
+       {
+          "type":"item",
+          "title":"Groups",
+          "uri":"2.-workspaces/m.groups.md"
+       },
+       {
+          "type":"group",
+          "title":"Customize the Sidebar",
+          "items":[
+             {
+                "type":"item",
+                "title":"Overview",
+                "uri":"4.-documentation/Sidebar/a.customize-sidebar.md"
+             },
+             {
+                "type":"item",
+                "title":"Workspace Sidebar",
+                "uri":"4.-documentation/Sidebar/a.workspace-sidebar.md"
+             },
+             {
+                "type":"item",
+                "title":"Project Sidebar",
+                "uri":"4.-documentation/Sidebar/d.table-of-contents.md"
+             }
+          ]
+       },
+       {
+          "type":"group",
+          "title":"User Access",
+          "items":[
+             {
+                "type":"group",
+                "title":"Workspace Access",
+                "items":[
+                   {
+                      "type":"item",
+                      "title":"Manage Workspace Members",
+                      "uri":"2.-workspaces/d.inviting-your-team.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Allowed Email Domains",
+                      "uri":"2.-workspaces/allowed-email-domains.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Workspace Roles",
+                      "uri":"2.-workspaces/k.workspace-roles.md"
+                   }
+                ]
+             },
+             {
+                "type":"item",
+                "title":"Manage Project Access",
+                "uri":"2.-workspaces/l.project-roles.md"
+             },
+             {
+                "type":"item",
+                "title":"Manage Group Access",
+                "uri":"2.-workspaces/o.group-access.md"
+             }
+          ]
+       },
+       {
+          "type":"item",
+          "title":"FAQ and Troubleshooting",
+          "uri":"c.troubleshooting.md"
+       },
+       {
+          "type":"group",
+          "title":"Integrations",
+          "items":[
+             {
+                "type":"group",
+                "title":"Git",
+                "items":[
+                   {
+                      "type":"item",
+                      "title":"Overview",
+                      "uri":"2.-workspaces/configure-git/a.configuring-git.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Bitbucket Cloud",
+                      "uri":"2.-workspaces/configure-git/b.bitbucket-cloud.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Bitbucket Server",
+                      "uri":"2.-workspaces/configure-git/c.bitbucket-server.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"GitHub Enterprise",
+                      "uri":"2.-workspaces/configure-git/d.github-enterprise.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"GitLab",
+                      "uri":"2.-workspaces/configure-git/e.gitlab.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Troubleshoot Git",
+                      "uri":"2.-workspaces/configure-git/f-troubleshoot-git.md"
+                   }
+                ]
+             },
+             {
+                "type":"item",
+                "title":"Analytics",
+                "uri":"4.-documentation/e.configure-analytics.md"
+             },
+             {
+                "type":"item",
+                "title":"Localize",
+                "uri":"4.-documentation/e1.configure-localize.md"
+             },
+             {
+                "type":"item",
+                "title":"Single Sign-On",
+                "uri":"2.-workspaces/e.configuring-authentication.md"
+             },
+             {
+                "type":"group",
+                "title":"SAML Setup Guides",
+                "items":[
+                   {
+                      "type":"item",
+                      "title":"Azure",
+                      "uri":"2.-workspaces/saml-walkthroughs/azure-integration-guide.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Okta",
+                      "uri":"2.-workspaces/saml-walkthroughs/okta-integration-guide.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"OneLogin",
+                      "uri":"2.-workspaces/saml-walkthroughs/onelogin-integration-guide.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Ping",
+                      "uri":"2.-workspaces/saml-walkthroughs/ping-integration-guide.md"
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "type":"group",
+          "title":"Migrations",
+          "items":[
+             {
+                "type":"item",
+                "title":"Migrating from Postman",
+                "uri":"6.-migrations/postman.md"
+             },
+             {
+                "type":"group",
+                "title":"Stoplight Migrations",
+                "items":[
+                   {
+                      "type":"item",
+                      "title":"Migrating from Stoplight Classic",
+                      "uri":"6.-migrations/classic.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Migrating from Stoplight NEXT",
+                      "uri":"6.-migrations/next.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Migrating from V1",
+                      "uri":"6.-migrations/v1.md"
+                   }
+                ]
+             }
+          ]
+       }
+    ]
+ }

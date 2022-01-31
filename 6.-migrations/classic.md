@@ -133,5 +133,4 @@ on this subject, please review the guide
 
 Similar to Classic, every OpenAPI file in your Workspace has a mock server
 configured automatically. All you need to do is send requests to the API's
-unique mock URL. For more information, please read this [guide on mocking in
-Stoplight](../3.-design/d.setting-up-a-mock-server.md).
+unique mock URL. For more information, please read this [guide on mocking in Stoplight](../3.-design/setting-up-a-mock-server.md).
