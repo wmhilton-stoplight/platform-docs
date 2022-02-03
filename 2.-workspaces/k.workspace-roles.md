@@ -27,7 +27,8 @@ Roles include:
 | Manage billing               |     |     |    | ✅ | ✅ | ✅ |
 | Manage members               |     |     |    | ✅ | ✅ | ✅ |
 | Manage workspace             |     |     |    | ✅ | ✅ | ✅ |
-| Perform bulk actions         |     |     |    |     |    | ✅ |  
+| Perform bulk actions         |     |     |    |     |    | ✅ | 
+| Delete workspace             |     |     |    |     |    | ✅ |   
 
 ## What's Next?
 

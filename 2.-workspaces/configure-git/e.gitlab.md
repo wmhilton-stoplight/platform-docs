@@ -2,7 +2,7 @@
 
 > This feature is available on the Stoplight **Pro** plan and above.
 
-Configure your GitLab integration by following these instructions.
+Use these steps to configure your GitLab integration if you have a self-hosted deployment or need custom integration settings.
 
 ## GitLab Setup
 
@@ -25,13 +25,11 @@ Read more about [creating a GitLab OAuth App](https://docs.gitlab.com/ee/integra
 2. Select **Add** for GitLab.
 3. Select **Customize integration settings**, and then add the following information:
    - **Host URL**: This is the URL where your instance of GitLab is hosted.
-   - **API URL**: This is the URL of the API of your instance of GitLab. This is usually: `{HostURL}/api/v4`
-   - **Client ID:** This ss `Application ID` under the application settings for the app you created in GitLab.
+   - **API URL**: This is the URL of the API of your instance of GitLab. This is usually: `{HostURL}/api/v4`.
+   - **Client ID:** This is `Application ID` under the application settings for the app you created in GitLab.
    - **Client Secret**: You can find this as `Secret` under the application settings for the newly created app.
 4. Test your settings.
 5. Select **Save**.
-
-![Stoplight GitLab Settings](https://stoplight.io/api/v1/projects/cHJqOjI/images/plEmHRzDhWM)
 
 If successful, [add projects](../b.adding-projects.md) to start working with projects from your GitLab instance.
 

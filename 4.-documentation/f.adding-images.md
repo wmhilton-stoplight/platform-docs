@@ -4,7 +4,7 @@ Visual help on your documentation compliments the text on it and helps users rea
 
 There are two ways to add images to a project:
 
-- **Drag-and-drop**: This is the easiest and preferred method of adding images, which are stored in Stoplight and respect project permissions (private vs. internal).
+- **Drag-and-drop**: This is the easiest and preferred method of adding images, which are stored in Stoplight and respect project permissions (private vs. internal). You must have Editor permissions or higher to drag-and-drop images onto Markdown files.
 - **Import**: For projects connected to Git or another version control system, import files. Use this method if tracking changes to images is important to you or if the image is shared with another publishing tool.
 
 You can add multiple images to any documentation file. Supported  image formats include: **JPEG,** **JPG**, **PNG**, and **GIF**.

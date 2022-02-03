@@ -21,7 +21,7 @@ To modify account settings:
 - **Emails**: Your primary email is the one used when you created or joined your workspace. You can add a secondary email. This is useful for switching your primary email address if needed. Note that the primary email is used by your source control provider to register commits in Stoplight. 
 
 ## Notifications
-- **Daily Summary Email**: Subscribe to receive a list of changes to the current workspace in your primary email each day at 8 a.m. in your local time zone. 
+- **Daily Summary Email**: Subscribe to receive a list of changes to the current workspace in your primary email each day at 8 a.m. in your local time zone. Emails are only sent when changes are made. 
 
   You can see changes for the projects you have [pinned to your workspace sidebar](../4.-documentation/Sidebar/a.workspace-sidebar.md). Changes to APIs, models, endpoints, and articles are included in the digest.
 

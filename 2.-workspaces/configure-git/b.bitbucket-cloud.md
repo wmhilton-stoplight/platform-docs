@@ -1,6 +1,6 @@
 # Bitbucket Cloud
 
-Configure your Bitbucket Cloud integration by following these instructions.
+Use these steps to configure your Bitbucket Cloud integration if you have a self-hosted deployment or need custom integration settings.
 
 ## Bitbucket Cloud Setup
 
@@ -29,14 +29,11 @@ Read more about [creating a BitBucket OAuth consumer](https://support.atlassian.
 3. Select **Customize integration settings**.
 4. Add the following information:
    - **Host URL**: This is the URL where your instance of Bitbucket Cloud is hosted.
-   - **API URL**: This is the URL of the API of your instance of Bitbucket Cloud. This is usually: ***api.{HostURL}/2.0***
+   - **API URL**: This is the URL of the API of your instance of Bitbucket Cloud. This is usually `api.{HostURL}/2.0`.
    - **Client ID**: You can find this as ***Key*** under the OAuth consumers settings for the newly created consumer.
    - **Client Secret**: You can find this as ***Secret*** under the OAuth consumers' settings for the newly created consumer.
 5. Test your settings.
 6. Select **Save**.
-
-![Stoplight Bitbucket Settings](https://stoplight.io/api/v1/projects/cHJqOjI/images/lGClizewDuI)
-
 
 If successful, [add projects](../b.adding-projects.md) to start working with projects from your Bitbucket Cloud instance.
 

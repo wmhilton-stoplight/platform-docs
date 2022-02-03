@@ -61,6 +61,7 @@ Permissions for each project role:
 | Access mock servers       | ✅     | ✅     | ✅      | ✅      |        |
 | Add members               | ✅     | ✅     | ✅      | ✅      |        |
 | Edit in Studio            | ✅     | ✅     | ✅      |        |         |
+| Drag-and-drop images      | ✅     | ✅     | ✅      |        |         |
 | Track branches            | ✅     | ✅     | ✅      |        |         |
 | View settings             | ✅     | ✅     | ✅      |        |        |
 | Enable style guides       | ✅     | ✅     | ✅    |        |        |
