@@ -112,6 +112,23 @@ The above `toc.json` file displays the following structure in the docs sidebar.
 
 ![custom toc example](../../assets/images/custom-toc-example.png)
 
+### Endpoint Reordering
+
+To reorder endpoint groups:
+
+1. Create global tags. The easiest way to do this is to select the API overview from the **Form** view, select the tag icon, and then add tags.
+<!-- focus: center -->
+![global-tags.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/6qZrKIl2LCU)
+
+2. Order the global tags. The easiest way to do this to switch to **Code** view, scroll to the bottom of the editor, and change the order of the tags.
+<!-- focus: center -->
+![reorder-tags.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/o2rWrFPDrpI)
+
+3. Assign tags to each endpoint to determine which group it will be listed under.
+
+4. Publish and review the results.
+<!-- focus: center -->
+![tag-order.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/UcWagdp1nqg)
 
 ## The Default Structure
 
@@ -121,16 +138,25 @@ When the `toc.json` file is not present, the default structure is organized base
 
 Markdown articles come first in the table of contents and are ordered alphabetically by their file path. The first directory is represented as a [divider](#dividers) and any directories after appear as [groups](#groups). 
 
-There are a few exceptions. If a "docs" folder exists, it is flattened and not represented in the table of contents. Any articles located in the root of the project are sorted to the top. 
-
-> If a `README.md` file exists, it is put in the first position.
+- The Docs folder is flattened and is not represented in the table of contents. 
+- Any articles located in the root of the project are sorted to the top. 
+<!-- - If a `README.md` file exists, it is put in the first position.-->
 
 ### APIs
 
-Next in the list below articles are your APIs. Each API's title is represented as a [divider](#dividers) followed by an item titled "Overview". The overview item contains the API's description, contact, licensing, servers and global security. 
+APIs are listed below articles. A [divider](#dividers) separates APIs from articles, and each API's title is represented as group. This group contains overview information, such as the API's description, contact, licensing, servers and global security. 
 
-All of the API endpoints and models are nested inside [groups](#groups) titled after their first tag. Any without tags are placed into a group titled "other". If none of your endpoints or models contain tags, they are placed into groups titled "Endpoints" and "Models" respectively.
+Tags determine endpoint ordering:
+
+- Endpoints or models without tags are placed at the root level and follow the order in the specification. 
+- All API endpoints and models are nested inside [groups](#groups) titled after their first tag. 
+- Within each group, endpoints and models follow the order in the specification.
 
 ### Schemas
 
-Finally at the bottom of the table of contents are JSON Schema model files, sorted alphabetically under a [divider](#dividers) titled "Schemas."
+At the bottom of the table of contents are JSON Schema model files that are outside of an API specification. Models are sorted alphabetically under a [divider](#dividers) titled "Schemas."
+
+Tags determine schema model ordering:
+
+- Models without tags are placed at the root level and ordered by endpoint or model name. 
+- All Models are nested inside [groups](#groups) titled after their first tag. 
