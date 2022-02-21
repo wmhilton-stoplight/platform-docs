@@ -1,6 +1,8 @@
 # Project Sidebar
 
-Project documentation contains a single left sidebar called the **Table of Contents** (or ToC). The [default structure](#the-default-structure) of this sidebar loosely follows the filesystem of the project, with a few exceptions for APIs and models. You can customize the appearance of this sidebar using a Table of Contents file (`toc.json`), which supports:
+Project documentation contains a single left sidebar called the **Table of Contents** (or ToC). The [default structure](#the-default-structure) of this sidebar loosely follows the file system of the project, with a few exceptions for APIs and models. 
+
+You can customize the appearance of this sidebar using a Table of Contents file (`toc.json`), which supports:
 
 - Customizing the order of files in the sidebar
 - Overriding the title of a file in the sidebar
@@ -34,22 +36,25 @@ Groups are non-linkable, collapsible items containing items and other groups tha
 
 ### Items
 
-Items are links to articles, APIs, and model files located within the project directory or external links to content outside of the documentation.
+Items are links to articles, APIs, and model files located within the project directory or external links to content outside of the documentation. Optionally, use the `title` property to override the item's default title in the table of contents.
 
 ## Add a TOC to a Project
 
 1. Edit a project, and then select the **Add** icon.
 2. Select **Table of Contents**. A toc.json file opens in the Editor panel. It is organized using the [default structure](#the-default-structure).
-3. Organize items in the structure to meet your needs.
+3. Organize items in the structure to meet your needs and add new items using the rules below. 
 4. Select **Preview** to verify the structure.
+
+Validation is provided to help you correct errors before you publish.
+
+![toc-validation.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/5Tr1xFQBeg0)
+
 
 To revert your changes, select **Generate Default Content** to return the toc.json file to its original state. 
 
 ## Create Your Own TOC
 
 You can create a custom table of contents file. To get started, create a `toc.json` file in your project's **root directory**.
-
-### Rules
 
 The `toc.json` file should start off with an empty `items` array where you will define your content structure using [dividers](#dividers), [groups](#groups) and [items](#items).
 
@@ -60,11 +65,13 @@ The `toc.json` file should start off with an empty `items` array where you will 
 }
 ```
 
-Note:
+## TOC Rules
 
 - Each entity should have a `type` and a `title` property. 
 - Items should also have a `uri` property that either points to a file somewhere within the project or an external link to another website. 
 - Groups should have an `items` property allowing you to futher nest more items and groups.
+
+Press **CMD+Space** to open a list of hints for items you can add to the TOC.
 
 > **TIP**: The easiest way to get a file's URI in Studio is right-click on the file, select **Copy Path**, and then paste the contents into the JSON file.
 >
@@ -112,7 +119,7 @@ The above `toc.json` file displays the following structure in the docs sidebar.
 
 ![custom toc example](../../assets/images/custom-toc-example.png)
 
-### Endpoint Reordering
+## Endpoint Group Reordering
 
 To reorder endpoint groups:
 

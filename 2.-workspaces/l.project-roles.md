@@ -56,8 +56,8 @@ Permissions for each project role:
 
 | Permission                | Owner | Admin | Editor | Viewer | Guest (Restricted) |
 |---------------------------|-------|-------|--------|--------|--------|
-| View published branches   | ✅     | ✅     | ✅      | ✅      | ✅     |
-| View unpublished branches | ✅     | ✅     | ✅      | ✅      |        |
+| View listed branches      | ✅     | ✅     | ✅      | ✅      | ✅     |
+| View unlisted branches | ✅     | ✅     | ✅      | ✅      |        |
 | Access mock servers       | ✅     | ✅     | ✅      | ✅      |        |
 | Add members               | ✅     | ✅     | ✅      | ✅      |        |
 | Edit in Studio            | ✅     | ✅     | ✅      |        |         |
