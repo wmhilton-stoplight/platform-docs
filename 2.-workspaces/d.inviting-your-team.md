@@ -69,7 +69,20 @@ To assign roles for your workspace:
 Guests are not considered members of your workspace, so their access is limited to viewing projects they are invited to. If the needs of our organization change, you can:
 
 - **Upgrade guest access**: Change guests' roles to the Viewer role or above.
-- **Downgrade to guest access**: Change members' roles to guest to restrict their acccess to only projects they've been invited to. 
+- **Downgrade to guest access**: Change members' roles to guest to restrict their acccess to only projects they've been invited to.
+
+### Share Project
+
+After you publish a project, the **Share Project** dialog box allows you to: 
+* Invite members by name or email. 
+* Manage project access by assigning members roles as **Viewers** or **Editors**.
+* Manage **Project Visibility** as **Public**, **Private**, or **Internal**.
+
+>All members can invite additional members within their level of access to the project.
+
+![share-project.png](../assets/images/share-project.png)
+
+
 
 
 
