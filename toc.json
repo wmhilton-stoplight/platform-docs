@@ -187,6 +187,11 @@
              },
              {
                 "type":"item",
+                "title":"Set Article Visibility",
+                "uri":"4.-documentation/set-internal-docs.md"
+             },
+                {
+                "type":"item",
                 "title":"Redirects",
                 "uri":"4.-documentation/e2.configure-redirects.md"
              }
