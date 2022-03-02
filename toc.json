@@ -268,7 +268,7 @@
                 "title":"Add Projects",
                 "uri":"2.-workspaces/b.adding-projects.md"
              },
-             {
+            {
                 "type":"item",
                 "title":"Work with Files",
                 "uri":"7.-projects/working-with-files.md"
@@ -308,6 +308,11 @@
                       "uri":"2.-workspaces/f.working-with-local-projects.md"
                    }
                 ]
+             },
+             {
+                "type":"item",
+                "title":"Project Settings",
+                "uri":"7.-projects/project-settings.md"
              },
              {
                 "type":"item",
