@@ -20,4 +20,4 @@ To view incoming and completed webhook events:
 
 ## Troubleshoot Webhooks
 
-If changes are not publishing, use our [Troubleshooting](../c.troubleshooting.md) steps to review webhook events to debug the problem. 
+If changes are not publishing, use our [Troubleshooting](../2.-workspaces/configure-git/f-troubleshoot-git.md) steps to review webhook events to debug the problem. 
