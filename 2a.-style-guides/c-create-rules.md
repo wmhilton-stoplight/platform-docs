@@ -1,8 +1,7 @@
 # Create Rules
 
-<!-- theme: warning -->
->**Warning**:
->Limited early access content for Shared Style Guides. Shared style guides are available on the **Professional** and **Enterprise** plans for early access participants. 
+<!-- theme: info -->
+>Shared style guides are available on the **Professional** and **Enterprise** plans.  
 
 See our [rule examples](g-rule-examples.md) to get started.
 
@@ -10,7 +9,7 @@ See our [rule examples](g-rule-examples.md) to get started.
 
 To create a rule:
 
-1. Edit a style guide project. 
+1. Edit a style guide project or a project that has a style guide enabled.
 2. In the **Rules** area of the left pane, select the plus icon next to Local to open the **Rules** editor in the right pane.
 3. Configure the three main rule areas:
     - [Rule Settings](#Rule-Settings)
@@ -28,7 +27,7 @@ Set severity, name, message returned in validation, and the description for docu
 
 - **Name**
 
-   Provide a short descriptive name. There are no restrictions on the name format, but kabab case is recommended. Example: `require-description`.
+   Provide a short descriptive name that contains no spaces. Example: `require-description`.
 
 - **Message**
   
@@ -60,7 +59,7 @@ Set the area of the API specification the rule applies to.
 
 ### Then Settings
 
-Set the function that will evaluate your API design content. You can use Spotlight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions) or [create your own](h-create-custom-functions.md). 
+Use Stoplight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions) to set the function that will evaluate your API design content. 
 
 [What's Next: Publish Style Guide](e.publish-style-guide.md)
 

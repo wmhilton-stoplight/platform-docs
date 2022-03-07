@@ -1,8 +1,7 @@
 # Publish a Style Guide
 
-<!-- theme: warning -->
->**Warning**:
->Limited early access content for Shared Style Guides. Shared style guides are available on the **Professional** and **Enterprise** plans for early access participants.  
+<!-- theme: info -->
+>Shared style guides are available on the **Professional** and **Enterprise** plans.  
 
 Publish your style guide so it can be enabled for API projects in the workspace.
 

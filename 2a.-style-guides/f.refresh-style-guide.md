@@ -1,18 +1,21 @@
 # Update Style Guides
 
-<!-- theme: warning -->
->**Warning**:
->Limited early access content for Shared Style Guides. Shared style guides are available on the **Professional** and **Enterprise** plans for early access participants. 
+<!-- theme: info -->
+>Shared style guides are available on the **Professional** and **Enterprise** plans.  
 
 Style guides are meant to be dynamic documents that change as your organization grows and adopts API governance best practices.
 
-When a style guide that has been enabled for a project changes, you are alerted on the **Overview** page. You can refresh the enabled style guide immediately or wait until a more convenient time.
+When a style guide that has been enabled for a project changes, an **Alert** icon appears on the **Styles** tab and on the **Overview** page. 
+
+![style-guide-update-alert.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/RcFkZxwHOj4)
+
+You can update the enabled style guide immediately or wait until a more convenient time.
 
 To update a style guide:
 
 1. Edit an API project that has an enabled style guide.
 2. Select the **Styles** tab.
-3. Select the **Overview** page. Note the **Update Available** alert for style guides that need to be refreshed in your project.
+3. Select the **Overview** page. 
 4. Select **Update Available**. 
 5. Review the commit messages so you can decide if you want to take the updates or wait until a later time.
 

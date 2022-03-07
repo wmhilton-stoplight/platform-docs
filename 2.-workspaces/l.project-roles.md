@@ -32,6 +32,8 @@ Project visibility determines who can view projects within or outside the worksp
 
 **Public**: Everyone including anonymous visitors can view project.
 
+> Style guide projects can only be set to internal visibility. 
+
 ### Change Project Visibility
 
 To update the project visibility or add users to a project, select the **Share** button in the project's sidebar (next to **Edit** once a project is published).
