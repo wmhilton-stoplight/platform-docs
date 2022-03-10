@@ -4,7 +4,9 @@ Below you will find answers to commonly encountered questions.
 
 > If you are having trouble and cannot find a suitable answer, don't hesitate to [let us know](mailto:support@stoplight.io).
 
-## Why is "Try It" returning network errors?
+## Try It and Mocking
+
+### Why is "Try It" returning network errors?
 
 Try these solutions:
 
@@ -13,6 +15,10 @@ Try these solutions:
 2. Make sure the API is running and available under the specified URL.
 
 3. If you've checked all of the above and still experiencing issues, check if the API supports [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). Requests from browsers will be blocked for APIs that do not have appropriate CORS headers set up for *.//stoplight.io.
+
+### Why do I get 422 Unprocessable Entity Responses?
+
+Stoplight uses the Fetch Standard to make Mock Server and Try-It requests from the browser. As a result, Studio Web returns a 422 Unprocessable Entity response when a GET is paired with a request body. This occurs because the request body isn’t transmitted by Fetch and therefore the request fails validation against the specification.
 
 ## Why are files missing from my project documentation?
 
@@ -82,11 +88,7 @@ Grouping of operations is completed by the use of [tags](https://swagger.io/docs
 
 You can find more information on the default order of the project sidebar (as well as how to customize it) [here](https://meta.stoplight.io/docs/platform/4.-documentation/d.table-of-contents.md).
 
-## How do I export a file from Stoplight?
-
-If you need to retrieve a file published in Stoplight, see [Export Files](7.-projects/export-api-file.md). 
-
-### What are the differences between Original, Bundled, Dereferenced.
+## What are the differences between Original, Bundled, Dereferenced.
 1. Original - is the raw file keeping the $refs
 2. Bundled - resolves remote $refs once, re-referencing the same objects in subsequent references (producing a smaller file)
 3. Dereferenced - resolves all $refs, inserting each resolved reference inline
@@ -117,7 +119,7 @@ If something is not working in a version listed here (or newer) please [contact 
 
 ## Can't Edit Project in Studio
 
-#### Not a Git project and I'm the owner
+### Not a Git project and I'm the owner
 
 Local projects in Stoplight are stored in the browser cache. If you are on a different computer/browser, you won't be able to edit the project. 
 
@@ -131,7 +133,7 @@ If you can't use a Git provider you'd be limited to using the project from the s
 
 **Note**: Other users in your workspace won't be able to edit a local project.
 
-#### I'm the on the same browser/computer
+### I'm the on the same browser/computer
 
 This could be because you recently updated or cleaned the cache of your browser. In that case you can export the OpenAPI and schemas using the export button available in the docs. Then, import the exported files into a new project and promote it to a git project.
 
