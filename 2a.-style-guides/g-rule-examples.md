@@ -15,7 +15,7 @@ Use the truthy function to require all APIs have version information.
 
     - **Severity**: *Error* 
     - **Name**: *version-required*
-    - **Message**:  (This returns your provided description in the validation list.) 
+    - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
     - **Description**: *All APIs must be versioned.*
     - **Target**: Select the *info* target you created in step 1.
     - **Property**: *version* (This targets the property  name "version" located inside the info object.)

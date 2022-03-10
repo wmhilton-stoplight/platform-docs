@@ -13,7 +13,7 @@ Stoplight Platform is first and foremost an API design management tool, which ca
 7. [Publish](2.-workspaces/g.automating-publishing.md)
 
 ## Use Stoplight
-1. [Governance](2a.-style-guides/a.style-guide-projects.md)
+1. [Governance with Style Guides](2a.-style-guides/a.style-guide-projects.md)
 2. [API Design](3.-design/design-overview.md)
 3. [Documentation](4.-documentation/b.types-of-documentation.md)
 
