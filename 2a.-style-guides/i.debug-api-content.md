@@ -1,7 +1,9 @@
 # Debug Rules
 
 <!-- theme: info -->
->Shared style guides are available on the **Professional** and **Enterprise** plans.  
+<!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
+
+> This feature is in preview. Reach out to nauman@stoplight.io for more information. 
 
 Once you create rules, debug them with JSON-formatted API content. This enables you to find and fix rule errors quickly and easily. 
 

@@ -1,7 +1,9 @@
 # Update Style Guides
 
 <!-- theme: info -->
->Shared style guides are available on the **Professional** and **Enterprise** plans.  
+<!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
+
+> This feature is in preview. Reach out to nauman@stoplight.io for more information.
 
 Style guides are meant to be dynamic documents that change as your organization grows and adopts API governance best practices.
 

@@ -1,7 +1,9 @@
 # Enable a Style Guide
 
 <!-- theme: info -->
->Shared style guides are available on the **Professional** and **Enterprise** plans.  
+<!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
+
+> This feature is in preview. Reach out to nauman@stoplight.io for more information.
 
 You can enable the Stoplight Style Guide for any project.
 

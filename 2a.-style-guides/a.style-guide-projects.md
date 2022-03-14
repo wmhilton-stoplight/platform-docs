@@ -4,7 +4,10 @@ tags: [Governance]
 
 # Overview
 
-> This feature is in preview. Reach out to nauman@stoplight.io if you want to know more.
+<!-- theme: info -->
+<!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
+
+> This feature is in preview. Reach out to nauman@stoplight.io for more information.
 
 Stoplight style guides add consistency, reusability, and easy governance to your API program. Style guides contain rules that help you govern versioning, filtering, error formats, naming conventions, pagination, and more. Examples include:
 
@@ -15,9 +18,6 @@ Stoplight style guides add consistency, reusability, and easy governance to your
 Stoplight uses [Spectral](https://meta.stoplight.io/docs/spectral/ZG9jOjYx-overview) to validate your API designs based on enabled style guides. You'll receive immediate feedback in the **Validation List** as you work in Studio.
 
 ![style-guide-feedback2.png](https://meta.stoplight.io/api/v1/projects/cHJqOjI/images/GqiaANFtj80)
-
-<!-- theme: info -->
->Shared style guides are available on the **Professional** and **Enterprise** plans. 
 
 See our [rule examples](g-rule-examples.md) to get started.
 
