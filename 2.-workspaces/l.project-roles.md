@@ -26,7 +26,7 @@ Project members, except guests, can add members to the project with their role o
 
 Project visibility determines who can view projects within or outside the workspace. 
 
-**Private**: Only workspace members and guests with direct project access can view the project.
+**Private (Starter plan and above)**: Only workspace members and guests with direct project access can view the project.
 
 **Internal**: All workspace members can view the project. Guests need direct access to the project. New projects have internal visibility by default. 
 
