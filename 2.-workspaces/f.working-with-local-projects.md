@@ -1,6 +1,8 @@
 # Publish with the Stoplight CLI
 
-Stoplight CLI is a command-line tool, available as [an NPM module](https://www.npmjs.com/package/@stoplight/cli), that can publish changes to Stoplight and make them visible in Explorer just like any other project. These projects are not editable in Studio Web, but the content is available to read and search.
+Stoplight CLI is a command-line tool, available as [an NPM module](https://www.npmjs.com/package/@stoplight/cli), that can publish changes to Stoplight and make them visible in Explorer just like any other project. 
+
+Stoplight CLI projects are **not editable** in Studio Web, but the content is available to read and search. You can [edit content in Studio Desktop](#edit-local-files), however, then publish the files to Stoplight using the CLI.
 
 Stoplight CLI can be used to publish:
 
