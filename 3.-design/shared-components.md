@@ -1,7 +1,7 @@
 # Shared Components
 
 When using Stoplight, or OpenAPI in general, there are various different
-components that can be either defined within an endpoint, or reused between
+components that can be either defined within an endpoint or reused between
 multiple endpoints. To help reduce repetition (and the chance of introducing
 errors), it is important to:
 
@@ -15,20 +15,31 @@ Shared components in Stoplight come in several forms:
 
 * **Responses** - Common responses like page not found, validation errors, etc. 
 
-* **Models** - Also known as "Schemas", these are the most common shared component. They describe the actual shape of the data for JSON requests and responses.
+* **Models** - Also known as schemas, these are the most common shared component. They describe the actual shape of the data for JSON requests and responses.
 
-* **Examples** - Show how a request or response body might look. These can be generated from schemas automatically, but can also be made manually created for more complex scenarios.
+* **Examples** - Show how a request or response body might look. These can be generated from schemas automatically, but can also be manually created for more complex scenarios.
+
+| Shared Component | Within an API | Within a Project | Across Projects* 
+|---------|----------|---------|---------|
+| Parameters | ✅ |  | 
+| Responses |✅ |  | 
+| Examples | ✅ |  | 
+| Models   | ✅ | ✅ | ✅ |
+
+\* With design libraries enabled. Design libraries are in alpha release. 
 
 ## Shared Parameters
 
-Describing a HTTP request involves talking about the URL, method, body, all of which are covered elsewhere, but everything else is a parameter. 
+Describing a HTTP request involves talking about the URL, method, body, all of which are covered elsewhere. Everything else is a parameter. 
 
-  * **path** - Dynamic values in the path part of the URL, e.g.: `/people/{id}`.
-  * **query** - Dynamic values in the query string part of the URL, e.g.: `/planets?name=Endor`.
+  * **path** - Dynamic values in the path part of the URL (example: `/people/{id}`).
+  * **query** - Dynamic values in the query string part of the URL (example: `/planets?name=Endor`).
   * **header** - Custom headers that are expected as part of the request.
   * **cookie** - Used to pass a specific cookie value to the API.
 
 Attributes and validations can be added to the parameter values to describe things like data type, default values, examples, restrict to a specific set of values (enum), and even marking parameters as deprecated to signal to API consumers that the parameters should no longer be used.
+
+### Add Shared Parameters
 
 To add a shared parameter:
 
@@ -39,6 +50,8 @@ To add a shared parameter:
 5. Define parameter properties in the Editor pane.
 
 ![query-parameters.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/rn0pfNwM34U)
+
+### Use Shared Parameters
 
 To use a shared parameter:
 
@@ -54,8 +67,7 @@ Once the parameter has been referenced, any updates to the shared parameter will
 
 ### Shared Parameters Example
 
-Let's say you are creating an API to serve thousands of cooking recipes. When dealing with large volumes of data, you typically want to avoid sending _all_ data in a request. To help avoid
-sending more data than is necessary, most applications implement a "paging" feature that allows clients to retrieve a small portion of results (i.e. a single page).
+Let's say you are creating an API to serve thousands of cooking recipes. When dealing with large volumes of data, you typically want to avoid sending _all_ data in a request. To help avoid sending more data than is necessary, most applications implement a "paging" feature that allows clients to retrieve a small portion of result, such as a single page.
 
 There are multiple ways to approach a paging feature. For this example, we want to add two query string parameters to every request:
 
@@ -81,25 +93,41 @@ By setting an `offset` of `20`, the API will discard the first 20 results. Paire
 ## Shared Responses
 
 Similar to shared parameters, shared responses allow you to reference a single response multiple times without having to recreate each response manually. The added benefit of this approach is that updates to the shared response object are
-automatically propagated to any endpoint using that object, no extra changes required.
+automatically propagated to any endpoint using that object.
 
 Shared responses allow you to configure the following properties:
 
-* Headers - Customize the HTTP Headers returned in the response
-* Response body - Customize the HTTP message body contents using the Stoplight modeling tool (or reference a pre-existing model)
+* **Headers** - Customize the HTTP Headers returned in the response.
+* **Response body** - Customize the HTTP message body contents using the Stoplight modeling tool (or reference a pre-existing model).
 
-To use a shared response, navigate to an API endpoint's **Response** section and create a reference to the shared response by choosing the _Type_ of the response
-as "Reference". Once the Response type is set to "Reference", you can then choose the shared response to use for that endpoint. Shared responses can also be shared across files, projects, and other external sources.
+### Add Shared Responses
 
-### Shared Responses Example
+To create a shared reponse:
 
-Let's say you have a set of API endpoints that should return the same error response when a failure occurs. Every time an error is returned from the API, the API a custom error format instead of using a standard one like [RFC 7807](https://tools.ietf.org/html/rfc7807):
+1. Select the **APIs** tab.
+2. Right-click on the **Responses** folder.
+3. Provide a name for the shared response, and then press **Enter**.
+4. In the Editor pane, add shared headers or a response body.
+
+### Use Shared Responses
+
+To use a shared response:
+
+1. Navigate to an API endpoint.
+2. In the **Response** area of the form, select the shared response from the **No shared response selected** list. 
+3. Select the corresponding response code (example: 400).
+
+![use-shared-response.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/oaQyqBxmem8)
+
+Select the **Go to Shared Response** button to open the shared response. Changes you make to the shared response impact all references.
+
+### Shared Response Example
+
+Use shared responses when you have a set of API endpoints that should return the same error response when a failure occurs. When an error is returned from the API, the API uses a custom error format instead of using a standard one like [RFC 7807](https://tools.ietf.org/html/rfc7807):
 
 * `msg` - A descriptive error message about the failure in string format.
 * `error_code` - A code representing the category of the failure in integer format.
-* `response_id` - A tracking ID that can be used by the caller to follow-up with an administrator for more information (i.e:, debug an issue with customer support).
-
-Now that we know what should be returned, let's create a shared response in Stoplight. To get started, create a new shared response for an OpenAPI document under the "Responses" section of the sidebar.
+* `response_id` - A tracking ID that can be used by the caller to follow-up with an administrator for more information.
 
 This examples shows a shared response called BadRequest with propertiesmsg, error_code, and response_id.
 
@@ -111,23 +139,67 @@ Create a new shared response, giving it a name like `BadRequest`, `NotFound`, `F
 
 Add the schema, or reference one that already exists, with the properties that will appear in the HTTP body.
 
-Add a short description of the error response, such as what is likely to have triggered it, and where the user can find out more information to resolve it. If documenting an API error, and the error message itself has links and sufficient information to solve the problem, then this can be more brief.
+Add a short description of the error response, such as what is likely to have triggered it, and where the user can find out more information to resolve it. If documenting an API error, and the error message itself has links and sufficient information to solve the problem, then this can be more brief. You can also add examples.
 
-Then, maybe even add an example!
-
-Once the shared response has been created, it can be referenced in any API endpoint by clicking the chain link icon. 
-
-![shared-response-select.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/nSITq9364X0)
-
-Now when you update a response, it will update in every endpoint using this response.
+Now when you update the shared response, it will update in every endpoint using this response.
 
 ## Shared Models
 
 While designing your APIs, you will often find yourself repeating structures in your endpoint request and response bodies. For example, you might have an API endpoint that returns a list of users, and another endpoint that returns a single user. The response structures of these two endpoints will be very similar - one is responding with an array of user objects, and one is responding with a single user object.
 
-Models allow us to describe these common structures (for example, a User object), and then reference the object from our endpoint definitions, or even from other models. Then, we only have one place to update if we need to change anything about the user object, instead of many places.
+Models allow you to describe these common structures (for example, a User object), and then reference the object from our endpoint definitions, or even from other models. Then, we only have one place to update if we need to change anything about the user object, instead of many places.
+
+Splitting your API descriptions across multiple files using $ref (references) allows for cleaner and more organized code. 
+
+Use shared models to:
+
+- De-duplicate common structures like models, reducing repetition and allowing them to be used for other purposes like [contract testing](https://apisyouwonthate.com/blog/writing-documentation-via-contract-testing).
+- Similar parameters or headers can be shared across multiple endpoints.
+- Examples for request or response bodies can be reused.
+
+### Use Shared Models
+
+1. Select an **endpoint** or **model**.
+2. Create a **request body** and/or **response body**.
+3. Within the JSON Schema Viewer, add a new property or modify an existing property.
+4. Select **\$ref**.
+5. Select a **\$ref target** and model:
+    * **External URL**: Use a fully qualified URL to reference an external model.
+    * **This File**: Select a model in the current API.
+    * **This Project**: Select a model in the current Stoplight project.
+    * **Design Library**: Coming soon.
+
+![ref-model.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/gIUDTdG7DNY)
 
 ## Shared Examples
 
-Shared Examples can be applied to a request body or a response body, or applied to another model so that it will show up anywhere. Defining an example gives you more power over how that model is displayed in mock servers and documentation tools. 
+Shared Examples can be applied to a request body or a response body. Defining an example gives you more power over how that model is displayed in mock servers and documentation tools. 
+
+### Add Shared Examples
+
+To add a shared example:
+
+1. Select the **APIs** tab.
+2. Right-click on the **Examples** folder, and then select **New Example**.
+3. Select the type of parameter to create.
+4. Provide a name for the example, and then press **Enter**.
+5. Define example properties in the Editor pane.
+
+![shared-example.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/a7SsfW5eo4Y)
+
+### Use Shared Examples
+
+To use a shared example:
+
+1. Navigate to an API endpoint.
+2. In the **Request** or **Response** area of the form, select the **Example** tab.
+3. Select the shared example from the **No shared response selected** list. 
+
+![shared-example.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/J51M2VW05R0)
+
+Select the **Go to Shared Example** button to open the shared response. Changes you make to the shared response impact all references.
+
+
+
+
 

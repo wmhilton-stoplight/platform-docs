@@ -32,5 +32,5 @@ There are a few ways to get started designing your API with Stoplight Studio:
 - [Design-First Principles](https://meta.stoplight.io/docs/api-best-practices/ZG9jOjM2NTM5Nzc2-design-first-principles)
 - [Understand the Directory Structure](../7.-projects/working-with-files.md#directory-structure)
 - [Work with Models](http-endpoints.md)
-- [Use References](use-references.md)
+- [Shared Components](shared-components.md)
 - [Validation and Linting](validation-and-linting.md)

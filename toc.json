@@ -53,12 +53,7 @@
                 "title":"Work with Mock Servers",
                 "uri":"3.-design/setting-up-a-mock-server.md"
              },
-             {
-                "type":"item",
-                "title":"Use References",
-                "uri":"3.-design/use-references.md"
-             },
-             {
+            {
                 "type":"item",
                 "title":"Validation and Linting",
                 "uri":"3.-design/validation-and-linting.md"

@@ -56,7 +56,7 @@ To start using the editor:
   - integers
   - booleans
   - nulls
-  - [references](use-references.md) (a.k.a. `$ref`)
+  - [references](shared-components.md#shared-models) (a.k.a. `$ref`)
 
   Field types can also include _Combination Types_, which include 'allOf',
   'oneOf', and 'anyOf'. These special types allow for object inheritance from
