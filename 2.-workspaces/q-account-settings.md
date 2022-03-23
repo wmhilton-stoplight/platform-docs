@@ -1,6 +1,6 @@
 # User Account Settings
 
-Use the **Account Settings** page to update your user settings across all workspaces. Email digest settings apply only to the current workspace, however. 
+Use the **Account Settings** page to update your user settings across all workspaces. Email digest settings and Connected Accounts apply only to the current workspace, however. 
 
 To modify account settings:
 
@@ -8,8 +8,8 @@ To modify account settings:
 2. Select **Account Settings**.
 3. Change settings on these three tabs as needed:
    - Basics
-    - Security
-    - Connected Accounts
+   - Security
+   - Connected Accounts
 
 ## Account Basics
 
@@ -33,7 +33,7 @@ Use the **Security** tab to update your account password.
 
 ## Connected Accounts
 
-Use this tab to connect or disconnect your account for integrations that an administrator has configured for your workspace. Examples include GitHub, GitLab, or Bitbucket Cloud.
+Use this tab to connect or disconnect your account for integrations that you or an administrator has configured for your workspace. Examples include GitHub, GitLab, or Bitbucket Cloud.
 
 
 
