@@ -13,7 +13,7 @@ Similar to [project visibility](l.project-roles.md), group visibility defines wh
 
 |                                 | Viewer | Editor | Admin | Owner |
 |---------------------------------|--------|--------|-------|-------|
-| Can invite members*              | ✅      | ✅      | ✅     | ✅     |
+| Can invite members*             | ✅    | ✅      | ✅     | ✅     |
 | Can add projects                |        | ✅      | ✅     | ✅     |
 | Can view group settings         |        | ✅      | ✅     | ✅     |
 | Remove members                  |        |        | ✅     | ✅     |
@@ -32,7 +32,7 @@ Every member of a group will automatically have access to the *non-private* proj
 
 Guests have restricted access and can only view documentation in published branches. (Guests are automatically given restricted access when they are invited to a group or project.)
 
-However, project administrators can overwrite this default behavior to customize access for the group from the **Share Project** window. See [Project Access](l.project-roles.md#grant-project-permissions)
+However, project administrators can overwrite this default behavior to customize access for the group from the **Share Project** window. See [Project Access](l.project-roles.md#grant-project-permissions).
 
 ![project-access-for-group-members.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/RtI9C5YVrMU)
 

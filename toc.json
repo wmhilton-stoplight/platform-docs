@@ -265,10 +265,19 @@
           "items":[
              {
                 "type":"item",
+                "title":"Overview",
+                "uri":"7.-projects/project-overview.md"
+             },{
+                "type":"item",
                 "title":"Add Projects",
                 "uri":"2.-workspaces/b.adding-projects.md"
              },
             {
+                "type":"item",
+                "title":"Group Projects",
+                "uri":"2.-workspaces/m.groups.md"
+             },
+             {
                 "type":"item",
                 "title":"Work with Files",
                 "uri":"7.-projects/working-with-files.md"
@@ -320,11 +329,6 @@
                 "uri":"2.-workspaces/h.branch-management.md"
              }
           ]
-       },
-       {
-          "type":"item",
-          "title":"Groups",
-          "uri":"2.-workspaces/m.groups.md"
        },
        {
           "type":"group",

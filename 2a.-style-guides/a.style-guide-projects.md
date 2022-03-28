@@ -2,7 +2,7 @@
 tags: [Governance]
 ---
 
-# Overview
+# Style Guide Overview
 
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 

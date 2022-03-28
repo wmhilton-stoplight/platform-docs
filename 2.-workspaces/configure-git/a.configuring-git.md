@@ -1,4 +1,4 @@
-# Overview
+# Git Overview
 
 Stoplight can connect with popular Git Providers hosted publically or on your servers (even if it's protected by a firewall), letting you work directly with [projects](../b.adding-projects.md) in public or private repos. 
 
