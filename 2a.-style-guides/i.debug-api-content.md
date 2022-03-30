@@ -3,9 +3,9 @@
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
 
-> This feature is in preview. Reach out to nauman@stoplight.io for more information. 
+> This is a limited access feature. Reach out to nauman@stoplight.io for more information.
 
-Once you create rules, debug them with JSON-formatted API content. This enables you to find and fix rule errors quickly and easily. 
+Once you create rules, debug them with JSON-formatted API content. This enables you to find and fix rule errors quickly and easily.
 
 You can:
 
@@ -18,13 +18,10 @@ To debug API content:
 2. Select the **Styles** tab.
 3. Select a rule from the left side panel.
 4. Select **Debug**.
+5. Add JSON content to the example to validate it.
 
-If your JSON violates the selected rule, the rule's message is shown in the **Validation List**. 
+If your JSON violates the selected rule, the rule's message is shown in the **Validation List**.
 
-![style-guides-debug-json.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/CKdd23fEknc)
+![Debug rules](https://stoplight.io/api/v1/projects/cHJqOjI/images/iMPoCl0KMDA)
 
 If your rule is invalid, you receive this error: "Your Spectral ruleset contains errors." In this case, you need to adjust the rule.
-
-
-
-

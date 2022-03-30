@@ -3,7 +3,9 @@
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
 
-> This feature is in preview. Reach out to nauman@stoplight.io for more information.
+> This is a limited access feature. Reach out to nauman@stoplight.io for more information.
+
+The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of default rules, but you can easily create your own rules to meet the needs of your API.
 
 See our [rule examples](g-rule-examples.md) to get started.
 
@@ -20,7 +22,7 @@ To create a rule:
 
 ### Rule Settings
 
-Set severity, name, message returned in validation, and the description for documenting the rule.
+Set severity, name, the message returned in validation, and the description for documenting the rule.
 
 - **Rule severity**
    Options are error, warning, information, and hint. When applied to an API project, the severity levels appear in the **API Design** editor. 
@@ -33,13 +35,13 @@ Set severity, name, message returned in validation, and the description for docu
 
 - **Message**
   
-   Provide the message that will appear in the validation results list in the **API Design** editor. Add your own message text or include placeholders that are evaluated at runtime: 
+   Provide the message that will appear in the validation results list in the **API Design** editor. Add message text or include placeholders that are evaluated at runtime:
 
-   - `{{error}}`: Returns the function error. 
+   - `{{error}}`: Returns the function error.
    - `{{description}}`: Returns the rule's description.
-   - `{{path}}`: Returns the full path to the property in the API design document. 
+   - `{{path}}`: Returns the full path to the property in the API design document.
    - `{{property}}`: Returns the last segment of the property path in the API design document.
-   - `{{value}}`" Returns the linted value in the API design document. 
+   - `{{value}}`" Returns the linted value in the API design document.
 
 - **Description**
 
@@ -49,29 +51,18 @@ Set severity, name, message returned in validation, and the description for docu
 
 Set the area of the API specification the rule applies to.
 
-- **Target** 
+- **Target**
 
   Select a target to specify the area of an API specification document. Targets are predefined and required for each rule. See [Create Targets](b-create-targets.md).
 
 - **Property**
 
-  Add properties to reference a specific entity in the target. For example, when you target the `$tags[*]` area of the OAS 3.1 specification, enter `description` to enforce rules on tag descriptions. 
+  Add properties to reference a specific entity in the target. For example, when you target the `$tags[*]` area of the OAS 3.1 specification, enter `description` to enforce rules on tag descriptions.
 
 ![Add property to target](../assets/images/style-guide-add-field-to-target.png)
 
 ### Then Settings
 
-Use Stoplight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions) to set the function that will evaluate your API design content. 
+Use Stoplight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions) to set the function that will evaluate your API design content.
 
 [What's Next: Publish Style Guide](e.publish-style-guide.md)
-
-
-
-
-
-
-
-
-
-   
- 

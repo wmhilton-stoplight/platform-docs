@@ -5,9 +5,11 @@
 
 > This feature is in preview. Reach out to nauman@stoplight.io for more information.
 
+The Stoplight Style Guide provides a set of targets and rules for all API projects. You can use the rules as-is, disable them, or create your own rules. The following examples explain how to create custom targets and rules.
+
 ## APIs Must Be Versioned
 
-Use the truthy function to require all APIs have version information. 
+Use the `truthy' function to require all APIs have version information. 
 
 1. [Create a target](b-create-targets.md) for the `info` object: `$.info`
 
@@ -31,7 +33,7 @@ Once a style guide containing this rule is applied to an API project, the messag
 
 ## Path Parameters Must Adhere to Camel Case
 
-Use the pattern function to ensure that all path parameters use Camel Case (example: myPath) and alphanumeric characters.
+Use the `pattern` function to ensure that all path parameters use Camel Case (example: myPath) and alphanumeric characters.
 
 1. [Create a target](b-create-targets.md) for the `parameter` object. This example targets path parameters in the object: `$..parameters[?(@.in == 'path')]`.
 
@@ -52,4 +54,28 @@ Use the pattern function to ensure that all path parameters use Camel Case (exam
 
 Once a style guide containing this rule is applied to an API project, the message is shown in the **Validation List** for APIs that have path parameters that do not follow the casing standard. Select the message to move directly to the line in the design that needs to be addressed.
 
-![casing-validation.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/rjqUtPFdKdM)
+![Case Validation](https://stoplight.io/api/v1/projects/cHJqOjI/images/rjqUtPFdKdM)
+
+## Response Headers Must Include a Ratelimit
+
+Use the `truthy` function to ensure that ratelimits are added to response headers to control the number of allowed requests in the current period.
+
+1. [Create a target](b-create-targets.md) for the `response` object. This example targets all reponses in an API: `$..responses.*`. In this example, we created a target for two formats: oas3.1 and oas3.0.
+
+![Response Targets](https://stoplight.io/api/v1/projects/cHJqOjI/images/J2RbvdeFmNQ)
+
+2. Add a rule with these settings:
+      
+   - **Severity**: *Error*
+   - **Name**:  rate-limiters
+   - **Message**: *{{description}}; missing {{property}}* (This returns the description you provide, the word "missing," and the missing property.)
+   - **Description**: *Responses must include X-Rate-Limit headers.*
+   - ***Target**: Select the *responses* target you createad in step 1.
+   - **Property**: *headers.ratelimit-limit* (This targets the  X-Rate-Limit-Limit field in the response header.)
+   - **Function**: *Truthy* 
+
+![Rate Limit Rule](https://stoplight.io/api/v1/projects/cHJqOjI/images/glYcco4RMCY)
+
+Once a style guide containing this rule is applied to an API project, the message is shown in the **Validation List** for each response that does not include ratelimits. Select the message to move directly to the line in the design that needs to be addressed.
+
+[What's Next: Publish Style Guides](e.publish-style-guide.md)

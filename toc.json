@@ -138,6 +138,11 @@
                      "title": "Disable Rules",
                      "uri": "2a.-style-guides/j-disable-rules.md"
                    },
+                                      {
+                      "type":"item",
+                      "title":"Validate Style Guides",
+                      "uri":"2a.-style-guides/k-validate-style-guides.md"
+                   },
                     {
                       "type": "item",
                       "title": "Create Custom Functions",
