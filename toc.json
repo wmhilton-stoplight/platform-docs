@@ -11,6 +11,11 @@
           "uri":"b.overview.md"
        },
        {
+          "type":"item",
+          "title":"Quickstart Guide",
+          "uri":"4.-documentation/documentation-quick-start.md"
+       },
+       {
           "type":"divider",
           "title":"API Design"
        },
@@ -22,6 +27,11 @@
                 "type":"item",
                 "title":"Overview",
                 "uri":"3.-design/design-overview.md"
+             },
+             {
+                "type":"item",
+                "title":"Design Editor",
+                "uri":"3.-design/api-design-editor.md"
              },
              {
                 "type":"item",
