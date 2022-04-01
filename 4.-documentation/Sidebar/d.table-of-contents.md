@@ -151,19 +151,14 @@ Markdown articles come first in the table of contents and are ordered alphabetic
 
 ### APIs
 
-APIs are listed below articles. A [divider](#dividers) separates APIs from articles, and each API's title is represented as group. This group contains overview information, such as the API's description, contact, licensing, servers and global security. 
+APIs are listed below articles. A [divider](#dividers) separates APIs from articles, and each API's title is represented as a group. This group contains overview information, such as the API's description, contact, licensing, servers and global security. 
 
-Tags determine endpoint ordering:
+### Schemas
+
+At the bottom of the table of contents are JSON Schema model files that are outside of an API specification. Models are listed under a [divider](#dividers) titled **Schemas** and follow the order in the specification.
+
+### Endpoint and Model Ordering Rules
 
 - Endpoints or models without tags are placed at the root level and follow the order in the specification. 
 - All API endpoints and models are nested inside [groups](#groups) titled after their first tag. 
 - Within each group, endpoints and models follow the order in the specification.
-
-### Schemas
-
-At the bottom of the table of contents are JSON Schema model files that are outside of an API specification. Models are sorted alphabetically under a [divider](#dividers) titled "Schemas."
-
-Tags determine schema model ordering:
-
-- Models without tags are placed at the root level and ordered by endpoint or model name. 
-- All Models are nested inside [groups](#groups) titled after their first tag. 
