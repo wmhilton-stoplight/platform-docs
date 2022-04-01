@@ -73,9 +73,10 @@ Guests are not considered members of your workspace, so their access is limited 
 
 ### Share Project
 
-After you publish a project, the **Share Project** dialog box allows you to: 
+After you publish a project, the **Share Project** dialog box allows you to:
+
 * Invite members by name or email. 
-* Manage project access by assigning members roles as **Viewers** or **Editors**.
+* Manage project access by assigning members roles as **Viewers**, **Editors**, or **Admins**.
 * Manage **Project Visibility** as **Public**, **Private**, or **Internal**.
 
 >All members can invite additional members within their level of access to the project.
