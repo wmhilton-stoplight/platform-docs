@@ -3,11 +3,13 @@
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
 
-> This is a limited access feature. Reach out to nauman@stoplight.io for more information.
+> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
 
 The Stoplight Style Guide is automatically enabled for API projects.
 
 Customers on Professional and Enterprise plans can enable shared style guides in any API project or to another style guide project. This is an easy way to add rules, targets, and functions across style guides.
+
+https://youtu.be/6xnRoI41v_A
 
 Once you enable style guides, you can:
 

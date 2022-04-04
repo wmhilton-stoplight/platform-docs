@@ -3,9 +3,11 @@
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
 
-> This is a limited access feature. Reach out to nauman@stoplight.io for more information.
+> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
 
 The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of default rules, but you can easily create your own rules to meet the needs of your API.
+
+https://youtu.be/ZLmnV-q33X0
 
 See our [rule examples](g-rule-examples.md) to get started.
 

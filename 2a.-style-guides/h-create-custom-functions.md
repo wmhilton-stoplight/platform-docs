@@ -7,7 +7,7 @@ internal: true
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
 
-> This is a limited access feature. Reach out to nauman@stoplight.io for more information.
+> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
 
 Stoplight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions) are intended to meet most rule validation needs, but you may need functions to solve advanced use cases.
 

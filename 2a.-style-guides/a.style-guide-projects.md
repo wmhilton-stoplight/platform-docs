@@ -7,7 +7,7 @@ tags: [Governance]
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
 
-> This is a limited access feature. Reach out to nauman@stoplight.io for more information.
+> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
 
 Stoplight style guides add consistency, reusability, and easy governance to your API program. Style guides contain rules that help you govern versioning, filtering, error formats, naming conventions, pagination, and more. Examples include:
 

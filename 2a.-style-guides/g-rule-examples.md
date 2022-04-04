@@ -3,7 +3,7 @@
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
 
-> This feature is in preview. Reach out to nauman@stoplight.io for more information.
+> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
 
 The Stoplight Style Guide provides a set of targets and rules for all API projects. You can use the rules as-is, disable them, or create your own rules. The following examples explain how to create custom targets and rules.
 

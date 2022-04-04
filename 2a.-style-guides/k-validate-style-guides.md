@@ -1,5 +1,7 @@
 # Validate Style Guides
 
+> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
+
 As you add and modify rules and targets in your style guide, the **Validate** tab alerts you to errors. You must fix errors before you can publish the style guide.
 
 ![validation-errors.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/2hYW2drQXto)
