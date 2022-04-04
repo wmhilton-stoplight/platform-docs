@@ -5,7 +5,7 @@
 
 > Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
 
-The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of default rules, but you can easily create your own rules to meet the needs of your API.
+The Stoplight Style Guide provides a set of default rules, but you can easily create your own rules to meet the needs of your API.
 
 https://youtu.be/ZLmnV-q33X0
 
