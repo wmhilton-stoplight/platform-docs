@@ -64,8 +64,27 @@ To add operations links to API descriptions in the same specification file, use 
 
    `[File in the same folder](my-markdown-file.md)`
 
-## Tips
+## FAQs
 
-   - Use `%20` to escape spaces in file names.
-   - When adding topics to the [project sidebar (table of contents)](Sidebar/d.table-of-contents.md), always use the relative path.
+   ### What are permalinks?
+
+   Permalinks act as an identifier for documentation pages. They allow you to change article titles without breaking links. They also hide the underlying directory structure, which makes the URL smaller.
+
+   ### What are permalink IDs?
+
+   The ID is related to the location of the source file within the source directory. If you move the file to another directory, the ID will change since the system treats it as a new file.
+
+It is not possible to generate links without IDs. The IDs cannot be changed by users. They are stable as long as the file is not deleted or moved. Changing the file name or documentation title will not affect the ID or break the link.
+
+<!-- focus: center -->
+![permalink.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/T2Re8pZ5gmM)
+
+   ### How do I escape spaces in file names?
+   
+   Use `%20` to escape spaces in file names.
+   
+   ### Which option should I choose when adding topics to the project sidebar?
+   
+   When adding topics to the [project sidebar (table of contents)](Sidebar/d.table-of-contents.md), always use the relative path.
+
 
