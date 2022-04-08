@@ -4,16 +4,10 @@ Use project settings to change the name and other project information, move a pr
 
 Project owners and administrators can modify project settings.
 
-<!--The following steps apply to the Project/Groups revamp. If this ships before that, comment out the steps and add guidance for getting to project settings from the gear only. 
-
 Use one of these methods to open the **Project Settings** page:
 
-* From the projects list, select a project, and then select the **Project Settings** link in the right pane.-->
-
-To open project settings:
-
-1. From the workspace sidebar, select a project.
-2. Select the project gear icon.
+* From the projects list, select a project, and then select the **Project Settings** link in the right pane.
+* From the workspace sidebar, select a project, and then select the project gear icon.
 
 ## Project Basics
 
