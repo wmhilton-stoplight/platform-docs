@@ -3,29 +3,28 @@
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
 
-> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
+<!-- focus: false -->
+![Feature Preview](../assets/images/badge-preview-small.png)
 
-The Stoplight Style Guide provides a set of targets and rules for all API projects. You can use the rules as-is, disable them, or create your own rules. The following examples explain how to create custom targets and rules.
+*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
+
+The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of targets and rules for all API projects. You can use the rules as-is, disable them, or create your own rules. The examples in this topic explain how to use the provided targets to create custom rules.
 
 ## APIs Must Be Versioned
 
-Use the `truthy' function to require all APIs have version information. 
+Use the provided `API_Document` target and the the `truthy' function to require all APIs have version information. 
 
-1. [Create a target](b-create-targets.md) for the `info` object: `$.info`
+Add a rule with these settings:
 
-![Style Guide Target Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/sQLjb2ANNqA)
-
-2. Add a rule with these settings:
-
-    - **Severity**: *Error* 
-    - **Name**: *version-required*
-    - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
-    - **Description**: *All APIs must be versioned.*
-    - **Target**: Select the *info* target you created in step 1.
-    - **Property**: *version* (This targets the property  name "version" located inside the info object.)
-    - **Function**: *Truthy* 
+  - **Severity**: *Error* 
+  - **Name**: *version-required*
+  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Description**: *
+  - **Target**: Select *API_Document*.
+  - **Property**: *version* (This targets the property  name "version" located inside the info object.)
+  - **Function**: *Truthy* 
   
-![Style Guide Version Rule Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/58k0WosYbl0)
+![Style Guide Version Rule Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/1gaxq48ZjJo)
 
 Once a style guide containing this rule is applied to an API project, the message is shown in the **Validation List** for APIs that are not versioned. Select the message to move directly to the line in the design that needs to be addressed.
 
@@ -33,24 +32,20 @@ Once a style guide containing this rule is applied to an API project, the messag
 
 ## Path Parameters Must Adhere to Camel Case
 
-Use the `pattern` function to ensure that all path parameters use Camel Case (example: myPath) and alphanumeric characters.
+Use the provided `Parameter_All_Item` target and the the `casing` function to ensure that all path parameters use Camel Case (example: myPath) and alphanumeric characters.
 
-1. [Create a target](b-create-targets.md) for the `parameter` object. This example targets path parameters in the object: `$..parameters[?(@.in == 'path')]`.
+Add a rule with these settings:
 
-![Style Guide Path Parameter Target](https://stoplight.io/api/v1/projects/cHJqOjI/images/HIVUF4DUm2o)
-
-2. Add a rule with these settings:
-
-    - **Severity**: *Warning* 
-    - **Name**: *path-parameter-casing*
-    - **Message**: *{{property}} path parameter is not camelCase {{error}}* (This returns the last segment of the property path in the API design document, your text, and the function error.) 
-    - **Description**: *Path parameters must follow Camel Case and use only alphanumeric characters.*
-    - **Target**: Select the *Path Parameter* target you created in step 1.
-    - **Property**: *name* (This targets the name field in the path object.)
-    - **Function**: *pattern* 
-    - **Match**: *^[a-z][a-zA-Z0-9]+$*
+  - **Severity**: *Warning* 
+  - **Name**: *path-parameter-casing*
+  - **Message**: *{{property}} path parameter is not camelCase {{error}}* (This returns the last segment of the property path in the API design document, your text, and the function error.) 
+  - **Description**: *Path parameters must follow Camel Case and use only alphanumeric characters.*
+  - **Target**: Select *Parameter_All_Item*
+  - **Property**: *name* (This targets the name field in the path object.)
+  - **Function**: *casing* 
+  - **Type**: camel
     
-![Style Guide Path Parameter Rule](https://stoplight.io/api/v1/projects/cHJqOjI/images/K8to0xBk3TI)
+![Style Guide Path Parameter Rule](https://stoplight.io/api/v1/projects/cHJqOjI/images/wEGVAehrcsU)
 
 Once a style guide containing this rule is applied to an API project, the message is shown in the **Validation List** for APIs that have path parameters that do not follow the casing standard. Select the message to move directly to the line in the design that needs to be addressed.
 
@@ -58,7 +53,7 @@ Once a style guide containing this rule is applied to an API project, the messag
 
 ## Response Headers Must Include a Ratelimit
 
-Use the `truthy` function to ensure that ratelimits are added to response headers to control the number of allowed requests in the current period.
+Create a custom target and use the `truthy` function to ensure that ratelimits are added to response headers to control the number of allowed requests in the current period.
 
 1. [Create a target](b-create-targets.md) for the `response` object. This example targets all reponses in an API: `$..responses.*`. In this example, we created a target for two formats: oas3.1 and oas3.0.
 

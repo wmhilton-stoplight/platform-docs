@@ -3,9 +3,12 @@
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
 
-> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
+<!-- focus: false -->
+![Feature Preview](../assets/images/badge-preview-small.png)
 
-The Stoplight Style Guide is automatically enabled for API projects.
+*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
+
+The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) is automatically enabled for API projects.
 
 Customers on Professional and Enterprise plans can enable shared style guides in any API project or to another style guide project. This is an easy way to add rules, targets, and functions across style guides.
 
@@ -14,8 +17,8 @@ https://youtu.be/6xnRoI41v_A
 Once you enable style guides, you can:
 
 - [Disable inherited rules](j-disable-rules.md).
-- Create local targets, custom functions, and rules.
-- Use inherited targets and custom functions in new rules.
+- Create local targets and rules.
+- Use inherited targets in new rules.
 
 To enable a style guide:
 
@@ -32,7 +35,7 @@ To enable a style guide:
 
 ## Disable a Style Guide
 
-You can disable any style guide, including the Stoplight Style Guide.
+You can disable any style guide, including the [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide).
 
 To disable a style guide:
 

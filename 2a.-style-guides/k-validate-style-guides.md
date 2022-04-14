@@ -1,10 +1,13 @@
 # Validate Style Guides
 
-> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
+<!-- focus: false -->
+![Feature Preview](../assets/images/badge-preview-small.png)
+
+*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
 
 As you add and modify rules and targets in your style guide, the **Validate** tab alerts you to errors. You must fix errors before you can publish the style guide.
 
-![validation-errors.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/2hYW2drQXto)
+![Validation Errors](https://stoplight.io/api/v1/projects/cHJqOjI/images/3fbbzQ8w6AA)
 
 ## Common Errors
 
@@ -14,9 +17,12 @@ As you add and modify rules and targets in your style guide, the **Validate** ta
 
 *Error at #/rules//given: must be a non-empty array of expressions*
 
+*Error at #/rules/invalid-rule/then: must have required property 'function'*
+
 ## Fix Common Errors
 
 First, verify that rules and targets have all required settings. For example:
 
 1. Targets must include valid JSON paths.
-2. Rules must have a valid target.
+2. Rules must have a valid target, which is shown as "given" in the error.
+3. Rules must have a function.

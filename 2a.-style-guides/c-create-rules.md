@@ -3,9 +3,12 @@
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
 
-> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
+<!-- focus: false -->
+![Feature Preview](../assets/images/badge-preview-small.png)
 
-The Stoplight Style Guide provides a set of default rules, but you can easily create your own rules to meet the needs of your API.
+*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
+
+The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of default rules, but you can easily create your own rules to meet the needs of your API.
 
 https://youtu.be/ZLmnV-q33X0
 
@@ -59,9 +62,9 @@ Set the area of the API specification the rule applies to.
 
 - **Property**
 
-  Add properties to reference a specific entity in the target. For example, when you target the `$tags[*]` area of the OAS 3.1 specification, enter `description` to enforce rules on tag descriptions.
+  Add properties to reference a specific entity in the target. For example, when you target the `API_Tags` area of the OAS 3.1 specification, enter `description` to enforce rules on tag descriptions.
 
-![Add property to target](../assets/images/style-guide-add-field-to-target.png)
+![Add property to target](https://stoplight.io/api/v1/projects/cHJqOjI/images/bZce0HHfE1s)
 
 ### Then Settings
 

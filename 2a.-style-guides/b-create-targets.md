@@ -3,9 +3,12 @@
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
 
-> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
+<!-- focus: false -->
+![Feature Preview](../assets/images/badge-preview-small.png)
 
-The Stoplight Style Guide provides a set of default targets, but you can add custom targets to reference commonly used areas of API specification documents, such as OpenAPI or AsyncAPI, in rules. Use a JSON path to define the target area. You can add simple targets or more complex targets with multiple specification types (OAS 3.1 and asyncapi 2.0, for example) and multiple JSON paths for each specitition type.
+*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
+
+The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of default targets, but you can add custom targets to reference commonly used areas of API specification documents, such as OpenAPI or AsyncAPI, in rules. Use a JSON path to define the target area. You can add simple targets or more complex targets with multiple specification types (OAS 3.1 and asyncapi 2.0, for example) and multiple JSON paths for each specitition type.
 
 >**Tip**
 >Use our [JSONPath Plus guidelines]( https://meta.stoplight.io/docs/spectral/ZG9jOjYyMDc0NA-rulesets#jsonpath-plus) to format the JSON path.
@@ -25,13 +28,13 @@ To create a target:
     - Add a JSON path to target a specific area of an API specification.
 4. Add additional formats and paths as needed.
 
-![style-guide-targets.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/KSsNYD2pDHA)
+![Style Guide Targets](https://stoplight.io/api/v1/projects/cHJqOjI/images/GogSfzgUbXY)
 
 ## Target Example
 To enforce rules on paths, create an OAS3.x target with this JSON path:
 
 `$.paths.*`
 
-![style-guide-paths-target.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/agsDhzXTkHE)
+![style-guide-paths-target.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/IaTlyFuwdWo)
 
 [What's Next: Create Rules](c-create-rules.md)

@@ -3,13 +3,16 @@
 <!-- theme: info -->
 <!--Shared style guides are available on the **Professional** and **Enterprise** plans.-->
 
-> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
+<!-- focus: false -->
+![Feature Preview](../assets/images/badge-preview-small.png)
+
+*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
 
 Style guides are meant to be dynamic documents that change as your organization grows and adopts API governance best practices.
 
 https://youtu.be/hGhegMKLCNs
 
-When a style guide that has been enabled for a project changes, an **Alert** icon appears on the **Styles** tab and the **Overview** page.
+When a style guide that has been enabled for a project changes, an **Alert** icon appears on the **Styles** tab and the **Overview** page. This includes the [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide).
 
 ![Style Guide Alerts](https://stoplight.io/api/v1/projects/cHJqOjI/images/5ygcRHLrtMo)
 

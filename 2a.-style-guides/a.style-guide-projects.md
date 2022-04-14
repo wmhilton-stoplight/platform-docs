@@ -5,9 +5,12 @@ tags: [Governance]
 # Style Guide Overview
 
 <!-- theme: info -->
-<!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
+<!--Shared style guides are available on the **Professional** and **Enterprise** plans.-->
 
-> Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.
+<!-- focus: false -->
+![Feature Preview](../assets/images/badge-preview-small.png)
+
+*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
 
 Stoplight style guides add consistency, reusability, and easy governance to your API program. Style guides contain rules that help you govern versioning, filtering, error formats, naming conventions, pagination, and more. Examples include:
 
@@ -25,7 +28,7 @@ See [our blog](https://blog.stoplight.io/explore-these-top-api-style-guide-resou
 
 There are three types of style guides:
 
-1. **Stoplight Style Guide**: This default style guide is always enabled for projects. You can use the style guide as it is, disable individual rules, or disable the entire style guide. <!--See the list of rules in the [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide).-->
+1. **Stoplight Style Guide**: This default style guide is always enabled for projects. You can use the style guide as it is, disable individual rules, or disable the entire style guide. See the list of rules in the [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide).
 2. **Local style guides**: Rules are created within an API project. You cannot share local style guides with other projects.
 3. **Shared style guides**: Use a dedicated project type to create style guides managed by workspace owners and administrators, and then share them across projects, business units, or workspace groups.
 
