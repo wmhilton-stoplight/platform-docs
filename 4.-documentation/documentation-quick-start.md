@@ -16,7 +16,7 @@ This quickstart focuses on adding an empty project, creating an API, and  creati
 
 1. [Create a workspace](../2.-workspaces/a.creating-a-workspace.md).
 2. Select the **Add** icon (+) at the top of the left pane.
-3. From the **Add a Project** page, select **Create Blank Project**.
+3. From the **Create a Project** page, select **Create Blank Project**.
 4. Provide a name for your project, and then set the [project visibility](../2.-workspaces/l.project-roles.md). 
 5. Select **Create Project**.
 

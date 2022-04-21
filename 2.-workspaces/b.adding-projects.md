@@ -4,17 +4,20 @@ tags: [Workspaces]
 
 # Add Projects
 
-There are three types of projects you can add to your workspace:
+There are two types of projects you can add to your workspace:
 
-- Stoplight projects 
-- Git projects
-- CLI projects
+- API Projects, which include:
+  - [Stoplight web projects](#add-stoplight-projects)
+  - [Git projects](#add-projects-from-git)
+  - [CLI projects](#add-cli-projects)
+- [Style Guide Projects](../2a.-style-guides/a1.create-style-guide.md)
 
-To add a project, log in to your workspace, and then:
+To add a project, log in to your workspace, and then use one of these options:
 
 * Select the **Add** icon (+) at the top of the left pane.
-   OR
 * Select the **Projects** tab on the workspace toolbar, and then select **New Project**.
+
+The **Create a Project** page opens with the **API** tab selected.
 
 ## Add Stoplight Projects
 
@@ -27,18 +30,20 @@ Stoplight projects offer real-time collaboration. Data is stored in Stoplight. A
 
 ### Add a Blank Project
 
-1. From the **Add a Project** page, select **Create Blank Project**.
-3. Provide a name for your project, and then set the [project visibility](l.project-roles.md). 
-4. Select **Create Project**.
+1. From the **Create a Project** page, select **Create Blank Project**.
+2. Provide a name for your project, and then set the [project visibility](l.project-roles.md). 
+3. Optionally, select group to help organize your projects (Professional plan and above).
+4. Select **Create API Project**.
 5. Select **Edit** to design your API with Stoplight Studio.
 
 ### Import an OpenAPI File
 
-1. From the **Add a Project** page, select **Import OpenAPI File**.
+1. From the **Create a Project** page, select **Import OpenAPI File**.
 2. Provide a name for your project, and then set the [project visibility](l.project-roles.md). 
-3. Select **Create Project & Import File**.
-4. Select the OpenAPI file to import, and then select **Import**.
-5. Use Stoplight Studio to update the API.
+3. Optionally, select group to help organize your projects (Professional plan and above).
+4. Select **Create Project & Import File**.
+5. Select the OpenAPI file to import, and then select **Import**.
+6. Use Stoplight Studio to update the API.
 
 ## Add Projects from Git
 
@@ -55,7 +60,7 @@ The quickest and recommended way to get projects into Stoplight is to pull them 
 
 To add projects from Git:
 
-1. From the **Add a Project** page, select an option under **Git Project**.
+1. From the **Create a Project** page, select an option under **Git Project**.
 2. Select  **Connect**. Follow the instructions on the popup screen to authorize.
 3. Upon successful authentication, choose your organization, and then select the repositories you want to import.
 4. The **Install Webhooks** option is selected by default. This enables automatic publishing from your project when changes are pushed to the repository. Clear this option to disable automatic publishing. See [Publishing Git Projects](../7.-projects/publishing-git-projects.md) for details. 

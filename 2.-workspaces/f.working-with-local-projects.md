@@ -24,9 +24,10 @@ Local projects are not editable in Studio Web, but you can use Studio Desktop to
 ### Create an Empty Project
 
 1. Log in to your workspace, and then select the **Add** icon (+) at the top of the left pane.
-2. From **CLI Project** area of the **Add a Project** page, select **Create Blank Project**.
+2. From **CLI Project** area of the **Create a Project** page, select **Create Blank Project**.
 3. Provide a name for your project, and then set the [project visibility](l.project-roles.md). 
-4. Select **Create CLI Project**. 
+4. Optionally, select group to help organize your projects (Professional plan and above).
+5. Select **Create CLI Project**. 
 
 An empty project is created. Next, use the Stoplight CLI to push data to the project.
 
