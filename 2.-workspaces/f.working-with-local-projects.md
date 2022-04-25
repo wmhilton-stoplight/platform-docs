@@ -9,13 +9,14 @@ Stoplight CLI can be used to publish:
 * [Local projects](#publish-local-projects) that do not use Git.
 * Projects from a [continuous integration server](#continous-integration).
 
+> Images referenced in Markdown files are not currently published with the Stoplight CLI. To publish images with local projects, host them on a supported platform and embed them in Markdown files. See [Embeds](../4.-documentation/stoplight-flavored-markdown.md#embeds) for instructions. 
+ 
 ## Prerequisites
 
 1. Install [nodeJS](https://nodejs.dev/).
 2. Install the [Stoplight CLI](https://www.npmjs.com/package/@stoplight/cli).
 
-> Note that nodeJS version 12 or greater is required to run the CLI. You can
-> double check your version with the command: `node --version`
+Note that nodeJS version 12 or greater is required to run the CLI. You cae verify your version with the command: `node --version`
 
 ## Publish Local Projects
 
