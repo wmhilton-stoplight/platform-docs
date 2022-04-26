@@ -2,18 +2,120 @@
 tags: []
 ---
 
-# Add Links
+# Stoplight URLs
+
+Conceptually, there are two types of URLs for Stoplight projects:
+
+* **[Published URLs](#about-published-URLs)**: Links for published API artifacts and Markdown articles. These are also referred to as "permalinks." 
+* **[Relative Links](#about-relative-links)**: Links inside an API artifact or Markdown article to another artifact or article in the same project. For example, use relative links to direct users from an API getting started article to another article or an API endpoint.
+
+## About Published URLs
+
+Published API, model, and article URLs have unique identifiers referred to as stable IDs. By default, stable IDs are visible in the published URL and are automatically set based on the location of the source file within the project file directory. 
+
+Stable IDs:
+
+- Enable you to move and rename files without breaking published URLs. 
+- Enable you to change article titles without breaking published URLs.
+- Hide the underlying directory structure, which makes the URL smaller.
+
+> If you move or rename files, you must manually change the relative links to those files and in the [Table of Contents](Sidebar/d.table-of-contents.md). For example, if you add a link to one Markdown article in another article and you later move the referenced file, you must adjust the reference to point to the moved file. 
+
+### Published URL Format
+
+By default, URLs for published API, models, and articles follow this format:
+
+`/docs/{projectSlug]/{stableID}-{title}`
+
+For example, in this published URL of a Markdown article:
+
+`https://meta.stoplight.io/docs/platform/ZG9jOjMwNDI1OTM1-rule-examples`
+
+* `https://meta.stoplight.io/docs` is the workspace URL or custom domain, along with the folder location of published documentation.
+* `platform` is the name of the project in slug format.
+* `ZG9jOjMwNDI1OTM1` is the stable ID.
+* `rule-examples` is the title of the article in slug format.
+
+### Change Published URLs
+
+If you need more control over published URLs, you can add slugs to the [Table of Contents](Sidebar/d.table-of-contents.md) file for API and Markdown articles. This removes the stable ID from the URL and allows you to control the URL ending. 
+
+When you set a slug for a given item, the previous stable-ID-based URL automatically redirects to the new slug-based URL. This allows you to incrementally introduce custom-slug-based URLs to your project without breaking user bookmarks or backlinks that might be pointing to the old stable-ID-based URLs.
+
+> Slugs must be unique within a project.
+
+Slugs are particularly useful for API files because they extend to all operations and models in the file. 
+
+#### API Example
+
+<!-- title: Your toc.json File -->
+```json
+{
+  "items": [
+    {
+      "type": "item",
+      "title": "Payments API",
+      "uri": "/reference/payments.openapi.yaml",
+      "slug": "payments-api"
+    }
+  ]
+}
+
+```
+**API result**: `docs/project-slug/payments-api`
+
+**Get operation result**: `docs/project-slug/payments-api/operations/get-operation-with-slug`
+
+**Model result**: `docs/project-slug/payments-api/schemas/model-with-slug`
+
+#### Markdown Examples
+
+<!--
+title: Simple Markdown Slug
+-->
+```json
+{
+  "items": [
+    {
+      "type": "item",
+      "title": "Introduction",
+      "uri": "/docs/introcution.md",
+      "slug": "api-intro"
+    }
+  ]
+}
+```
+**Result**: `docs/project-slug/api-intro`
+
+<!--
+title: Markdown with Nested Slug
+-->
+```json
+{
+  "items": [
+    {
+       "type": "item",
+       "title": "Authentication Intro",
+       "uri": "/docs/authentication-intro.md",
+       "slug": "auth/intro"
+    }
+  ]
+}
+```
+**Result**: `docs/project-slug/auth/intro`
+
+## About Relative Links
 
 Use these options to add hyperlinks to other Markdown files or API elements: 
 
 * **Copy Path**: Copies the full path of the selected file. The full path starts at the root directory.
 * **Copy Relative Path**: Copies the path relative to the file you have open in the Editor when you right-click on a file in the **Files** tab. 
 
-You can link to API elements or to Markdown files.
+You can link to API elements or Markdown files.
 
-## Link to API Elements
+### Link to API Elements
 
-### API Overview
+#### API Overview
 
 1. Select the **APIs** tab, and then right-click **API Overview** in the left pane.
 2. Select **Copy Path**. 
@@ -24,7 +126,7 @@ You can link to API elements or to Markdown files.
 4. Add the link in this format:
    `[Display text](../reference/your-api-file.yaml)`
 
-### Endpoints
+#### Endpoints
 
 To reference an endpoint in a Markdown file:
 
@@ -41,14 +143,14 @@ To reference an endpoint in a Markdown file:
 To add operations links to API descriptions in the same specification file, use the encoded JSON path. Example:
         `[Display text](paths/~1users~1{userId}/get)`
 
-### Models
+#### Models
 
 1. Select the **APIs** tab, and then right-click the model you want to link to.
 2. Select **Copy Path**. 
 3. Open the **Markdown file** you want to add links to.
 4. Add the link in this format: `[Display text](your-api-file.yaml/components/schemas/modelname)`
 
-## Link to Other Markdown Articles
+### Link to Other Markdown Articles
 
 1. Select the **Docs** tab.
 
@@ -66,25 +168,12 @@ To add operations links to API descriptions in the same specification file, use 
 
 ## FAQs
 
-   ### What are permalinks?
-
-   Permalinks act as an identifier for documentation pages. They allow you to change article titles without breaking links. They also hide the underlying directory structure, which makes the URL smaller.
-
-   ### What are permalink IDs?
-
-   The ID is related to the location of the source file within the source directory. If you move the file to another directory, the ID will change since the system treats it as a new file.
-
-It is not possible to generate links without IDs. The IDs cannot be changed by users. They are stable as long as the file is not deleted or moved. Changing the file name or documentation title will not affect the ID or break the link.
-
-<!-- focus: center -->
-![permalink.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/T2Re8pZ5gmM)
-
-   ### How do I escape spaces in file names?
+### How do I escape spaces in file names?
    
-   Use `%20` to escape spaces in file names.
+Use `%20` to escape spaces in file names.
    
-   ### Which option should I choose when adding topics to the project sidebar?
+### Which option should I choose when adding topics to the project sidebar?
    
-   When adding topics to the [project sidebar (table of contents)](Sidebar/d.table-of-contents.md), always use the relative path.
+When adding topics to the [project sidebar (table of contents)](Sidebar/d.table-of-contents.md), always use the relative path.
 
 
