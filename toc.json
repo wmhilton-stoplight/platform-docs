@@ -50,6 +50,11 @@
              },
              {
                 "type":"item",
+                "title":"Work with Media Types",
+                "uri":"3.-design/work-with-content-types.md"
+             },
+             {
+                "type":"item",
                 "title":"Try It",
                 "uri":"3.-design/try-it.md"
              },
