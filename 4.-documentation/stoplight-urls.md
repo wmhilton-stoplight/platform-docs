@@ -79,7 +79,7 @@ title: Simple Markdown Slug
     {
       "type": "item",
       "title": "Introduction",
-      "uri": "/docs/introcution.md",
+      "uri": "/docs/introduction.md",
       "slug": "api-intro"
     }
   ]

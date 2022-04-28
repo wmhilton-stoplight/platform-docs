@@ -6,4 +6,4 @@ The publishing method you use depends on your project type:
 * **Stoplight Projects**: Publish changes as soon as they are made in Studio Web. See [Publish Stoplight Projects](../7.-projects/publishing-stoplight-projects.md).
 * **CLI Projects**: Use the Stoplight CLI to publish local projects, projects that do not use Git, or to facilitate continuous integration. You can also use the Stoplight CLI to automate publishing directly from any Git provider. We simplify this for GitHub by providing a [GitHub Workflow](https://github.com/stoplightio/stoplight-cli-workflow). See [Publish with the Stoplight CLI](f.working-with-local-projects.md).
 
-To learn about adding the various project types, see [Add Projects](b.adding-projects.md).
+To learn about adding the various project types, see [Add Projects](../7.-projects/adding-projects.md).

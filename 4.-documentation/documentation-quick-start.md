@@ -4,8 +4,8 @@ Follow these steps to move from API specification to ready-to-publish API docume
 
 Regardless of which you use, you can:
 
-* Start with existing files in a [Git repository](../2.-workspaces/b.adding-projects.md#add-projects-from-git).
-* Import existing [OpenAPI](../2.-workspaces/b.adding-projects.md#import-an-open-api-file) and Markdown files.
+* Start with existing files in a [Git repository](../7.-projects/adding-projects.md#add-projects-from-git).
+* Import existing [OpenAPI](../7.-projects/adding-projects.md#import-an-open-api-file) and Markdown files.
 * Start with an empty project and create content from scratch.
 
 This quickstart focuses on adding an empty project, creating an API, and  creating Markdown files to supplement the API specification.
@@ -65,7 +65,7 @@ Learn about:
 
 * Updating the [Table of Contents](../4.-documentation/Sidebar/d.table-of-contents.md).
 * Organizing [project files](../2.-workspaces/c.config.md).
-* Linking across [APIs and articles](../4.-documentation/linking-between-articles.md).
+* Linking across [APIs and articles](../4.-documentation/stoplight-urls.md#about-relative-links).
 * [Creating sytle guides](../2a.-style-guides/a.style-guide-projects.md) to enforce API consistency.
 
 ## Studio Desktop

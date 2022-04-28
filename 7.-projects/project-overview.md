@@ -41,7 +41,7 @@ To add a project, log in to your workspace, and then:
    OR
 * Select the **Projects** tab on the workspace toolbar, and then select **New Project**.
 
-For details, see [Add Projects](../2.-workspaces/b.adding-projects.md).
+For details, see [Add Projects](adding-projects.md).
 
 ## Manage Projects
 

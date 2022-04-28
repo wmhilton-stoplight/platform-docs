@@ -8,7 +8,7 @@ Project documentation contains a single left sidebar called the **Table of Conte
 
 - Customize the order of files in the sidebar.
 - Override the title of a file in the sidebar.
-- Customize [published URLs](../linking-between-articles.md#about-published-urls) for articles and API artifacts.
+- Customize [published URLs](../stoplight-urls.md#about-published-urls) for articles and API artifacts.
 - Selectively expose files in the sidebar, allowing you to hide items by not including them in your Table of Contents file.
 
 ![studio demo documentation](../../assets/images/studio-demo-docs.png)
@@ -40,7 +40,7 @@ Groups are non-linkable, collapsible items containing items and other groups tha
 Items are links to articles, APIs, and model files located within the project directory or external links to content outside of the documentation. 
 
 * Use the `title` property to override the item's default title in the table of contents.
-* Use the `slug` property to customize the published URL for articles and APIs. Slugs do not change the appearance of the TOC, but enable you to remove the Stoplight stable ID from published URLs. You can also add a folder structure to published URLs.  See [About Published URLs](../linking-between-articles.md#about-published-urls) for details.
+* Use the `slug` property to customize the published URL for articles and APIs. Slugs do not change the appearance of the TOC, but enable you to remove the Stoplight stable ID from published URLs. You can also add a folder structure to published URLs.  See [About Published URLs](../stoplight-urls.md#about-published-urls) for details.
 * Use the `uri` property to add a file URI or an external URL to the TOC.
 
 > **TIP**: The easiest way to get a file's URI in Studio is right-click on the file, select **Copy Relative Path**, and then paste the contents into the JSON file.

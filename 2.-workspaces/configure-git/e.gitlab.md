@@ -31,7 +31,7 @@ Read more about [creating a GitLab OAuth App](https://docs.gitlab.com/ee/integra
 4. Test your settings.
 5. Select **Save**.
 
-If successful, [add projects](../b.adding-projects.md) to start working with projects from your GitLab instance.
+If successful, [add projects](../../7.-projects/adding-projects.md) to start working with projects from your GitLab instance.
 
 ## Troubleshooting
 

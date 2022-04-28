@@ -35,7 +35,7 @@ Read more about [creating a BitBucket OAuth consumer](https://support.atlassian.
 5. Test your settings.
 6. Select **Save**.
 
-If successful, [add projects](../b.adding-projects.md) to start working with projects from your Bitbucket Cloud instance.
+If successful, [add projects](../../7.-projects/adding-projects.md) to start working with projects from your Bitbucket Cloud instance.
 
 ## Troubleshooting
 

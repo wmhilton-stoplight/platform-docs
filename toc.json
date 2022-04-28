@@ -196,9 +196,10 @@
                 "uri":"4.-documentation/b.types-of-documentation.md"
              },
              {
-                "type":"item",
-                "title":"Stoplight URLs",
-                "uri":"4.-documentation/linking-between-articles.md"
+                "type": "item",
+                "title": "Stoplight URLs",
+                "uri": "4.-documentation/stoplight-urls.md",
+                "slug": "hosted-docs/stoplight-urls"
              },
              {
                 "type":"item",
@@ -290,7 +291,8 @@
              },{
                 "type":"item",
                 "title":"Add Projects",
-                "uri":"2.-workspaces/b.adding-projects.md"
+                "uri":"7.-projects/adding-projects.md",
+                "slug": "projects/add-projects"
              },
             {
                 "type":"item",
