@@ -8,7 +8,7 @@
 
 *Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
 
-The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of default rules, but you can easily create your own rules to meet the needs of your API.
+The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of default rules that are enabled as inherited rules for all style guides. You can, however, create your own rules to meet the needs of your API.
 
 https://youtu.be/ZLmnV-q33X0
 
@@ -18,20 +18,26 @@ See our [rule examples](g-rule-examples.md) to get started.
 
 To create a rule:
 
-1. Edit a style guide project or a project that has a style guide enabled.
-2. In the **Rules** area of the left pane, select the plus icon next to Local to open the **Rules** editor in the right pane.
-3. Configure the three main rule areas:
-    - [Rule Settings](#Rule-Settings)
-    - [Given](#Given-Settings)
-    - [Then](#Then-Settings)
+1. Edit one of these projects:
+   - A style guide project so the rule can be automatically applied to API projects that use that style guide (Professional and Enterprise plans only). 
+   - An API project to add the rule to that project only. 
+2. Select the **Styles** tab.
+3. In the **Rules** area of the left pane, select the plus icon next to Local to open the **Rules** editor in the right pane.
+4. Configure the three main rule areas:
+    1. [Rule Settings](#Rule-Settings)
+    2. [Given Settings](#Given-Settings)
+    3. [Then Settings](#Then-Settings)
 
-### Rule Settings
+![Rule Editor](https://stoplight.io/api/v1/projects/cHJqOjI/images/yGvTctKKyys)
+
+### 1. Rule Settings
 
 Set severity, name, the message returned in validation, and the description for documenting the rule.
 
 - **Rule severity**
    Options are error, warning, information, and hint. When applied to an API project, the severity levels appear in the **API Design** editor. 
    ![Rule severity icons](../assets/images/rule-severity-indicators.png)
+   
    You can also choose to disable a rule.
 
 - **Name**
@@ -52,13 +58,17 @@ Set severity, name, the message returned in validation, and the description for 
 
   Open the Markdown editor to add helpful information used to document the rule.
 
-### Given Settings
+- **Format**
+
+  Optionally set one or more formats for the rule. This is useful for overriding the global formats for the rule. OAS2 and OAS 3.x are the default formats. 
+
+### 2. Given Settings
 
 Set the area of the API specification the rule applies to.
 
 - **Target**
 
-  Select a target to specify the area of an API specification document. Targets are predefined and required for each rule. See [Create Targets](b-create-targets.md).
+  Select a target to specify the area of an API specification document. Targets are predefined and required for each rule. Targets are listed alphabetically by name. See [Create Targets](b-create-targets.md).
 
 - **Property**
 
@@ -66,8 +76,10 @@ Set the area of the API specification the rule applies to.
 
 ![Add property to target](https://stoplight.io/api/v1/projects/cHJqOjI/images/bZce0HHfE1s)
 
-### Then Settings
+### 3. Then Settings
 
 Use Stoplight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions) to set the function that will evaluate your API design content.
+
+Functions are listed in alphanumeric order.
 
 [What's Next: Publish Style Guide](e.publish-style-guide.md)

@@ -8,7 +8,7 @@
 
 *Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
 
-The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of default targets, but you can add custom targets to reference commonly used areas of API specification documents, such as OpenAPI or AsyncAPI, in rules. Use a JSON path to define the target area. You can add simple targets or more complex targets with multiple specification types (OAS 3.1 and asyncapi 2.0, for example) and multiple JSON paths for each specitition type.
+The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of default targets, but you can add custom targets to reference commonly used areas of API specification documents, such as OpenAPI or AsyncAPI, in rules. Use a JSON path to define the target area. You can add simple targets or more complex targets with multiple specification types (OAS 3.1 and asyncapi 2.0, for example) and multiple JSON paths for each specification type.
 
 >**Tip**
 >Use our [JSONPath Plus guidelines]( https://meta.stoplight.io/docs/spectral/ZG9jOjYyMDc0NA-rulesets#jsonpath-plus) to format the JSON path.

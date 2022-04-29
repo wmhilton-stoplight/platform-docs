@@ -42,11 +42,13 @@ How you manage style guides depends on your organization, but here are some idea
 
 - **Global governance**: Create rules that apply to all APIs. For example, create a rule that targets the `contact` object and the `email` field to ensure that all APIs use the correct support email for your company.
 - **Project overrides**: Certain teams may have governance needs that other teams don't. In this case, you can enable your company's global style guide for your project, and then disable rules that don't apply. You can also create local targets and rules that are needed for your API, but not others.
-- **Organize style guides into groups**: Consider creating a governance group to organize all of your style guides and other governance materials, such as API program charter and reusability guidelines. 
+- **Organize style guides into groups**: Consider creating a governance group to organize all of your style guides and other governance materials, such as an API program charter and reusability guidelines. 
 
 ## Style Guide Documentation
 
 Once a style guide is published, documentation is available for each rule in the guide. Documentation is not available for rules defined in local style guides, however.
+
+Rules are listed in alphanumeric order.
 
 ![style-guides-documentation.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/tvblLpW4NyQ)
 
