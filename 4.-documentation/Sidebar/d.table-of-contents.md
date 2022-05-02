@@ -9,7 +9,7 @@ Project documentation contains a single left sidebar called the **Table of Conte
 - Customize the order of files in the sidebar.
 - Override the title of a file in the sidebar.
 - Customize [published URLs](../stoplight-urls.md#about-published-urls) for articles and API artifacts.
-- Selectively expose files in the sidebar, allowing you to hide items by not including them in your Table of Contents file.
+- Selectively add or remove files in the sidebar, allowing you to hide them in your Table of Contents file. You can also set an API or article to have [internal visibility](../set-internal-docs.md) to prevent it from appearing in the Table of Contents for public projects or to non-members.
 
 ![studio demo documentation](../../assets/images/studio-demo-docs.png)
 
@@ -18,7 +18,7 @@ Project documentation contains a single left sidebar called the **Table of Conte
 > There are a few known limitations with this functionality:
 > 
 > 1. **The `toc.json` file must be written by hand.** [(roadmap)](https://roadmap.stoplight.io/c/112-table-of-contents-editor)
-> 2. **Renaming a file does not automatically update the `toc.json`.** You'll need to remember to update your TOC whenever a file is renamed. Otherwise your project sidebar might contain broken links. [(roadmap)](https://roadmap.stoplight.io/c/96-automatically-rewrite-references-and-links-on-filename-change)
+> 2. **Renaming a file does not automatically update the `toc.json`.** You'll need to remember to update your TOC whenever a file is renamed. Otherwise, your project sidebar might contain broken links. [(roadmap)](https://roadmap.stoplight.io/c/96-automatically-rewrite-references-and-links-on-filename-change)
 > 
 
 ### TOC Entities 
@@ -43,20 +43,20 @@ Items are links to articles, APIs, and model files located within the project di
 * Use the `slug` property to customize the published URL for articles and APIs. Slugs do not change the appearance of the TOC, but enable you to remove the Stoplight stable ID from published URLs. You can also add a folder structure to published URLs.  See [About Published URLs](../stoplight-urls.md#about-published-urls) for details.
 * Use the `uri` property to add a file URI or an external URL to the TOC.
 
-> **TIP**: The easiest way to get a file's URI in Studio is right-click on the file, select **Copy Relative Path**, and then paste the contents into the JSON file.
+> **TIP**: The easiest way to get a file's URI in Studio is to right-click on the file, select **Copy Relative Path**, and then paste the contents into the JSON file.
 >
 
 ### TOC Rules
 
 - Each entity must have a `type` and a `title` property. 
 - Items must have a `uri` property that either points to a file somewhere within the project or an external link to another website. 
-- Groups should have an `items` property allowing you to futher nest more items and groups.
+- Groups should have an `items` property allowing you to further nest more items and groups.
 
 Press **CMD+Space** to open a list of hints for items you can add to the TOC.
 
-### TOC Example
+### TOC Examples
 
-Here is an example to demonstrate the format of the `toc.json` file. 
+Here is an example of a `toc.json` file that includes two markdown articles, an API file with three operations, and a link to an external website.
 
 <!--
 title: toc.json
@@ -70,8 +70,8 @@ title: toc.json
     },
     {
       "type": "item",
-      "title": "Item",
-      "uri": "docs/table-of-contents.md"
+      "title": "Table Of Contents Overview",
+      "uri": "/docs/table-of-contents-example.md"
     },
     {
       "type": "group",
@@ -79,23 +79,40 @@ title: toc.json
       "items": [
         {
           "type": "item",
-          "title": "Nested Item",
-          "uri": "docs/nested-item.md"
+          "title": "Nested Article",
+          "uri": "/docs/nested-article.md"
+        },
+        {
+          "type": "item",
+          "title": "External Link",
+          "uri": "https://stoplight.io"
         }
       ]
     },
     {
       "type": "item",
-      "title": "External Link",
-      "uri": "https://stoplight.io"
+      "title": "ACME API",
+      "uri": "/reference/ACME-API.yaml"
     }
-  ]
+]
 }
 ```
 
-The above `toc.json` file displays the following structure in the docs sidebar.
+Here's how the `toc.json` file displays in the project sidebar after you publish.
 
-![custom toc example](../../assets/images/custom-toc-example.png)
+<!-- 
+focus: false
+-->
+![Custom TOC Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/xNOGyY7UWRw)
+
+You can use tags in your API files to organize endpoints into groups. Endpoints themselves are listed by their order in the specification. See [Endpoint Groups Reordering](#endpoint-groups-reordering) for details.
+
+Here's how the `toc.json` file displays after endpoints are organized into a group.
+
+<!-- 
+focus: false
+-->
+![Custom TOC with Endpoint Ordering](https://stoplight.io/api/v1/projects/cHJqOjI/images/3ZIPHCrdKIU)
 
 ### Add a TOC to a Project
 
@@ -139,7 +156,7 @@ Markdown articles come first in the table of contents and are ordered alphabetic
 
 ### APIs
 
-APIs are listed below articles. A [divider](#dividers) separates APIs from articles, and each API's title is represented as a group. This group contains overview information, such as the API's description, contact, licensing, servers and global security. 
+APIs are listed below articles. A [divider](#dividers) separates APIs from articles, and each API's title is represented as a group. This group contains overview information, such as the API's description, contact, licensing, servers, and global security. 
 
 ### Schemas
 
@@ -156,15 +173,18 @@ At the bottom of the table of contents are JSON Schema model files that are outs
 To reorder endpoint groups:
 
 1. Create global tags. The easiest way to do this is to select the API overview from the **Form** view, select the tag icon, and then add tags.
-<!-- focus: center -->
-![global-tags.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/6qZrKIl2LCU)
+<!-- focus: center
+bg: primary -->
+![Global Tags](https://stoplight.io/api/v1/projects/cHJqOjI/images/6qZrKIl2LCU)
 
-2. Order the global tags. The easiest way to do this to switch to **Code** view, scroll to the bottom of the editor, and change the order of the tags.
-<!-- focus: center -->
-![reorder-tags.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/o2rWrFPDrpI)
+2. Order the global tags. The easiest way to do this is to switch to **Code** view, scroll to the bottom of the editor, and change the order of the tags.
+<!-- focus: center
+bg: primary -->
+![Reorder API Tags](https://stoplight.io/api/v1/projects/cHJqOjI/images/o2rWrFPDrpI)
 
 3. Assign tags to each endpoint to determine which group it will be listed under.
-
 4. Publish and review the results.
-<!-- focus: center -->
-![tag-order.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/UcWagdp1nqg)
+<!-- focus: center
+bg: primary -->
+![API Tag Order](https://stoplight.io/api/v1/projects/cHJqOjI/images/8FET9xlI0es)
+
