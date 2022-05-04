@@ -19,7 +19,29 @@ Stable IDs:
 - Enable you to change article titles without breaking published URLs.
 - Hide the underlying directory structure, which makes the URL smaller.
 
-> If you move or rename files, you must manually change the relative links to those files and in the [Table of Contents](Sidebar/d.table-of-contents.md). For example, if you add a link to one Markdown article in another article and you later move the referenced file, you must adjust the reference to point to the moved file. 
+Use slugs to remove stable IDs from published URLs. See [Change-Published-URLs](#change-published-urls).
+
+Stable IDs are automatically added to new, renamed, and imported files and follow the format in these examples:
+
+**Markdown articles**: 
+```markdown
+
+---
+stoplight-id: ueil0179cp07l
+---
+````
+
+**API files**: 
+```YAML
+
+x-stoplight:
+  id: pqxhxyu95h4pz
+```
+
+<!-- theme: warning -->
+> **Warning**: Do not delete or modify the stable IDs. Doing so may break existing published URLs.  
+
+If you move or rename files, you must manually change the relative links to those files and in the [Table of Contents](Sidebar/d.table-of-contents.md). For example, if you add a link to one Markdown article in another article and you later move the referenced file, you must adjust the reference to point to the moved file. 
 
 ### Published URL Format
 
