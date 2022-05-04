@@ -411,11 +411,6 @@
           ]
        },
        {
-          "type":"item",
-          "title":"FAQ and Troubleshooting",
-          "uri":"c.troubleshooting.md"
-       },
-       {
           "type":"group",
           "title":"Integrations",
           "items":[
@@ -529,6 +524,11 @@
                 ]
              }
           ]
+       },
+       {
+          "type":"item",
+          "title":"FAQ and Troubleshooting",
+          "uri":"c.troubleshooting.md"
        }
     ]
  }

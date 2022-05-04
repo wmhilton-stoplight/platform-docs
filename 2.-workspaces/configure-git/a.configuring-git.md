@@ -16,7 +16,7 @@ We support the following Git providers.
 
 - <i class="Icon fab fa-microsoft fa-2x" style="color: rgb(32, 80, 129);"> </i> Azure Devops
 
-If you don't see the Git Provider you're looking for, take a look at our [roadmap](https://roadmap.stoplight.io/) to keep an eye on what's coming next. You can also use [Stoplight CLI](../f.working-with-local-projects.md) to push projects to Stoplight Platform.
+If you don't see the Git Provider you're looking for, take a look at our [roadmap](https://roadmap.stoplight.io/) to keep an eye on what's coming next. You can also use [Stoplight CLI](../f.working-with-local-projects.md) to push projects to the Stoplight Platform.
 
 ## Configure Cloud Git Providers
 
@@ -45,4 +45,8 @@ Configure your Git provider using the guides below:
 - [GitHub Enterprise](d.github-enterprise.md)
 - [GitLab](e.gitlab.md)
 
-> If your self hosted Git provider is behind a firewall, please [add our IPs to your allowlist](../../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider) on port 443 over HTTPS. 
+### Firewall and Fixed IP Address Configuration
+
+All network traffic from Stoplight originates from a fixed IP address. This is done so that network administrators can allow Stoplight to access your internal Git or identity providers with minimal risk to your network.
+
+If your self-hosted Git provider is behind a firewall, please add our fixed IP address **35.226.194.249** to your allowlist on port 443 over HTTPS. 
