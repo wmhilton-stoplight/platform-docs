@@ -16,6 +16,7 @@ Use these steps to configure your GitHub Enterprise integration if you have a se
    * **Homepage URL**: Add the full URL to your app's website (e.g.: `https://stoplight.io`).
    * **Authorization callback URL**: Set as `https://stoplight.io/oauth/callback`.
 6. Select **Register application**.
+7. Select **Generate a new client secret**.
 
 Read more about [creating a GitHub OAuth App](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/).
 
@@ -26,10 +27,10 @@ Read more about [creating a GitHub OAuth App](https://developer.github.com/apps/
 3. Select **Customize integration settings**.
 4. Add the following information:
    - **Host URL**: This is the URL where your instance of GitHub Enterprise is hosted.
-   - **API URL**: This is the URL of the API of your instance of GitHub Enterprise. This is usually: api.{HostURL}.
+   - **API URL**: This is the URL of the API of your instance of GitHub Enterprise. This is usually: `https://api.{HostURL}`.
    - **Client ID**: You can find this as `Client ID` under the OAuth Apps settings for the newly created app.
    - **Client Secret**: You can find this as `Client Secret` under the OAuth consumers settings for the newly created app.
-   - **Redirect URL**: Copy this URL and add it to your GitLab OAuth application.
+   - **Redirect URL**: This URL should match the URL you used in the **Authorization callback URL** in your GitHub OAuth app settings.
 5. Test your settings.
 6. Select **Save**.
 

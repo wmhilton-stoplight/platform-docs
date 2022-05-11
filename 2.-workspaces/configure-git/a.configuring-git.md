@@ -10,11 +10,11 @@ We support the following Git providers.
 
 - <i class="Icon fab fa-bitbucket fa-2x" style="color: rgb(32, 80, 129);" > </i> Bitbucket Server
 
-- <i class="fab fa-github fa-2x"> </i> Github
+- <i class="fab fa-github fa-2x"> </i> GitHub
 
 - <i class="Icon fab fa-gitlab fa-2x" style="color: rgb(252, 109, 38);"> </i> GitLab
 
-- <i class="Icon fab fa-microsoft fa-2x" style="color: rgb(32, 80, 129);"> </i> Azure Devops
+- <i class="Icon fab fa-microsoft fa-2x" style="color: rgb(32, 80, 129);"> </i> Azure DevOps Server
 
 If you don't see the Git Provider you're looking for, take a look at our [roadmap](https://roadmap.stoplight.io/) to keep an eye on what's coming next. You can also use [Stoplight CLI](../f.working-with-local-projects.md) to push projects to the Stoplight Platform.
 
@@ -24,13 +24,13 @@ Cloud-hosted Git providers are configured out of the box in Stoplight. The follo
 
 - <i class="Icon fab fa-bitbucket fa-2x" style="color: rgb(32, 80, 129);" > </i> Bitbucket Cloud
 
-- <i class="fab fa-github fa-2x"> </i> Github
+- <i class="fab fa-github fa-2x"> </i> GitHub
 
 - <i class="Icon fab fa-gitlab fa-2x" style="color: rgb(252, 109, 38);"> </i> GitLab
 
 1. Select **Settings** from the workspace home page.
 2. From the **Integrations** section, select **Add** next to your preferred Git provider.
-3. Select **Use Default Configuration,** and the select **Save**. 
+3. Select **Use Default Configuration,** and then select **Save**. 
 
 If you have a self-hosted deployment or are looking for custom integration settings, use the guides below.
 

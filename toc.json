@@ -435,6 +435,11 @@
                    },
                    {
                       "type":"item",
+                      "title":"GitHub",
+                      "uri":"2.-workspaces/configure-git/g.github.md"
+                   },
+                   {
+                      "type":"item",
                       "title":"GitHub Enterprise",
                       "uri":"2.-workspaces/configure-git/d.github-enterprise.md"
                    },
