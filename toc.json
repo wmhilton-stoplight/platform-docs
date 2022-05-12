@@ -12,8 +12,13 @@
        },
        {
           "type":"item",
-          "title":"Quickstart Guide",
+          "title":"API Quickstart",
           "uri":"4.-documentation/documentation-quick-start.md"
+       },
+       {
+          "type":"item",
+          "title":"Style Guide Quickstart",
+          "uri":"2a.-style-guides/style-guide-quick-start.md"
        },
        {
           "type":"divider",
@@ -124,11 +129,6 @@
                 "title":"Rule Examples",
                 "uri":"2a.-style-guides/g-rule-examples.md"
              },
-             {
-                "type":"item",
-                "title":"Style Guides and Git",
-                "uri":"2a.-style-guides/style-guides-and-git.md"
-              },
              {
                 "type":"group",
                 "title":"Create Style Guides",
