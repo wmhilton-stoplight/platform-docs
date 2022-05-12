@@ -1,12 +1,7 @@
 # Enable a Style Guide
 
 <!-- theme: info -->
-<!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
-
-<!-- focus: false -->
-![Feature Preview](../assets/images/badge-preview-small.png)
-
-*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
+Shared style guides are available on the **Professional** and **Enterprise** plans.
 
 The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) is automatically enabled for API projects.
 

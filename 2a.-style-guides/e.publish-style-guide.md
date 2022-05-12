@@ -1,13 +1,5 @@
 # Publish a Style Guide
 
-<!-- theme: info -->
-<!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
-
-<!-- focus: false -->
-![Feature Preview](../assets/images/badge-preview-small.png)
-
-*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
-
 Publish your style guide so it can be enabled for API projects in the workspace.
 
 > If your style guide contains [validation errors](k-validate-style-guides.md), the **Publish** button is disabled.

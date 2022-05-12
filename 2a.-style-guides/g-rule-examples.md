@@ -1,13 +1,5 @@
 # Rule Examples
 
-<!-- theme: info -->
-<!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
-
-<!-- focus: false -->
-![Feature Preview](../assets/images/badge-preview-small.png)
-
-*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
-
 The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of targets and rules for all API projects. You can use the rules as-is, disable them, or create your own rules. The examples in this topic explain how to use the provided targets to create custom rules.
 
 ## APIs Must Be Versioned

@@ -125,6 +125,11 @@
                 "uri":"2a.-style-guides/g-rule-examples.md"
              },
              {
+                "type":"item",
+                "title":"Style Guides and Git",
+                "uri":"2a.-style-guides/style-guides-and-git.md"
+              },
+             {
                 "type":"group",
                 "title":"Create Style Guides",
                 "items":[
@@ -179,7 +184,12 @@
                 "type":"item",
                 "title":"Refresh Style Guides",
                 "uri":"2a.-style-guides/f.refresh-style-guide.md"
-             }
+             },
+             {
+                "type":"item",
+                "title":"Style Guides and Git",
+                "uri":"2a.-style-guides/style-guides-and-git.md"
+              }
         ]
        },
        {

@@ -1,13 +1,5 @@
 # Create Rules
 
-<!-- theme: info -->
-<!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
-
-<!-- focus: false -->
-![Feature Preview](../assets/images/badge-preview-small.png)
-
-*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
-
 The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of default rules that are enabled as inherited rules for all style guides. You can, however, create your own rules to meet the needs of your API.
 
 https://youtu.be/ZLmnV-q33X0

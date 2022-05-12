@@ -1,13 +1,5 @@
 ## Disable Inherited Rules
 
-<!-- theme: info -->
-<!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
-
-<!-- focus: false -->
-![Feature Preview](../assets/images/badge-preview-small.png)
-
-*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
-
 To disable an inherited rule:
 
 1. Select the rule in the **Inherited Rules** list.

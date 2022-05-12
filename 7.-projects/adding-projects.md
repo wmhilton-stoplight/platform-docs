@@ -66,7 +66,7 @@ To add projects from Git:
 4. The **Install Webhooks** option is selected by default. This enables automatic publishing from your project when changes are pushed to the repository. Clear this option to disable automatic publishing. See [Publishing Git Projects](../7.-projects/publishing-git-projects.md) for details. 
 5. Next, select **Add Git Project**.
 
-Once the project is created and the analyzer has completed, it will contain Markdown articles and API descriptions that are stored in the Git repository. Use Stoplight Studio to modify these files.
+Once the project is created and the analyzer has completed, it will contain Markdown articles and API descriptions that are stored in the Git repository. Files used by [Stoplight Style Guides](../2a.-style-guides/style-guides-and-git.md) are added to your repository during your first push. Use Stoplight Studio to modify these files.
 
 ### Custom Git Configurations
 

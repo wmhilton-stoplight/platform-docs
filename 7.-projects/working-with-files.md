@@ -13,7 +13,6 @@ Studio supports files in multiple formats:
 - **Model**: Reusable API components (YAML or JSON)
 - **Article**: Supplemental Markdown files (Markdown)
 - **Image**: Supplemental images (JPEG, JPG, PNG, and GIF)
-- **Style Guides**: For customizing validation and linting
 - **Configuration Files**: For Stoplight project configuration and table of contents. 
 
 <!-- theme: Warning -->

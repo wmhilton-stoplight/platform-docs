@@ -1,13 +1,5 @@
 # Debug Rules
 
-<!-- theme: info -->
-<!--Shared style guides are available on the **Professional** and **Enterprise** plans.--> 
-
-<!-- focus: false -->
-![Feature Preview](../assets/images/badge-preview-small.png)
-
-*Style guides are available for new workspaces and on request. Contact nauman@stoplight.io for more information.*
-
 Once you create rules, debug them with JSON-formatted API content. This enables you to find and fix rule errors quickly and easily.
 
 You can:
