@@ -31,7 +31,7 @@ You can add multiple images to any documentation file. Supported  image formats 
 
 ## Customize Images
 
-To customize images, such as adding backgrounds, captions or focus, check out [images in Stoplight Flavored Markdown](https://meta.stoplight.io/docs/studio/ZG9jOjg0-stoplight-flavored-markdown-smd).
+To customize images, such as adding backgrounds, captions or focus, check out [images in Stoplight Flavored Markdown](stoplight-flavored-markdown.md).
 
 ## What's Next?
 
