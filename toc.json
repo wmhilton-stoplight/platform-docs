@@ -27,12 +27,8 @@
        {
           "type":"group",
           "title":"Design in Studio",
+          "uri":"3.-design/design-overview.md",
           "items":[
-             {
-                "type":"item",
-                "title":"Overview",
-                "uri":"3.-design/design-overview.md"
-             },
              {
                 "type":"item",
                 "title":"Design Editor",
@@ -83,12 +79,8 @@
        {
           "type":"group",
           "title":"Explore Projects",
+          "uri":"explorer/overview.md",
           "items":[
-             {
-                "type":"item",
-                "title":"Overview",
-                "uri":"explorer/overview.md"
-             },
              {
                 "type":"item",
                 "title":"Search and Filter",
@@ -118,12 +110,8 @@
        {
           "type":"group",
           "title":"Style Guides",
+          "uri":"2a.-style-guides/a.style-guide-projects.md",
           "items":[
-             {
-                "type":"item",
-                "title":"Overview ",
-                "uri":"2a.-style-guides/a.style-guide-projects.md"
-             },
              {
                 "type":"item",
                 "title":"Rule Examples",
@@ -154,7 +142,7 @@
                      "title": "Disable Rules",
                      "uri": "2a.-style-guides/j-disable-rules.md"
                    },
-                                      {
+                   {
                       "type":"item",
                       "title":"Validate Style Guides",
                       "uri":"2a.-style-guides/k-validate-style-guides.md"
@@ -164,7 +152,7 @@
                       "title": "Create Custom Functions",
                       "uri": "2a.-style-guides/h-create-custom-functions.md"
                    }
-                      ]
+              ]
              },
              {
                 "type":"item",
@@ -289,12 +277,9 @@
        {
           "type":"group",
           "title":"Projects",
+          "uri":"7.-projects/project-overview.md",
           "items":[
-             {
-                "type":"item",
-                "title":"Overview",
-                "uri":"7.-projects/project-overview.md"
-             },{
+            {
                 "type":"item",
                 "title":"Add Projects",
                 "uri":"7.-projects/adding-projects.md",
@@ -323,12 +308,8 @@
              {
                 "type":"group",
                 "title":"Publishing",
+                "uri":"2.-workspaces/g.automating-publishing.md",
                 "items":[
-                   {
-                      "type":"item",
-                      "title":"Overview",
-                      "uri":"2.-workspaces/g.automating-publishing.md"
-                   },
                    {
                       "type":"item",
                       "title":"Git Projects",
@@ -361,12 +342,8 @@
        {
           "type":"group",
           "title":"Customize the Sidebar",
+          "uri":"4.-documentation/Sidebar/a.customize-sidebar.md",
           "items":[
-             {
-                "type":"item",
-                "title":"Overview",
-                "uri":"4.-documentation/Sidebar/a.customize-sidebar.md"
-             },
              {
                 "type":"item",
                 "title":"Workspace Sidebar",
@@ -423,12 +400,8 @@
              {
                 "type":"group",
                 "title":"Git",
+                "uri":"2.-workspaces/configure-git/a.configuring-git.md",
                 "items":[
-                   {
-                      "type":"item",
-                      "title":"Overview",
-                      "uri":"2.-workspaces/configure-git/a.configuring-git.md"
-                   },
                    {
                       "type":"item",
                       "title":"Bitbucket Cloud",
