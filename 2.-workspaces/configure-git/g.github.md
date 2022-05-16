@@ -10,7 +10,7 @@ GitHub is supported out of the box in Stoplight. To enable your workspace GitHub
 2. From the **Integrations** section, select **Add** next to GitHub.
 3. Select **Use Default Configuration,** and then select **Save**.
 
-In the set up dialog you can also customize if you'd like to:
+In the setup dialog you can also:
 
 - Enable/disable the integration
 - Allow users to sign in and sign up by using GitHub

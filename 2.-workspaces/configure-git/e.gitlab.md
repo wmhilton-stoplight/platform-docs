@@ -1,8 +1,21 @@
 # GitLab
 
+GitLab is supported out of the box in Stoplight. To enable your workspace GitLab integration:
+
+1. Select **Settings** from the workspace home page.
+2. From the **Integrations** section, select **Add** next to GitLab.
+3. Select **Use Default Configuration,** and then select **Save**.
+
+In the setup dialog you can also:
+
+- Enable/disable the integration
+- Allow users to sign in and sign up by using GitLab
+
+## Self-Hosted or Custom Configuration
+
 > This feature is available on the Stoplight **Pro** plan and above.
 
-Use these steps to configure your GitLab integration if you have a self-hosted deployment or need custom integration settings.
+By default, the GitLab integration will use Stoplight's OAuth application, but you can also customize your GitLab integration to use your own OAuth app.
 
 ## GitLab Setup
 
@@ -32,6 +45,12 @@ Read more about [creating a GitLab OAuth App](https://docs.gitlab.com/ee/integra
 5. Select **Save**.
 
 If successful, [add projects](../../7.-projects/adding-projects.md) to start working with projects from your GitLab instance.
+
+## Firewall and Fixed IP Address Configuration
+
+All network traffic from Stoplight originates from a fixed IP address. This is done so that network administrators can allow Stoplight to access your internal Git or identity providers with minimal risk to your network.
+
+If your self-hosted Git provider is behind a firewall, add our fixed IP address **35.226.194.249** to your allowlist on port 443 over HTTPS.
 
 ## Troubleshooting
 
