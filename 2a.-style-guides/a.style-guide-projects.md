@@ -58,4 +58,6 @@ Rules are listed in alphanumeric order.
 
 *Based on plan project limit.
 
-[What's Next: Create Style Guide](a1.create-style-guide.md)
+---
+
+[What's Next Create Style Guide](a1.create-style-guide.md)

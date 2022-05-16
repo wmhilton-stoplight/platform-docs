@@ -13,4 +13,6 @@ https://youtu.be/eJnKhdQh500
 
 As you make changes to your style guide and republish it, you will need to refresh the style guide in the projects that use it.
 
+---
+
 [What's Next: Enable Style Guides](d-enable-style-guide.md)

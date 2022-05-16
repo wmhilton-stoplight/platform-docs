@@ -29,6 +29,7 @@ To create a rule:
 Set severity, name, the message returned in validation, and the description for documenting the rule.
 
 - **Rule severity**
+
    Options are error, warning, information, and hint. When applied to an API project, the severity levels appear in the **API Design** editor. 
    ![Rule severity icons](../assets/images/rule-severity-indicators.png)
    
@@ -62,7 +63,7 @@ Set the area of the API specification the rule applies to.
 
 - **Target**
 
-  Select a target to specify the area of an API specification document. Targets are predefined and required for each rule. Targets are listed alphabetically by name. See [Create Targets](b-create-targets.md).
+  Select a target to specify the area of an API specification document. Targets are usually predefined and are required for each rule. Targets may be organized into [groups based on their names](b-create-targets.md#organize-targets). If you don't see a target you need, you can [add one here](b-create-targets.md). Note that inline targets cannot be reused or start with the # symbol.
 
 - **Property**
 
@@ -72,8 +73,10 @@ Set the area of the API specification the rule applies to.
 
 ### 3. Then Settings
 
-Use Stoplight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions) to set the function that will evaluate your API design content.
+Use Stoplight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions) to set the function that will evaluate your API design content. [Enable the Stoplight Style Guide](d-enable-style-guide.md) to use an additional set of custom functions.
 
 Functions are listed in alphanumeric order.
+
+---
 
 [What's Next: Publish Style Guide](e.publish-style-guide.md)

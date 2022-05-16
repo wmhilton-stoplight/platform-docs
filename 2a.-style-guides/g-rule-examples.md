@@ -65,4 +65,3 @@ Create a custom target and use the `truthy` function to ensure that rate limits 
 
 Once a style guide containing this rule is applied to an API project, the message is shown in the **Validation List** for each response that does not include rate limits. Select the message to move directly to the line in the design that needs to be addressed.
 
-[What's Next: Publish Style Guides](e.publish-style-guide.md)

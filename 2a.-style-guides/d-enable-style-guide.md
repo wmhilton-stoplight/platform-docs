@@ -38,3 +38,7 @@ To disable a style guide:
 2. Select the **Styles** tab in the left pane.
 3. On the Overview pane, select **Manage Style Guides** from the **Enabled Style Guides** page.
 4. Select the **Disable** link on an enabled style guide.
+
+---
+
+[What's Next: Update Style Guides](f.refresh-style-guide.md)

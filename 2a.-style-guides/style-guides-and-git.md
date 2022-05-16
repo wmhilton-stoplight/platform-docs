@@ -17,14 +17,33 @@ These files are updated as you make changes to your project-level ruleset or inh
 
 You should push the set of files and merge them into your main branch so they are available for other branches.
 
-### Spectral File Migration
+### Spectral Files
 
-Existing [Spectral rulesets](https://meta.stoplight.io/docs/spectral/ZG9jOjYyMDc0NA-rulesets) (usually called `.spectral.json`) are migrated to the Sytle Guide format and can be viewed and modified on the **Styles** tab. Code-view is not available at this time.
+[Spectral rulesets](https://meta.stoplight.io/docs/spectral/ZG9jOjYyMDc0NA-rulesets) (usually called `.spectral.json`) are migrated to the Sytle Guide format and can be viewed and modified on the **Styles** tab. Code view is not available at this time.
 
 When you push changes made to this ruleset to Git, the `.spectral.json` file is updated in your repository.
 
 Changes made to the `.spectral.json` file made outside of Stoplight are not synced back to your style guide project. This enables you to use your `.spectral.json` file in other systems while maintaining integrity between Stoplight and the external systems.
 
+### Ignore Style Guide Files
+
+You can limit the number of Stoplight style guide files in your Git repository, but you should only do so if:
+
+- You do not intend to change the default style guide, such as disabling specific rules. 
+- You do not expect to [update the default style guide](f.refresh-style-guide.md) as Stoplight publishes changes.
+- You do not use Spectral in your continuous integration (CI) workflow.
+
+To persist style guides across projects, we strongly recommend that you **do not** add this file to `.gitignore`:
+
+`.stoplight/styleguide.json`
+
+You can, however, add these files to `.gitignore`:
+
+* `.stoplight/custom-functions`
+* `.spectral.json`
+
+Remove these files from `.gitignore` if you intend to use your CI to enforce rules when merging pull requests.
+
 ## Style Guide Projects
 
-At this time, style guide projects are stored in Stoplight and cannot be connected to Git. 
+At this time, style guide projects are stored in Stoplight and cannot be connected to Git.
