@@ -11,6 +11,10 @@ Project documentation contains a single left sidebar called the **Table of Conte
 - Customize [published URLs](../stoplight-urls.md#about-published-urls) for articles and API artifacts.
 - Selectively add or remove files in the sidebar, allowing you to hide them in your Table of Contents file. You can also set an API or article to have [internal visibility](../set-internal-docs.md) to prevent it from appearing in the Table of Contents for public projects or to non-members.
 
+<!--
+focus: center
+bg: "#1A202C"
+-->
 ![studio demo documentation](../../assets/images/studio-demo-docs.png)
 
 > ### Limitations
@@ -25,6 +29,10 @@ Project documentation contains a single left sidebar called the **Table of Conte
 
 There are three types of entities in the Table of Contents:
 
+<!--
+focus: center
+bg: "#1A202C"
+-->
 ![toc element overview](../../assets/images/toc-overview.png)
 
 #### Dividers
@@ -33,7 +41,9 @@ Dividers are bold, non-clickable items that signify the start of a section of co
 
 #### Groups
 
-Groups are non-linkable, collapsible items containing items and other groups that all relate to the same subject matter. Dividers cannot be nested within a group.
+Groups are collapsible items containing items and other groups that all relate to the same subject matter. You can configure groups so they are clickable or you can use them as expanders only.
+
+Dividers cannot be nested within a group.
 
 #### Items
 
@@ -51,6 +61,7 @@ Items are links to articles, APIs, and model files located within the project di
 - Each entity must have a `type` and a `title` property. 
 - Items must have a `uri` property that either points to a file somewhere within the project or an external link to another website. 
 - Groups should have an `items` property allowing you to further nest more items and groups.
+- Optionally, add a `uri` property to groups to open an article when users click the group title.
 
 Press **CMD+Space** to open a list of hints for items you can add to the TOC.
 
@@ -71,11 +82,12 @@ title: toc.json
     {
       "type": "item",
       "title": "Table Of Contents Overview",
-      "uri": "/docs/table-of-contents-example.md"
+      "uri": "docs/table-of-contents-example.md"
     },
     {
       "type": "group",
-      "title": "Group",
+      "title": "Clickable Group",
+      "uri": "docs/group-test.md",
       "items": [
         {
           "type": "item",
@@ -89,7 +101,7 @@ title: toc.json
         }
       ]
     },
-    {
+   {
       "type": "item",
       "title": "ACME API",
       "uri": "/reference/ACME-API.yaml"
@@ -100,19 +112,22 @@ title: toc.json
 
 Here's how the `toc.json` file displays in the project sidebar after you publish.
 
-<!-- 
-focus: false
+<!--
+focus: center
+bg: "#1A202C"
 -->
-![Custom TOC Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/xNOGyY7UWRw)
+![Custom TOC Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/nMb5AoxAx7s)
 
 You can use tags in your API files to organize endpoints into groups. Endpoints themselves are listed by their order in the specification. See [Endpoint Groups Reordering](#endpoint-groups-reordering) for details.
 
 Here's how the `toc.json` file displays after endpoints are organized into a group.
 
-<!-- 
-focus: false
+<!--
+focus: center
+bg: "#1A202C"
 -->
-![Custom TOC with Endpoint Ordering](https://stoplight.io/api/v1/projects/cHJqOjI/images/3ZIPHCrdKIU)
+![Custom TOC with Endpoint Ordering](https://stoplight.io/api/v1/projects/cHJqOjI/images/McNor4d1EWU)
+
 
 ### Add a TOC to a Project
 
@@ -125,7 +140,11 @@ Adding a TOC is the easiest way to get started. When you do this, the TOC organi
 
 Validation is provided to help you correct errors before you publish.
 
-![toc-validation.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/5Tr1xFQBeg0)
+<!--
+focus: center
+bg: "#1A202C"
+-->
+![TOC Validation](https://stoplight.io/api/v1/projects/cHJqOjI/images/5Tr1xFQBeg0)
 
 To revert your changes, select **Generate Default Content** to return the toc.json file to its original state. 
 
@@ -173,18 +192,24 @@ At the bottom of the table of contents are JSON Schema model files that are outs
 To reorder endpoint groups:
 
 1. Create global tags. The easiest way to do this is to select the API overview from the **Form** view, select the tag icon, and then add tags.
-<!-- focus: center
-bg: primary -->
+<!--
+focus: center
+bg: "#1A202C"
+-->
 ![Global Tags](https://stoplight.io/api/v1/projects/cHJqOjI/images/6qZrKIl2LCU)
 
 2. Order the global tags. The easiest way to do this is to switch to **Code** view, scroll to the bottom of the editor, and change the order of the tags.
-<!-- focus: center
-bg: primary -->
+<!--
+focus: center
+bg: "#1A202C"
+-->
 ![Reorder API Tags](https://stoplight.io/api/v1/projects/cHJqOjI/images/o2rWrFPDrpI)
 
 3. Assign tags to each endpoint to determine which group it will be listed under.
 4. Publish and review the results.
-<!-- focus: center
-bg: primary -->
+<!--
+focus: center
+bg: "#1A202C"
+-->
 ![API Tag Order](https://stoplight.io/api/v1/projects/cHJqOjI/images/8FET9xlI0es)
 
