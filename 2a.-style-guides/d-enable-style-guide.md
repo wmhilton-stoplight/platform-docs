@@ -12,8 +12,11 @@ https://youtu.be/6xnRoI41v_A
 Once you enable style guides, you can:
 
 - [Disable inherited rules](j-disable-rules.md).
+- Change the severity for enabled rules.
 - Create local targets and rules.
-- Use inherited targets in new rules.
+- Use inherited targets and functions in local rules.
+
+> Inherited targets and functions cannot be modified.
 
 To enable a style guide:
 

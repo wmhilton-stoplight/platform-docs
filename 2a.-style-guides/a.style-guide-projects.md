@@ -58,6 +58,18 @@ Rules are listed in alphanumeric order.
 
 *Based on plan project limit.
 
+
+## Limitations
+
+Stoplight is actively improving style guides and many updates are in progress. Here are a few known limitations:
+
+1. You cannot import existing Spectral rulesets.
+2. You cannot create custom functions.
+3. The Rule Editor currently suppports one property/field per rule. If you need to evaluate multiple fields, create a separate rule for each field. 
+4. Style Guides are not available in Studio Desktop or in Stoplight CLI projects.
+
+> Looking for these or other style guide improvements? Add a note to our [roadmap](https://roadmap.stoplight.io/).
+
 ---
 
 [What's Next Create Style Guide](a1.create-style-guide.md)
