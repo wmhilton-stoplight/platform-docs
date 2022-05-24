@@ -19,29 +19,36 @@ Stable IDs:
 - Enable you to change article titles without breaking published URLs.
 - Hide the underlying directory structure, which makes the URL smaller.
 
-Use slugs to remove stable IDs from published URLs. See [Change-Published-URLs](#change-published-urls).
+> If you move or rename files, you must manually change the relative links to those files and in the [Table of Contents](Sidebar/d.table-of-contents.md). For example, if you add a link to one Markdown article in another article and you later move the referenced file, you must adjust the reference to point to the moved file.
 
-Stable IDs are automatically added to new, renamed, and imported files and follow the format in these examples:
+Use slugs to remove stable IDs from published URLs. See [Change Published URLs](#change-published-urls).
 
-**Markdown articles**: 
-```markdown
+Stable IDs are used to formulate the published URLs and are automatically added to new, imported, and renamed files. 
 
+### Stable ID Formats
+
+```markdown title="Markdown Articles"
 ---
 stoplight-id: ueil0179cp07l
 ---
-````
+```
 
-**API files**: 
-```YAML
+----
+
+```yaml title="API and Schema Files"
 
 x-stoplight:
   id: pqxhxyu95h4pz
 ```
 
-<!-- theme: warning -->
-> **Warning**: Do not delete or modify the stable IDs. Doing so may break existing published URLs.  
+### Stable ID Guidelines
 
-If you move or rename files, you must manually change the relative links to those files and in the [Table of Contents](Sidebar/d.table-of-contents.md). For example, if you add a link to one Markdown article in another article and you later move the referenced file, you must adjust the reference to point to the moved file. 
+<!-- theme: warning -->
+> **Warning**: Do not delete or modify the stable IDs. Doing so may cause the associated published URL(s) to change, potentially breaking bookmarks or backlinks to your docs.
+
+* The x-stoplight.id format is valid for OpenAPI and should not affect third-party tooling. 
+* You can ignore stable IDs, but you should never delete them.
+* If you delete a file from Stoplight, and later re-import it, the imported file will be assigned a new stable ID if one is not found in its contents. You may do this if you are managing an OpenAPI file in another tool, for example. To ensure your stable IDs stay in sync, add the Stoplight stable ID to the file in your external system, so that when it is re-imported it will not be assigned a new stable ID.
 
 ### Published URL Format
 
@@ -197,5 +204,3 @@ Use `%20` to escape spaces in file names.
 ### Which option should I choose when adding topics to the project sidebar?
    
 When adding topics to the [project sidebar (table of contents)](Sidebar/d.table-of-contents.md), always use the relative path.
-
-
