@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # Migrating from Stoplight Classic
 
 ## Introduction

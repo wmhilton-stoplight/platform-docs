@@ -1,3 +1,5 @@
+<!-- vale off -->
+
 # Migrating from NEXT
 
 ## Introduction

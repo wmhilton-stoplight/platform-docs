@@ -593,11 +593,15 @@ https://www.youtube.com/watch?v=VbSPeYo8dfM
 
 This is a Giphy Gif:
 
+<!-- markdown-link-check-disable -->
+
 https://giphy.com/gifs/barkpost-barkpost-happy-wednesday-working-like-a-dog-eYilisUwipOEM
 
 ```md title="Try it out!" 
 https://giphy.com/gifs/barkpost-barkpost-happy-wednesday-working-like-a-dog-eYilisUwipOEM
 ```
+
+<!-- markdown-link-check-enable-->
 
 We support audio too:
 

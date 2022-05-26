@@ -36,6 +36,7 @@ The rest of this document outlines how to configure that app.
 4. Issuer --> `Identity Provider Issuer`
 5. Request Specific Authentication Context --> `Enabled`
 
+<!-- markdown-link-check-disable-next-line -->
 ![okta-5.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/yGHWQcT5mCs)
 
 

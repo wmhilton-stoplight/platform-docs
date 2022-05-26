@@ -1,5 +1,6 @@
 # Work with Media Types
 
+<!-- markdown-link-check-disable-next-line -->
 [Media types](https://spec.openapis.org/oas/v3.1.0#media-types) declare the format of request or response body content. 
 
 For example: 
