@@ -1,6 +1,6 @@
 # Style Guide Quickstart
 
-Follow these steps to quickly use style guides that bring consistency and easy governance to your API program.
+Follow these steps to use style guides that bring consistency and easy governance to your API program.
 
 You can take one of two approaches:
 
@@ -27,7 +27,7 @@ Rules and targets are organized under the **Inherited** list in the left navigat
 2. Review the rule's documentation. 
 3. Review the rule's properties.
 
-![style-guide-quick-start-sample-rule.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/I2UDPwPEW88)
+![Sample Rule](https://stoplight.io/api/v1/projects/cHJqOjI/images/I2UDPwPEW88)
 
 > If you do not want your API validated against a specific rule, select **Disabled** from the **Severity** list in the Rule Editor. ![Disable a rule](../assets/images/style-guide-disable-rule.png)
 >You can also [disable the entire default style guide](d-enable-style-guide.md#disable-a-style-guide).
@@ -36,18 +36,14 @@ Rules and targets are organized under the **Inherited** list in the left navigat
 
 1. From the left pane, select the **Add** icon (+) next to **Rules**.
 
-![add-rule-icon.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/UeeGJYxuCeA)
+![Add Rule Icon](https://stoplight.io/api/v1/projects/cHJqOjI/images/UeeGJYxuCeA)
 
 2. Configure the three main rule areas:
     * [Rule Settings](c-create-rules.md#Rule-Settings)
     * [Given Settings](c-create-rules.md#Given-Settings)
     * [Then Settings](c-create-rules.md#Then-Settings)
 
-See our examples to help you get started:
-
-* [APIs must be versioned](g-rule-examples.md#apis-must-be-versioned)
-* [Path parameters must adhere to camel case](g-rule-examples.md#path-parameters-must-adhere-to-camel-case)
-* [Response headers must include a rate limit](g-rule-examples.md#response-headers-must-include-a-rate-limit)
+See [these examples](g-rule-examples.md) to get started.
 
 ### 4. Publish the Style Guide
 
@@ -78,7 +74,7 @@ The APIs in your project are validated against the style guides you enable.
 
 1. Select the **APIs** tab.
 2. Noticed that your API is automatically validated against the Stoplight rules.
-![style-guide-validation.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/67klnepNEPU)
+![Style Guide Validation](https://stoplight.io/api/v1/projects/cHJqOjI/images/67klnepNEPU)
 
 ### Manage Styles
 

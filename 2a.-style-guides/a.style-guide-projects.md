@@ -17,7 +17,7 @@ Stoplight uses [Spectral](https://meta.stoplight.io/docs/spectral/ZG9jOjYx-overv
 
 ![style-guide-feedback2.png](https://meta.stoplight.io/api/v1/projects/cHJqOjI/images/GqiaANFtj80)
 
-See [our blog](https://blog.stoplight.io/explore-these-top-api-style-guide-resources) to learn more about incorporating style guides into your governance program.
+See [this blog](https://blog.stoplight.io/explore-these-top-api-style-guide-resources) to learn more about incorporating style guides into your governance program.
 
 ## Style Guide Types
 
@@ -65,10 +65,10 @@ Stoplight is actively improving style guides and many updates are in progress. H
 
 1. You cannot import existing Spectral rulesets.
 2. You cannot create custom functions.
-3. The Rule Editor currently suppports one property/field per rule. If you need to evaluate multiple fields, create a separate rule for each field. 
+3. The Rule Editor currently supports one property/field per rule. If you need to evaluate multiple fields, create a separate rule for each field. 
 4. Style Guides are not available in Studio Desktop or in Stoplight CLI projects.
 
-> Looking for these or other style guide improvements? Add a note to our [roadmap](https://roadmap.stoplight.io/).
+> Looking for these or other style guide improvements? Add a note to the Stoplight [roadmap](https://roadmap.stoplight.io/).
 
 ---
 

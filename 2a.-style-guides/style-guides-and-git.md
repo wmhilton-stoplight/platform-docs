@@ -19,7 +19,7 @@ You should push the set of files and merge them into your main branch so they ar
 
 ### Spectral Files
 
-[Spectral rulesets](https://meta.stoplight.io/docs/spectral/ZG9jOjYyMDc0NA-rulesets) (usually called `.spectral.json`) are migrated to the Sytle Guide format and can be viewed and modified on the **Styles** tab. Code view is not available at this time.
+[Spectral rulesets](https://meta.stoplight.io/docs/spectral/ZG9jOjYyMDc0NA-rulesets) (usually called `.spectral.json`) are migrated to the Style Guide format and can be viewed and modified on the **Styles** tab. Code view is not available at this time.
 
 When you push changes made to this ruleset to Git, the `.spectral.json` file is updated in your repository.
 

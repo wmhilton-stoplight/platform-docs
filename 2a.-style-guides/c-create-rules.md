@@ -4,7 +4,7 @@ The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-sty
 
 https://youtu.be/ZLmnV-q33X0
 
-See our [rule examples](g-rule-examples.md) to get started.
+See these [rule examples](g-rule-examples.md) to get started.
 
 ## Add a Rule
 

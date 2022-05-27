@@ -6,7 +6,7 @@ internal: true
 
 Stoplight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions) are intended to meet most rule validation needs, but you may need functions to solve advanced use cases.
 
-Custom functions are any JavaScript function compliant with the `RulesetFunction` type. See our guidance for [writing custom functions](https://meta.stoplight.io/docs/spectral/ZG9jOjI1MTkw-custom-functions#writing-functions).
+Custom functions are any JavaScript function compliant with the `RulesetFunction` type. See Stoplight's guidance for [writing custom functions](https://meta.stoplight.io/docs/spectral/ZG9jOjI1MTkw-custom-functions#writing-functions).
 
 Once you've written custom functions, add them to your style guide and use them to evaluate rules.
 
@@ -21,7 +21,7 @@ To create a custom function:
 5. If your function accepts options, provide a JSON Schema that describes those options.
 6. Select **Add Function**.
 
-![styele-guides-custom-function.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/JmDIoEzLPOo)
+![Style Guide Custom Functions](https://stoplight.io/api/v1/projects/cHJqOjI/images/JmDIoEzLPOo)
 
 > Custom functions cannot be modified after they are added to a style guide.
 
