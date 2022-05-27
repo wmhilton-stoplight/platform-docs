@@ -2,6 +2,8 @@
 
 Stoplight can connect with popular Git Providers hosted publically or on your servers (even if it's protected by a firewall), letting you work directly with [projects](../../7.-projects/adding-projects.md) in public or private repos. 
 
+> For enterpise users, or teams with users that do not have Git accounts, we highly recommend using [Service Accounts](h.service-accounts.md).
+
 ## Git Provider Support
 
 We support the following Git providers:

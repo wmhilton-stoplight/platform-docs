@@ -60,20 +60,21 @@ Permissions for each project role:
 
 | Permission                | Owner | Admin | Editor | Viewer | Guest (Restricted) |
 |---------------------------|-------|-------|--------|--------|--------|
-| View listed branches      | ✅     | ✅     | ✅      | ✅      | ✅     |
-| View unlisted branches | ✅     | ✅     | ✅      | ✅      |        |
-| Access mock servers       | ✅     | ✅     | ✅      | ✅      |        |
-| Add members               | ✅     | ✅     | ✅      | ✅      |        |
-| Edit in Studio            | ✅     | ✅     | ✅      |        |         |
-| Drag-and-drop images      | ✅     | ✅     | ✅      |        |         |
-| Track branches            | ✅     | ✅     | ✅      |        |         |
-| View settings             | ✅     | ✅     | ✅      |        |        |
-| Enable style guides       | ✅     | ✅     | ✅    |        |        |
-| Edit settings             | ✅     | ✅     |        |        |        |
-| Remove members            | ✅     | ✅     |        |        |        |
-| Remove project            | ✅     |       |        |        |        |
-| Transfer ownership        | ✅     |       |        |        |        |
-| Leave the project         |       | ✅     | ✅      | ✅      |✅       |
+| View listed branches      | ✅     | ✅    | ✅      | ✅      | ✅    |
+| View unlisted branches    | ✅     | ✅    | ✅      | ✅      |       |
+| Access mock servers       | ✅     | ✅    | ✅      | ✅      |       |
+| Add members               | ✅     | ✅    | ✅      | ✅      |       |
+| Edit in Studio            | ✅     | ✅    | ✅      |        |       |
+| Drag-and-drop images      | ✅     | ✅    | ✅      |        |       |
+| Track branches            | ✅     | ✅    | ✅      |        |       |
+| View settings             | ✅     | ✅    | ✅      |        |       |
+| Enable style guides       | ✅     | ✅    | ✅      |        |       |
+| Edit settings             | ✅     | ✅    |        |        |        |
+| Manage service accounts   | ✅     | ✅    |        |        |        |
+| Remove members            | ✅     | ✅    |        |        |        |
+| Remove project            | ✅     |       |        |        |       |
+| Transfer ownership        | ✅     |       |        |        |       |
+| Leave the project         |        | ✅    | ✅      | ✅      |✅    |
 
 > **Note:** To edit Git projects, users need permissions in both Stoplight and the Git repository.
 

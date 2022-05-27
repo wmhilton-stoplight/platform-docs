@@ -65,6 +65,10 @@ When a project is connected to Git, the **Git Info** setting shows which reposit
 
 See [Branch Management](../2.-workspaces/h.branch-management.md) for more information on using Git with projects.
 
+## Version Control Service Account
+
+You can configure a service account to be used with your Git provider in this section. Once this is configured, Stoplight will use the service account credentials to do most Git operations for the project. You can learn more about this feature in [Service Accounts](../2.-workspaces/configure-git/h.service-accounts.md).
+
 ## Delete Projects
 
 You can remove a project and all of its data from Stoplight. For Stoplight projects, the deletion is permanent. For Git projects, the underlying repo is not impacted, but the repo contents are removed from Stoplight.

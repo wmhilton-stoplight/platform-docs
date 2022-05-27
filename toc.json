@@ -429,6 +429,12 @@
                    },
                    {
                       "type":"item",
+                      "title":"Service Accounts",
+                      "uri":"2.-workspaces/configure-git/h.service-accounts.md",
+                      "slug":"git/service-accounts"
+                   },
+                   {
+                      "type":"item",
                       "title":"Troubleshoot Git",
                       "uri":"2.-workspaces/configure-git/f-troubleshoot-git.md"
                    }
