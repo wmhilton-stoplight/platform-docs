@@ -8,15 +8,15 @@ For example:
 - An endpoint may return a PNG image with `image/png` for display on a web page.
 - A client and server may exchange messages with `application/json` or `application/xml`.
 
-The Studio Form Designer provides a set of media types that you can easily add to request and response bodies. REST APIs designed with Open API often use `application/json` for communicating messages in the request and response bodies, but you are not required to do so.
+The Studio Form Designer provides a set of media types that you can add to request and response bodies. REST APIs designed with OpenAPI often use `application/json` for communicating messages in the request and response bodies, but you are not required to do so.
 
-![media-type.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/mrrzkTS703E)
+![Media Type](https://stoplight.io/api/v1/projects/cHJqOjI/images/mrrzkTS703E)
 
 If a media type you need is not listed, you can manually add it to the list.
 
 Within a single operation, you can add multiple media types to request and response bodies as needed. Each media type indicates the supported content in body. The following example shows a request body with three media types: `application/json`, `application/pdf`, and `text/html`. This indicates that the operation accepts either a JSON document, a PDF file or a HTML document in a single request.
 
-![Mutliple Media Types](https://stoplight.io/api/v1/projects/cHJqOjI/images/aYpG8hvuopc)
+![Multiple Media Types](https://stoplight.io/api/v1/projects/cHJqOjI/images/aYpG8hvuopc)
 
 Here is a snippet of an Open API spec in JSON for this example:
       
@@ -45,6 +45,8 @@ Here is a snippet of an Open API spec in JSON for this example:
         }
       }
 ```     
+
+> Arrays of files are not supported at this time.
 
 ## Work with Multipart and Form Requests
 

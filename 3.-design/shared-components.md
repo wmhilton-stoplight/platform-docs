@@ -30,7 +30,7 @@ Shared components in Stoplight come in several forms:
 
 ## Shared Parameters
 
-Describing a HTTP request involves talking about the URL, method, body, all of which are covered elsewhere. Everything else is a parameter. 
+Describing an HTTP request involves talking about the URL, method, and body. Everything else is a parameter. 
 
   * **path** - Dynamic values in the path part of the URL (example: `/people/{id}`).
   * **query** - Dynamic values in the query string part of the URL (example: `/planets?name=Endor`).
@@ -49,7 +49,7 @@ To add a shared parameter:
 4. Provide a name for the parameter, and then press **Enter**.
 5. Define parameter properties in the Editor pane.
 
-![query-parameters.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/rn0pfNwM34U)
+![Query Parameters](https://stoplight.io/api/v1/projects/cHJqOjI/images/rn0pfNwM34U)
 
 ### Use Shared Parameters
 
@@ -61,34 +61,34 @@ To use a shared parameter:
    * In HTTP request information section, select **Header** or **Query Param**. 
 3. Select the link icon to choose the parameter to reference.
  
-![shared-parameters.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/fCddCvk61bY)
+![Shared Parameters](https://stoplight.io/api/v1/projects/cHJqOjI/images/fCddCvk61bY)
 
 Once the parameter has been referenced, any updates to the shared parameter will automatically be propagated to every endpoint using that parameter. Like other references in Stoplight, shared parameters can also be shared across files, projects, and other external sources.
 
 ### Shared Parameters Example
 
-Let's say you are creating an API to serve thousands of cooking recipes. When dealing with large volumes of data, you typically want to avoid sending _all_ data in a request. To help avoid sending more data than is necessary, most applications implement a "paging" feature that allows clients to retrieve a small portion of result, such as a single page.
+For example, you are creating an API to serve thousands of cooking recipes. When dealing with large volumes of data, you typically want to avoid sending _all_ data in a request. To help avoid sending more data than is necessary, most applications implement a "paging" feature that allows clients to retrieve a small portion of result, such as a single page.
 
-There are multiple ways to approach a paging feature. For this example, we want to add two query string parameters to every request:
+There are multiple ways to approach a paging feature. For this example, add two query string parameters to every request:
 
 * `limit` - The number of results to return when viewing a page. For example,  setting `limit` to `20` means that, at most, 20 results will be returned in the request.
 * `offset` - The number of results to skip before returning results. For example, setting an `offset` of `20` means that the API will discard the first 20 results.
 
-By using the two parameters above, a client can efficiently "page" through results, only returning items that are within the requested bounds. To demonstrate, let's use the parameters to display the first page of our recipe results:
+By using the two parameters above, a client can efficiently "page" through results, only returning items that are within the requested bounds. To demonstrate, use the parameters to display the first page of recipe results:
 
 ```
 GET /recipes?limit=20&offset=0
 ```
 
-Since the `offset` is set to `0`, the API will not discard any results. Paired with a `limit` of `20`, we will only see the first 20 results (1 through 20). 
+Since the `offset` is set to `0`, the API will not discard any results. Paired with a `limit` of `20`, only the first 20 results are shown (1 through 20). 
 
-To view the second page of recipes, we would use:
+To view the second page of recipes, use:
 
 ```
 GET /recipes?limit=20&offset=20
 ```
 
-By setting an `offset` of `20`, the API will discard the first 20 results. Paired again with a `limit` of `20`, we will see the second page of results (21 through 40).
+By setting an `offset` of `20`, the API will discard the first 20 results. Paired again with a `limit` of `20`, the second page of results is shown (21 through 40).
 
 ## Shared Responses
 
@@ -102,7 +102,7 @@ Shared responses allow you to configure the following properties:
 
 ### Add Shared Responses
 
-To create a shared reponse:
+To create a shared response:
 
 1. Select the **APIs** tab.
 2. Right-click on the **Responses** folder.
@@ -145,9 +145,9 @@ Now when you update the shared response, it will update in every endpoint using 
 
 ## Shared Models
 
-While designing your APIs, you will often find yourself repeating structures in your endpoint request and response bodies. For example, you might have an API endpoint that returns a list of users, and another endpoint that returns a single user. The response structures of these two endpoints will be very similar - one is responding with an array of user objects, and one is responding with a single user object.
+While designing your APIs, you will often find yourself repeating structures in your endpoint request and response bodies. For example, you might have an API endpoint that returns a list of users, and another endpoint that returns a single user. The response structures of these two endpoints will be similar: one is responding with an array of user objects, and one is responding with a single user object.
 
-Models allow you to describe these common structures (for example, a User object), and then reference the object from our endpoint definitions, or even from other models. Then, we only have one place to update if we need to change anything about the user object, instead of many places.
+Models allow you to describe these common structures (for example, a User object), and then reference the object from endpoint definitions, or even from other models. Then, future updates are made in one place instead of many places.
 
 Splitting your API descriptions across multiple files using $ref (references) allows for cleaner and more organized code. 
 
@@ -169,7 +169,7 @@ Use shared models to:
     * **This Project**: Select a model in the current Stoplight project.
     * **Design Library**: Coming soon.
 
-![ref-model.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/gIUDTdG7DNY)
+![Shared Models Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/gIUDTdG7DNY)
 
 ## Shared Examples
 
@@ -185,7 +185,7 @@ To add a shared example:
 4. Provide a name for the example, and then press **Enter**.
 5. Define example properties in the Editor pane.
 
-![shared-example.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/a7SsfW5eo4Y)
+![Shared Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/a7SsfW5eo4Y)
 
 ### Use Shared Examples
 
@@ -195,7 +195,7 @@ To use a shared example:
 2. In the **Request** or **Response** area of the form, select the **Example** tab.
 3. Select the shared example from the **No shared response selected** list. 
 
-![shared-example.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/J51M2VW05R0)
+![Use Shared Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/J51M2VW05R0)
 
 Select the **Go to Shared Example** button to open the shared response. Changes you make to the shared response impact all references.
 
