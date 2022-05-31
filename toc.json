@@ -435,6 +435,11 @@
                       "uri":"2.-workspaces/configure-git/e.gitlab.md"
                    },
                    {
+                     "type":"item",
+                     "title":"Azure DevOps Server",
+                     "uri":"2.-workspaces/configure-git/i.azure-devops-server.md"
+                   },
+                  {
                       "type":"item",
                       "title":"Service Accounts",
                       "uri":"2.-workspaces/configure-git/h.service-accounts.md",

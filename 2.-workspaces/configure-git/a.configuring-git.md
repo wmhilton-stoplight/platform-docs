@@ -13,7 +13,7 @@ We support the following Git providers:
 - <i class="fab fa-github fa-2x"> </i> [GitHub](g.github.md)
 - <i class="fab fa-github fa-2x"> </i> [GitHub Enterprise](d.github-enterprise.md)
 - <i class="Icon fab fa-gitlab fa-2x" style="color: rgb(252, 109, 38);"> </i> [GitLab](e.gitlab.md)
-- <i class="Icon fab fa-microsoft fa-2x" style="color: rgb(32, 80, 129);"> </i> Azure DevOps Server
+- <i class="Icon fab fa-microsoft fa-2x" style="color: rgb(32, 80, 129);"> </i> [Azure DevOps Server](i.azure-devops-server.md)
 
 If you don't see the Git Provider you're looking for, take a look at our [roadmap](https://roadmap.stoplight.io/) to keep an eye on what's coming next. You can also use [Stoplight CLI](../f.working-with-local-projects.md) to push projects to the Stoplight Platform.
 

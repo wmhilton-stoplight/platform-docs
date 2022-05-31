@@ -23,9 +23,9 @@ By default, the Bitbucket Cloud integration will use Stoplight's OAuth applicati
 2. Select **Settings** on the left sidebar to open the Workspace settings.
 3. Select **OAuth consumers** under Apps and features on the left navigation, and then select **Add consumer**.
 4. Add the following information:
-    * **Name**: Give the consumer a name (e.g. **Stoplight Integration**).
+    * **Name**: Give the consumer a name (for example: **Stoplight Integration**).
     * **Callback URL**: Set as `https://stoplight.io/oauth/callback`.
-    * **Mininum Permissions**: The miminum required  permissions for the consumer are:
+    * **Minimum Permissions**: The minimum required  permissions for the consumer are:
        * Account - Read
        * Repositories - Admin
        * Repositories - Write

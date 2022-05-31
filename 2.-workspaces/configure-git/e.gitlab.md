@@ -19,7 +19,7 @@ By default, the GitLab integration will use Stoplight's OAuth application, but y
 
 ## GitLab Setup
 
-1. Verify that [HTTP/HTTPS access is enabled](https://docs.gitlab.com/ee/user/admin_area/settings/visibility_and_access_controls.html#configure-enabled-git-access-protocols) in Gitlab.
+1. Verify that [HTTP/HTTPS access is enabled](https://docs.gitlab.com/ee/user/admin_area/settings/visibility_and_access_controls.html#configure-enabled-git-access-protocols) in GitLab.
 2. Navigate to **Profile Settings > Edit Profile> Applications** to add a new application via your profile.
 3. Add the following information on the **New Application** form:
    * **Name**: Enter a Name (e.g `Stoplight Integration`).
@@ -50,7 +50,7 @@ If successful, [add projects](../../7.-projects/adding-projects.md) to start wor
 
 All network traffic from Stoplight originates from a fixed IP address. This is done so that network administrators can allow Stoplight to access your internal Git or identity providers with minimal risk to your network.
 
-If your self-hosted Git provider is behind a firewall, add our fixed IP address **35.226.194.249** to your allowlist on port 443 over HTTPS.
+If your self-hosted Git provider is behind a firewall, add Stoplight's fixed IP address **35.226.194.249** to your allowlist on port 443 over HTTPS.
 
 ## Troubleshooting
 
