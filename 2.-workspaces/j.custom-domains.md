@@ -2,7 +2,9 @@
 
 Use a custom domain to host your Stoplight workspace from a domain fully under your control. 
 
-Once properly configured: 
+> Custom domains are available for Starter plans and above. The Localize integration is available for Professional plans and above. 
+
+Once configured: 
 
 - You can access the Stoplight workspace from the custom domain.
 - An SSL certificate for your domain will automatically be generated with [Let's Encrypt](https://letsencrypt.org/). 
@@ -20,10 +22,10 @@ To complete the configuration process, you must create a CNAME DNS record for yo
 
 > ### Limitations
 >
-> Stoplight currently requires the **full domain** to be allocated for use, meaning that it is not possible to expose documentation from a single path or route. As an example, the domain "api.example.com" can be used to host your Stoplight documentation, however "example.com/api" (note the "/api" base path) cannot.
+> Stoplight currently requires the **full domain** to be allocated for use, meaning that it's not possible to expose documentation from a single path or route. As an example, the domain "api.example.com" can be used to host your Stoplight documentation, however "example.com/api" (note the "/api" base path) can't.
 >
 > See the [roadmap item](https://roadmap.stoplight.io/c/57-embeddable-component-library) for
-> more information on how we plan on addressing this limitation in the future.
+> more information on how this limitation will be addressed in the future.
 
 ## Additional Options
 
@@ -31,8 +33,8 @@ Once your domain has been configured, you can set these options:
 
 - **Analytics**: [Enable analytics using Google Tag Manger](../4.-documentation/e.configure-analytics.md).
 - **Redirects**: Use to move documentation without breaking links. See [Redirects](../4.-documentation/e2.configure-redirects.md)
-- **Localize**: Use to [configure an integration](../4.-documentation/e1.configure-localize.md) to Localize.
 - **Hide Sign In Button**: Enable to remove sign-in options from the sidebar when your Workspace is loaded from your domain.
+- **Localize** (Professional plans and above): Use to [configure an integration](../4.-documentation/e1.configure-localize.md) to Localize. 
 
 ## Troubleshooting
 
@@ -42,13 +44,13 @@ If you are using [Cloudflare](https://cloudflare.com/), be sure to set your CNAM
 
 ![](../assets/images/custom_domain_cloudflare.png)
 
-You can read more about what this means in the CloudFlare documentation.
+You can read more about what this means in the Cloudflare documentation.
 
 ### The connection has timed out
 
-If you see an error related to "The connection has timed out", this typically means that a CAA DNS record is present on your domain, which is preventing the TLS verification process from completing.
+If you see connection time-out errors, this typically means that a CAA DNS record is present on your domain, which is preventing the TLS verification process from completing.
 
-> To learn more about CAA records and what they are used for, see the [Let's Encrypt documentation](https://letsencrypt.org/docs/caa/). You can
+> To learn more about CAA records and what they're used for, see the [Let's Encrypt documentation](https://letsencrypt.org/docs/caa/). You can
 > perform a [CAA lookup on your domain](https://www.entrust.com/resources/certificate-solutions/tools/caa-lookup)
 > for reference.
 
