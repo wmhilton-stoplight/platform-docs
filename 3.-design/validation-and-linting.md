@@ -4,22 +4,28 @@ tags: []
 
 # Validation and Linting
 
-Studio will let you know if you've written invalid YAML, JSON, Markdown, or let you know if your API descriptions are invalid OpenAPI, JSON Schema, etc. Beyond simply validating this content, Studio can lint any JSON/YAML data, with a built-in ruleset for OpenAPI v2 and v3.
+Studio automatically:
 
-![spectral.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/gByWRneur1c)
+* Validates YAML and JSON files.
+* Lints OpenAPI v2 and v3.x specifications based on a default ruleset. 
 
-Linting your API description during the design process provides a practical method for enforcing API design rules over multiple APIs, making your APIs consistent before they even exist.
+The following example shows two JSON errors and four style guide warnings in the **Validation List**. Select each item in the list to go directly to the line that needs attention.
 
-Validation and linting can trigger either a warning (denoted by a yellow exclamation icon) or an error (denoted by a red exclamation icon) if the rules conditions are not met.
+![Validation and Linting](https://stoplight.io/api/v1/projects/cHJqOjI/images/0udu5kiydHA). 
+
+> The Style and Validation rule engine is powered by the open-source project [Spectral](https://stoplight.io/open-source/spectral). 
 
 ### Validation Rules
 
-Validation rules signify whether your generic JSON/YAML, API descriptions, etc are technically correct. An example of a validation rule would be requiring a unique `operationIds` for every operation. Validation rules are denoted by a green check mark icon and typically trigger errors.
+Validation rules signify whether your generic JSON/YAML and API descriptions are technically correct. An example validation rule is one that requires a unique `operationId` for every operation.
+
+> **Tip**:
+> Validation is available for the [Table of Contents file](../4.-documentation/Sidebar/d.table-of-contents.md) used to organize the project sidebar.
 
 ### Style Rules
 
-Style rules are more like opinions, they are not about your OpenAPI being valid, they offer suggestions about naming conventions, missing information which would improve the quality of documentation, etc. Style rules are denoted by a blue pencil icon and typically trigger warnings when enabled.
+Style rules differ from validation rules because they provide guidance for naming conventions, missing information which would improve the quality of documentation, and more.
 
-> The Style & Validation rule engine is powered by our open-source project [Spectral](https://stoplight.io/open-source/spectral). You can create custom style guides for any sort of JSON or YAML data, like OpenAPI or JSON Schema.
+Depending on the ruleset, the **Validation List** can show warnings, errors, informational messages, and hints.
 
-
+Each Stoplight API project is automatically linted using the [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide). You can disable rules in this guide, change their severity (error to warning, for example), and add your own rules. See [Stoplight Style Guides](../2a.-style-guides/a.style-guide-projects.md) for more information. 

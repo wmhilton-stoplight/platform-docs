@@ -4,9 +4,6 @@ tags: [Governance]
 
 # Style Guide Overview
 
-<!-- theme: info -->
-Shared style guides are available on the **Professional** and **Enterprise** plans.
-
 Stoplight style guides add consistency, reusability, and easy governance to your API program. Style guides contain rules that help you govern versioning, filtering, error formats, naming conventions, pagination, and more. Examples include:
 
 - Ban the use of HTTP basic
@@ -49,15 +46,18 @@ Rules are listed in alphanumeric order.
 
 ## Style Guide Access
 
+Style guide projects can be created in any plan level. You can also create local rules and targets in an API project.
+
+To enable style guides in other projects, you must be on a professional or enterprise plan. 
+
 |                                 | Free | Starter | Professional | Enterprise |
 |---------------------------------|--------|--------|-------|-------|
 | Create local style guides*      | ✅    | ✅     | ✅     | ✅     |
 | Enable Stoplight style guide    | ✅    | ✅     | ✅     | ✅     |
-| Create style guide projects     |        |        | ✅     | ✅     |
+| Create style guide projects     | ✅    | ✅     | ✅     | ✅     |
 | Enable shared style guides      |        |        | ✅     | ✅     |
 
 *Based on plan project limit.
-
 
 ## Limitations
 
