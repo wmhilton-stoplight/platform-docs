@@ -2,7 +2,8 @@
 
 Below you will find answers to commonly encountered questions.
 
-> If you are having trouble and cannot find a suitable answer, don't hesitate to [let us know](mailto:support@stoplight.io).
+<!-- markdown-link-check-disable-next-line -->
+> If you are having trouble and cannot find a suitable answer, don't hesitate to [let us know](https://support.stoplight.io).
 
 ## Try It and Mocking
 
@@ -14,9 +15,8 @@ Try these solutions:
 2. Make sure the API is running and available under the specified URL.
 3. If you've checked all of the above and still experiencing issues, check if the API supports [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). Requests from browsers will be blocked for APIs that do not have appropriate CORS headers set up for `*.stoplight.io.` 
 
-<!-- markdown-link-check-disable -->
-See our [Knowledge Base](https://support.stoplight.io/hc/en-us/articles/360046967991-Error-while-making-the-request-Network-Error-the-API-did-not-return-a-response) for guidance on resolving this error.
-<!-- markdown-link-check-enable -->
+<!-- markdown-link-check-disable-next-line -->
+See our [Knowledge Base](https://stoplighthelp.force.com/s/article/Error-while-making-the-request-Network-Error-the-API-did-not-return-a-response) for guidance on resolving this error.
 
 ### Why do I get 422 Unprocessable Entity Responses?
 
@@ -58,8 +58,6 @@ When reviewing the **Automation** tab, verify that recent pushes to the reposito
 
 Errors will be highlighted in red. Pending tasks are highlighted in purple. 
 
-> If you are seeing errors or other issues, don't hesitate to reach out to [support@stoplight.io](mailto:support@stoplight.io) to investigate further.
-
 ## Why is there an "Others" section in the sidebar?
 
 If you're seeing an "Others" section in the sidebar of your project documentation:
@@ -97,10 +95,6 @@ We aim to support the following browsers and minimum versions.
 
 Things may work outside of these browsers and these versions, but there might be unexpected problems as we won't be testing those environments.
 
-If something is not working in a version listed here (or newer) please [contact support](mailto:support@stoplight.io).
-
 ## What languages are supported?
 
 Today Stoplight is only available in the English language. While it is possible to host your own content in Stoplight that is not English, you may experience minor errors and other discrepancies when using non-Latin letters or scripts (ie, Cyrillic-based characters). For example, only the Latin alphabet is supported in Stoplight's search functionality.
-
-For any questions or concerns, please [contact Stoplight Support](mailto:support@stoplight.io).

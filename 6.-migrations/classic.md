@@ -4,11 +4,7 @@
 
 ## Introduction
 
-One of the main goals for this new version of the Stoplight Platform has been to
-make it easier for you to integrate Stoplight into your existing Git-based
-workflows. In Stoplight Classic, projects were hosted in the Stoplight cloud
-with no connection to Git. With the latest version of Stoplight, all of your
-designs and related assets can be fully managed directly in your Git VCS
+One of the main goals for this new version of the Stoplight Platform has been to make it easier for you to integrate Stoplight into your existing Git-based workflows. In Stoplight Classic, projects were hosted in the Stoplight cloud with no connection to Git. With the latest version of Stoplight, all of your designs and related assets can be fully managed directly in your Git VCS
 provider.
 
 ## How do I migrate?
@@ -48,12 +44,9 @@ However, there are a few items that won't be migrated:
 
 ### Stoplight Platform vs Stoplight Classic
 
-While the new Stoplight Platform includes a lot of new functionality, there are
-some features from Classic that have not yet made their way over.
+While the new Stoplight Platform includes a lot of new functionality, there are some features from Classic that have not yet made their way over.
 
-Below are several features that were available in Classic that are linked to our
-upcoming roadmap. We encourage you to follow the features relevant to you -
-we'll notify you as each is released.
+Below are several features that were available in Classic that are linked to our upcoming roadmap. We encourage you to follow the features relevant to you - we'll notify you as each is released.
 
 |                                                                                                                    |  Timeline   | Description                                                                        |
 | ------------------------------------------------------------------------------------------------------------------ | :---------: | ---------------------------------------------------------------------------------- |
@@ -66,20 +59,16 @@ we'll notify you as each is released.
 
 ## FAQ
 
-The concepts in the new Stoplight Platform should be very similar to what you're
-used to in Classic. Here are some commonly asked questions to help clarify those
-similarities and differences. If you have any additional questions, please don't
-hesitate to [contact us](mailto:support@stoplight.io).
+<!-- markdown-link-check-disable-next-line -->
+The concepts in the new Stoplight Platform should be very similar to what you're used to in Classic. Here are some commonly asked questions to help clarify those similarities and differences. If you have any additional questions don't hesitate to [contact us](https://support.stoplight.io).
 
 **Is a Stoplight Workspace similar to a Workspace in Classic?**
 
-Yes, they are very similar. Just like in a Classic workspace, your workspace is
-where you'll invite members, add projects, and create a billing subscription. However the main difference is you will only have one Workspace for your entire company in Stoplight Platform.
+Yes, they are very similar. Just like in a Classic workspace, your workspace is where you'll invite members, add projects, and create a billing subscription. However the main difference is you will only have one Workspace for your entire company in Stoplight Platform.
 
 **How do the members roles compare to the ones in Classic?**
 
-The roles and permissions work similar to Classic, but some of the role names
-have changed.
+The roles and permissions work similar to Classic, but some of the role names have changed.
 
 Below is a mapping of Classic to Platform roles:
 
@@ -93,46 +82,30 @@ Below is a mapping of Classic to Platform roles:
 
 **How do I publish my API documentation?**
 
-In the new Platform, API documentation is automatically generated from the files
-in your projects. You control access to projects by configuring the project's
-visibility settings.
+In the new Platform, API documentation is automatically generated from the files in your projects. You control access to projects by configuring the project's visibility settings.
 
-For example, if you want a project to only be visible by Workspace members, you
-can set the project's visibility to `internal`. You can also give members and
-guests explicit access to view specific private or internal projects.
+For example, if you want a project to only be visible by Workspace members, you can set the project's visibility to `internal`. You can also give members and guests explicit access to view specific private or internal projects.
 
 **How do I update the contents of my project's documentation?**
 
-When adding a project to your Stoplight Workspace, a webhook will be installed
-within the Git repository. This allows Stoplight to automatically update your
-documentation when any of the API design assets in the repository have changed.
+When adding a project to your Stoplight Workspace, a webhook will be installed within the Git repository. This allows Stoplight to automatically update your documentation when any of the API design assets in the repository have changed.
 
-The contents of the project can then be updated from any one of your favorite
-tools, such as Stoplight Studio or even directly in the VCS provider. As long as
-the changes are pushed to the Git repository, they will be automatically synced
-with your Stoplight Workspace.
+The contents of the project can then be updated from any one of your favorite tools, such as Stoplight Studio or even directly in the VCS provider. As long as the changes are pushed to the Git repository, they will be automatically synced with your Stoplight Workspace.
 
-If you need more control over when documentation is updated, see our publishing
-guide [here](../2.-workspaces/g.automating-publishing.md).
+If you need more control over when documentation is updated, see our publishing guide [here](../2.-workspaces/g.automating-publishing.md).
 
 **How do I add a custom domain to my documentation?**
 
-To configure a custom domain for your workspace, please review the guide
-[here](../2.-workspaces/j.custom-domains.md).
+To configure a custom domain for your workspace, follow the instructions in [this guide](../2.-workspaces/j.custom-domains.md).
 
 **How do I configure authentication such as Auth0 or SAML?**
 
-To configure a custom SSO provider for your workspace, please review the guide
-[here](../2.-workspaces/e.configuring-authentication.md).
+To configure a custom SSO provider for your workspace, follow the instructions in [this guide](../2.-workspaces/e.configuring-authentication.md).
 
 **How do I create a new version of my API project?**
 
-Versions in Stoplight are managed through branches. For more information
-on this subject, please review the guide
-[here](../2.-workspaces/h.branch-management.md).
+Versions in Stoplight are managed through branches. For more information on this subject, check out [this guide](../2.-workspaces/h.branch-management.md).
 
 **How do I configure a Prism mock server?**
 
-Similar to Classic, every OpenAPI file in your Workspace has a mock server
-configured automatically. All you need to do is send requests to the API's
-unique mock URL. For more information, please read this [guide on mocking in Stoplight](../3.-design/setting-up-a-mock-server.md).
+Similar to Classic, every OpenAPI file in your Workspace has a mock server configured automatically. All you need to do is send requests to the API's unique mock URL. For more information, read this [guide on mocking in Stoplight](../3.-design/setting-up-a-mock-server.md).

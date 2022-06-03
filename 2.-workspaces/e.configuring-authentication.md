@@ -96,6 +96,8 @@ Stoplight has tested Service Provider (SP) initiated and Identity Provider (IP) 
 
 You can use a Lightweight Directory Access Protocol (LDAP) authentication server to authenticate users with Stoplight. LDAP is an open-standard protocol for use with online directory services.
 
+<!-- markdown-link-check-disable -->
+
 1. Navigate to the Integrations section in your Stoplight workspace settings. 
 2. Click **Install/Configure** beside LDAP. 
 3. Provide the following information:
@@ -106,4 +108,5 @@ You can use a Lightweight Directory Access Protocol (LDAP) authentication server
  - **Search Filter**: Filters can be used to restrict the numbers of users or groups that are permitted to access an application.  In essence, the filter limits what part of the LDAP tree the application syncs from.  Read more about writing filters [here.](https://confluence.atlassian.com/kb/how-to-write-ldap-search-filters-792496933.html)
 4. Click **Install**.
 
+<!-- markdown-link-check-enable -->
 

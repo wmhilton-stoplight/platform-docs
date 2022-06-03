@@ -58,8 +58,8 @@ However, there are a some items that won't be migrated:
 - **Multiple Hubs** - Only one Hub will be migrated per project. The migration tool will try to find a published `main.hub` file or the most recently published Hub file. If there are no published Hubs, the most recently edited Hub will be chosen. If you have multiple Hubs in a NEXT project and want them all migrated, you will need to move each Hub into its own NEXT project.
 - **Hub Layout** - Stoplight Platform's documentation layout is completely driven by the sidebar, so the Hub's header and footer items will not be migrated. However, the migration tool will transform all of the Hub's pages and routes into markdown files, while keeping them in the same order in the sidebar as the Hub's table of contents. Once migrated, you will be able to [customize the sidebar](../4.-documentation/Sidebar/a.customize-sidebar.md).
 - **Hosted docs** - Stoplight won't be able to migrate your hosted documentation settings, such as themes, [custom domains](../2.-workspaces/j.custom-domains.md), [authentication](../2.-workspaces/e.configuring-authentication.md), and [analytics](../4.-documentation/e.configure-analytics.md). You will need to reconfigure these in your new Workspace's settings.
-- **HTML, CSS and JS** - Stoplight Platform does not support HTML, CSS or JS. If you need a fully customizable documentation, please take a look at our open source tool, [Elements](https://stoplight.io/open-source/elements/) to embed your API reference documentation into a custom developer portal.
-- **Scenarios** - Stoplight Platform does not support Scenarios. If you need contract testing, please take a look at our open source tool, [Prism](https://stoplight.io/open-source/prism/), and its built in [Validation Proxy](https://meta.stoplight.io/docs/prism/ZG9jOjk3-validation-proxy).
+- **HTML, CSS and JS** - Stoplight Platform does not support HTML, CSS or JS. If you need a fully customizable documentation, take a look at our open source tool [Elements](https://stoplight.io/open-source/elements/) to embed your API reference documentation into a custom developer portal.
+- **Scenarios** - Stoplight Platform does not support Scenarios. If you need contract testing, take a look at our open source tool [Prism](https://stoplight.io/open-source/prism/), and its built-in [Validation Proxy](https://meta.stoplight.io/docs/prism/ZG9jOjk3-validation-proxy).
 
 ### Stoplight Platform vs Stoplight NEXT
 
@@ -84,7 +84,8 @@ Each feature is linked to a card on our public roadmap, and we encourage you to 
 
 ## FAQ
 
-The concepts in the new Stoplight Platform should be very similar to what you're used to in NEXT. Here are some commonly asked questions to help clarify those similarities and differences. If you have any additional questions, please don't hesitate to [contact us](mailto:support@stoplight.io).
+<!-- markdown-link-check-disable-next-line -->
+The concepts in the new Stoplight Platform should be very similar to what you're used to in NEXT. Here are some commonly asked questions to help clarify those similarities and differences. If you have any additional questions, don't hesitate to [contact us](https://support.stoplight.io).
 
 **Is a Stoplight Workspace similar to an Organization in NEXT?**
 
@@ -140,6 +141,6 @@ In NEXT, the versioning and releases feature was built on top of [git branching]
 
 **How do I configure a Prism mock server?**
 
-Every OpenAPI file in your Workspace has a mock server configured automatically. All you need to do is send requests to the API's unique mock URL. For more information, please read this [guide on mocking in Stoplight](../3.-design/setting-up-a-mock-server.md).
+Every OpenAPI file in your Workspace has a mock server configured automatically. All you need to do is send requests to the API's unique mock URL. For more information, read this [guide on mocking in Stoplight](../3.-design/setting-up-a-mock-server.md).
 
 <!-- TODO: Add a link -->

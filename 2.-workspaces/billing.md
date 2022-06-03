@@ -2,13 +2,8 @@
 
 Stoplight currently has three paid plans: Starter, Professional, and Enterprise. Your Stoplight workspace includes features that enable a self-serve billing process. This article offers guidance on managing your billing account, subscription, and payments.
 
-> The new billing system with support for annual subscriptions is rolling out to customers starting November 2021. If the new billing system has not been enabled for your workspace yet, and you are interested in an annual subscription, please reach out to support@stoplight.io to get the new system enabled.
-
-<!-- markdown-link-check-disable -->
-
+<!-- markdown-link-check-disable-next-line -->
 Please contact Stoplight's support team via our [Support Center](https://support.stoplight.io/hc/en-us/requests/new) for assistance if you experience any billing issues.
-
-<!-- markdown-link-check-enable -->
 
 ## Billing Dashboard
 

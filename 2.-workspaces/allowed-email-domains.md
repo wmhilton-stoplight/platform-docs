@@ -1,6 +1,6 @@
 # Approved Email Domains
 
-Domains are how we identify things on the internet. For example, we can see domains in website URLs https://stoplight.io and email addresses support@stoplight.io.
+Domains are how we identify things on the internet. For example, we can see domains in website URLs, such as https://example.com, and email addresses, such as hello@example.com.
 
 Approved email domains let Stoplight know who should have automatic access to your workspace and who needs membership approval. You can configure one or more approved email domains.
 
