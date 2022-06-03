@@ -7,7 +7,7 @@ Groups provide a way to organize projects for easy navigation and maintenance.
 
 For example, Stoplight uses groups to organize its public documentation into two groups: one primarily focused on the Stoplight platform and one for open-source products.
 
-These groups help users navigate the documentation projects more easily in the workspace sidebar.
+These groups help users navigate the documentation projects in the workspace sidebar.
 
 <!-- focus: false -->
 ![Groups in Sidebar](https://stoplight.io/api/v1/projects/cHJqOjI/images/97tL2U4rvZc)
@@ -45,7 +45,7 @@ Project owners can move individual projects in and out of groups they own. Works
 ![Move a project to a group](https://stoplight.io/api/v1/projects/cHJqOjI/images/4fQKzIw9pUE)
 
 1. Log in to your workspace, and then select the **Projects** tab. 
-2. Select the **ellipsis** icon (...) at the right of the project you want to move.
+2. Select the **ellipsis** at the right of the project you want to move.
 3. Select **Move Project**.
 
 **Option 2: Move Multiple Projects to a Group**
@@ -102,11 +102,11 @@ focus: false
 
 Here, a group owner or administrator can:
 
-* Change the group name that is displayed in the workspace sidebar and in the projects list.
-* Update the group's description that is displayed below the group name in the workspace sidebar.
+* Change the group name that's displayed in the workspace sidebar and in the projects list.
+* Update the group's description that's displayed below the group name in the workspace sidebar.
 * Set the group visibility.
 * Customize the group's avatar and color.
-* Delete the group. Projects assigned to the group are not deleted nor is their access changed.
+* Delete the group. Projects assigned to the group aren't deleted nor is their access changed.
 
 
 

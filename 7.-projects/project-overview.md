@@ -26,12 +26,12 @@ Before you add projects, consider how you want them organized and what they will
 First, answer these questions:
 
 1. Who will own and administer the projects?
-2. Should our projects be visible to anyone or should access be limited to our organization?
-3. How many APIs go should we include in each project? Should you use "monorepo" or a "multirepo" approach?
+2. Should projects be visible to anyone or should access be limited to your organization?
+3. How many APIs should be included in each project? Should you use a "monorepo" or a "multirepo" approach?
    - With a "monorepo" approach, you might have one project with a directory for each API. You can store the source code and API description inside that directory.
    - With a "multirepo" approach, you might have one project for each API. You can store the source code and API descriptions inside each project in any directory structure.
 
-If you have a large number of projects, you can [organize projects in groups](../2.-workspaces/m.groups.md). This feature is available on **Professional** and **Enterprise** plans.
+If you have many projects, you can [organize projects in groups](../2.-workspaces/m.groups.md). This feature is available on **Professional** and **Enterprise** plans.
 
 ## Add Projects
 
@@ -52,7 +52,7 @@ Select the **Projects** tab on the **Workspace** toolbar to see the projects in 
 ![Projects List](https://stoplight.io/api/v1/projects/cHJqOjI/images/wf8jEUEHy3s)
 
 1. All projects are shown in a list, with groups (Professional and Enterprise plans only) organized into collapsible folders.
-2. Sort the list by name, owner, nodes (the number of items in a project), last edit, or visibility. 
+2. Sort the list by name, owner, nodes (the number of items in a project), project type, the last edit of project or group settings, or visibility. 
 3. Select a project or group to view more details. 
 
 ### Project Overview
@@ -67,11 +67,11 @@ For API projects, you can:
 * Select a [version or branch](project-settings.md).
 * View the number of nodes by type (articles, models, APIs, and endpoints).
 * For projects connected to Git, see the last commit for the selected branch. 
-* See when the project was last updated.
+* See when project settings were last updated.
 
 For API and Style Guide projects, you can:
 
-* Edit the [version or branch](project-settings.md). (This option is not available for [Stoplight CLI projects](../2.-workspaces/f.working-with-local-projects.md).)
+* Edit the [version or branch](project-settings.md). (This option isn't available for [Stoplight CLI projects](../2.-workspaces/f.working-with-local-projects.md).)
 * Go to the published documentation for the project.
 * Manage [project settings](project-settings.md).
 
