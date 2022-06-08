@@ -4,7 +4,7 @@ tags: []
 
 # Work with Files
 
-Once you create a project, add files to start designing APIs and documentation. 
+Once you create an API project, add files to start designing APIs and documentation. 
 
 Studio supports files in multiple formats:
 
@@ -13,7 +13,7 @@ Studio supports files in multiple formats:
 - **Model**: Reusable API components (YAML or JSON)
 - **Article**: Supplemental Markdown files (Markdown)
 - **Image**: Supplemental images (JPEG, JPG, PNG, and GIF)
-- **Configuration Files**: For Stoplight project configuration and table of contents. 
+- **Configuration Files**: The Stoplight [project configuration file](../2.-workspaces/c.config.md), [table of contents file](../4.-documentation/Sidebar/d.table-of-contents.md), and [imported Spectral files](../2a.-style-guides/style-guides-and-git.md) (Git projects only). 
 
 <!-- theme: Warning -->
 >**Warning**: You may be able to upload other file types, but they may not be rendered in Studio or in published documentation.
@@ -22,16 +22,17 @@ Studio supports files in multiple formats:
 
 Projects use a default file directory structure. 
 
-- `/reference` - Where API descriptions documents (OpenAPI and JSON Schema) are stored
-- `models` - Where shared modles are stored
-- `/docs` - Where articles (Markdown files) are stored
-- `/assets/images` - Where images are stored
+- `/root` - Stoplight configuration files
+- `/reference` - API descriptions documents (OpenAPI and JSON Schema)
+- `/models` - Shared models
+- `/docs` - Articles (Markdown files)
+- `/assets/images` - Imported images
 
-If you have an existing repository with Markdown, image, or API description documents that do not adhere to the format above, you will need to move the files to their corresponding directories for Studio to recognize them, or create a [project configuration file](../2.-workspaces/c.config.md) to change them.
+If you have an existing repository with Markdown, image, or API description documents that don't adhere to the format above, you will need to move the files to their corresponding directories for Studio to recognize them, or create a [project configuration file](../2.-workspaces/c.config.md) to change them.
 
 ## Add a File
 
-1. Edit a project.
+1. Edit an API project.
 2. Select **Add ( + )**, and then select the type of file to add.
 
 ### API
@@ -46,20 +47,23 @@ Provide a name, then select or create a tag to group similar models together. Se
 ### Article
 Provide a short title and a tag to group similar articles together.
 
-### Image
-If your project is connected to a public Git repository, use the **Import File** option to add images. Otherwise, drag-and-drop images onto Markdown files to add them to Stoplight. See [adding images](../4.-documentation/f.adding-images.md) for details.
-
 ### Stoplight Config
 Used to control file locations and exclude locations from being analyzed by Stoplight. See [Configure Projects](../2.-workspaces/c.config.md).
 
+### Image
+If your project is connected to a public Git repository, use the **Import File** option to add images. Otherwise, drag images onto Markdown files to add them to Stoplight. See [adding images](../4.-documentation/f.adding-images.md) for details.
+
 ### Table of Contents
-Used to configure the project sidebar. See [Project Sidebar](../4.-documentation/Sidebar/a.customize-sidebar.md).
+Use to configure the project sidebar. See [Project Sidebar](../4.-documentation/Sidebar/a.customize-sidebar.md).
 
 ### File
-Adds a generic file to the tree. Unsupported file types will not be rendered in published documentation, but you can add information that may be useful to your project.
+Adds a generic file to the tree. Unsupported file types won't be rendered in published documentation, but you can add information that may be useful to your project.
 
-### Folder
+### Directory
 Adds a folder that you can use to organize content. This is especially useful for documentation files. Keep in mind that if you want to use a custom folder structure, you must use a [project configuration file](../2.-workspaces/c.config.md).
+
+### Import Style Guide
+Use to add a Spectral ruleset to an API project. This action replaces all local rules, targets, and custom functions in an API project. It doesn't impact rules, targets, and functions that are inherited from an enabled style guide. See the [Style Guides documentation](../2a.-style-guides/a.style-guide-projects.md) for more information.
 
 ### Import File 
 Use to add images and other files. Files are automatically organized by type. For example, Markdown files are automatically added to the `Docs` directory; image files are automatically added to the `assets` folder. 

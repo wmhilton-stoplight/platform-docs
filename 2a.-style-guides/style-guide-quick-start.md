@@ -4,7 +4,7 @@ Follow these steps to use style guides that bring consistency and easy governanc
 
 You can take one of two approaches:
 
-* Create a style guide that you can share across all projects in your workspace. (Professional plan and above). See [Create a Shareable Style Guide](#create-a-shareable-style-guide).
+* Create a style guide that you can share across all API projects in your workspace (Professional plan and above). See [Create a Shareable Style Guide](#create-a-shareable-style-guide).
 * Create rules in an API project. These rules cannot be shared. See [Use a Local Style Guide](#use-a-local-style-guide).
 
 ## Create a Shareable Style Guide

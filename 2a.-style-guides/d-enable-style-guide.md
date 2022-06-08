@@ -1,11 +1,8 @@
 # Enable a Style Guide
 
-<!-- theme: info -->
-Shared style guides are available on the **Professional** and **Enterprise** plans.
-
 The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) is automatically enabled for API projects.
 
-Customers on Professional and Enterprise plans can enable shared style guides in any API project or to another style guide project. This is an easy way to add rules, targets, and functions across style guides.
+Customers on Professional and Enterprise plans can enable shared style guides in any API project or to another style guide project. This is an easy way to share rules and targets across style guides.
 
 https://youtu.be/6xnRoI41v_A
 
@@ -26,10 +23,8 @@ To enable a style guide:
 4. In the **Style Guides** dialog box:
     * Select **Preview** to open the style guide documentation in a separate browser tab.
     * Select **Enable** for one or more style guides.
+    * Select **Remove** to delete [extended rulesets](https://meta.stoplight.io/docs/spectral/01baf06bdd05a-rulesets#extending-rulesets) from imported Spectral files once you no longer need the extended rulesets.
 5. Select **Save**.
-6. In the right pane, provide a description for your style guide.
-
-[What's Next: Refresh Style Guide](f.refresh-style-guide.md)
 
 ## Disable a Style Guide
 

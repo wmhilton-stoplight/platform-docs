@@ -21,7 +21,8 @@ Roles include:
 | Can be granted direct access | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
 | View internal projects       |     | ✅ | ✅ | ✅ | ✅ | ✅ |
 | View members                 |     | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Add new projects             |     |     | ✅ | ✅ | ✅ | ✅ |
+| Add new API projects         |     |     | ✅ | ✅ | ✅ | ✅ |
+| Add new style guide projects |     |     |    |    | ✅ | ✅ |
 | Can use Studio               |     |     | ✅ | ✅ | ✅ | ✅ |
 | Manage project groups        |     |     |    | ✅ | ✅ | ✅ |
 | Manage billing               |     |     |    | ✅ | ✅ | ✅ |

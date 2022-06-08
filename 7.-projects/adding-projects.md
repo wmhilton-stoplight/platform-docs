@@ -10,7 +10,7 @@ There are two types of projects you can add to your workspace:
   - [Stoplight web projects](#add-stoplight-projects)
   - [Git projects](#add-projects-from-git)
   - [CLI projects](#add-cli-projects)
-  - [Style Guide Projects](../2a.-style-guides/a1.create-style-guide.md)
+- [Style Guide Projects](../2a.-style-guides/a1.create-style-guide.md)
 
 To add a project, log in to your workspace, and then use one of these options:
 
@@ -18,6 +18,8 @@ To add a project, log in to your workspace, and then use one of these options:
 * Select the **Projects** tab on the workspace toolbar, and then select **New Project**.
 
 The **Create a Project** page opens with the **API** tab selected.
+
+> Style guide projects can be created by workspace owners aand admins only.
 
 ## Add Stoplight Projects
 
