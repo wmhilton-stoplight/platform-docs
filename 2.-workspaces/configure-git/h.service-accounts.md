@@ -1,5 +1,4 @@
 ---
-internal: true
 stoplight-id: 10d5c35b280a9
 ---
 
