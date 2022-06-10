@@ -1,4 +1,7 @@
 openapi
 OpenAPI
 allowlist
+GitHub
 GitLab
+Ruleset
+ruleset
