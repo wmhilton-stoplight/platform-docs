@@ -3,7 +3,7 @@
 Stoplight Studio enables you to preview and test your API operations as you work.
 
 <!-- theme: info -->
-> **Try It** requests from browsers will be blocked for APIs that do not have appropriate [CORS headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) set up for `*.stoplight.io`. <!-- markdown-link-check-disable --> See our [Knowledge Base](https://support.stoplight.io/hc/en-us/articles/360046967991-Error-while-making-the-request-Network-Error-the-API-did-not-return-a-response) for guidance on resolving this error.
+> **Try It** requests from browsers will be blocked for APIs that don't have appropriate [CORS headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) set up for `*.stoplight.io`. <!-- markdown-link-check-disable --> See the [Stoplight Knowledge Base](https://support.stoplight.io/s/article/Error-while-making-the-request-Network-Error-the-API-did-not-return-a-response) for guidance on resolving this error.
 <!-- markdown-link-check-enable -->
 
 For each request, you can:

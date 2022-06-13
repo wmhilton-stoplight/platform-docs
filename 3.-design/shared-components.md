@@ -98,7 +98,7 @@ Use shared responses when you have a set of API endpoints that should return the
 * `error_code` - A code representing the category of the failure in integer format.
 * `response_id` - A tracking ID that can be used by the caller to follow-up with an administrator for more information.
 
-This examples shows a shared response called BadRequest with propertiesmsg, error_code, and response_id.
+This examples shows a shared response called BadRequest with `propertiesmsg`, `error_code`, and `response_id`.
 
 ![shared-response-properties.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/RieBUdLdjdw)
 
@@ -108,7 +108,7 @@ Create a new shared response, giving it a name like `BadRequest`, `NotFound`, `F
 
 Add the schema, or reference one that already exists, with the properties that will appear in the HTTP body.
 
-Add a short description of the error response, such as what is likely to have triggered it, and where the user can find out more information to resolve it. If documenting an API error, and the error message itself has links and sufficient information to solve the problem, then this can be more brief. You can also add examples.
+Add a short description of the error response, such as what's likely to have triggered it, and where the user can find out more information to resolve it. If documenting an API error, and the error message itself has links and sufficient information to solve the problem, then this can be more brief. You can also add examples.
 
 Now when you update the shared response, it will update in every endpoint using this response.
 
@@ -164,7 +164,7 @@ By using the two parameters above, a client can efficiently "page" through resul
 GET /recipes?limit=20&offset=0
 ```
 
-Since the `offset` is set to `0`, the API will not discard any results. Paired with a `limit` of `20`, only the first 20 results are shown (1 through 20). 
+Since the `offset` is set to `0`, the API won't discard any results. Paired with a `limit` of `20`, only the first 20 results are shown (1 through 20). 
 
 To view the second page of recipes, use:
 

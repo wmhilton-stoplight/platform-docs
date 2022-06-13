@@ -17,7 +17,7 @@ Once you are editing a project, there are three key areas of the interface:
 2. [Project toolbar](#project-toolbar)
 3. [Editor panel](#editor-panel)
 
-![ui-overview.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/3eJur8Cy6RA)
+![Design Editor Overview](https://stoplight.io/api/v1/projects/cHJqOjI/images/3eJur8Cy6RA)
 
 ## Project Sidebar
 
@@ -37,6 +37,7 @@ You can customize the [project sidebar](https://meta.stoplight.io/docs/platform/
 - Selectively expose or hide files
 
 ## Project Toolbar
+<!-- The options in this section match the UI but go againt Vale rules -->
 
 **Project Options**: Select the hamburger menu to work with these options:
 
@@ -61,21 +62,21 @@ You can customize the [project sidebar](https://meta.stoplight.io/docs/platform/
 
 **Project Actions** (Changes depending on your state and the type of project):
   - **Back to workspace**: Returns you to the published view for the project.
-  - **Publish**: When the project is not connected to a repository, shows when at least one change has been made in the project. 
+  - **Publish**: When the project isn't connected to a repository, shows when at least one change has been made in the project. 
   - **Commit and Publish**: When the project is connection to a repository, shows when at least one change has been made in the project.  
   - **Discard**: Once changes are made to a project, select the down arrow to discard them. 
   > For web project, discarding impacts unpublished changes made by all users and not just the user performing the discard.
 
-**Project Name**: Shows the name of the current project. The version is shown for Stoplight projects. For projects connected to a repository, the name of the burrent branch is shown. Select the down arrow to pull changes into your project or to switch branches. 
+**Project Name**: Shows the name of the current project. The version is shown for Stoplight projects. For projects connected to a repository, the name of the current branch is shown. Select the down arrow to pull changes into your project or to switch branches. 
 
 ## Editor Panel
 
 Use the main editor panel to design APIs, write supporting documentation, and update style guides. 
 
 Choose different views:
- - **Form**: Offers an intiutive editor for APIs, endpoints, and models. 
+ - **Form**: Offers an intuitive editor for APIs, endpoints, and models. 
  - **Code**: Enables the code view for applicable files (not available for style guides).
- - **Preview**: Provides a preview of what the selected file will look like when it is published. For API operations, the [Try It](http-endpoints.md) feature is available in Preview mode. 
+ - **Preview**: Provides a preview of what the selected file will look like when it's published. For API operations, the [Try It](http-endpoints.md) feature is available in Preview mode. 
 
  **Validation and Linting** displays issues related to your API Specification using [style guide rules](../2a.-style-guides/a.style-guide-projects.md) and powered by [Spectral](https://meta.stoplight.io/docs/spectral/ZG9jOjYx-overview). Select to expand window and view error and warning details and locations.
 

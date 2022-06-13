@@ -8,7 +8,7 @@ Stoplight offers free, automatically updated HTTP mock servers for every API pub
 
 This allows client developers to begin writing code for frontend services like web, mobile, or other backend applications while API developers are writing their code. This can help find and solve problems early on, before the API is built.
 
-Stoplight mock servers are powered by our open-source mock server, [Prism](https://stoplight.io/open-source/prism). 
+Stoplight mock servers are powered by the open-source mock server, [Prism](https://stoplight.io/open-source/prism). 
 
    <!-- theme: info -->
 
@@ -73,7 +73,7 @@ paths:
       # ...
 ```
 
-Swap that URL for your hosted Prism URL:
+You can swap those URLs for your hosted Prism URL:
 
 <!-- markdown-link-check-disable -->
 https://stoplight.io/mocks/{workspaceName}/{projectName}:{optionalBranchName}/{ID}

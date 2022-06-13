@@ -2,13 +2,13 @@
 tags: []
 ---
 
-# Using References
+# Use References
 
 ## What
 
 Splitting your API descriptions across multiple files using $ref (references) allows for cleaner and more organized code. 
 
-![ref-model.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/gIUDTdG7DNY)
+![References](https://stoplight.io/api/v1/projects/cHJqOjI/images/gIUDTdG7DNY)
 
 Some common use cases are as follows:
 

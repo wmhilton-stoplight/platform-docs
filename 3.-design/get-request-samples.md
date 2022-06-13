@@ -17,17 +17,13 @@ The default language is **Shell / cURL**.
 
 ### Supported Languages
 
-> These request samples come from the open-source package [httpsnippet](https://github.com/Kong/httpsnippet), so if you'd like to contribute more, first send them a pull request then open an issue on [our GitHub repository](https://github.com/stoplightio/studio/issues).
+> These request samples come from the open-source package [httpsnippet](https://github.com/Kong/httpsnippet), so if you'd like to contribute more, first send them a pull request then open an issue on [this GitHub repository](https://github.com/stoplightio/studio/issues).
 
 Language | Library
 ---------|----------
 Shell | cURL
 Shell | HTTPie
 Shell | Wget
-Java | AsyncHttp
-Java | NetHttp
-Java | Unirest
-Java | OkHttp
 JavaScript | Fetch
 JavaScript | XMLHttpRequest
 JavaScript | jQuery
@@ -37,25 +33,26 @@ Node | Request
 Node | Unirest
 Node | Fetch
 Node | Axios
+Python | Python 3
+Python | Requests
+Go | |
+C | |
+Obj-C | |
+OCaml | |
+C# | HttpClient
+C# | RestSharp
+Java | AsyncHttp
+Java | NetHttp
+Java | Unirest
+Java | OkHttp
+Http | |
+Clojure | |
+Kotlin | |
 PHP | curl
 PHP | pecl/http 1
 PHP | pecl/http 2
-Python | Python 3
-Python | Requests
 Powershell | WebRequest
 Powershell | RestMethod
 R | |
 Ruby | |
-Go | |
-C | |
-C# | HttpClient
-C# | RestSharp
-Obj-C | |
 Swift | |
-OCaml | |
-Http | |
-Clojure | |
-Kotlin | |
-
-
-
