@@ -49,22 +49,20 @@ Stoplight projects offer real-time collaboration. Data is stored in Stoplight. A
 
 ## Add Projects from Git
 
-The quickest and recommended way to get projects into Stoplight is to pull them in from Git. Git projects offer asynchronous push/pull collaboration across multiple branches. Data is stored in Git, but there is no extra setup. You can:
+The best way to get projects into Stoplight is to pull them in from Git. Git projects offer asynchronous push/pull collaboration across multiple branches. Data is stored in Git, but there is no extra setup. You can:
 
   - Create a blank project
-  - Add a project from Bitbucket Cloud
-  - Add a project from GitHub
-  - Add a project from GitLab
+  - Add a project from [any supported Git provider](../2.-workspaces/configure-git/a.configuring-git.md)
 
-![add-projects](../assets/images/add-git-project.png)
-
-> Stoplight works with many popular Git providers. Read more about [configuring Git](../2.-workspaces/configure-git/a.configuring-git.md).
+![add-projects](../assets/images/ss-add-project-repository-url.png)
 
 To add projects from Git:
 
 1. From the **Create a Project** page, select an option under **Git Project**.
-2. Select  **Connect**. Follow the instructions on the popup screen to authorize.
-3. Upon successful authentication, choose your organization, and then select the repositories you want to import.
+2. Select **Connect**. Follow the instructions on the popup screen to authorize.
+3. Upon successful authentication, choose your organization, and then add repositories using one or both of these options:
+    - **Add project via repository URL**: here you can paste the URL for a Git repository that you want to import. For GitHub, GitLab, and Bitbucket repositories, the URL must end with `.git`.
+    - **Select repository from the list**: this list will display all repositories you have access to from the selected organization. You can use the search bar to filter the list, and then select the repositories you would like to add.
 4. The **Install Webhooks** option is selected by default. This enables automatic publishing from your project when changes are pushed to the repository. Clear this option to disable automatic publishing. See [Publishing Git Projects](../7.-projects/publishing-git-projects.md) for details. 
 5. Next, select **Add Git Project**.
 
