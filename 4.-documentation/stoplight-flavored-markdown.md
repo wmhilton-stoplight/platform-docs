@@ -1,57 +1,28 @@
 # Stoplight Flavored Markdown (SMD)
 
-## Overview
+Stoplight Flavored Markdown can be used to enhance existing Markdown documentation with necessary documentation components like code blocks, images, diagrams, and more.
 
-Stoplight Flavored Markdown can be used to enhance existing Markdown documentation with necessary documentation components like code blocks, images, diagrams e.t.c. 
-
-### Components
-
-- [Stoplight Flavored Markdown (SMD)](#stoplight-flavored-markdown-smd)
-  - [Overview](#overview)
-    - [Components](#components)
-    - [The Two Laws](#the-two-laws)
-    - [The Approach](#the-approach)
-  - [Callouts](#callouts)
-    - [Danger](#danger)
-    - [Warning](#warning)
-    - [Success](#success)
-    - [Info](#info)
-  - [Task Lists](#task-lists)
-  - [Code Blocks](#code-blocks)
-    - [Markdown Annotations](#markdown-annotations)
-    - [Meta Tag Annotations](#meta-tag-annotations)
-  - [Code Groups](#code-groups)
-  - [Images](#images)
-  - [Graphs and Diagrams](#graphs-and-diagrams)
-    - [Flowchart](#flowchart)
-    - [Sequence](#sequence)
-    - [Journey](#journey)
-  - [JSON Schema](#json-schema)
-  - [Try It](#try-it)
-    - [Basics](#basics)
-    - [Optional Parameters](#optional-parameters)
-  - [Tabs](#tabs)
-  - [HTML](#html)
-  - [Embeds](#embeds)
-    - [Supported Websites](#supported-websites)
-
-### The Two Laws
+The Two Laws:
 
 1.  SMD is human readable. A human with a simple text editor can easily read and write SMD.
 2.  SMD degrades gracefully. SMD documents rendered on `github.com` should be clean and readable.
 
-### The Approach
+The Approach:
 
 1.  Stoplight Flavored Markdown extends GitHub Flavored Markdown with inline comment annotations.
 2.  The value inside of the annotations is a YAML object, and the annotation affects the Markdown block that directly follows it in the document.
 
-By leveraging comments to store annotations, Stoplight Flavored Markdown degrades gracefully to any other Markdown
-renderer (GitHub, for example).
+By leveraging comments to store annotations, Stoplight Flavored Markdown degrades gracefully to any other Markdown renderer (GitHub, for example).
 
+## Headers
+
+Stoplight uses levels H1 to H3 to automatically populate the in-page navigation, as shown in the following example. H1 and H2 display at the main level; H3 is nested under H2.
+
+![In-page Navigation](../assets/images/in-page-navigation.png)
 
 ## Callouts
 
-A callout is an MD blockquote with an optional annotation that indicates intent.
+A callout is an Markdown blockquote with an optional annotation that indicates intent.
 
 ### Danger
 
@@ -59,14 +30,14 @@ A callout is an MD blockquote with an optional annotation that indicates intent.
 
 > #### Danger Will Robinson!
 >
-> Here is my danger callout!
+> Here is a danger callout!
 
 ```md title="Copy this code to try it out!"
 <!-- theme: danger -->
 
 > #### Danger Will Robinson!
 >
-> Here is my danger callout!
+> Here is a danger callout!
 ```
 
 ### Warning
@@ -74,13 +45,13 @@ A callout is an MD blockquote with an optional annotation that indicates intent.
 <!-- theme: warning -->
 > #### Watch Out!
 >
-> Here is my warning callout!
+> Here is a warning callout!
 
 ```md title="Copy this code to try it out!"
 <!-- theme: warning -->
 > #### Watch Out!
 >
-> Here is my warning callout!
+> Here is a warning callout!
 ```
 
 ### Success
@@ -89,14 +60,14 @@ A callout is an MD blockquote with an optional annotation that indicates intent.
 
 > #### Mission Accomplished!
 >
-> Here is my success callout!
+> Here is a success callout!
 
 ```md title="Copy this code to try it out!"
 <!-- theme: success -->
 
 > #### Mission Accomplished!
 >
-> Here is my success callout!
+> Here is a success callout!
 ```
 
 ### Info
@@ -105,17 +76,15 @@ A callout is an MD blockquote with an optional annotation that indicates intent.
 
 > #### A thing to know
 >
-> Here is my info callout
+> Here is an info callout
 
 ```md title="Copy this code to try it out!"
 <!-- theme: info -->
 
 > #### A thing to know
 >
-> Here is my info callout
+> Here is an info callout
 ```
-
-
 ## Task Lists
 
 - [ ] one
@@ -130,7 +99,7 @@ A callout is an MD blockquote with an optional annotation that indicates intent.
 
 ## Code Blocks
 
-An SMD code block is an MD code fence with an optional annotation to tweak the presentation of the code block.
+An SMD code block is an Markdown code fence with an optional annotation to tweak the presentation of the code block.
 
 **Supported annotations**:
 - **title**: Title for the code snippet
@@ -138,7 +107,7 @@ An SMD code block is an MD code fence with an optional annotation to tweak the p
 
 ### Markdown Annotations
 <!--
-title: "My code snippet passed via md annotations"
+title: "Code snippet passed via Markdown annotations"
 lineNumbers: true
 -->
 
@@ -159,9 +128,9 @@ function fibonacci(num) {
 }
 ```
 
-```example title="Try the annotations out!"
+```example title="Try out the annotations!"
 <!--
-title: "My code snippet passed via md annotations"
+title: "My code snippet passed via Markdown annotations"
 lineNumbers: true
 highlightLines: [[1,2], [4,5]]
 -->
@@ -183,13 +152,11 @@ json title="Passed via meta tag" lineNumbers
 
 ## Code Groups
 
-If you write multiple code blocks with no other content between them they will be grouped into a tabbed code
-group. This functionality is helpful for a variety of use cases, such as displaying code samples in a variety of
-languages.
+If you write multiple code blocks with no other content between, they are grouped into a tabbed code group. This is helpful for a variety of use cases, such as displaying code samples in a variety of languages.
 
 <!-- theme: warning -->
 
-> Note that code groups cannot be nested in other elements like tabs.
+> Note that code groups can't be nested in other elements like tabs.
 
 ```js title="Code groups work with titles and other annotations!" lineNumbers
 // Install via npm
@@ -212,7 +179,7 @@ Use annotations to frame up product images.
 
 **Default**
 
-The default setting adds an outline and click to zoom for images. 
+The default setting adds an outline and "click-to-zoom" for images. 
 
 ![Stoplight Logo](https://stoplight.io/images/home/logo-blue-black.png)
 
@@ -226,17 +193,17 @@ Make screenshots pop out with a center focus and a default background image.
 
 <!-- focus: center -->
 
-![Dev portal settings](https://i.imgur.com/YCb6MWI.png)
+![Docs portal settings](https://i.imgur.com/YCb6MWI.png)
 
 ```md title="Try it out!"
 <!-- focus: center -->
 
-![Dev portal settings](https://i.imgur.com/YCb6MWI.png)
+![Docs portal settings](https://i.imgur.com/YCb6MWI.png)
 ```
 
 **Add a Caption**
 
-Add an optional caption to explain the screenshot further. 
+Add an optional caption to further explain the screenshot. 
 
 <!-- focus: top -->
 
@@ -248,7 +215,7 @@ Add an optional caption to explain the screenshot further.
 ![Studio project share](https://i.imgur.com/ueOOL8X.png 'Can add an optional caption')
 ```
 
-**Try a Different BG Color**
+**Try a Different Background Color**
 
 <!--
 focus: top
@@ -266,7 +233,7 @@ bg: primary
 ![Studio project share](https://i.imgur.com/ueOOL8X.png 'Can add an optional caption')
 ```
 
-**Use a hex BG Color**
+**Use a Hex Background Color**
 
 <!--
 focus: top
@@ -299,13 +266,13 @@ focus: false
 
 ## Graphs and Diagrams
 
-You can add graphs and diagrams in your Markdown using [Mermaid syntax](https://mermaid-js.github.io/mermaid/#/flowchart). They support all sorts of common UML diagrams, like sequence diagrams, class diagrams, state diagrams, ERDs, User Journey, Gantt, pie charts, etc. 
+You can add graphs and diagrams in your Markdown using [Mermaid syntax](https://mermaid-js.github.io/mermaid/#/flowchart). Mermaid supports common UML diagrams, such as sequence diagrams, class diagrams, state diagrams, ERDs, User Journey, Gantt, pie charts, and more. 
 
 Wrap any Mermaid syntax with a `mermaid` code block. 
 
 <!-- theme: warning -->
 
-> Note that diagrams cannot be nested in other elements like tabs or code groups.
+> Note that diagrams can't be nested in other elements like tabs or code groups.
 
 ### Flowchart
 
@@ -324,7 +291,6 @@ graph TB
     a1-->a2
     end
 ```
-
 
 ### Sequence
 
@@ -380,11 +346,9 @@ journey
       Sit down: 5: Me
 ```
 
-
 ## JSON Schema
 
-The SMD JSON schema block is an MD code block with an additional `json_schema` language tag. The contents of the code
-fence should be the JSON schema object to be rendered. The primary language tag can be `YAML`, `YML`, or `JSON`.
+The SMD JSON schema block is an Markdown code block with an additional `json_schema` language tag. The contents of the code fence should be the JSON schema object to be rendered. The primary language tag can be `YAML`, `YML`, or `JSON`.
 
 ```json json_schema
 {
@@ -436,9 +400,9 @@ Try it out with the example below:
 
 ### Basics
 
-Writing a `json` code block with the `http` tag added results in displaying a "Try It" component.
+Writing a `json` code block with the `http` tag added displays a **Try It** component.
 
-The simplest way to use it is to provide `method` and `url` parameters, both of which are obligatory:
+You must provide `method` and `url` parameters:
 
 ````json
 ```json http
@@ -464,7 +428,7 @@ There are also optional parameters that you can provide to the component.
 
 `query`, `headers`, and `body` parameters allow you to create a Try It component that supports sending requests with a query, header, and/or body content. Users can fill and edit those contents and then send the request.
 
-So, for example, if we wanted to use `query`, `headers` and `body` all at the same time, we would write:
+So, for example, to use `query`, `headers` and `body` all at the same time, write:
 
 ````json
 ```json http
@@ -484,7 +448,7 @@ So, for example, if we wanted to use `query`, `headers` and `body` all at the sa
 ```
 ````
 
-This would result in the following component:
+This results in the following component:
 
 ```json http
 {
@@ -502,7 +466,7 @@ This would result in the following component:
 }
 ```
 
-If you prefer, for readability sake you might also want to use `baseUrl` parameter, which allows you to write the following.
+If you prefer, you can use the `baseUrl` parameter, which allows you to write the following. This doesn't affect the functionality, but can be used for improved readability.
 
 ````json
 ```json http
@@ -514,15 +478,13 @@ If you prefer, for readability sake you might also want to use `baseUrl` paramet
 ```
 ````
 
-Currently, it doesn't affect the functionality in any way, but can be used for readability purposes. In the future, we might introduce features in Try It, that actually utilize this parameter.
-
 ## Tabs
 
 An SMD tab container is a `tab` annotation, followed by the tab content, and closed by a final `tab-end` annotation.
 
 <!-- theme: danger -->
 
-> Tab containers cannot be nested.
+> Tab containers can't be nested.
 
 <!--
 type: tab
@@ -560,7 +522,7 @@ The contents of tab 2.
 
 ## HTML
 
-Most basic HTML is supported. **However, we highly recommend using the Markdown equivalent whenever possible.**
+Most basic HTML is supported. **However, use the Markdown equivalent whenever possible.**
 <table>
   <thead>
     <tr>
@@ -581,7 +543,7 @@ Most basic HTML is supported. **However, we highly recommend using the Markdown 
 
 ## Embeds
 
-We support embedding a variety of content from popular websites! To use an embed, just write out a link in its own paragraph.
+Stoplight supports embedding a variety of content from popular websites. To use an embed, write out a link in its own paragraph.
 
 For example, this is a YouTube video:
 
@@ -591,7 +553,7 @@ https://www.youtube.com/watch?v=VbSPeYo8dfM
 https://www.youtube.com/watch?v=VbSPeYo8dfM
 ```
 
-This is a Giphy Gif:
+This is a Giphy gif:
 
 <!-- markdown-link-check-disable -->
 
@@ -603,7 +565,7 @@ https://giphy.com/gifs/barkpost-barkpost-happy-wednesday-working-like-a-dog-eYil
 
 <!-- markdown-link-check-enable-->
 
-We support audio too:
+Stoplight also supports audio:
 
 https://open.spotify.com/episode/7jobY4wQXnt1T0E9iwVRte
 
@@ -616,7 +578,7 @@ https://open.spotify.com/episode/7jobY4wQXnt1T0E9iwVRte
 ### Supported Websites
 
 - Coding
-  - [Github Gist](https://gist.github.com)
+  - [GitHub Gist](https://gist.github.com)
   - [CodeSandbox](https://codesandbox.io)
   - [Codepen](https://codepen.io)
   - [Runkit](https://runkit.com)
