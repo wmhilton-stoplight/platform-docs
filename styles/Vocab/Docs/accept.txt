@@ -6,6 +6,7 @@ backend
 Backend
 boolean
 Config
+dereference
 enum
 enums
 Giphy
@@ -16,7 +17,9 @@ pecl
 PowerShell
 openapi
 OpenAPI
+repo
 Ruleset
 ruleset
 Unirest
+Unprocessable
 Wget

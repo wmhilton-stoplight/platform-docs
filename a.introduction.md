@@ -4,7 +4,7 @@ Stoplight Platform is first and foremost an API design management tool, which ca
 
 ## Get Started with API Projects
 
-See our **[Quickstart Guide](4.-documentation/documentation-quick-start.md)** or follow this process:
+See the **[Quickstart Guide](4.-documentation/documentation-quick-start.md)** or follow this process:
 
 1. [Create a Workspace](2.-workspaces/a.creating-a-workspace.md)
 2. [Add Projects](7.-projects/adding-projects.md)
@@ -15,7 +15,7 @@ See our **[Quickstart Guide](4.-documentation/documentation-quick-start.md)** or
 
 ## Get Started with Style Guides
 
-See our **[Style Guide Quickstart Guide](2a.-style-guides/style-guide-quick-start.md)** or follow this process.
+See the **[Style Guide Quickstart Guide](2a.-style-guides/style-guide-quick-start.md)** or follow this process.
 
 1. [Create a style guide](2a.-style-guides/a1.create-style-guide.md).
 2. [Review Stoplight rules](2a.-style-guides/style-guide-quick-start.md#2-review-stoplight-rules).
