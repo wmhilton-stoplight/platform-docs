@@ -317,11 +317,27 @@
                 "title":"Publishing",
                 "uri":"2.-workspaces/g.automating-publishing.md",
                 "items":[
-                   {
-                      "type":"item",
-                      "title":"Git Projects",
-                      "uri":"7.-projects/publishing-git-projects.md"
-                   },
+                {
+                  "type":"group",
+                  "title":"Git Projects",
+                  "items":[
+                    {
+                        "type":"item",
+                        "title":"Publishing Git Projects",
+                        "uri":"7.-projects/publishing-git-projects.md"
+                    },
+                    {
+                        "type":"item",
+                        "title":"Common Git Tasks",
+                        "uri":"7.-projects/common-git-tasks.md"
+                    },
+                    {
+                        "type":"item",
+                        "title":"Branch Management",
+                        "uri":"2.-workspaces/h.branch-management.md"
+                    }
+                  ]
+                  },
                    {
                       "type":"item",
                       "title":"Stoplight Projects",
@@ -338,11 +354,6 @@
                 "type":"item",
                 "title":"Project Settings",
                 "uri":"7.-projects/project-settings.md"
-             },
-             {
-                "type":"item",
-                "title":"Branch Management",
-                "uri":"2.-workspaces/h.branch-management.md"
              }
           ]
        },
@@ -411,16 +422,6 @@
                 "items":[
                    {
                       "type":"item",
-                      "title":"Bitbucket Cloud",
-                      "uri":"2.-workspaces/configure-git/b.bitbucket-cloud.md"
-                   },
-                   {
-                      "type":"item",
-                      "title":"Bitbucket Server",
-                      "uri":"2.-workspaces/configure-git/c.bitbucket-server.md"
-                   },
-                   {
-                      "type":"item",
                       "title":"GitHub",
                       "uri":"2.-workspaces/configure-git/g.github.md"
                    },
@@ -435,6 +436,16 @@
                       "uri":"2.-workspaces/configure-git/e.gitlab.md"
                    },
                    {
+                      "type":"item",
+                      "title":"Bitbucket Cloud",
+                      "uri":"2.-workspaces/configure-git/b.bitbucket-cloud.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Bitbucket Server",
+                      "uri":"2.-workspaces/configure-git/c.bitbucket-server.md"
+                   },
+                   {
                      "type":"item",
                      "title":"Azure DevOps Server",
                      "uri":"2.-workspaces/configure-git/i.azure-devops-server.md"
@@ -444,6 +455,12 @@
                       "title":"Service Accounts",
                       "uri":"2.-workspaces/configure-git/h.service-accounts.md",
                       "slug":"git/service-accounts"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Git for Studio Desktop",
+                      "uri":"2.-workspaces/configure-git/j.git-studio-desktop.md",
+                      "slug":"git/git-studio-desktop"
                    },
                    {
                       "type":"item",

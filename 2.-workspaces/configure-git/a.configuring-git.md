@@ -40,3 +40,7 @@ If you have a self-hosted deployment or are looking for custom integration setti
 - [Bitbucket Server](c.bitbucket-server.md)
 - [GitHub Enterprise](d.github-enterprise.md)
 - [GitLab](e.gitlab.md)
+
+## Git for Studio Desktop
+
+For Stoplight Studio Desktop users, see the [Git for Studio Desktop](./j.git-studio-desktop.md) page for details on how work with Git projects.

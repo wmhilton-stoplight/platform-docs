@@ -100,8 +100,6 @@ Select the **Docs** tab to switch from the API Design workspace to the documenta
 
 ![Select Docs tab](https://stoplight.io/api/v1/projects/cHJqOjU/images/Tfqz2ZXG65k)
 
-From the Markdown folder, select **basic-syntax**. The **Markdown Bascis** article opens in the main panel. You can modify existing content and create new content. Use the **Code** and **Preview** options to switch between edit and preview modes. 
+From the Markdown folder, select **basic-syntax**. The **Markdown Basics** article opens in the main panel. You can modify existing content and create new content. Use the **Code** and **Preview** options to switch between edit and preview modes.
 
-
-
-
+To start working with Git projects in Studio Desktop, see the [Git for Studio Desktop](../2.-workspaces/configure-git/j.git-studio-desktop.md) page.
