@@ -20,8 +20,8 @@ See [this blog](https://blog.stoplight.io/explore-these-top-api-style-guide-reso
 
 There are three types of style guides:
 
-1. **Stoplight Style Guide**: This default style guide is always enabled for projects. You can use the style guide as it is, disable individual rules, or disable the entire style guide. See the list of rules in the [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide).
-2. **Local style guides**: Rules are created within an API project. You cannot share local style guides with other projects.
+1. **Stoplight Style Guide**: This default style guide is always enabled for projects. You can use the style guide as is, disable individual rules, or disable the entire style guide. See the list of rules in the [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide).
+2. **Local style guides**: Rules are created within an API project. You can't share local style guides with other projects.
 3. **Shared style guides**: Use a dedicated project type to create style guides, and then share them across projects, business units, or workspace groups.
 
 [Depending on your plan](#style-guide-access), you can enable multiple style guides in an API project. For example, you can enable a global style guide that contains rules that apply to all APIs designed by your organization, and then enable a style guide that contains rules specific to your team or project.
@@ -34,11 +34,11 @@ How you manage style guides depends on your organization, but here are some idea
 
 - **Global governance**: Create rules that apply to all APIs. For example, create a rule that targets the `contact` object and the `email` field to ensure that all APIs use the correct support email for your company.
 - **Project overrides**: Certain teams may have governance needs that other teams don't. In this case, you can enable your company's global style guide for your project, and then disable rules that don't apply. You can also create local targets and rules that are needed for your API, but not others.
-- **Organize style guides into groups**: Consider creating a governance group to organize all of your style guides and other governance materials, such as an API program charter and reusability guidelines. 
+- **Organize style guides into groups**: Consider creating a governance group to organize all your style guides and other governance materials, such as an API program charter and reusability guidelines. 
 
 ## Style Guide Documentation
 
-Once a style guide is published, documentation is available for each rule in the guide. Documentation is not available for rules defined in local style guides, however.
+Once a style guide is published, documentation is available for each rule in the guide. Documentation isn't available for rules defined in local style guides, however.
 
 Rules are listed in alphanumeric order.
 
@@ -63,9 +63,9 @@ To enable style guides in other projects, you must be on a professional or enter
 
 Stoplight is actively improving style guides and many updates are in progress. Here are a few known limitations:
 
-1. You cannot import existing Spectral rulesets into Style Guide projects. You can, however, import Spectral rulesets into API projects. See [Imported Style Guides](a1.create-style-guide.md#imported-style-guides) for details.
-3. The Rule Editor currently supports one property/field per rule. If you need to evaluate multiple fields, create a separate rule for each field. 
-4. Style Guides are not available in Studio Desktop or in Stoplight CLI projects.
+- You can't import existing Spectral rulesets into Style Guide projects. You can, however, import Spectral rulesets into API projects. See [Imported Style Guides](a1.create-style-guide.md#imported-style-guides) for details.
+- The Rule Editor currently supports one property/field per rule. If you need to evaluate multiple fields, create a separate rule for each field. 
+- Style Guides aren't available in Studio Desktop or in Stoplight CLI projects.
 
 > Looking for these or other style guide improvements? Add a note to the Stoplight [roadmap](https://roadmap.stoplight.io/).
 

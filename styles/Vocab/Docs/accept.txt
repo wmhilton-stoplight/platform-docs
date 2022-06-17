@@ -9,17 +9,21 @@ Blockquote
 boolean
 callout
 Callout
+camelcase
 Codepen
 Config
 dereference
 enum
 enums
+falsy
 Figma
 Gantt
 gif
 Giphy
 GitHub
 GitLab
+http
+https
 HTTPie
 JavaScript
 pecl
@@ -28,6 +32,7 @@ openapi
 OpenAPI
 Replit
 repo
+reusability
 Ruleset
 ruleset
 Runkit
@@ -35,6 +40,7 @@ Slideshare
 Spotify
 Strikethrough
 strikethrough
+truthy
 Unirest
 Unprocessable
 Wget

@@ -13,7 +13,7 @@ Once you enable style guides, you can:
 - Create local targets and rules.
 - Use inherited targets and functions in local rules.
 
-> Inherited targets and functions cannot be modified.
+> Inherited targets and functions can't be modified.
 
 To enable a style guide:
 

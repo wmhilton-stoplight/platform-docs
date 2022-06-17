@@ -63,7 +63,7 @@ Set the area of the API specification the rule applies to.
 
 - **Target**
 
-  Select a target to specify the area of an API specification document. Targets are usually predefined and are required for each rule. Targets may be organized into [groups based on their names](b-create-targets.md#organize-targets). If you don't see a target you need, you can [add one here](b-create-targets.md). Note that inline targets cannot be reused or start with the # symbol.
+  Select a target to specify the area of an API specification document. Targets are usually predefined and are required for each rule. Targets may be organized into [groups based on their names](b-create-targets.md#organize-targets). If you don't see a target you need, you can [add one here](b-create-targets.md). Note that inline targets can't be reused or start with the # symbol.
 
 - **Property**
 

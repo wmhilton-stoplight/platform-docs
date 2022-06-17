@@ -18,7 +18,7 @@ As you think about the rules you need, consider the parts that make up API URLs:
 
 ### Always Use HTTPS
 
-Use this rule to enforce the HTTPS protocol for all APIs unless they are called in a local environment (localhost). 
+Use this rule to enforce the HTTPS protocol for all APIs unless they're called in a local environment (localhost). 
 
 #### OAS 3.x
 
@@ -39,7 +39,7 @@ bg: "#1A202C"
 -->
 ![Always Use HTTPS - OAS 3.x](https://stoplight.io/api/v1/projects/cHJqOjI/images/Q4RMnFOWqGs)
 
-During validation, this message is shown for URLs that do not use the HTTPS protocol.
+During validation, this message is shown for URLs that don't use the HTTPS protocol.
 
 <!--
 focus: center
@@ -93,7 +93,7 @@ bg: "#1A202C"
 
 ### Host Name Structure
 
-Different organizations follow different host name structures. The structure you choose does not matter as much as using the same structure consistently. This example shows how to create a rule that ensures that all host names use the `{domain}/api` structure.
+Different organizations follow different host name structures. The structure you choose doesn't matter as much as using the same structure consistently. This example shows how to create a rule that ensures that all host names use the `{domain}/api` structure.
 
 Rule settings:
 
@@ -160,7 +160,7 @@ You can use also the **pattern** functions with these **match** expressions:
 
 ### Plural Resource Names
 
-In general, it is best to use plural nouns for resources. Because there may be exceptions, create this rule as a warning rather than an error.
+In general, it's best to use plural nouns for resources. Because there may be exceptions, create this rule as a warning rather than an error.
 
 This example shows how to alert users to plural resource names.
 
@@ -178,7 +178,7 @@ Rule settings:
 
 ### Trailing Slashes
 
-`*/users*` and `*/users/*` are separate paths. It is considered bad practice for them to differ based only on a trailing slash. It is usually preferred to not have a trailing slash.
+`*/users*` and `*/users/*` are separate paths. It's considered bad practice for them to differ based only on a trailing slash. It's usually preferred to not have a trailing slash.
 
 This example shows how to set the standard of no trailing slashes.
 
@@ -196,7 +196,7 @@ Rule settings:
 
 ### Exclude File Extensions
 
-Files extensions are unnecessary in URLs. Create a rule to warn users when they are included.
+Files extensions are unnecessary in URLs. Create a rule to warn users when they're included.
 
 Rule settings:
 
@@ -214,7 +214,7 @@ Rule settings:
 
 ### Exclude Verbs in HTTP Methods
 
-Verbs such as "get," "delete," and "put" should not be included in paths because this information is conveyed by the HTTP method.
+Verbs such as "get," "delete," and "put" shouldn't be included in paths because this information is conveyed by the HTTP method.
 
 Rule settings:
 
@@ -273,7 +273,7 @@ Rule settings:
   - **Severity**: *Warning* 
   - **Name**: *paths-no-query-params*
   - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
-  - **Description**: *Paths should not have query parameters in them. They should be defined separately in the OpenAPI.*
+  - **Description**: *Paths shouldn't have query parameters in them. They should be defined separately in the OpenAPI.*
   - **Format** (Optional): *oas3.x* and *oas2*
   - **Target**: With the Stoplight Style Guide enabled, select *Path > Object* or add this inline target: `$.paths`
   - **Property**: *@key*   
@@ -288,7 +288,7 @@ bg: "#1A202C"
 
 ### Path Parameter Casing
 
-There are several options for path parameter casing. Use this example to ensure path parameters are in camelCase and do not contain digits.
+There are several options for path parameter casing. Use this example to ensure path parameters are in camelCase and don't contain digits.
 
 Rule settings:
 
