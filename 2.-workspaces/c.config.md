@@ -8,7 +8,7 @@ Projects can contain all sorts of files, but you might not want Stoplight to ana
 
 You can use an `"exclude"` in the `.stoplight.json` config file to blacklist certain files and folders. 
 
-There's also a `"formats"` keyword to determine which files should be be read and parsed as APIs, documentation, or other content. When you create an API in Studio, it can use this configuration to know where to put that file so it's not automatically added to the root directory.
+There's also a `"formats"` keyword to determine which files should be read and parsed as APIs, documentation, or other content. When you create an API in Studio, it can use this configuration to know where to put that file so it's not automatically added to the root directory.
 
 ![](../assets/images/create-api-with-config.gif)
 
@@ -38,9 +38,9 @@ Projects without a config file use this configuration:
   }
 }
 ```
-Any files with the `openapi` and `json_schema` formats will go under the "APIs" panel, and any files with `markdown` or `images` formats will go under "Docs".
+Any files with the `openapi` and `json_schema` formats will go under the "APIs" panel, and any files with `markdown` or `images` formats will go under "Docs."
 
-The asterisks in the `"include"` are a [glob](https://en.wikipedia.org/wiki/Glob_(programming)) pattern, for finding files based on a pattern. More specifically, we're using an open-source library called [micromatch](https://github.com/micromatch/micromatch). 
+The asterisks in the `"include"` are a [glob](https://en.wikipedia.org/wiki/Glob_(programming)) pattern, for finding files based on a pattern. More specifically, Stoplight uses an open-source library called [micromatch](https://github.com/micromatch/micromatch). 
 
 ## Change the Default Configuration
 
@@ -51,7 +51,7 @@ To add a config file to your project:
 
 ![Add Stoplight Config](../assets/images/project-config-add.png)
 
-The config file is added to the root of your project and named `.stoplight.json`. It can include regular JSON or [JSONC](https://github.com/microsoft/node-jsonc-parser) (i.e. JSON with comments and trailing commas allowed).
+The config file is added to the root of your project and named `.stoplight.json`. It can include regular JSON or [JSONC](https://github.com/microsoft/node-jsonc-parser) (that's JSON with comments and trailing commas allowed).
 
 After you change the stoplight.config file, select **Apply Config**.
 
@@ -65,7 +65,7 @@ After you change the stoplight.config file, select **Apply Config**.
 
 - `exclude`: Any file or directory matching the pattern listed in `exclude` won't be indexed by Stoplight. For example, you can exclude files located in a test directory.
 
-> **Note:** There is a fairly large default list of excluded file paths for things like node modules and other common dependency management files: `.cache/`, `.git`, `log/`, `tmp/`, etc. This is done for performance reasons and will be made more observable and configurable in future versions.
+> **Note:** There is a large default list of excluded file paths for things like node modules and other common dependency management files: `.cache/`, `.git`, `log/`, `tmp/`, etc. This is done for performance reasons and will be made more observable and configurable in future versions.
 
 ### Formats
 
@@ -74,7 +74,7 @@ After you change the stoplight.config file, select **Apply Config**.
 
 ## Example
 
-This example shows a project with multiple APIs in a `apis` directory, some test files that should not be indexed, and some models in a `schemas` directory, which you also use for [contract testing](https://apisyouwonthate.com/blog/writing-documentation-via-contract-testing).
+This example shows a project with multiple APIs in an `apis` directory, some test files that shouldn't be indexed, and some models in a `schemas` directory, which you also use for [contract testing](https://apisyouwonthate.com/blog/writing-documentation-via-contract-testing).
 
 ```
 help/article.md
@@ -85,7 +85,7 @@ schemas/user.json
 .stoplight.json
 ```
 
-This examples sets the editor line width at 80 characters, excludes the test files, and shows the rest of the file organization:
+This example sets the editor line width at 80 characters, excludes the test files, and shows the rest of the file organization:
 
 ```json
 {

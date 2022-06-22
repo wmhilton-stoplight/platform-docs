@@ -14,7 +14,7 @@ Use one of these methods to manage project access:
 <!-- focus: false -->
 ![share-project.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/wiaJr2Ql6FI)
 
-* Select the **Projects** tab on the **Workspace** toolbar. Select a project, and then select the [**Members** tab](../7.-projects/project-settings.md#members-overview) tab on the **Project** details pane.
+* Select the **Projects** tab on the **Workspace** toolbar. Select a project, and then select the [**Members** tab](../7.-projects/project-settings.md#members-overview) on the **Project** details pane.
 
 From here, you can:
 
@@ -38,7 +38,7 @@ Project visibility determines who can view projects within or outside the worksp
 
 **Internal**: All workspace members can view the project. Guests need direct access to the project. New projects have internal visibility by default. 
 
-**Public**: Everyone including anonymous visitors can view project.
+**Public**: Everyone including anonymous visitors can view the project.
 
 > Style guide projects can only be set to internal visibility. 
 
@@ -46,7 +46,7 @@ Project visibility determines who can view projects within or outside the worksp
 
 Project roles determine the level of access for each project member. To change a user's role for a project, open the **Share** dialog, locate the user, then change the role. 
 
-**Guest**: Can view documentation in published branches once they've been invited. You cannot assign the guest role; it is automatically assigned when guests are invited to a project.
+**Guest**: Can view documentation in published branches once they've been invited. You can't assign the guest role; it's automatically assigned when guests are invited to a project.
 
 **Viewer**: Can view documentation, access mock servers for published and unpublished branches, and invite users. 
 
@@ -86,7 +86,7 @@ If you need access to a project, the project's owner can add you as a member or 
 
 ### Transfer Project Ownership
 
-A project may have only one owner. To transfer ownership, select the new owner, and then change the role. Once confirmed, the former owner's role changes to Admin, and the selected member becomes the Owner.
+A project may have only one owner. To transfer ownership, select the new owner, and then change the role. Once confirmed, the former owner's role changes to Admin and the selected member becomes the Owner.
 
 <!--
 focus: false

@@ -2,32 +2,32 @@
 
 Stoplight CLI is a command-line tool, available as [an NPM module](https://www.npmjs.com/package/@stoplight/cli), that can publish changes to Stoplight and make them visible in Explorer just like any other project. 
 
-Stoplight CLI projects are **not editable** in Studio Web, but the content is available to read and search. You can [edit content in Studio Desktop](#edit-local-files), however, then publish the files to Stoplight using the CLI.
+Stoplight CLI projects **aren't editable** in Studio Web, but the content is available to read and search. You can [edit content in Studio Desktop](#edit-local-files), however, then publish the files to Stoplight using the CLI.
 
 Stoplight CLI can be used to publish:
 
-* [Local projects](#publish-local-projects) that do not use Git.
+* [Local projects](#publish-local-projects) that don't use Git.
 * Projects from a [continuous integration server](#continous-integration).
 
-> Images referenced in Markdown files are not currently published with the Stoplight CLI. To publish images with local projects, host them on a supported platform and embed them in Markdown files. See [Embeds](../4.-documentation/stoplight-flavored-markdown.md#embeds) for instructions. 
+> Images referenced in Markdown files aren't currently published with the Stoplight CLI. To publish images with local projects, host them on a supported platform and embed them in Markdown files. See [Embeds](../4.-documentation/stoplight-flavored-markdown.md#embeds) for instructions. 
  
 ## Prerequisites
 
-1. Install [nodeJS](https://nodejs.dev/).
+1. Install [Node.js](https://nodejs.dev/).
 2. Install the [Stoplight CLI](https://www.npmjs.com/package/@stoplight/cli).
 
-Note that nodeJS version 12 or greater is required to run the CLI. You cae verify your version with the command: `node --version`
+Note that Node.js version 12 or greater is required to run the CLI. You can verify your version with the command: `node --version`
 
 ## Publish Local Projects
 
-Local projects are not editable in Studio Web, but you can use Studio Desktop to edit files, then publish using the Stoplight CLI.
+Local projects aren't editable in Studio Web, but you can use Studio Desktop to edit files, then publish using the Stoplight CLI.
 
 ### Create an Empty Project
 
 1. Log in to your workspace, and then select the **Add** icon (+) at the top of the left pane.
 2. From **CLI Project** area of the **Create a Project** page, select **Create Blank Project**.
 3. Provide a name for your project, and then set the [project visibility](l.project-roles.md). 
-4. Optionally, select group to help organize your projects (Professional plan and above).
+4. Optionally, select a group to help organize your projects (Professional plan and above).
 5. Select **Create CLI Project**. 
 
 An empty project is created. Next, use the Stoplight CLI to push data to the project.

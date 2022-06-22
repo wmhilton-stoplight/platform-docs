@@ -8,7 +8,7 @@ Stoplight Studio Desktop allows you to work with repositories from Git providers
 2. From the hamburger menu, select **Git > Manage credentials**.
 3. Select **+ Credential** and then add:
 
-- **Host URL**: The URL for the Git provider (such as: `https://github.com/`).
+- **Host URL**: The URL of the Git provider (such as: `https://github.com/`).
 - **Username**: The username for your Git provider account, for example: `janesmith123`.
 - **Password**: The password, or personal access token, for your Git provider account. 
 - **Author Name**: A display name, usually a full name, for example.: `Jane Smith`.

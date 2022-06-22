@@ -6,11 +6,11 @@ tags: [Workspaces]
 
 Stoplight enables you to drive consistency, discipline, and efficiency across your API teams by helping members across your organization work in a collaborative manner. The first step to enabling collaboration across your API lifecycle is creating a workspace for your content.
 
-## What Is a Workspace?
+## What's a Workspace?
 
 A workspace is a place for you to group API projects across your organization to promote visibility, standards, and reuse of artifacts.
 
-> Stoplight recommends making a single workspace for your organization, and then using roles and permissions to manage your workflows.
+> Stoplight recommends making a single workspace for your organization and then using roles and permissions to manage your workflows.
 
 To create a new workspace:
 
@@ -20,7 +20,7 @@ To create a new workspace:
 
 3. Provide your business email address.
 
-4. Provide your company name and a URL for your workspace, and then select **Next**.
+4. Provide your company name and the URL of your workspace, and then select **Next**.
 
 <!-- focus: center -->
 ![Create a Workspace](../assets/images/create-workspace.png)

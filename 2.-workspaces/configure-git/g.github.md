@@ -31,7 +31,7 @@ By default, the GitHub integration will use Stoplight's OAuth application, but y
 5. Add the following information:
    * **Application name**: Add the name of your app (e.g `Stoplight Integration`).
    * **Homepage URL**: Add the full URL to your app's website (e.g.: `https://stoplight.io`).
-   * **Authorization callback URL**: We can get this value from Stoplight in the next steps, so for now use any URL such as `https://stoplight.io/oauth/callback`.
+   * **Authorization callback URL**: You can get this value from Stoplight in the next steps, so for now use any URL such as `https://stoplight.io/oauth/callback`.
 6. Select **Register application**.
 7. Select **Generate a new client secret**.
 

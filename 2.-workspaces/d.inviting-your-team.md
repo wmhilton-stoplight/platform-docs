@@ -6,7 +6,7 @@ tags: [Workspaces]
 
 Stoplight is an all-in-one platform that covers all integral parts of the API lifecycle including design, documentation development, and governance. This requires different stakeholders from inside and possibly outside your organization to use the platform.
 
-Having all of your collaborators on a single platform helps promote **visibility** and **reusability** of artifacts across your organization, but you may need different levels of access for your stakeholders. You can easily limit that by defining their [workspace roles](k.workspace-roles.md) and [project roles](l.project-roles.md).
+Having all your collaborators on a single platform helps promote **visibility** and **reusability** of artifacts across your organization, but you may need different levels of access for your stakeholders. You can limit that by defining their [workspace roles](k.workspace-roles.md) and [project roles](l.project-roles.md).
 
 Once your workspace is set up, you can invite your colleagues and partners. 
 
@@ -27,7 +27,7 @@ Learn more about [Workspace Roles](k.workspace-roles.md).
 
 ![Add Members](../assets/images/invite-add-member.png)
 
-Once sent, your invitations are set to pending and your team members are sent an email invitation. When they accept the request, they are added to your workspace. 
+Once sent, your invitations are set to pending and your team members are sent an email invitation. When they accept the request, they're added to your workspace. 
 
 ## Allow Access by Email Domain
 
@@ -42,7 +42,7 @@ To change the default role or remove the domain, select the arrow to the right o
 
 ## Approve Join Requests
 
-You must approve join requests when users want to join your workspace. If you allow access by email domain, you must approve join requests for users who register for your workspace with an email address that does not match your domain.
+You must approve join requests when users want to join your workspace. If you allow access by email domain, you must approve join requests for users who register for your workspace with an email address that doesn't match your domain.
 
 Workspace owners and administrators are notified by email when users try to join their workspace. Click the link in the email to approve requests. You can also manually approve join requests from the **Members Settings** page.
 
@@ -66,10 +66,10 @@ To assign roles for your workspace:
 
 ### Change Guest Access 
 
-Guests are not considered members of your workspace, so their access is limited to viewing projects they are invited to. If the needs of our organization change, you can:
+Guests aren't considered members of your workspace, so their access is limited to viewing projects they're invited to. If the needs of your organization change, you can:
 
 - **Upgrade guest access**: Change guests' roles to the Viewer role or above.
-- **Downgrade to guest access**: Change members' roles to guest to restrict their acccess to only projects they've been invited to.
+- **Downgrade to guest access**: Change members' roles to guest to restrict their access to only projects they've been invited to.
 
 ### Share Project
 

@@ -6,7 +6,7 @@ Sometimes branches are used for versioning, so a repository might have a `v4` an
 
 Regardless of the model, there is always a default branch. Branches could be named absolutely anything, but there are some common default branch names used by most of the popular Git providers: `trunk`, `main`, or `master`.
 
-In Stoplight, the default branch for a project determines which branch is automatically published and visible to users. For example, if your project is public, the default branch is presented to users who are not logged in to your workspace.
+In Stoplight, the default branch for a project determines which branch is automatically published and visible to users. For example, if your project is public, the default branch is presented to users who aren't logged in to your workspace.
 
 You can configure which Git branch is the default branch for Stoplight. 
 
@@ -24,12 +24,12 @@ To set a default branch:
 
 > This feature is available on the Stoplight **Starter** plan and above.
 
-While the default branch is always published, you can enable multiple branches for publishing. This is referred to as "listing" a branch and controls what is shown in the **Versions** selector:
+While the default branch is always published, you can enable multiple branches for publishing. This is referred to as "listing" a branch and controls what's shown in the **Versions** selector:
 
 - **Published branches**: Called "versions," these branches are viewable to everyone, including Guest and Viewer roles.
 - **Unlisted branches**: These branches are only viewable to users with direct access to the project.
 
-In the following example, V1 is set as the default branch and is listed. Main is used for active development, so it is unlisted. 
+In the following example, V1 is set as the default branch and is listed. Main is used for active development, so it's unlisted. 
 
 <!--
 focus: false
@@ -50,7 +50,7 @@ To list a branch:
 
 ## Change Default Branches
 
-Say you want to switch from `master` to `main` at your organization, which I am doing as I write this documentation. I can do this in Studio or quickly via the CLI in the locally cloned repository for a particular project.
+Say you want to switch your branch from `master` to `main` at your organization:
 
 1. Run this command in the terminal to push the master branch up, but give it a new name: `main`.
 
@@ -58,7 +58,7 @@ Say you want to switch from `master` to `main` at your organization, which I am 
 git push origin master:main
 ```
 
-2. Now we have two probably identical branches. Pop over to your project settings to change it.
+2. Now you have two probably identical branches. Pop over to your project settings to change it.
 
 ![Under Project Settings the Branches section has a Default Branch dropdown](../assets/images/branches-overview.png)
 
@@ -77,13 +77,13 @@ git push origin master:main
 git push origin :master
 ```
 
-6. If [webhooks](./g.automating-publishing.md) have been setup then this branch has already been automatically removed from Stoplight. If webhooks are not enabled, you will need to delete the branch from the list by clicking on the cog and clicking the "Remove from Stoplight" button.
+6. If [webhooks](./g.automating-publishing.md) have been set up then this branch has already been automatically removed from Stoplight. If webhooks aren't enabled, you will need to delete the branch from the list by clicking on the cog and clicking the "Remove from Stoplight" button.
 
 ## Track Branches
 
 The default branch and all branches associated with a pull request will be automatically tracked for you.
 
-If you want to track Git branches that are not associated with a pull request, such as a development or version branch, there's a freeform text box input to enter the branch name to track.
+If you want to track Git branches that aren't associated with a pull request, such as a development or version branch, there's a freeform text box input to enter the branch name to track.
 
 Tracking a Git branch will analyze it and add it to your list of branches in Stoplight.
 
@@ -91,7 +91,7 @@ This won't create a new Git branch. It's just going to tell Stoplight to keep an
 
 ## Rename Branches
 
-Changing the name of the branch will only update what is viewed in the Versions dropdown, it does not change the underlying Git branch's name. Think of it as giving them an alias. 
+Changing the name of the branch will only update what's viewed in the Versions dropdown, it doesn't change the underlying Git branch's name. Think of it as giving them an alias. 
 
 Doing this can make things more clear for end-users of your software, API, etc. who might not be familiar with your branching model or workflow.
 
@@ -116,4 +116,4 @@ Maybe the v5 branch is marked as stable, then when v6 is deployed to production 
 
 ## Remove a Branch
 
-You can remove a branch from being displayed in Stoplight, but this does not remove the branch from Git itself. Once you've removed a branch from Stoplight, you can add it back using the Track Branch functionality.
+You can remove a branch from being displayed in Stoplight, but this doesn't remove the branch from Git itself. Once you've removed a branch from Stoplight, you can add it back using the Track Branch functionality.

@@ -5,7 +5,7 @@
 > - Available on the [Stoplight **Professional** plan](https://stoplight.io/pricing/), and above.
 > - Only **Workspace owners and admins** can view member and guest activity
 
-Activity logs provide a record of how members and guests are interacting with your workspace's resources.
+Activity logs provide a record of how members and guests are interacting with your workspace resources.
 
 Stay up to date with all the changes happening within your Workspace. View and audit activity that has occurred across users, projects, and (soon!) groups in your workspace. 
 
@@ -19,10 +19,10 @@ Filter by changes to membership and account types, project visibility, and creat
 
 ## View activity logs
 
-Workspace Owners and Admins are able to access activity logs in the **Activity** tab of the workspace's admin area.
+Workspace Owners and Admins are able to access activity logs in the **Activity** tab of the workspace admin area.
 
-1. From the Workspace home screen, click your workspace's name in the top left of the screen.
-2. Click the **Activity** header at the top of the screen to open the activity logs.
+1. From the Workspace home screen, select your workspace name in the top left of the screen.
+2. Select the **Activity** header at the top of the screen to open the activity logs.
 3. Use the **Events** dropdown to select a specific type of event or view all of them.
 4. Scroll down through the list to load older events.
 
@@ -32,8 +32,8 @@ Workspace Owners and Admins are able to access activity logs in the **Activity**
 
 Stoplight tracks the following information for every event:
 
-- **Date** and **time** the event occured
-- **IP address** of the user when the event occured
+- **Date** and **time** the event occurred
+- **IP address** of the user when the event occurred
 - **Member** who triggered the event
 
 | Workspace Events         |                                                          |
@@ -70,9 +70,9 @@ Stoplight tracks the following information for every event:
 **How far back does the log go?**
 - August 18, 2021
 
-**Can users change the length of time data is retained or amount/types of data that is collected?**
+**Can users change the length of time data is retained or the amount/types of data that are collected?**
 - Not at this time
 
 **What users are tracked?**
-- Internal and External: We can identify who is making the change and surface username, email address, and IP address. If someone outside of your Workspace makes a change (eg Github), you will be able to see their email address. 
+- Internal and External: Stoplight can identify who is making the change and surface username, email address, and IP address. If someone outside of your Workspace makes a change (via GitHub for example), you will be able to see their email address. 
 

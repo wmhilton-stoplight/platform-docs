@@ -1,8 +1,7 @@
 <!-- theme: warning -->
 > #### Important Change Affecting SAML Integrations
 >
-> Starting October 1, 2021, the callback URL for all SAML integrations must include the workspace slug. Other integrations are *not* affected. 
-
+> Starting October 1, 2021, the callback URL of all SAML integrations must include the workspace slug. Other integrations **aren't** affected. 
 
 # Single Sign-On
 
@@ -10,7 +9,7 @@ Stoplight can connect with popular auth providers to simplify your authenticatio
 
 ## Auth Provider Support
 
-We support the following Auth/Single Sign-On (SSO) providers:
+Stoplight supports the following Auth/Single Sign-On (SSO) providers:
 
 - LDAP
 - SAML
@@ -18,9 +17,9 @@ We support the following Auth/Single Sign-On (SSO) providers:
 - Bitbucket Server
 - GitHub
 - GitLab
-- Azure Devops
+- Azure DevOps
 
-Stoplight currently supports multiple SAML integrations when  authentication starts from Stoplight. Only one integration where authentication starts from an identity provider (IDP) is supported per workspace. When you have multiple SAML integrations configured, you can specify which of these will serve as your IDP integration.
+Stoplight currently supports multiple SAML integrations when authentication starts from Stoplight. Only one integration where authentication starts from an identity provider (IDP) is supported per workspace. When you have multiple SAML integrations configured, you can specify which of these will serve as your IDP integration.
 
 <!-- focus: center -->
 ![saml_idps.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/52MimIggF7g)
@@ -39,7 +38,7 @@ Before continuing, be sure to:
 
 - Contact the team responsible for your organization's SAML configuration for the following pieces of information that must be configured within Stoplight:
   - SAML Entry Point URL - This is the URL where applications integrating with a SAML IdP must first direct users
-  - SAML Identifier Format - Stoplight defaults to using a "persistent" name identifier format, however some SAML providers require a specific format ("unspecified", for example)
+  - SAML Identifier Format - Stoplight defaults to using a "persistent" name identifier format, however, some SAML providers require a specific format ("unspecified," for example)
 - Some fields will also need to be configured within the SAML IdP directly. Pass along the following pieces of information to the team responsible for your organization's SAML configuration:
   - Issuer - This value defaults to "`stoplight`"
   <!-- markdown-link-check-disable -->
@@ -73,12 +72,12 @@ Which will open a dialog to configure the SAML settings for the integration:
 Configuration options include:
 - Name - Customizable name users will see when authenticating
 - Entry Point - SAML entrypoint provided by your identity provider.
-- Identifier Format - This SAML ID format should match what your identity provider expencts. `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` is typical.
+- Identifier Format - This SAML ID format should match what your identity provider expects. `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` is typical.
 - Identity Provider Public Certificate - Public certificate provided by your identity provider. Note that this must be in string format.
 - Issuer - Should match what the identity provider expects.
-- Callback Url - Read-only value to be set in your identity provider configuration. This callback URL must include your workspace name as of October 1st. For example, `https://<workspace>.stoplight.io/oauth/callback`.
+- Callback URL - Read-only value to be set in your identity provider configuration. This callback URL must include your workspace name as of October 1st. For example, `https://<workspace>.stoplight.io/oauth/callback`.
 
-> If your SAML IdP is behind a firewall, you may need to [add our IPs to your
+> If your SAML IdP is behind a firewall, you may need to [add Stoplight IPs to your
 > allowlist](../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider).
 
 ### SAML Integration Guides
@@ -101,11 +100,11 @@ You can use a Lightweight Directory Access Protocol (LDAP) authentication server
 1. Navigate to the Integrations section in your Stoplight workspace settings. 
 2. Click **Install/Configure** beside LDAP. 
 3. Provide the following information:
- - **URL**: The LDAP host, e.g. **ldap://ldap.example.com**. If the hostname is behind a firewall, you may need to [add our IPs to your allowlist](../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider).
+ - **URL**: The LDAP host, for example: **ldap://ldap.example.com**. If the hostname is behind a firewall, you may need to [add Stoplight IPs to your allowlist](../c.troubleshooting.md#how-do-i-allow-stoplight-to-access-an-internal-git-provider).
  - **Bind DN**: The LDAP user that performs user lookups to authenticate other users when they sign in. This is typically a service account created specifically for third-party integrations. Use a fully qualified name, such as **cn=Administrator,cn=Users,dc=Example,dc=com**.
  - **Bind Credentials**: The password for the domain search user.
- - **Search Base**: The fully qualified Distinguished Name (DN) of an LDAP subtree you want to search for users and groups. You can add as many as you like; however, each group must be defined in the same domain base as the users that belong to it. e.g. **dc=Example,dc=com**.
- - **Search Filter**: Filters can be used to restrict the numbers of users or groups that are permitted to access an application.  In essence, the filter limits what part of the LDAP tree the application syncs from.  Read more about writing filters [here.](https://confluence.atlassian.com/kb/how-to-write-ldap-search-filters-792496933.html)
+ - **Search Base**: The fully qualified Distinguished Name (DN) of an LDAP subtree you want to search for users and groups. You can add as many as you like; however, each group must be defined in the same domain base as the users that belong to it. For example: **dc=Example,dc=com**.
+ - **Search Filter**: Filters can be used to restrict the numbers of users or groups that are permitted to access an application. In essence, the filter limits what part of the LDAP tree the application syncs from. Read more about writing filters [here.](https://confluence.atlassian.com/kb/how-to-write-ldap-search-filters-792496933.html)
 4. Click **Install**.
 
 <!-- markdown-link-check-enable -->

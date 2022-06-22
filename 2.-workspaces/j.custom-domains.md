@@ -12,7 +12,7 @@ Once configured:
 
 ![](../assets/images/custom-domain.png)
 
-To setup a custom domain for your Stoplight workspace:
+To set up a custom domain for your Stoplight workspace:
 
 1. From the workspace home page, select **Settings**. 
 2. Select the right arrow next to **Domain**.
@@ -22,7 +22,7 @@ To complete the configuration process, you must create a CNAME DNS record for yo
 
 > ### Limitations
 >
-> Stoplight currently requires the **full domain** to be allocated for use, meaning that it's not possible to expose documentation from a single path or route. As an example, the domain "api.example.com" can be used to host your Stoplight documentation, however "example.com/api" (note the "/api" base path) can't.
+> Stoplight currently requires the **full domain** to be allocated for use, meaning that it's impossible to expose documentation from a single path or route. As an example, the domain "api.example.com" can be used to host your Stoplight documentation, however "example.com/api" (note the "/api" base path) can't.
 >
 > See the [roadmap item](https://roadmap.stoplight.io/c/57-embeddable-component-library) for
 > more information on how this limitation will be addressed in the future.

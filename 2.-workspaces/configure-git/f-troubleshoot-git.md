@@ -5,7 +5,7 @@ Use these troubleshooting steps to resolve errors related to your Git connection
 ## Verify Integration Settings
 
 1. Select **Settings** from the workspace home page, then navigate to the **Integrations** section.
-2. Locate your Git integration (GitHub, GitLab, etc.), and verify that it is enabled.
+2. Locate your Git integration (GitHub, GitLab, etc.), and verify that it's enabled.
 3. Select the arrow to the right of the integration.
 4. Verify that these settings match those in your Git provider:
    - Client ID and Client Secret
@@ -23,11 +23,11 @@ See Stoplight requirements for each provider type:
 
 If you are connected behind a firewall, verify that Stoplight's IP addresses are added to your allowlist. 
 
-The fixed IP address is: **35.226.194.249**.
+The fixed IP address is **35.226.194.249**.
 
 ## Troubleshoot Webhooks
 
-Webhooks are used to automatically sync data between Stoplight and your Git repository. If the Stoplight webhook is installed, use these steps when data is not synced or published to Stoplight from Git.
+Webhooks are used to automatically sync data between Stoplight and your Git repository. If the Stoplight webhook is installed, use these steps when data isn't synced or published to Stoplight from Git.
 
 ### Review in Stoplight
 
@@ -42,29 +42,29 @@ The default branch and all branches associated with a pull request will be autom
 
 If documentation fails to automatically publish, use this feature to reanalyze the branch and publish your content.
 
-To track Git branches that are not associated with a pull request, such as a development or version branch:
+To track Git branches that aren't associated with a pull request, such as a development or version branch:
 
 1. Log in to your workspace, and select the project you are troubleshooting.
 2. Select the **Project Settings** icon.
 
-![icon-git.PNG](https://stoplight.io/api/v1/projects/cHJqOjI/images/mvO9MmvbrgA)
+![icon-git.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/mvO9MmvbrgA)
 
 <!--
 focus: false
 -->
 
-![gear-icon.PNG](https://stoplight.io/api/v1/projects/cHJqOjI/images/s70YyGV5v4M)
+![gear-icon.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/s70YyGV5v4M)
 
 3. Select the **Settings** tab.
 
-![settings-git.PNG](https://stoplight.io/api/v1/projects/cHJqOjI/images/kvuQCCmXTO0)
+![settings-git.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/kvuQCCmXTO0)
 
 4. Scroll down and select **+ Track Branch** from the **Branches** section.
 
 ![track-branch.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/V3sVYD69JIk)
 
 <!-- theme: info -->
-> **Note:** Tracking a Git branch will not create a new Git branch. It informs Stoplight to recognize webhooks with the branch name.
+> **Note:** Tracking a Git branch won't create a new Git branch. It informs Stoplight to recognize webhooks with the branch name.
 
 ### Review in Git
 

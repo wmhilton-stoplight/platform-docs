@@ -9,24 +9,24 @@ focus: false
 -->
 ![New feature badge](../../assets/images/badge-new-small.png)
 
-> This feature is available for all Stoplight plans, but we highly recommend it for large teams and organizations.
+> This feature is available for all Stoplight plans, but Stoplight highly recommends it for large teams and organizations.
 
 Service Accounts are a special type of account, generally representing a non-user, that teams or organizations can use to manage authentication and permissions with third-party services.
 
 Creating a service account in your Git provider and using that in Stoplight can help:
 
 - Ensure that the connection between your team’s repositories and Stoplight isn't tied to an individual user account
-- Prevent any sync issues in case a user is removed from your organization by accident, or leaves your organization
+- Prevent any sync issues in case a user is removed from your organization by accident or leaves your organization
 - Allow users without Git accounts to contribute to projects in Stoplight
 - Limit the scope of access and reduce security risks for IT admins
 
-Once you configure a service account in your Stoplight project, **any Git operations will be done using the service account credentials**. Besides the benefits listed above, this shouldn't have any impact on user's ability to clone, edit, or publish changes to Git projects in Stoplight.
+Once you configure a service account in your Stoplight project, **any Git operations will be done using the service account credentials**. Besides the benefits listed above, this shouldn't have any impact on the user's ability to clone, edit, or publish changes to Git projects in Stoplight.
 
 The main difference that users will see is in their Git commit messages, which will use the service account for the commit operation, and the Stoplight user as the author of the commit. The commit message will also be modified to include details about the service account. For example, this is what a commit will look like on GitHub:
 
-![Example of a commit on GitHub after a service account is connected to Stoplight. The commit message includes the user name and appended to it says "on behalf of service-account". The author section also includes both the username and the service account username in the format "user authored and service-account-username committed 3 minutes ago"](../../assets/images/service-accounts-commit-message-2.png)
+![Example of a commit on GitHub after a service account is connected to Stoplight. The commit message includes the user name and appended to it says "on behalf of service-account." The author section also includes both the username and the service account username in the format "user authored and service-account-username committed 3 minutes ago"](../../assets/images/service-accounts-commit-message-2.png)
 
-Currently we support:
+Currently, Stoplight supports:
 
 - GitHub
 - GitLab
@@ -81,11 +81,11 @@ The first step for using a Service Account in Stoplight is creating a service ac
 
 The second step in setting up Service Accounts is creating a personal access token.
 
-Personal access tokens allows users to access information on their accounts by using a token in place of their password. Tokens also have the advantage of being able to be configured with `scopes`, so they have can have limited permissions to accesss information or to perform actions in your account, as well as an expiration date.
+Personal access tokens allow users to access information on their accounts by using a token in place of their password. Tokens also have the advantage of being able to be configured with `scopes`, so they have can have limited permissions to access information or to perform actions in your account, as well as an expiration date.
 
-> For providers that allow expiry dates to be set for personal access tokens, we recommend setting them to not expire. If that's not possible, because of the provider settings or security policies, we recommend setting a reminder to update your project with a new token close to the token's expiration date.
+> For providers that allow expiry dates to be set for personal access tokens, Stoplight recommends setting them to not expire. If that's not possible, because of the provider settings or security policies, set a reminder to update your project with a new token close to the token's expiration date.
 >
-> This is to prevent users from being unable to make changes to their Stoplight project. If a project has a service account configured and the token expires, users will not be able to make any changes to the project until the personal access token is updated, or the service account configuration is removed.
+> This is to prevent users from being unable to make changes to their Stoplight project. If a project has a service account configured and the token expires, users won't be able to make any changes to the project until the personal access token is updated, or the service account configuration is removed.
 
 ### GitHub
 
@@ -96,7 +96,7 @@ To create a personal access token in GitHub:
 Or:
 
 1. Log in to your GitHub account.
-2. Go to Settings page, select **Developer settings** on the left side menu, and then [**Personal access tokens**](https://github.com/settings/tokens).
+2. Go to the Settings page, select **Developer settings** on the left side menu, and then [**Personal access tokens**](https://github.com/settings/tokens).
 3. Select **Generate new token**.
 4. Enter a name for the token on the **Note** field.
 5. Select the **Expiration** time for the token, and make sure to select the scope `repo`.

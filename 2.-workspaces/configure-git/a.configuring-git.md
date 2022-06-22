@@ -1,12 +1,12 @@
 # Git Overview
 
-Stoplight can connect with popular Git Providers hosted publically or on your servers (even if it's protected by a firewall), letting you work directly with [projects](../../7.-projects/adding-projects.md) in public or private repos. 
+Stoplight can connect with popular Git Providers hosted publicly or on your servers (even if it's protected by a firewall), letting you work directly with [projects](../../7.-projects/adding-projects.md) in public or private repos. 
 
-> For enterpise users, or teams with users that do not have Git accounts, we highly recommend using [Service Accounts](h.service-accounts.md).
+> For enterprise users, or teams with users that don't have Git accounts, Stoplight highly recommends using [Service Accounts](h.service-accounts.md).
 
 ## Git Provider Support
 
-We support the following Git providers:
+Stoplight supports the following Git providers:
 
 - <i class="Icon fab fa-bitbucket fa-2x" style="color: rgb(32, 80, 129);"> </i> [Bitbucket Cloud](b.bitbucket-cloud.md)
 - <i class="Icon fab fa-bitbucket fa-2x" style="color: rgb(32, 80, 129);" > </i> [Bitbucket Server](c.bitbucket-server.md)
@@ -15,7 +15,7 @@ We support the following Git providers:
 - <i class="Icon fab fa-gitlab fa-2x" style="color: rgb(252, 109, 38);"> </i> [GitLab](e.gitlab.md)
 - <i class="Icon fab fa-microsoft fa-2x" style="color: rgb(32, 80, 129);"> </i> [Azure DevOps Server](i.azure-devops-server.md)
 
-If you don't see the Git Provider you're looking for, take a look at our [roadmap](https://roadmap.stoplight.io/) to keep an eye on what's coming next. You can also use [Stoplight CLI](../f.working-with-local-projects.md) to push projects to the Stoplight Platform.
+If you don't see the Git Provider you're looking for, take a look at the [roadmap](https://roadmap.stoplight.io/) to keep an eye on what's coming next. You can also use [Stoplight CLI](../f.working-with-local-projects.md) to push projects to the Stoplight Platform.
 
 ## Configure Cloud Git Providers
 
@@ -43,4 +43,4 @@ If you have a self-hosted deployment or are looking for custom integration setti
 
 ## Git for Studio Desktop
 
-For Stoplight Studio Desktop users, see the [Git for Studio Desktop](./j.git-studio-desktop.md) page for details on how work with Git projects.
+For Stoplight Studio Desktop users, see the [Git for Studio Desktop](./j.git-studio-desktop.md) page for details on how to work with Git projects.

@@ -32,7 +32,7 @@ Use one of these methods to add groups to the workspace sidebar:
 
 1. Pin one or more of the projects in the group. This controls your personal view of the sidebar.
 
-2. Add public projects to public groups. This controls the sidebar view for non-logged in users and guests.
+2. Add public projects to public groups. This controls the sidebar view for non-logged-in users and guests.
 
 See [Workspace Sidebar](../4.-documentation/Sidebar/a.workspace-sidebar.md).
 
