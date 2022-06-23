@@ -2,7 +2,7 @@
 
 The Stoplight sidebar changes depending on who you are, what page you're viewing, and the customizations made to your site.
 
-To learn more about sidebar customization, see our [best practices for configuring Stoplight navigation](https://meta.stoplight.io/docs/api-best-practices/hosted-docs/stoplight-navigation). 
+To learn more about sidebar customization, see [best practices for configuring Stoplight navigation](https://meta.stoplight.io/docs/api-best-practices/hosted-docs/stoplight-navigation). 
 
 ## Workspace Projects List
 

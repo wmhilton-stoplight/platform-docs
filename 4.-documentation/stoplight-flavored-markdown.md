@@ -152,7 +152,7 @@ json title="Passed via meta tag" lineNumbers
 
 ## Code Groups
 
-If you write multiple code blocks with no other content between, they are grouped into a tabbed code group. This is helpful for a variety of use cases, such as displaying code samples in a variety of languages.
+If you write multiple code blocks with no other content between, they're grouped into a tabbed code group. This is helpful for a variety of use cases, such as displaying code samples in a variety of languages.
 
 <!-- theme: warning -->
 

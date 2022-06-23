@@ -66,11 +66,11 @@ Learn about:
 * Updating the [Table of Contents](../4.-documentation/Sidebar/d.table-of-contents.md).
 * Organizing [project files](../2.-workspaces/c.config.md).
 * Linking across [APIs and articles](../4.-documentation/stoplight-urls.md#about-relative-links).
-* [Creating sytle guides](../2a.-style-guides/a.style-guide-projects.md) to enforce API consistency.
+* [Creating style guides](../2a.-style-guides/a.style-guide-projects.md) to enforce API consistency.
 
 ## Studio Desktop
 
-Studio Desktop provides a similar experience for creating APIs and supplemental documentation. The most noticeable difference between Studio Web and Studio Desktop is that you cannot publish documentation to Stoplight from Studio Desktop. You can, however, use the Stoplight CLI to publish from an continuous integration server or from local files. See [Stoplight CLI](https://meta.stoplight.io/docs/platform/ZG9jOjQ1NTQxMw-publish-with-the-stoplight-cli).  
+Studio Desktop provides a similar experience for creating APIs and supplemental documentation. The most noticeable difference between Studio Web and Studio Desktop is that you can't publish documentation to Stoplight from Studio Desktop. You can, however, use the Stoplight CLI to publish from an continuous integration server or from local files. See [Stoplight CLI](https://meta.stoplight.io/docs/platform/ZG9jOjQ1NTQxMw-publish-with-the-stoplight-cli).  
 
 The Studio Desktop start page contains three options: 
 
@@ -94,7 +94,7 @@ The new local project opens. API files and directories listed in the left panel,
 
 Select the **APIs** tab to view provided APIs and models. You can modify these example files or create new APIs, endpoints, and models. Use the **Form**, **Code**, and **Preview** options to switch between edit and preview modes. 
 
-![studio-desktop-api-tab.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/t1GvGbRow08)
+![Example files in Studio Desktop](https://stoplight.io/api/v1/projects/cHJqOjI/images/t1GvGbRow08)
 
 Select the **Docs** tab to switch from the API Design workspace to the documentation workspace. This is where all documentation-related files (Markdown files and image files) can be created, managed, modified, and deleted. Because you added tutorial files, the **Docs** tab includes samples of Markdown and image files.
 

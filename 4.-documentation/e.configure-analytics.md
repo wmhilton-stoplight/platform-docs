@@ -4,13 +4,13 @@
 
 ## Overview
 
-[Google Tag Manger](https://marketingplatform.google.com/about/tag-manager/) is a free tool that allows you to manage and deploy marketing tags, such as analytic scripts or tracking pixels, to your website. Google Tag Manger offers several built-in tags including Google Analytics, CrazyEgg, Hotjar, LinkedIn Insight and more!
+[Google Tag Manger](https://marketingplatform.google.com/about/tag-manager/) is a free tool that allows you to manage and deploy marketing tags, such as analytic scripts, to your website. Google Tag Manger offers several built-in tags including Google Analytics, CrazyEgg, Hotjar, LinkedIn Insight and more!
 
 > This feature is available on the [Stoplight **Starter** plan](https://stoplight.io/pricing/), and above.
 
 ## How it works
 
-Within your Stoplight Workspace, you can configure your Google Tag Manager ID and a custom domain. Then when your workspace is loaded from your custom domain, Google Tag Manger will be included with all of your configured marketing tags.
+Within your Stoplight Workspace, you can configure your Google Tag Manager ID and a custom domain. Then when your workspace is loaded from your custom domain, Google Tag Manger will be included with your configured marketing tags.
 
 Here are the steps to get started:
 

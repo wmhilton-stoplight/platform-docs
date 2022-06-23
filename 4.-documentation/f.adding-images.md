@@ -1,6 +1,6 @@
 # Add Images
 
-Visual help on your documentation compliments the text on it and helps users reach their goals more quickly. Add flowcharts, infographics, or screenshots to **Getting Started guides** and **Authentication guides** to help better explain flows and use cases. 
+Visual help on your documentation compliments the text on it and helps users quickly reach their goals. Add flowcharts, graphics, or screenshots to **Getting Started guides** and **Authentication guides** to help better explain flows and use cases. 
 
 There are two ways to add images to a project:
 
@@ -11,8 +11,8 @@ You can add multiple images to any documentation file. Supported  image formats 
 
 ## Drag-and-drop Images
 
-1. Edit a project, and then open a documentation (.md) file in code view.
-2. Drag and drop an image or copy and paste an image.
+1. Edit a project, and then open a Markdown file in code view.
+2. Drag and drop an image onto the page.
 3. Preview the image.
 
 ![Add an Image](../assets/images/image-upload.gif)
@@ -20,11 +20,11 @@ You can add multiple images to any documentation file. Supported  image formats 
 ## Import Images
 
 <!-- theme: warning -->
-> **Warning**: This option is only available for public Git repositories. Use the drag-and-drop method for adding images to projects that are not connected to public Git repositories.
+> **Warning**: This option is only available for public Git repositories. Use the drag-and-drop method for adding images to projects that aren't connected to public Git repositories.
 
 1. Edit a project.
 2. Select the **Add** icon at the top of the left panel, and then select **Import File**.
-3. Navigate to and import an image file. If they do not already exist, an `assets\images` directory is added to your **Files** tab, and the image is imported into that.
+3. Navigate to and import an image file. If they don't already exist, an `assets\images` directory is added to your **Files** tab, and the image is imported into that.
 4. Reference the image in a Markdown file. (For easy linking, right-click on an image in the assets/images tab, and then select **Copy Relative Path**.)
 
     `![Image Example](assets/images/style-guides-paths-target.png)`

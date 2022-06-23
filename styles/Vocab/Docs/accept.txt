@@ -1,4 +1,5 @@
 allowlist
+Apimatic
 autogenerate
 Autogenerate
 Axios
@@ -26,12 +27,14 @@ Giphy
 GitHub
 GitLab
 Gravatar
+Hotjar
 http
 https
 HTTP
 HTTPS
 HTTPie
 hostname
+infographic
 JavaScript
 lookup
 Node.js
@@ -52,6 +55,8 @@ Slideshare
 Spotify
 Strikethrough
 strikethrough
+subpath
+Subpath
 subtree
 truthy
 Unirest

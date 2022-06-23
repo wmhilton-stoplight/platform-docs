@@ -22,7 +22,7 @@ bg: "#1A202C"
 > There are a few known limitations with this functionality:
 > 
 > 1. **The `toc.json` file must be written by hand.** [(roadmap)](https://roadmap.stoplight.io/c/112-table-of-contents-editor)
-> 2. **Renaming a file does not automatically update the `toc.json`.** You'll need to remember to update your TOC whenever a file is renamed. Otherwise, your project sidebar might contain broken links. [(roadmap)](https://roadmap.stoplight.io/c/96-automatically-rewrite-references-and-links-on-filename-change)
+> 2. **Renaming a file doesn't automatically update the `toc.json`.** You'll need to remember to update your TOC whenever a file is renamed. Otherwise, your project sidebar might contain broken links. [(roadmap)](https://roadmap.stoplight.io/c/96-automatically-rewrite-references-and-links-on-filename-change)
 > 
 
 ### TOC Entities 
@@ -33,7 +33,7 @@ There are three types of entities in the Table of Contents:
 focus: center
 bg: "#1A202C"
 -->
-![toc element overview](../../assets/images/toc-overview.png)
+![TOC Overview](../../assets/images/toc-overview.png)
 
 #### Dividers
 
@@ -41,16 +41,16 @@ Dividers are bold, non-clickable items that signify the start of a section of co
 
 #### Groups
 
-Groups are collapsible items containing items and other groups that all relate to the same subject matter. You can configure groups so they are clickable or you can use them as expanders only.
+Groups are collapsible items containing items and other groups that all relate to the same subject matter. You can configure groups so they're clickable or you can use them as expanders only.
 
-Dividers cannot be nested within a group.
+Dividers can't be nested within a group.
 
 #### Items
 
 Items are links to articles, APIs, and model files located within the project directory or external links to content outside of the documentation. 
 
 * Use the `title` property to override the item's default title in the table of contents.
-* Use the `slug` property to customize the published URL for articles and APIs. Slugs do not change the appearance of the TOC, but enable you to remove the Stoplight stable ID from published URLs. You can also add a folder structure to published URLs.  See [About Published URLs](../stoplight-urls.md#about-published-urls) for details.
+* Use the `slug` property to customize the published URL of articles and APIs. Slugs don't change the appearance of the TOC, but enable you to remove the Stoplight stable ID from published URLs. You can also add a folder structure to published URLs. See [About Published URLs](../stoplight-urls.md#about-published-urls) for details.
 * Use the `uri` property to add a file URI or an external URL to the TOC.
 
 > **TIP**: The easiest way to get a file's URI in Studio is to right-click on the file, select **Copy Relative Path**, and then paste the contents into the JSON file.
@@ -163,13 +163,13 @@ The `toc.json` file should start off with an empty `items` array where you will 
 
 ## The Default Structure
 
-When the `toc.json` file is not present, the default structure is organized based on a few factors, such as the file type, but primarily follows the same alphanumeric ordering of the filesystem.
+When the `toc.json` file isn't present, the default structure is organized based on a few factors, such as the file type, but primarily follows the same alphanumeric ordering of the filesystem.
 
 ### Articles
 
 Markdown articles come first in the table of contents and are ordered alphabetically by their file path. The first directory is represented as a [divider](#dividers) and any directories after appear as [groups](#groups). 
 
-- The Docs folder is flattened and is not represented in the table of contents. 
+- The Docs folder is flattened and isn't represented in the table of contents. 
 - Any articles located in the root of the project are sorted to the top. 
 <!-- - If a `README.md` file exists, it is put in the first position.-->
 

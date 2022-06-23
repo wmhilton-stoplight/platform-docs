@@ -4,9 +4,9 @@ tags: [Documentation]
 
 # Types of Documentation
 
-When people think of API documentation, they often think of API reference documentation, but that is only one of several types of documentation that your API consumers need to solve various use-cases. 
+When people think of API documentation, they often think of API reference documentation, but that's only one of several types of documentation that your API consumers need to solve various use-cases. 
 
-With Stoplight, you can easily deliver:
+With Stoplight, you can deliver:
 
 - API Reference Documentation
 - Quick Start Guides
@@ -34,7 +34,7 @@ The **API Overview** page appears at the top of the API section in the right sid
 
 ![API Overview](../assets/images/docs-api-overview.png)
 
-Information included on the **Overview** form is added to the **API Overview** page once your documetation is published. 
+Information included on the **Overview** form is added to the **API Overview** page once your documentation is published. 
 
 You can:
 
@@ -73,13 +73,13 @@ Endpoint documentation is organized into easy-to-navigate sections:
 
 ### Models
 
-[Models](https://meta.stoplight.io/docs/studio/ZG9jOjcy-working-with-models) are the schemas that go in your API's request or response bodies. They are included in your API documentation.
+[Models](https://meta.stoplight.io/docs/studio/ZG9jOjcy-working-with-models) are the schemas that go in your API's request or response bodies. They're included in your API documentation.
 
 ![API Endpoints](../assets/images/docs-api-model.png)
 
 ## Guides and Tutorials
 
-API reference documentaiton is critical to helping developers understand and use your APIs, but it can rarelly stand on its own. 
+API reference documentation is critical to helping developers understand and use your APIs, but it can rarely stand on its own. 
 
 In Stoplight, there is no difference between a getting started guide, a tutorial, or any other sort of Markdown article. You can view documentation on the **Docs** tab when you are editing a project. 
 
