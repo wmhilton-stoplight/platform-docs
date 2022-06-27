@@ -26,14 +26,14 @@ Once you have a project, you can add APIs, articles, images, and more. See [Work
 
 1. From the **Project** window, select the **Add** icon (+) at the top of the left pane.
 2. Select **API**.
-3. On the **New OpenAPI** window, provide a name for the API, and then select the OpenAPI version and format (YAML or JSON). 
+3. On the **New API** window, provide a name for the API, and then select the OpenAPI version and format (YAML or JSON). 
 4. Select **Create**.
 
-![New API](https://stoplight.io/api/v1/projects/cHJqOjI/images/uvq5aE872yk)
+![Stoplight New API modal](https://stoplight.io/api/v1/projects/cHJqOjI/images/wB9wg6SMenY)
 
 Two starter endpoints (`/users/{userid}` and `/user`) and a model (`user`)are provided with new APIs. Use the **Form** or **Code** editors to explore these items and add your own.
 
-> If you have an existing OpenAPI file, you can import it from this window rather than adding a blank API.
+> If you have an existing OpenAPI file, or a [Postman Collection](../6.-migrations/postman.md) file, you can import it from this window rather than adding a blank API.
 
 ### Add Markdown Files
 

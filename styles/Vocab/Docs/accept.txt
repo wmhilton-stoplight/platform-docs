@@ -1,5 +1,5 @@
 allowlist
-Apimatic
+APIMatic
 autogenerate
 Autogenerate
 Axios
@@ -22,6 +22,7 @@ Favicon
 favicon
 Figma
 Gantt
+GIF
 gif
 Giphy
 GitHub

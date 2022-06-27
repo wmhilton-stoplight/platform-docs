@@ -471,6 +471,11 @@
              },
              {
                 "type":"item",
+                "title":"Postman",
+                "uri":"6.-migrations/postman.md"
+             },
+             {
+                "type":"item",
                 "title":"Analytics",
                 "uri":"4.-documentation/e.configure-analytics.md"
              },
@@ -516,11 +521,6 @@
           "type":"group",
           "title":"Migrations",
           "items":[
-             {
-                "type":"item",
-                "title":"Migrating from Postman",
-                "uri":"6.-migrations/postman.md"
-             },
              {
                 "type":"group",
                 "title":"Stoplight Migrations",
