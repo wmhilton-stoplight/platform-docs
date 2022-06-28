@@ -1,7 +1,3 @@
----
-internal: true
----
-
 # Import Postman Collection
 
 Stoplight enables users to import a [Postman Collection](https://learning.postman.com/docs/sending-requests/intro-to-collections/) file from their local computer directly into Stoplight Studio.
@@ -11,8 +7,6 @@ Stoplight converts the Postman Collection to an OpenAPI 3.1 file, and then impor
 For each Postman Collection file you import into a project, a new OpenAPI specification file is created for it. There is currently no way to keep a Postman Collection and a Stoplight API specification in sync. If that's something you're interested in seeing in the product, add a note to the Stoplight [roadmap](https://roadmap.stoplight.io/tabs/7-under-consideration).
 
 Stoplight supports importing Postman Collection v2 and v2.1 files.
-
-> **Note**: this is only available for Stoplight Studio Web. To convert a Postman Collection to an OpenAPI Specification file directly, you can use the [APIMatic Transformer](https://www.apimatic.io/transformer/) online tool, or check the [postman-to-api repository](https://github.com/joolfe/postman-to-openapi) for a CLI option.
 
 ## Export a Postman Collection
 
