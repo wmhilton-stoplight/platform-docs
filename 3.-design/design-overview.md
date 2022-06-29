@@ -24,7 +24,7 @@ Once you have your API described in Stoplight Studio, you can:
 
 ### Studio Web vs. Studio Desktop
 
-Stoplight Studio is available in two different formats: desktop and web. Studio Desktop is an offline-first application that runs locally on your computer. Studio web is a web application that runs in your browser. 
+Stoplight Studio is available in two different formats: desktop and web. Studio Desktop is an offline-first application that runs locally on your computer. Studio Web is a web application that runs in your browser. 
 
 #### Studio Web
 

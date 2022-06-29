@@ -1,6 +1,8 @@
 # Design Editor Overview
 
-Use the Design Editor, also referred to as Stoplight Studio, to design and manage APIs, documentation, and related files stored in projects. Projects work and look the same in Studio Web and Studio Desktop, with a few differences. This topic describes projects in Studio Web. 
+Use the Design Editor, also referred to as Stoplight Studio, to design and manage APIs, documentation, and related files stored in projects. Projects work and look the same in Studio Web and Studio Desktop, with a few differences. Learn more about the differences in our [design overview](design-overview.md##studio-web-vs-studio-desktop).
+
+> This topic describes API projects in Studio Web. For [style guide projects](api-design-editor.md), only the **Styles** tab is available.
 
 ## Open a Project
 
@@ -26,11 +28,11 @@ Switch between tabs to work with project content:
 - **APIs** lists APIs, endpoints, models, request bodies, responses, parameters, and examples.
 - **Docs** lists Markdown and image files.
 - **Files** lists all project files.
-- **Styles** lists enabled style guides, rules, and targets.
+- **Styles** lists rules, targets, and functions that are either inherited from an enabled style guide or have been created in the API project.
 
 Select an item on any tab to open it in the Editor panel. 
 
-You can customize the [project sidebar](https://meta.stoplight.io/docs/platform/ZG9jOjIxOTkxNTkz-project-sidebar) to:
+You can customize the published [project sidebar](https://meta.stoplight.io/docs/platform/ZG9jOjIxOTkxNTkz-project-sidebar) to:
 
 - Customize the order of files
 - Override the title of files
@@ -43,14 +45,14 @@ You can customize the [project sidebar](https://meta.stoplight.io/docs/platform/
 
 * **Back to Workspace**: Leaves edit mode and returns you to the workspace home.
 * **Preferences**: 
-  - Autosave
+  - Autosave (Git projects only)
   - Show empty directories
   - Theme (dark, light, or the default set in Workspace settings)
 * **Git**:
   - Auto-pull 
   - Auto-translate SSH URLs
   <!-- https://github.com/stoplightio/platform-docs/issues/159 created to better document Git settings at a later time -->
-* **Reclone Project**
+* **Reclone Project** (Git projects only)
 * **Download Project ZIP**
 
 <!-- focus: center -->
@@ -65,7 +67,7 @@ You can customize the [project sidebar](https://meta.stoplight.io/docs/platform/
   - **Publish**: When the project isn't connected to a repository, shows when at least one change has been made in the project. 
   - **Commit and Publish**: When the project is connection to a repository, shows when at least one change has been made in the project.  
   - **Discard**: Once changes are made to a project, select the down arrow to discard them. 
-  > For web project, discarding impacts unpublished changes made by all users and not just the user performing the discard.
+  > For web projects, discarding impacts unpublished changes made by all users and not just the user performing the discard.
 
 **Project Name**: Shows the name of the current project. The version is shown for Stoplight projects. For projects connected to a repository, the name of the current branch is shown. Select the down arrow to pull changes into your project or to switch branches. 
 
