@@ -1,6 +1,6 @@
 # Project Settings
 
-Use project settings to change the name and other project information, move a project to a group, and manage web project versions and Git branches, and more.
+Use project settings to change the name and other project information, move a project to a group, manage web project versions and Git branches, and more.
 
 Project owners and administrators can modify project settings.
 
@@ -15,7 +15,7 @@ Use one of these methods to open the **Project Settings** page:
 
 * **Slug**: The value used in project URLs. Project slugs must be unique in a workspace.
 
-* **ID**: Used to identify the project by the [Element Dev Portal](https://meta.stoplight.io/docs/elements/ZG9jOjEyMDU2Njc2-introduction-to-elements-dev-portal).
+* **ID**: Used to identify the project by the [Elements Dev Portal](https://meta.stoplight.io/docs/elements/ZG9jOjEyMDU2Njc2-introduction-to-elements-dev-portal).
 
 * **Tagline**: Text here is shown below the project name in the workspace sidebar.
 
@@ -31,7 +31,7 @@ Use one of these methods to open the **Project Settings** page:
 
 You can create versions for Stoplight projects, which are also referred to as web projects.
 
-Since Stoplight projects are not tied to  Git, versions are useful for publishing distinct sets of content based on criteria of your choosing. This enables you to update content in one version without impacting content in others. The most common use is to version content based on a numbering or naming scheme (V1, V2, V2.2, etc.).
+Since Stoplight projects aren't tied to  Git, versions are useful for publishing distinct sets of content based on criteria of your choosing. This enables you to update content in one version without impacting content in others. The most common use is to version content based on a numbering or naming scheme (V1, V2, V2.2, etc.).
 
 Published versions are listed at the top of the table of contents in the project sidebar and are visible to anyone who can view the project. Project members can also see unlisted versions. 
 
@@ -71,7 +71,7 @@ You can configure a service account to be used with your Git provider in this se
 
 ## Delete Projects
 
-You can remove a project and all of its data from Stoplight. For Stoplight projects, the deletion is permanent. For Git projects, the underlying repo is not impacted, but the repo contents are removed from Stoplight.
+You can remove a project and all its data from Stoplight. For Stoplight projects, the deletion is permanent. For Git projects, the underlying repo isn't impacted, but the repo contents are removed from Stoplight.
 
 To delete a project:
 

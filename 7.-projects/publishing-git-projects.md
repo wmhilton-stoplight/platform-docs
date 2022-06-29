@@ -16,8 +16,8 @@ To view incoming and completed webhook events:
 2. Select the **Project Settings** icon. 
 3. Select the **Automation** tab. 
 
-![The Webhook Events header on the automation tab showing history of two recent "events", both completed quickly and successfully.](../assets/images/webhook-events.png)
+![The Webhook Events header on the automation tab showing the history of two recent "events," both completed quickly and successfully.](../assets/images/webhook-events.png)
 
 ## Troubleshoot Webhooks
 
-If changes are not publishing, use our [Troubleshooting](../2.-workspaces/configure-git/f-troubleshoot-git.md) steps to review webhook events to debug the problem. 
+If changes aren't publishing, use the [Troubleshooting](../2.-workspaces/configure-git/f-troubleshoot-git.md) steps to review webhook events to debug the problem. 

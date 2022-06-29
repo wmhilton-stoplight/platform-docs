@@ -19,11 +19,11 @@ To add a project, log in to your workspace, and then use one of these options:
 
 The **Create a Project** page opens with the **API** tab selected.
 
-> Style guide projects can be created by workspace owners aand admins only.
+> Style guide projects can be created by workspace owners and admins only.
 
 ## Add Stoplight Projects
 
-Stoplight projects offer real-time collaboration. Data is stored in Stoplight. A Git connection is not required and there is no extra setup. You can:
+Stoplight projects offer real-time collaboration. Data is stored in Stoplight. A Git connection isn't required and there is no extra setup. You can:
 
   - Create a blank project
   - Import an existing OpenAPI file
@@ -34,7 +34,7 @@ Stoplight projects offer real-time collaboration. Data is stored in Stoplight. A
 
 1. From the **Create a Project** page, select **Create Blank Project**.
 2. Provide a name for your project, and then set the [project visibility](../2.-workspaces/l.project-roles.md). 
-3. Optionally, select group to help organize your projects (Professional plan and above).
+3. Optionally, select a group to help organize your projects (Professional plan and above).
 4. Select **Create API Project**.
 5. Select **Edit** to design your API with Stoplight Studio.
 
@@ -42,7 +42,7 @@ Stoplight projects offer real-time collaboration. Data is stored in Stoplight. A
 
 1. From the **Create a Project** page, select **Import OpenAPI File**.
 2. Provide a name for your project, and then set the [project visibility](../2.-workspaces/l.project-roles.md). 
-3. Optionally, select group to help organize your projects (Professional plan and above).
+3. Optionally, select a group to help organize your projects (Professional plan and above).
 4. Select **Create Project & Import File**.
 5. Select the OpenAPI file to import, and then select **Import**.
 6. Use Stoplight Studio to update the API.
@@ -61,7 +61,7 @@ To add projects from Git:
 1. From the **Create a Project** page, select an option under **Git Project**.
 2. Select **Connect**. Follow the instructions on the popup screen to authorize.
 3. Upon successful authentication, choose your organization, and then add repositories using one or both of these options:
-    - **Add project via repository URL**: here you can paste the URL for a Git repository that you want to import. For GitHub, GitLab, and Bitbucket repositories, the URL must end with `.git`.
+    - **Add project via repository URL**: here you can paste the URL of a Git repository that you want to import. For GitHub, GitLab, and Bitbucket repositories, the URL must end with `.git`.
     - **Select repository from the list**: this list will display all repositories you have access to from the selected organization. You can use the search bar to filter the list, and then select the repositories you would like to add.
 4. The **Install Webhooks** option is selected by default. This enables automatic publishing from your project when changes are pushed to the repository. Clear this option to disable automatic publishing. See [Publishing Git Projects](../7.-projects/publishing-git-projects.md) for details. 
 5. Next, select **Add Git Project**.
@@ -70,7 +70,7 @@ Once the project is created and the analyzer has completed, it will contain Mark
 
 ### Custom Git Configurations
 
-See [Git Overview](../2.-workspaces/configure-git/a.configuring-git.md) for a list of our supported Git configurations.
+See [Git Overview](../2.-workspaces/configure-git/a.configuring-git.md) for a list of Git configurations supported by Stoplight.
 
 ## Add CLI Projects
 
@@ -78,7 +78,7 @@ If you use a version control system other than Git (Mercurial, SVN, SourceSafe, 
 
  ![add-projects](../assets/images/add-cli-project.png)
 
-Stoplight CLI is a command-line tool, available as [an NPM module](https://www.npmjs.com/package/@stoplight/cli), that can publish changes to Stoplight. CLI projects are shown in Explorer like other projects. They won't be editable in Studio Web, but the content will be available to read and search like anything else. 
+Stoplight CLI is a command-line tool, available as [an NPM module](https://www.npmjs.com/package/@stoplight/cli), that can publish changes to Stoplight. CLI projects are shown in the Explorer like other projects. They won't be editable in Studio Web, but the content will be available to read and search like anything else. 
 
 Read more about [working with local projects](../2.-workspaces/f.working-with-local-projects.md).
 

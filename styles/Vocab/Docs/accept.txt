@@ -14,7 +14,9 @@ camelcase
 Codepen
 Config
 config
+Ctrl
 dereference
+Dev
 enum
 enums
 falsy
@@ -53,6 +55,7 @@ Ruleset
 ruleset
 Runkit
 Slideshare
+Sourcetree
 Spotify
 Strikethrough
 strikethrough

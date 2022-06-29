@@ -85,7 +85,7 @@ Select a project from the list, and then select the **Members** tab.
 Here, you can:
 
 * Invite members to the project by name or email address. You can set the role to the same or lower access as yours as you invite members.
-* Set the [project visbility](../2.-workspaces/l.project-roles.md#project-visibility) for API projects. (Style Guide projects always have internal visibility.)
+* Set the [project visibility](../2.-workspaces/l.project-roles.md#project-visibility) for API projects. (Style Guide projects always have internal visibility.)
 * See the list of project members and change [project access](../2.-workspaces/l.project-roles.md) to the same or lower access as yours. 
 * Remove members (project and workspace owners only).
 

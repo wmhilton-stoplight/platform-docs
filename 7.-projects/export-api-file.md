@@ -15,10 +15,10 @@ API documents are exported from the published documentation view or from Explore
 
 There are two options for exporting references:
 
-* **Original**: $refs are are exported but not resolved.
-* **Bundled References**. All $refs are resolved and an placed in the components section so there is no duplication.
+* **Original**: $refs are exported but not resolved.
+* **Bundled References**. All $refs are resolved and placed in the components section so there is no duplication.
 
-The following images shows an example of both options. An export with the original option is on the left; bundled references are shown on the right.
+The following images show an example of both options. An export with the original option is on the left; bundled references are shown on the right.
 
 ![$Ref Export Examples](https://stoplight.io/api/v1/projects/cHJqOjI/images/UxXy5sQvKM4)
 
@@ -79,7 +79,7 @@ Downloading projects resolves $refs in OpenAPI and JSON Schema files. Design lib
 
 Use this option to export individual files in your project. The steps apply to Studio Web and Studio Desktop.
 
-> Spectral files cannot be exported.
+> Spectral files can't be exported.
 
 1. Log in to your workspace, and then edit a project.
 2. Select the **Files** tab.

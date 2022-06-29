@@ -1,6 +1,6 @@
 # Publish Stoplight Projects
 
-The quickest and easiest way to publish is to use Stoplight web projects. Web projects are not connected to a repository or version control system, and data is stored in the Stoplight database. Changes are immediately published.
+The quickest and easiest way to publish is to use Stoplight web projects. Web projects aren't connected to a repository or version control system, and data is stored in the Stoplight database. Changes are immediately published.
 
 To publish Stoplight projects:
 
@@ -14,7 +14,7 @@ To publish Stoplight projects:
 
 ## Discard Changes
 
-You can discard changes made since the last publish of a project. Be aware that this action impacts unpublished changes made by all users and not just the user performing the discard.
+You can discard changes made since the last published content of a project. Be aware that this action impacts unpublished changes made by all users and not just the user performing the discard.
 
 To discard changes:
 
