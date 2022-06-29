@@ -25,7 +25,7 @@ To import your JSON file into Stoplight:
 2. Select the **Add** icon (+) at the top of the left pane, and select **API**.
 3. Select **Import Postman Collection**, and select your Postman Collection JSON file on your local file system.
 
-![Stoplight New API modal](https://stoplight.io/api/v1/projects/cHJqOjI/images/wB9wg6SMenY)
+![Stoplight New API modal](https://stoplight.io/api/v1/projects/cHJqOjI/images/xMmT5n6KzlM)
 
 And you’re all set! You should now have a new API in your project with all the information from the endpoints in your Postman Collection.
 
