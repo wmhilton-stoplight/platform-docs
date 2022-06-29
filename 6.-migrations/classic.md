@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # Migrating from Stoplight Classic
 
 ## Introduction
@@ -11,7 +9,7 @@ provider.
 
 To start, head over to Stoplight Platform and [create a workspace](https://stoplight.io/welcome/create) for your company. Note that while you might have multiple workspaces for your company in Stoplight Classic, you will only have one workspace for your company on the new Stoplight Platform.
 
-After creating your workspace, you should land on the Classic Migration screen. If not, click on your workspace name in the top left of the screen and navigate to "Settings". From there you should see a "Classic Migration" tab.
+After creating your workspace, you should land on the Classic Migration screen. If not, click on your workspace name in the top left of the screen and navigate to "Settings." From there you should see a "Classic Migration" tab.
 
 If you don't see the "Classic Migration" tab, you can navigate there directly by adding `/admin/legacy-migration/classic` to the end of your workspace URL.
 
@@ -44,7 +42,7 @@ However, there are a few items that won't be migrated:
 
 ### Stoplight Platform vs Stoplight Classic
 
-While the new Stoplight Platform includes a lot of new functionality, there are some features from Classic that have not yet made their way over.
+While the new Stoplight Platform includes a lot of new functionality, there are some features from Classic that haven't yet made their way over.
 
 Below are several features that were available in Classic that are linked to our upcoming roadmap. We encourage you to follow the features relevant to you - we'll notify you as each is released.
 
@@ -64,7 +62,7 @@ The concepts in the new Stoplight Platform should be very similar to what you're
 
 **Is a Stoplight Workspace similar to a Workspace in Classic?**
 
-Yes, they are very similar. Just like in a Classic workspace, your workspace is where you'll invite members, add projects, and create a billing subscription. However the main difference is you will only have one Workspace for your entire company in Stoplight Platform.
+Yes, they're very similar. Just like in a Classic workspace, your workspace is where you'll invite members, add projects, and create a billing subscription. However the main difference is you will only have one Workspace for your entire company in Stoplight Platform.
 
 **How do the members roles compare to the ones in Classic?**
 

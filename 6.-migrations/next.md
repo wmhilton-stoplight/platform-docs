@@ -1,5 +1,3 @@
-<!-- vale off -->
-
 # Migrating from NEXT
 
 ## Introduction
@@ -15,7 +13,7 @@ This shift leads to a number of benefits:
 1. **No lock-in:** Your data is your own, stored in your Git repositories.
 2. **Tooling flexibility:** Convincing developers to adopt a new tool can be difficult. With our new approach, developers can continue to use the tools that they're most comfortable with - all they need to do is commit design/docs files to your Git repos. If some of them prefer to write OpenAPI by hand in VS Code rather than using Stoplight Studio, no problem!
 3. **Workflow flexibility:** Since Stoplight is built on your VCS, it's easy to leverage the development workflows that already exist at your company - PR reviews, CI, GitHub actions, custom VCS integrations, you name it.
-4. **Co locate alongside implementation:** In NEXT you are forced to store your design/docs files in a flat list, separate from the implementation they are meant to describe. In our new Platform you can organize your files however you like, including managing them in the same repo as the actual API implementation! This has a number of benefits, such as reviewing changes to design and implementation in a single Pull Request.
+4. **Co locate alongside implementation:** In NEXT you are forced to store your design/docs files in a flat list, separate from the implementation they're meant to describe. In our new Platform you can organize your files however you like, including managing them in the same repo as the actual API implementation! This has a number of benefits, such as reviewing changes to design and implementation in a single Pull Request.
 
 The list above describes some of the large fundamental opportunities our new approach opens up. Beyond that there are of course dozens of new features and enhancements packed into the new Platform.
 
@@ -23,7 +21,7 @@ The list above describes some of the large fundamental opportunities our new app
 
 To start, head over to Stoplight Platform and [create a workspace](https://stoplight.io/welcome/create) for your company. Note that while you might have multiple organizations for your company in Stoplight NEXT, you will only have one workspace for your company on the new Stoplight Platform.
 
-After creating your workspace, you should land on the NEXT Migration screen. If not, click on your workspace name in the top left of the screen and navigate to "Settings". From there you should see a "NEXT Migration" tab.
+After creating your workspace, you should land on the NEXT Migration screen. If not, click on your workspace name in the top left of the screen and navigate to "Settings." From there you should see a "NEXT Migration" tab.
 
 If you don't see the "NEXT Migration" tab, you can navigate there directly by adding `/admin/legacy-migration/next` to the end of your workspace URL.
 
@@ -56,14 +54,14 @@ However, there are a some items that won't be migrated:
 - **Members** - the roles and permission system is slightly different in Stoplight Platform (see FAQ below), so Stoplight won't be able to migrate your teammates. You can [configure an allowed email domain](../2.-workspaces/allowed-email-domains.md) so your teammates can automatically join your workspace or [invite them manually by email](../2.-workspaces/d.inviting-your-team.md).
 - **Teams** - Stoplight is currently developing [Groups](https://roadmap.stoplight.io/c/137-workspace-groups) functionality.
 - **Multiple Hubs** - Only one Hub will be migrated per project. The migration tool will try to find a published `main.hub` file or the most recently published Hub file. If there are no published Hubs, the most recently edited Hub will be chosen. If you have multiple Hubs in a NEXT project and want them all migrated, you will need to move each Hub into its own NEXT project.
-- **Hub Layout** - Stoplight Platform's documentation layout is completely driven by the sidebar, so the Hub's header and footer items will not be migrated. However, the migration tool will transform all of the Hub's pages and routes into markdown files, while keeping them in the same order in the sidebar as the Hub's table of contents. Once migrated, you will be able to [customize the sidebar](../4.-documentation/Sidebar/a.customize-sidebar.md).
+- **Hub Layout** - Stoplight Platform's documentation layout is completely driven by the sidebar, so the Hub's header and footer items won't be migrated. However, the migration tool will transform all of the Hub's pages and routes into markdown files, while keeping them in the same order in the sidebar as the Hub's table of contents. Once migrated, you will be able to [customize the sidebar](../4.-documentation/Sidebar/a.customize-sidebar.md).
 - **Hosted docs** - Stoplight won't be able to migrate your hosted documentation settings, such as themes, [custom domains](../2.-workspaces/j.custom-domains.md), [authentication](../2.-workspaces/e.configuring-authentication.md), and [analytics](../4.-documentation/e.configure-analytics.md). You will need to reconfigure these in your new Workspace's settings.
-- **HTML, CSS and JS** - Stoplight Platform does not support HTML, CSS or JS. If you need a fully customizable documentation, take a look at our open source tool [Elements](https://stoplight.io/open-source/elements/) to embed your API reference documentation into a custom developer portal.
-- **Scenarios** - Stoplight Platform does not support Scenarios. If you need contract testing, take a look at our open source tool [Prism](https://stoplight.io/open-source/prism/), and its built-in [Validation Proxy](https://meta.stoplight.io/docs/prism/ZG9jOjk3-validation-proxy).
+- **HTML, CSS and JS** - Stoplight Platform doesn't support HTML, CSS or JS. If you need a fully customizable documentation, take a look at our open source tool [Elements](https://stoplight.io/open-source/elements/) to embed your API reference documentation into a custom developer portal.
+- **Scenarios** - Stoplight Platform doesn't support Scenarios. If you need contract testing, take a look at our open source tool [Prism](https://stoplight.io/open-source/prism/), and its built-in [Validation Proxy](https://meta.stoplight.io/docs/prism/ZG9jOjk3-validation-proxy).
 
 ### Stoplight Platform vs Stoplight NEXT
 
-While the new Stoplight Platform includes a lot of new functionality, there are some features from NEXT that have not yet made their way over. We are taking this opportunity to re-imagine and improve the functionality listed below, and will be rolling it out through the rest of the year.
+While the new Stoplight Platform includes a lot of new functionality, there are some features from NEXT that haven't yet made their way over. We're taking this opportunity to re-imagine and improve the functionality listed below, and will be rolling it out through the rest of the year.
 
 Each feature is linked to a card on our public roadmap, and we encourage you to follow the features relevant to you - we'll notify you as each is released.
 
@@ -89,7 +87,7 @@ The concepts in the new Stoplight Platform should be very similar to what you're
 
 **Is a Stoplight Workspace similar to an Organization in NEXT?**
 
-Yes, they are very similar. Just like in a NEXT organization, your Workspace is where you'll invite members, add projects, and create a billing subscription.
+Yes, they're very similar. Just like in a NEXT organization, your Workspace is where you'll invite members, add projects, and create a billing subscription.
 
 **How do the members roles compare to the ones in NEXT?**
 
