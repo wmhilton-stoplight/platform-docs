@@ -34,9 +34,9 @@ Select an item on any tab to open it in the Editor panel.
 
 You can customize the published [project sidebar](https://meta.stoplight.io/docs/platform/ZG9jOjIxOTkxNTkz-project-sidebar) to:
 
-- Customize the order of files
+- Customize the order of APIs, endpoints, and articles
+- Organize endpoints within a single API into groups
 - Override the title of files
-- Selectively expose or hide files
 
 ## Project Toolbar
 <!-- The options in this section match the UI but go againt Vale rules -->

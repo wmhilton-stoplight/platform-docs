@@ -128,7 +128,6 @@ bg: "#1A202C"
 -->
 ![Custom TOC with Endpoint Ordering](https://stoplight.io/api/v1/projects/cHJqOjI/images/McNor4d1EWU)
 
-
 ### Add a TOC to a Project
 
 Adding a TOC is the easiest way to get started. When you do this, the TOC organizes your existing project files in the [default structure](#the-default-structure). You can then change the order, add new entries, etc. 
@@ -185,7 +184,13 @@ At the bottom of the table of contents are JSON Schema model files that are outs
 
 - Endpoints or models without tags are placed at the root level and follow the order in the specification. 
 - All API endpoints and models are nested inside [groups](#groups) titled after their first tag. 
-- Within each group, endpoints and models follow the order in the specification.
+- Within each group, endpoints and models follow the order in the specification for each API. You can manually move endpoints and models in the YAML or JSON file, or use the **Up** and **Down** arrows in the Design Editor.
+
+<!--
+focus: center
+bg: "#1A202C"
+-->
+![Order endpoints](https://stoplight.io/api/v1/projects/cHJqOjI/images/0g4ILEJ0qUg)
 
 ## Endpoint Group Reordering
 
