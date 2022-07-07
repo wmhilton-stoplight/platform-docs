@@ -12,7 +12,7 @@ Use one of these methods to manage project access:
 
 * Select the **Share** button when you are editing a project or from the project sidebar when you are viewing a project.
 <!-- focus: false -->
-![share-project.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/wiaJr2Ql6FI)
+![Share a project](https://stoplight.io/api/v1/projects/cHJqOjI/images/wiaJr2Ql6FI)
 
 * Select the **Projects** tab on the **Workspace** toolbar. Select a project, and then select the [**Members** tab](../7.-projects/project-settings.md#members-overview) on the **Project** details pane.
 
@@ -70,6 +70,7 @@ Permissions for each project role:
 | Track branches            | ✅     | ✅    | ✅      |        |       |
 | View settings             | ✅     | ✅    | ✅      |        |       |
 | Enable style guides       | ✅     | ✅    | ✅      |        |       |
+| Disable default style guides*| ✅ | ✅ |  ✅  |      |        |       |
 | Edit settings             | ✅     | ✅    |        |        |        |
 | Manage service accounts   | ✅     | ✅    |        |        |        |
 | Remove members            | ✅     | ✅    |        |        |        |
@@ -78,6 +79,8 @@ Permissions for each project role:
 | Leave the project         |        | ✅    | ✅      | ✅      |✅    |
 
 > **Note:** To edit Git projects, users need permissions in both Stoplight and the Git repository.
+
+`*` Unless disabled at the workspace level. See [Governance Settings](workspace-governance.md) for details.
 
 ### Request Project Permissions
 

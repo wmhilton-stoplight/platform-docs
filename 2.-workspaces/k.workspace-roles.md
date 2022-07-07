@@ -23,6 +23,7 @@ Roles include:
 | View members                 |     | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Add new API projects         |     |     | ✅ | ✅ | ✅ | ✅ |
 | Add new style guide projects |     |     |    |    | ✅ | ✅ |
+| Set default style guides     |     |     |    |    | ✅ | ✅ |
 | Can use Studio               |     |     | ✅ | ✅ | ✅ | ✅ |
 | Manage project groups        |     |     |    | ✅ | ✅ | ✅ |
 | Manage billing               |     |     |    | ✅ | ✅ | ✅ |

@@ -14,7 +14,7 @@ Reuse targets across rules in your style guide to target specific areas of the A
 To create a local target:
 
 1. Edit a style guide project or a project that has a style guide enabled.
-2. In the **Targets** area of the left pane, select the **Add** icon (+) to open the **Target** editor.
+2. Select the **Add** icon (+), and then select **Add Target**.
 3. In the **Target** editor:
     - Add a name that contains no spaces. Separate words with underscores to [organize targets](#organize-targets) into groups.
     - Select **Add markdown here** in the **Description** to open a markdown editor and add a description so others understand when to use the target.

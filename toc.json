@@ -163,6 +163,10 @@
                 "type":"item",
                 "title":"Update Style Guides",
                 "uri":"2a.-style-guides/f.refresh-style-guide.md"
+             },             {
+                "type":"item",
+                "title":"Import Style Guides",
+                "uri":"2a.-style-guides/import-style-guides.md"
              },
              {
                 "type":"item",
@@ -261,6 +265,11 @@
                       "type":"item",
                       "title":"Custom Domains",
                       "uri":"2.-workspaces/j.custom-domains.md"
+                   },
+                   {
+                      "type":"item",
+                      "title":"Governance",
+                      "uri":"2.-workspaces/workspace-governance.md"
                    },
                    {
                       "type":"item",

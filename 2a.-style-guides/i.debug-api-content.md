@@ -18,6 +18,6 @@ To debug API content:
 
 If your JSON violates the selected rule, the rule's message is shown in the **Validation List**.
 
-![Debug Rules](https://stoplight.io/api/v1/projects/cHJqOjI/images/kX3GKtL648g)
+![Debug Rules](https://stoplight.io/api/v1/projects/cHJqOjI/images/lS1TIbBltPo)
 
 If your rule is invalid, you receive this error: "Your Spectral ruleset contains errors." In this case, you need to adjust the rule.

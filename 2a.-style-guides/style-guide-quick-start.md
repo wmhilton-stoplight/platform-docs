@@ -5,7 +5,7 @@ Follow these steps to use style guides that bring consistency and easy governanc
 You can take one of two approaches:
 
 * Create a style guide that you can share across all API projects in your workspace (Professional plan and above). See [Create a Shareable Style Guide](#create-a-shareable-style-guide).
-* Create rules in an API project. These rules cannot be shared. See [Use a Local Style Guide](#use-a-local-style-guide).
+* Create rules in an API project. These rules can't be shared. See [Use a Local Style Guide](#use-a-local-style-guide).
 
 ## Create a Shareable Style Guide
 
@@ -29,14 +29,14 @@ Rules and targets are organized under the **Inherited** list in the left navigat
 
 ![Sample Rule](https://stoplight.io/api/v1/projects/cHJqOjI/images/I2UDPwPEW88)
 
-> If you do not want your API validated against a specific rule, select **Disabled** from the **Severity** list in the Rule Editor. ![Disable a rule](../assets/images/style-guide-disable-rule.png)
+> If you don't want your API validated against a specific rule, select **Disabled** from the **Severity** list in the Rule Editor. ![Disable a rule](../assets/images/style-guide-disable-rule.png)
 >You can also [disable the entire default style guide](d-enable-style-guide.md#disable-a-style-guide).
 
 ### 3. Create a Local Rule
 
-1. From the left pane, select the **Add** icon (+) next to **Rules**.
+1. Select the **Add** icon (+), and then select **Add Rule**.
 
-![Add Rule Icon](https://stoplight.io/api/v1/projects/cHJqOjI/images/UeeGJYxuCeA)
+![Add rule icon](https://stoplight.io/api/v1/projects/cHJqOjI/images/5JDWYZgLJx8)
 
 2. Configure the three main rule areas:
     * [Rule Settings](c-create-rules.md#Rule-Settings)
@@ -80,6 +80,6 @@ The APIs in your project are validated against the style guides you enable.
 
 From an API project, you can:
 
-* [Create rules](#create-a-local-rule) specific to the API project. Note that these cannot be shared.
+* [Create rules](#create-a-local-rule) specific to the API project. Note that these can't be shared.
 * [Disable rules](j-disable-rules.md) in the Stoplight Style Guide. 
 * [Disable the Stoplight Style Guide](d-enable-style-guide.md#disable-a-style-guide).

@@ -14,10 +14,11 @@ To create a rule:
    - A style guide project so the rule can be automatically applied to API projects that use that style guide (Professional and Enterprise plans only). 
    - An API project to add the rule to that project only. 
 2. Select the **Styles** tab.
-3. From the left pane, select the **Add** icon (+) next to **Rules**.
-![Add Rule Icon](https://stoplight.io/api/v1/projects/cHJqOjI/images/hm9KXmTzOcg)
+3. Select the **Add** icon (+), and then select **Add Rule**.
 
-4. Configure the three main rule areas:
+![Add a Rule](https://stoplight.io/api/v1/projects/cHJqOjI/images/XmlF2nrOcSM)
+
+4. In the **Rule** editor, configure the three main rule areas:
     1. [Rule Settings](#Rule-Settings)
     2. [Given Settings](#Given-Settings)
     3. [Then Settings](#Then-Settings)

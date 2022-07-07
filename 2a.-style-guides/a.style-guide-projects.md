@@ -20,13 +20,11 @@ See [this blog](https://blog.stoplight.io/explore-these-top-api-style-guide-reso
 
 There are three types of style guides:
 
-1. **Stoplight Style Guide**: This default style guide is always enabled for projects. You can use the style guide as is, disable individual rules, or disable the entire style guide. See the list of rules in the [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide).
-2. **Local style guides**: Rules are created within an API project. You can't share local style guides with other projects.
-3. **Shared style guides**: Use a dedicated project type to create style guides, and then share them across projects, business units, or workspace groups.
+1. **Public style guides**: Guides that come from external sources, including the Stoplight Style Guide. This style guide is automatically enabled for all API projects. You can use the style guide as is, disable individual rules, or disable the entire style guide. See the list of rules in the [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide).
+2. **Local style guides**: Rules created within an API project. You can't share local style guides with other projects.
+3. **Workspace style guides**: Use a dedicated project type to create style guides, and then share them across projects, business units, or workspace groups.
 
-[Depending on your plan](#style-guide-access), you can enable multiple style guides in an API project. For example, you can enable a global style guide that contains rules that apply to all APIs designed by your organization, and then enable a style guide that contains rules specific to your team or project.
-
-When a shared style guide is updated, you can apply those updates to your project to ensure you're always using the latest version.
+Workspace owners and admins can set default style guides that are automatically enabled for new projects (Professional and Enterprise plans only). Owners and admins can also prevent project owners, admins, and editors from disabling default style guides. See [Workspace Settings](../2.-workspaces/workspace-governance.md) for details.
 
 ## Style Guide Organization
 
@@ -40,7 +38,7 @@ How you manage style guides depends on your organization, but here are some idea
 
 Once a style guide is published, documentation is available for each rule in the guide. Documentation isn't available for rules defined in local style guides, however.
 
-Rules are listed in alphanumeric order.
+Rules are listed by severity, then in alphanumeric order.
 
 ![style-guides-documentation.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/tvblLpW4NyQ)
 
@@ -56,6 +54,8 @@ To enable style guides in other projects, you must be on a professional or enter
 | Enable Stoplight style guide    | ✅    | ✅     | ✅     | ✅     |
 | Create style guide projects     | ✅    | ✅     | ✅     | ✅     |
 | Enable shared style guides      |        |        | ✅     | ✅     |
+| Set default style guides for a workspace |      | | ✅     | ✅     |
+| Allow disabling of default style guides |       | | ✅     | ✅     |
 
 *Based on plan project limit.
 
@@ -63,7 +63,6 @@ To enable style guides in other projects, you must be on a professional or enter
 
 Stoplight is actively improving style guides and many updates are in progress. Here are a few known limitations:
 
-- You can't import existing Spectral rulesets into Style Guide projects. You can, however, import Spectral rulesets into API projects. See [Imported Style Guides](a1.create-style-guide.md#imported-style-guides) for details.
 - The Rule Editor currently supports one property/field per rule. If you need to evaluate multiple fields, create a separate rule for each field. 
 - Style Guides aren't available in Studio Desktop or in Stoplight CLI projects.
 
