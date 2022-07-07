@@ -4,11 +4,6 @@ stoplight-id: 10d5c35b280a9
 
 # Service Accounts Overview
 
-<!--
-focus: false
--->
-![New feature badge](../../assets/images/badge-new-small.png)
-
 > This feature is available for all Stoplight plans, but Stoplight highly recommends it for large teams and organizations.
 
 Service Accounts are a special type of account, generally representing a non-user, that teams or organizations can use to manage authentication and permissions with third-party services.
