@@ -48,7 +48,7 @@ You can add this command to a [Continuous Integration server](g.automating-publi
 
 1. Download [Studio Desktop](https://stoplight.io/studio). 
 2. Use the **Open Existing Folder** option on the Studio Desktop start screen to navigate to the local project.
-3. Edit files using the form or code editors. Read the [Studio documentation](https://meta.stoplight.io/docs/studio/) for more specifics.
+3. Edit files using the [Design Editor](../3.-design/api-design-editor.md). 
 4. Once you are done editing, push the files using the CLI or automate publishing in [continuous integration](g.automating-publishing.md#stoplight-cli).
 
 ## Continuous Integration

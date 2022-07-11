@@ -60,11 +60,11 @@ The **Home Screen** is the landing page for your workspace and the first thing u
 
 You can:
 
-- Use the default template to get started quickly.
+- Use the default template to get started.
 - Edit the default template to personalize it for your company. 
 - Completely replace the default template. 
 
->Use traditional Markdown along with [Stoplight Flavored Markdown](https://meta.stoplight.io/docs/studio/docs/Documentation/03a-stoplight-flavored-markdown.md). 
+>Use traditional Markdown along with [Stoplight Flavored Markdown](../4.-documentation/stoplight-flavored-markdown.md). 
 
 1. Select the right arrow next to **Landing Page**.
 2. Use the **Home Screen Markdown** page to add information to the page. 

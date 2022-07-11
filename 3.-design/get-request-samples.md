@@ -17,7 +17,7 @@ The default language is **Shell / cURL**.
 
 ### Supported Languages
 
-> These request samples come from the open-source package [httpsnippet](https://github.com/Kong/httpsnippet), so if you'd like to contribute more, first send them a pull request then open an issue on [this GitHub repository](https://github.com/stoplightio/studio/issues).
+> These request samples come from the open-source package [httpsnippet](https://github.com/Kong/httpsnippet). If you'd like to contribute more, send them a pull request, and then open an issue on this [GitHub repository](https://github.com/stoplightio/elements).
 
 Language | Library
 ---------|----------

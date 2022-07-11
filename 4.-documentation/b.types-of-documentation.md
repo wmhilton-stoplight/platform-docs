@@ -59,7 +59,7 @@ Endpoint documentation is organized into easy-to-navigate sections:
    - Response codes organized into tabs
    - Response headers
    - Reponse body
-4. ["Try It"](https://meta.stoplight.io/docs/studio/ZG9jOjc0-try-it) 
+4. ["Try It"](../3.-design/try-it.md) 
    - Provide authorization and parameters as part of each request
    - Select servers configured for the API
    - Get responses in preview or raw mode
@@ -73,7 +73,7 @@ Endpoint documentation is organized into easy-to-navigate sections:
 
 ### Models
 
-[Models](https://meta.stoplight.io/docs/studio/ZG9jOjcy-working-with-models) are the schemas that go in your API's request or response bodies. They're included in your API documentation.
+[Models](../3.-design/http-endpoints.md) are the schemas that go in your API's request or response bodies. They're included in your API documentation.
 
 ![API Endpoints](../assets/images/docs-api-model.png)
 
@@ -87,7 +87,7 @@ To learn more, see:
 
 - [Table of Contents](../4.-documentation/Sidebar/d.table-of-contents.md)
 - [Project Configuration](../2.-workspaces/c.config.md)
-- [Stoplight-flavored Markdown](https://meta.stoplight.io/docs/studio/ZG9jOjg0-stoplight-flavored-markdown-smd)
+- [Stoplight-flavored Markdown](stoplight-flavored-markdown.md)
 - [Add Images](f.adding-images.md)
 
 ### Getting Started Guides 

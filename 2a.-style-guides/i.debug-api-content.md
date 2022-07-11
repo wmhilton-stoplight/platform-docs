@@ -14,9 +14,9 @@ To debug API content:
 2. Select the **Styles** tab.
 3. Select a rule from the left side panel.
 4. Select **Debug**.
-5. If you are working in an API project that has existing endpoints, that content is automatically added to the **Debug** window. If you are working in a style guide project, example content is provided. Add JSON content to validate your rules.
+5. Example content is provided in the **Debug** window, but you can add your own JSON content to validate your rules.
 
-If your JSON violates the selected rule, the rule's message is shown in the **Validation List**.
+If the JSON violates the selected rule, the rule's message is shown in the **Validation List**.
 
 ![Debug Rules](https://stoplight.io/api/v1/projects/cHJqOjI/images/lS1TIbBltPo)
 
