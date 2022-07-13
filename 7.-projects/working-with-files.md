@@ -6,7 +6,7 @@ tags: []
 
 Once you create an API project, add files to start designing APIs and documentation. 
 
-Studio supports files in multiple formats:
+These file types are supported:
 
 - **API**: API description documents (YAML or JSON)
 - **Endpoint**: Individual paths and operations (YAML or JSON)

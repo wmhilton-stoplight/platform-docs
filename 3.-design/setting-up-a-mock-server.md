@@ -2,29 +2,29 @@
 tags: [Design]
 ---
 
-# Working with Mock Servers
+# Work with Mock Servers
 
 Stoplight offers free, automatically updated HTTP mock servers for every API published in your workspace. These mock servers simulate real APIs by providing endpoints and validation rules described in your API documentation. 
 
 This allows client developers to begin writing code for frontend services like web, mobile, or other backend applications while API developers are writing their code. This can help find and solve problems early on, before the API is built.
 
-Stoplight mock servers are powered by the open-source mock server, [Prism](https://stoplight.io/open-source/prism). 
+Stoplight mock servers are powered by the open-source mock server, [Prism](https://stoplight.io/open-source/prism). Learn more about Prism:
 
-   <!-- theme: info -->
+- [Response Generation](https://meta.stoplight.io/docs/prism/ZG9jOjk1-http-mocking#response-examples)
+- [Static Generation](https://meta.stoplight.io/docs/prism/ZG9jOjk1-http-mocking#static-response-generation)
+- [Dynamic Generation](https://meta.stoplight.io/docs/prism/ZG9jOjk1-http-mocking#dynamic-response-generation) 
+- [Request Validation](https://meta.stoplight.io/docs/prism/ZG9jOjk2-request-validation)
+- [Help with Errors](https://meta.stoplight.io/docs/prism/ZG9jOjE2MDY1NjY5-errors)
 
-> #### Learn more about Prism
->
->- [Response Generation](https://meta.stoplight.io/docs/prism/ZG9jOjk1-http-mocking#response-examples)
->- [Static Generation](https://meta.stoplight.io/docs/prism/ZG9jOjk1-http-mocking#static-response-generation)
->- [Dynamic Generation](https://meta.stoplight.io/docs/prism/ZG9jOjk1-http-mocking#dynamic-response-generation) 
->- [Request Validation](https://meta.stoplight.io/docs/prism/ZG9jOjk2-request-validation)
->- [Help with Errors](https://meta.stoplight.io/docs/prism/ZG9jOjE2MDY1NjY5-errors)
+> Stoplight provides hosted mock servers for convenience so that API consumers can experiment with an API without the need for backend code. However, a standalone Prism Proxy server is suggested for CI/CD integrations that will result in a large number of API calls. For guidance, see the [Prism documentation](https://meta.stoplight.io/docs/prism/72d69fb629de0-validation-proxy) or [this blog](https://blog.stoplight.io/a-deep-dive-into-prism-for-open-source-october).
+
+## Use Mock Servers
 
 Use mock servers for any OpenAPI file:
 
-- From the documentation for any endpoint in Studio Web.
-- From your own HTTP client or front-end applications. (First, import the Git project into a Stoplight project. Push your changes to Git, and then follow instructions for using hosted mock servers.)
-- From any endpoint in Studio Desktop.
+- From the documentation for any endpoint in [Studio Web](#studio-web)
+- From your own [HTTP client or front-end application](#any-http-client)
+- From any endpoint in [Studio Desktop](#studio-desktop).
 
 Mock servers can be used for all branches for projects that are up to date with the latest version of API specifications. 
 
