@@ -2,7 +2,7 @@
 
 APIs have become the cornerstone of growth across organizations of all shapes and sizes. In the past, APIs might have been an afterthought, created to satisfy integration requirements at a later point. Now they drive core new business models, providing critical integrations, and improving efficiency throughout multiple products.
 
-The rise in importance means **shipping poorly planned APIs isn't an option anymore**, and Stoplight aims to bring together all the tools you need to make sure you're APIs are the best they can be.
+The rise in importance means **shipping poorly planned APIs isn't an option anymore**, and Stoplight aims to bring together all the tools you need to make sure your APIs are the best they can be.
 		
 ### What's Stoplight?
 
