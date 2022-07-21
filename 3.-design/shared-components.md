@@ -1,10 +1,7 @@
 # Shared Components
 
 When using Stoplight, or OpenAPI in general, there are various different
-components that can be either defined within an endpoint or reused between
-multiple endpoints. To help reduce repetition (and the chance of introducing
-errors), it's important to:
-
+components that can be either defined within an endpoint or reused between multiple endpoints. To help reduce repetition (and the chance of introducing errors), it's important to:
 * Identify endpoints with common parameters, schemas, request bodies, or responses.
 * Use shared components to reference the same component multiple times instead  of rewriting the properties for each individual endpoint.
 
@@ -45,6 +42,8 @@ Use shared models to:
 - De-duplicate common structures like models, reducing repetition and allowing them to be used for other purposes like [contract testing](https://apisyouwonthate.com/blog/writing-documentation-via-contract-testing).
 - Similar parameters or headers can be shared across multiple endpoints.
 - Examples for request or response bodies can be reused.
+
+See [Models and Schemas](models.md) to learn how to create a model.
 
 ### Use Shared Models
 

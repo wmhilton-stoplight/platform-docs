@@ -76,9 +76,9 @@ You can customize the published [project sidebar](https://meta.stoplight.io/docs
 Use the main editor panel to design APIs, write supporting documentation, and update style guides. 
 
 Choose different views:
- - **Form**: Offers an intuitive editor for APIs, endpoints, and models. 
+ - **Form**: Offers an intuitive editor for APIs, endpoints, and models. Use the [JSON Schema Editor](json-schema-editor.md) to design data models for requests and responses.
  - **Code**: Enables the code view for applicable files (not available for style guides).
- - **Preview**: Provides a preview of what the selected file will look like when it's published. For API operations, the [Try It](http-endpoints.md) feature is available in Preview mode. 
+ - **Preview**: Provides a preview of what the selected file will look like when it's published. For API operations, the [Try It](try-it.md) feature is available in Preview mode. 
 
  **Validation and Linting** displays issues related to your API Specification using [style guide rules](../2a.-style-guides/a.style-guide-projects.md) and powered by [Spectral](https://meta.stoplight.io/docs/spectral/ZG9jOjYx-overview). Select to expand window and view error and warning details and locations.
 

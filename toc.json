@@ -41,8 +41,13 @@
              },
              {
                 "type":"item",
-                "title":"Work with Models",
-                "uri":"3.-design/http-endpoints.md"
+                "title":"Models and Schemas",
+                "uri":"3.-design/models.md"
+             },
+             {
+                 "type":"item",
+                 "title":"JSON Schema Editor",
+                 "uri":"3.-design/json-schema-editor.md"
              },
              {
                 "type":"item",
@@ -80,7 +85,7 @@
           "type":"group",
           "title":"Explore Projects",
           "uri":"explorer/overview.md",
-          "items":[
+          "items": [
              {
                 "type":"item",
                 "title":"Search and Filter",

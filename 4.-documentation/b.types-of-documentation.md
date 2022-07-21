@@ -73,7 +73,7 @@ Endpoint documentation is organized into easy-to-navigate sections:
 
 ### Models
 
-[Models](../3.-design/http-endpoints.md) are the schemas that go in your API's request or response bodies. They're included in your API documentation.
+[Models](../3.-design/models.md) are the schemas that go in your API's request or response bodies. They're included in your API documentation.
 
 ![API Endpoints](../assets/images/docs-api-model.png)
 

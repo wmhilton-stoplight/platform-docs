@@ -16,7 +16,8 @@ For each request, you can:
 
 To open Try It:
 
-1. Edit a project.
+1. Edit a project that contains an API.
+2. Select the **API** tab. 
 2. Select an operation, and then select **Preview**.
 3. Select the **Try It** tab. 
 
