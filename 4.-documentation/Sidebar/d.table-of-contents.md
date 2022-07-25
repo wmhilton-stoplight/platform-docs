@@ -10,6 +10,7 @@ Project documentation contains a single left sidebar called the **Table of Conte
 - Override the title of a file in the sidebar.
 - Customize [published URLs](../stoplight-urls.md#about-published-urls) for articles and API artifacts.
 - Selectively add or remove files in the sidebar, allowing you to hide them in your Table of Contents file. You can also set an API or article to have [internal visibility](../set-internal-docs.md) to prevent it from appearing in the Table of Contents for public projects or to non-members.
+- Set the default state for groups to be expanded or collapsed.
 
 <!--
 focus: center
@@ -65,6 +66,26 @@ Items are links to articles, APIs, and model files located within the project di
 
 Press **CMD+Space** to open a list of hints for items you can add to the TOC.
 
+### TOC Configuration Properties
+
+You can configure the default state for your API and article groups to be expanded or collapsed when a page loads by using the `collapseTableOfContents` boolean property.
+
+- If `collapseTableOfContents` is set to `true`, all groups will be collapsed by default
+- If `collapseTableOfContents` is set to `false`, groups will be expanded (which is the current default behavior).
+
+The property should be at the same level as the `items` property. For example:
+
+```json title=toc.json
+{
+  "collapseTableOfContents": true,
+  "items": [
+    ...
+  ]
+}
+```
+
+> **Note**: if you have a `toc.json` file with the `collapseTableOfContents` set to `true`, and a `group` as the first item, that group will be expanded on page load. That's the correct behavior, as groups are expanded when an item inside is selected so users can locate the item in the project sidebar, but it can cause some confusion if you only have one group in your `toc.json` file.
+
 ### TOC Examples
 
 Here is an example of a `toc.json` file that includes two markdown articles, an API file with three operations, and a link to an external website.
@@ -74,6 +95,7 @@ title: toc.json
 -->
 ```json
 {
+  "collapseTableOfContents": false,
   "items": [
     {
       "type": "divider",
@@ -106,11 +128,11 @@ title: toc.json
       "title": "ACME API",
       "uri": "/reference/ACME-API.yaml"
     }
-]
+  ]
 }
 ```
 
-Here's how the `toc.json` file displays in the project sidebar after you publish.
+Here's how the `toc.json` file displays in the project sidebar after you publish:
 
 <!--
 focus: center
@@ -120,13 +142,21 @@ bg: "#1A202C"
 
 You can use tags in your API files to organize endpoints into groups. Endpoints themselves are listed by their order in the specification. See [Endpoint Groups Reordering](#endpoint-groups-reordering) for details.
 
-Here's how the `toc.json` file displays after endpoints are organized into a group.
+Here's how the `toc.json` file displays after endpoints are organized into a group:
 
 <!--
 focus: center
 bg: "#1A202C"
 -->
 ![Custom TOC with Endpoint Ordering](https://stoplight.io/api/v1/projects/cHJqOjI/images/McNor4d1EWU)
+
+And here's how the `toc.json` file displays after the `collapseTableOfContents` property is set to `true`:
+
+<!--
+focus: center
+bg: "#1A202C"
+-->
+![Custom TOC with Endpoint Ordering and groups collapsed](../../assets/images/table-of-contents-collapsed.png)
 
 ### Add a TOC to a Project
 
