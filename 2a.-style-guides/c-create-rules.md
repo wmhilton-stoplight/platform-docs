@@ -48,7 +48,7 @@ Set severity, name, the message returned in validation, and the description for 
    - `{{description}}`: Returns the rule's description.
    - `{{path}}`: Returns the full path to the property in the API design document.
    - `{{property}}`: Returns the last segment of the property path in the API design document.
-   - `{{value}}`" Returns the linted value in the API design document.
+   - `{{value}}`: Returns the linted value in the API design document.
 
 - **Description**
 

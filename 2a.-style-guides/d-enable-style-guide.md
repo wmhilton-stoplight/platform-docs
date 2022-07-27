@@ -9,12 +9,15 @@ Style guides are organized into two categories:
 1. Workspace style guides are those that were created or imported into the workspace.
 2. Public style guides are those that come from external sources. This includes the [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide), which is the set as the default style guide for each workspace.
 
+Inherited rules are organized by their originating style guide.
+
 Once you enable style guides, you can:
 
-- [Disable inherited rules](j-disable-rules.md).
-- Change the severity for enabled rules.
-- Create local targets and rules.
-- Use inherited targets and functions in local rules.
+- View the inherited rules for each enabled style guide. - [Reuse and customize inherited rules](reuse-and-customize-rules.md)
+- [Disable inherited rules](j-disable-rules.md)
+- Change the severity for enabled rules
+- Create local targets and rules
+- Use inherited targets and functions in local rules
 
 > Inherited targets and functions can't be modified.
 
@@ -22,7 +25,10 @@ To enable a style guide:
 
 1. Edit an API project or an existing style guide project.
 2. Select the **Styles** tab in the left pane.
-3. On the Overview pane, select **Manage Style Guides** from the **Enabled Style Guides** page.
+3. Select the Overview, and then select **Manage Style Guides** from the **Enabled Style Guides** page.
+
+![Enable style guides](https://stoplight.io/api/v1/projects/cHJqOjI/images/NoHp1wJ3xyc)
+
 4. In the **Manage Style Guides** dialog:
     * Select **Preview** to open the style guide documentation in a separate browser tab.
     * Select **Enable** for one or more style guides.

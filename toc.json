@@ -119,10 +119,10 @@
       "uri":"2a.-style-guides/a.style-guide-projects.md",
       "items":[
               {
-            "type":"group",
-            "title":"Create Style Guides",
-            "uri":"2a.-style-guides/a1.create-style-guide.md",
-            "items":[
+               "type":"group",
+               "title":"Create Style Guides",
+               "uri":"2a.-style-guides/a1.create-style-guide.md",
+               "items": [
                 {
                   "type":"item",
                   "title":"Create Targets",
@@ -133,6 +133,11 @@
                   "title":"Create Rules",
                   "uri":"2a.-style-guides/c-create-rules.md"
                 },
+                {
+                   "type":"item",
+                   "title":"Reuse Rules",
+                   "uri":"2a.-style-guides/reuse-and-customize-rules.md"
+                 },
                 {
                   "type": "item",
                   "title": "Debug Rules",

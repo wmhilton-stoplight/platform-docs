@@ -20,8 +20,8 @@ See [this blog](https://blog.stoplight.io/explore-these-top-api-style-guide-reso
 
 There are three types of style guides:
 
-1. **Public style guides**: Guides that come from external sources, including the Stoplight Style Guide. This style guide is automatically enabled for all API projects. You can use the style guide as is, disable individual rules, or disable the entire style guide. See the list of rules in the [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide).
-2. **Local style guides**: Rules created within an API project. You can't share local style guides with other projects.
+1. **Public style guides**: Guides that come from external sources, including the [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide), which is automatically enabled for all API projects. Customers on Professional and Enterprise plans can enable other public style guides, then [reuse and customize rules](reuse-and-customize-rules.md) to fit the needs of their organization. 
+2. **Local style guides**: Rules stored in an API project. You can't share local style guides with other projects.
 3. **Workspace style guides**: Use a dedicated project type to create style guides, and then share them across projects, business units, or workspace groups.
 
 Workspace owners and admins can set default style guides that are automatically enabled for new projects (Professional and Enterprise plans only). Owners and admins can also prevent project owners, admins, and editors from disabling default style guides. See [Workspace Settings](../2.-workspaces/workspace-governance.md) for details.
@@ -53,7 +53,7 @@ To enable style guides in other projects, you must be on a professional or enter
 | Create local style guides*      | ✅    | ✅     | ✅     | ✅     |
 | Enable Stoplight style guide    | ✅    | ✅     | ✅     | ✅     |
 | Create style guide projects     | ✅    | ✅     | ✅     | ✅     |
-| Enable shared style guides      |        |        | ✅     | ✅     |
+| Enable shared and public style guides      |        |        | ✅     | ✅     |
 | Set default style guides for a workspace |      | | ✅     | ✅     |
 | Allow disabling of default style guides |       | | ✅     | ✅     |
 
