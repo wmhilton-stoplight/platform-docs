@@ -348,7 +348,7 @@ journey
 
 ## JSON Schema
 
-The SMD JSON schema block is an Markdown code block with an additional `json_schema` language tag. The contents of the code fence should be the JSON schema object to be rendered. The primary language tag can be `YAML`, `YML`, or `JSON`.
+The SMD JSON schema block is a Markdown code block with an additional `json_schema` language tag. The contents of the code fence should be the JSON schema object to be rendered. The primary language tag can be `YAML`, `YML`, or `JSON`.
 
 ```json json_schema
 {
@@ -371,9 +371,10 @@ The SMD JSON schema block is an Markdown code block with an additional `json_sch
   "required": ["id", "name"]
 }
 ```
+
 Try it out with the example below:
 
-```json title="Try it out!" 
+````json title="Try it out!" 
 ```json json_schema
 {
   "title": "User",
@@ -395,6 +396,17 @@ Try it out with the example below:
   "required": ["id", "name"]
 }
 ```
+````
+
+### Embed Models
+
+You can also use JSON Schema to embed a model from your API description in a Markdown article by using the `$ref` property:
+
+````yaml title="Embed model" 
+```yaml json_schema
+$ref: "../models/user.yaml"
+```
+````
 
 ## Try It
 
