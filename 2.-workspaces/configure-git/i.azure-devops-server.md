@@ -6,6 +6,11 @@ stoplight-id: r5nqj5dw2cdxn
 
 > This feature is available on the Stoplight **Pro** plan and above.
 
+The versions Stoplight supports for Azure DevOps Server are:
+
+- TFS 2018 Update 2
+- TFS 2018 Update 3
+
 Use these steps to configure your Azure DevOps Server integration.
 
 ## Azure DevOps Server Setup
