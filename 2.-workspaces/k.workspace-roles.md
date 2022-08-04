@@ -6,7 +6,7 @@ Workspace roles are predefined according to varying access needs. You can assign
 
 Roles include: 
 
-**Guests**: Restricted to viewing documentation for projects that they are granted explicit access to, except for articles, API paths, and models marked as internal. Guests are users outside your company or organization, such as partners who require authenticated access to the documentation. 
+**Guests**: Restricted to viewing documentation for projects that they're granted explicit access to, except for articles, APIs, API paths, and models marked as internal. Guests are users outside your company or organization, such as partners who require authenticated access to the documentation. 
 
 **Viewer**: Can view documentation and consume mock servers. Viewers are usually developers and other stakeholders inside the organization consuming the API but don't need to make changes to API design and docs. Viewers can view **published branches** of all internal projects and **all branches** of projects they're granted direct access to. [Learn how to add members to a project](l.project-roles.md).
 
@@ -18,8 +18,9 @@ Roles include:
 
  Permission         | Guest | Viewer | Maker | Billing | Admin | Owner |
 |---------------------------|-------|-------|--------|--------|--------|--------|
-| Can be granted direct access | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
-| View internal projects       |     | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Can be granted project read access | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
+| Can be granted project write access |     |  | ✅ | ✅ | ✅ | ✅ |
+| Browse all internal projects       |     | ✅ | ✅ | ✅ | ✅ | ✅ |
 | View members                 |     | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Add new API projects         |     |     | ✅ | ✅ | ✅ | ✅ |
 | Add new style guide projects |     |     |    |    | ✅ | ✅ |

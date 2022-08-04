@@ -46,7 +46,7 @@ Project visibility determines who can view projects within or outside the worksp
 
 Project roles determine the level of access for each project member. To change a user's role for a project, open the **Share** dialog, locate the user, then change the role. 
 
-**Guest**: Can view documentation in published branches once they've been invited, except for articles, API paths, and models marked as internal. You cannot assign the guest role; it is automatically assigned when guests are invited to a project.
+**Guest**: Can view documentation in published branches once they've been invited, except for articles, APIs, API paths, and models marked as internal. You can't assign the guest role; it's automatically assigned when guests are invited to a project.
 
 **Viewer**: Can view documentation, access mock servers for published and unpublished branches, and invite users. 
 
