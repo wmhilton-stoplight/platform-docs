@@ -12,7 +12,7 @@ Roles include:
 
 **Maker**: In addition to viewer access, can create projects, and edit all internal Git projects and projects they're granted direct access to. Makers are usually product managers, technical writers, and architects who are creating and editing API designs and docs.
 
-**Owners, Admins, and Billing**: In addition to maker access, can manage team members, billing, and make changes to the workspace, such as adding landing page content and setting themes.
+**Owners, Admins, and Billing**: In addition to maker access, can manage team members, billing, and make changes to the workspace, such as adding landing page content and setting themes. You can have multiple owners for a workspace.
 
 ## Permissions Legend
 
@@ -30,6 +30,7 @@ Roles include:
 | Manage billing               |     |     |    | ✅ | ✅ | ✅ |
 | Manage members               |     |     |    | ✅ | ✅ | ✅ |
 | Manage workspace             |     |     |    | ✅ | ✅ | ✅ |
+| Manage all projects               |     |     |  |  |  | ✅ |
 | Perform bulk actions         |     |     |    |     |    | ✅ | 
 | Delete workspace             |     |     |    |     |    | ✅ |   
 

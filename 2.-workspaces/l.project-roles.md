@@ -65,12 +65,12 @@ Permissions for each project role:
 | View unlisted branches    | ✅     | ✅    | ✅      | ✅      |       |
 | Access mock servers       | ✅     | ✅    | ✅      | ✅      |       |
 | Add members               | ✅     | ✅    | ✅      | ✅      |       |
-| Edit in Studio            | ✅     | ✅    | ✅      |        |       |
+| Edit in Studio*            | ✅     | ✅    | ✅      |        |       |
 | Drag-and-drop images      | ✅     | ✅    | ✅      |        |       |
 | Track branches            | ✅     | ✅    | ✅      |        |       |
 | View settings             | ✅     | ✅    | ✅      |        |       |
 | Enable style guides       | ✅     | ✅    | ✅      |        |       |
-| Disable default style guides*| ✅ | ✅ |  ✅  |      |        |       |
+| Disable default style guides**| ✅ | ✅ |  ✅  |      |        |       |
 | Edit settings             | ✅     | ✅    |        |        |        |
 | Manage service accounts   | ✅     | ✅    |        |        |        |
 | Remove members            | ✅     | ✅    |        |        |        |
@@ -78,9 +78,10 @@ Permissions for each project role:
 | Transfer ownership        | ✅     |       |        |        |       |
 | Leave the project         |        | ✅    | ✅      | ✅      |✅    |
 
-> **Note:** To edit Git projects, users need permissions in both Stoplight and the Git repository.
+- *: To edit Git projects, users need permissions in both Stoplight and the Git repository.
+- **: Unless disabled at the workspace level. See [Governance Settings](workspace-governance.md) for details.
 
-`*` Unless disabled at the workspace level. See [Governance Settings](workspace-governance.md) for details.
+> **Note:** Workspace Owners have the same permissions as Project Owners for all projects in a workspace.
 
 ### Request Project Permissions
 

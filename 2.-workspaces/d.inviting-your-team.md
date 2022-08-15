@@ -57,12 +57,21 @@ Workspace owners and administrators are notified by email when users try to join
 
 ## Manage Workspace Access
 
-Since you will likely invite stakeholders from different parts of the API Lifecycle, you can limit and restrict who gets access to what. You can change roles for specific users as needed. 
+Since you will likely invite stakeholders from different parts of the API Lifecycle, you can limit and restrict who gets access to what.
 
-To assign roles for your workspace:
+To change a member's role for your workspace:
 
 1. From the workspace home page, select **Members**. 
-2. Select one or more users, and then select the **Change Role** icon.
+2. Select the down arrow icon next to a user's role.
+3. Select the new role from the drop-down menu.
+
+If you're a workspace owner, you can also update multiple members at once:
+
+1. From the workspace home page, select **Members**. 
+2. Select one or more members by selecting the checkbox next to the user's name.
+3. Select the **Change Role** icon.
+4. Select the new role from the drop-down menu.
+5. Select **Change** in the dialog box. 
 
 ### Change Guest Access 
 
@@ -71,21 +80,17 @@ Guests aren't considered members of your workspace, so their access is limited t
 - **Upgrade guest access**: Change guests' roles to the Viewer role or above.
 - **Downgrade to guest access**: Change members' roles to guest to restrict their access to only projects they've been invited to.
 
-### Share Project
+## Remove a Workspace Member
 
-After you publish a project, the **Share Project** dialog box allows you to:
+To remove a member from your workspace:
 
-* Invite members by name or email. 
-* Manage project access by assigning members roles as **Viewers**, **Editors**, or **Admins**.
-* Manage **Project Visibility** as **Public**, **Private**, or **Internal**.
+1. From the workspace home page, select **Members**.
+2. Select the **ellipsis icon** (...) for the member you would like to delete, and select **Delete**.
+3. Select **OK** in the dialog box.
 
->All members can invite additional members within their level of access to the project.
+If you're a workspace owner, you can also delete multiple members at once:
 
-![share-project.png](../assets/images/share-project.png)
-
-
-
-
-
-
-
+1. From the workspace home page, select **Members**. 
+2. Select one or more members by selecting the checkbox next to the user's name.
+3. Select the **Delete Member** icon.
+4. Select **Delete** in the dialog box.
