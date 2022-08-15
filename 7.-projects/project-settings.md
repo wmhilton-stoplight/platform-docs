@@ -2,7 +2,7 @@
 
 Use project settings to change the name and other project information, move a project to a group, manage web project versions and Git branches, and more.
 
-Project owners and administrators can modify project settings.
+Workspace owners, project owners, and project administrators can modify project settings.
 
 Use one of these methods to open the **Project Settings** page:
 
@@ -27,7 +27,7 @@ Use one of these methods to open the **Project Settings** page:
 
 ## Versions
 
-> This feature is available on the Stoplight **Starter** plan and above.
+> This feature is available on the Stoplight [**Starter** plan and above](https://stoplight.io/pricing).
 
 You can create versions for Stoplight projects, which are also referred to as web projects.
 
@@ -47,6 +47,7 @@ Editable versions are listed at the top of the Editor window. Users who can edit
 ![versions-editable.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/O2zOHxVDWdo)
 
 3. Provide a name for your version, and then select **Create**.
+4. Publish the project so Stoplight can analyze its contents.
 
 ### "List" Versions
 
@@ -58,6 +59,16 @@ You can choose which versions should be visible to all viewers of a project.
 
 ![list-versions.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/leT6OXrsb8Y)
 
+## Remove Versions
+
+When you remove a version, all information for that version is removed from Stoplight.
+
+1. Open the **Project Settings** page.
+2. Select the gear icon for the version you want to remove.
+
+![Edit Versions Icon](https://stoplight.io/api/v1/projects/cHJqOjI/images/csL1AuNFjlM)
+
+3. Select **Remove from Stoplight**.
 
 ## Git Info and Branches
 
