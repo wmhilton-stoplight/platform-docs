@@ -59,7 +59,7 @@ You can choose which versions should be visible to all viewers of a project.
 
 ![list-versions.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/leT6OXrsb8Y)
 
-## Remove Versions
+### Remove Versions
 
 When you remove a version, all information for that version is removed from Stoplight.
 
