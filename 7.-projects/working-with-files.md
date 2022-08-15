@@ -13,7 +13,8 @@ These file types are supported:
 - **Model**: Reusable API components (YAML or JSON)
 - **Article**: Supplemental Markdown files (Markdown)
 - **Image**: Supplemental images (JPEG, JPG, PNG, and GIF)
-- **Configuration Files**: The Stoplight [project configuration file](../2.-workspaces/c.config.md), [table of contents file](../4.-documentation/Sidebar/d.table-of-contents.md), and [imported Spectral files](../2a.-style-guides/style-guides-and-git.md) (Git projects only). 
+- **Configuration Files**: The Stoplight [project configuration file](../2.-workspaces/c.config.md), [table of contents file](../4.-documentation/Sidebar/d.table-of-contents.md), and [imported Spectral files](../2a.-style-guides/style-guides-and-git.md) (Git projects only).
+- **Zip Files** - You can import ZIP files that contain any type of file. Files are extracted, but only the file types in the list above are rendered in Studio or in published documentation. Extracted files follow the organization of the `zip` file. See [Directory Structure](#directory-structure) for guidance on handling these files.
 
 <!-- theme: Warning -->
 >**Warning**: You may be able to upload other file types, but they may not be rendered in Studio or in published documentation.
@@ -28,7 +29,7 @@ Projects use a default file directory structure.
 - `/docs` - Articles (Markdown files)
 - `/assets/images` - Imported images
 
-If you have an existing repository with Markdown, image, or API description documents that don't adhere to the format above, you will need to move the files to their corresponding directories for Studio to recognize them, or create a [project configuration file](../2.-workspaces/c.config.md) to change them.
+If you have an existing repository or import a directory or zip file with Markdown, image, or API description documents that don't adhere to the format above, you will need to move the files to their corresponding directories for Studio to recognize them, or create a [project configuration file](../2.-workspaces/c.config.md) to customize the default directory structure.
 
 ## Add a File
 
@@ -79,10 +80,12 @@ Use to add a Spectral ruleset to an API project. This action replaces all local 
 
 ### Import File
 
-Use to add images and other files. Files are automatically organized by type. For example, Markdown files are automatically added to the `Docs` directory; image files are automatically added to the `assets` folder. 
+Use to add single files, such as images and other files. Image and Markdown files are automatically organized by type. For example, Markdown files are automatically added to the `Docs` directory; image files are automatically added to the `assets` folder. 
+
+You can also import and extract a `zip` file to add multiple files and directories at once. See [Directory Structure](#directory-structure) for guidance on how extracted files are organized.
 
 ### Import Directory
 
-Imports a directory of files to your project. This is useful for migrating content into Stoplight. 
+Imports a directory of files to your project. This is useful for migrating content into Stoplight. See [Directory Structure](#directory-structure) for guidance on how files in imported directories are organized.
 
 
