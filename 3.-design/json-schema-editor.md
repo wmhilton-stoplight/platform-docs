@@ -20,12 +20,13 @@ There are two ways to create schemas:
 
 While each method can be used individually, you'll likely find yourself using a combination of both methods while [creating schemas and models](models.md). 
 
-Here's a simple example of a schema in the **Form Editor**. The schema contains a single object with:
+Here's a simple example of a schema for a model in the **Form Editor**. The schema contains a single object with:
 
-* `feature-name` string field that's required
-* `feature-flag` boolean field that has `false` set as the default value
+* `feature-name`: A string field that's required
+* `feature-flag`: A boolean field that has `false` set as the default value
 
-![Simple JSON Schema Form Editor Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/3gRshcZa320)
+![JSON Schema Editor](https://stoplight.io/api/v1/projects/cHJqOjI/images/X7HkjaIThi4)
+
 
 Depending on the format of your API, JSON or YAML are automatically generated from what you configure in the **Form Editor**. Here's the generated JSON in the **Code** view for the same example:
 
@@ -57,12 +58,13 @@ Depending on your comfort and skill level, you may find it easier to use one app
 
 ## Use the Schema Form Editor
 
-![JSON Schema Editor](https://stoplight.io/api/v1/projects/cHJqOjI/images/i8UjRMFr50c)
+![Use the JSON Schema Editor for a model](https://stoplight.io/api/v1/projects/cHJqOjI/images/zRuHbNnzo2M)
 
-1. Open a model or request or reponse body, then navigate to the **Schema Editor**. See [Models and Schemas](models.md).
-2. Use the tabs to switch between schemas and examples.
+
+1. Open a model, request body, or reponse body, and then navigate to the **Schema Editor**. See [Models and Schemas](models.md).
+2. Use the tabs to switch between schemas, examples, and x-extensions (models only).
 3. [Add fields](#add-fields-to-the-object) to the schema object.
-4. Add [$refs/shared components](shared-components.md) to the object.
+4. Add [$refs/shared components](shared-components.md) to the object. Select the down arrow to see a read-only view of the referenced object. Select the icon to open an editable view of the referenced object.
 5. [Set properties](#set-field-properties) for each field.
 
 ### Add Fields to the Object
@@ -79,7 +81,7 @@ To add fields to the schema object:
 <!--
 focus: false
 -->
-![JSON Schema Editor](https://stoplight.io/api/v1/projects/cHJqOjI/images/IxIr8mPMdls)
+![Type Editor](https://stoplight.io/api/v1/projects/cHJqOjI/images/EbvqhLdTtIs)
 
 The default type for new fields is `string`. Other types include:
 
@@ -99,6 +101,8 @@ Field types can also include combination types that allow for object inheritance
 
 ### Organize Fields
 
+You can move, copy, and delete fields that aren't at the root level. At the root level, you can open the **Type Editor**, and then change the type.
+
 Hover over a field to:
 
 * **Move fields**: Use the up and down arrows to organize fields in an object.
@@ -115,7 +119,7 @@ For example:
 
 - **Enumerations** (or _enums_ for short) allow you to restrict the contents of the field to be specific values. For example, if you are creating a `color` field of type string, you may want to restrict the strings used in that field to specific colors (red, blue, and green).
 
-![enum Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/TAEXIKp7Yow)
+![enum Example in a model](https://stoplight.io/api/v1/projects/cHJqOjI/images/B9IwCCMWEPs)
 
 - **Format** allows for describing the format of field (string, number, and integer types). Formats depend on the field type; for type string,  you can choose date, time, IP address, URI, and other formats.
 
@@ -138,11 +142,11 @@ To generate the Schema from JSON:
 3. Write or paste an existing JSON schema into the box. 
 4. Select **Generate**. (If the JSON isn't valid, the **Generate** button is disabled.)
 
-![Generate from JSON](https://stoplight.io/api/v1/projects/cHJqOjI/images/atbeP3wQcd8)
+![Generate JSON in a model](https://stoplight.io/api/v1/projects/cHJqOjI/images/hV7iJqECV5M)
 
 ## Generate Examples
 
-The JSON Schema Editor can automatically create examples based on your data model. You can use the generated examples as a starting point that you can modify as needed to provide guidance to your users.
+The JSON Schema Editor can automatically create examples based on your data model. Use the generated examples as a starting point that you can modify as needed to provide guidance to your users.
 
 Example data comes from:
 
@@ -154,7 +158,10 @@ To create schema examples:
 
 1. On the **Schema** tab, define your data model.
 2. Include the **Example** property for each field.
-3. Select the **Example** tab.
+3. Select the **Example** tab, and then select **+ Example**.
 4. Modify the example to meet your needs.
+5. Select **+ Example** again to add more examples to the schema.
 
-![JSON Schema Editor Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/FdSRPeUNqeg)
+![Example for a model in the JSON Schema Editor](https://stoplight.io/api/v1/projects/cHJqOjI/images/V9ebGXGv7g8)
+
+

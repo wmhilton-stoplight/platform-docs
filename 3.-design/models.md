@@ -36,19 +36,19 @@ Use this method to create models that contain data you need to share across a si
 
 The following example shows a data model for user information. This is a common use case for sharing data across APIs.
 
-![Model Editor](https://stoplight.io/api/v1/projects/cHJqOjI/images/OEu3MopWsDc)
+![Model Editor](https://stoplight.io/api/v1/projects/cHJqOjI/images/G05A8zgpXOw)
 
-1. **Model name**: Provide a name for the m
+
+1. **Model name**: Provide a name for the model.
 2. **Model description**:  Basic Markdown can be used to format the description text.
 3. **Visibility**: Set the model as internal to hide it in public documentation and from guest users. See [API Visibility](../4.-documentation/set-internal-docs.md) for details.
 4. **JSON Schema Editor**: Use to build a schema object and examples. See [JSON Schema Editor](json-schema-editor.md) for details.
-5. **X-Extensions**: Add extensions to your model.
+6. **Examples**: Add examples to your schema. See [Generate Examples](json-schema-editor.md#generate-examples) for details.
+7. **X-Extensions**: Add extensions to your model.
 
 ## Add a Schema in a Request or Response Body
 
-Use this method when the data is unique to a specific response or request. You can't share request or response schemas using this method, but you can use models that are shared with the API, as shown in the following example.
-
-![Schema Editor](https://stoplight.io/api/v1/projects/cHJqOjI/images/xmmq7FFDqZs)
+Use this method when the data is unique to a specific response or request. You can't share request or response schemas using this method, but you can use models that are shared with the API.
 
 To add a schema to a request or response body:
 

@@ -197,6 +197,6 @@ To use a shared example:
 2. In the **Request** or **Response** area of the form, select the **Example** tab.
 3. Select the shared example from the **No shared response selected** list. 
 
-![Use Shared Example](https://stoplight.io/api/v1/projects/cHJqOjI/images/J51M2VW05R0)
+![Use Shared Examples](https://stoplight.io/api/v1/projects/cHJqOjI/images/aSWhQWtiS1U)
 
 Select the **Go to Shared Example** button to open the shared response. Changes you make to the shared response impact all references.
