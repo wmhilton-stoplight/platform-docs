@@ -231,22 +231,23 @@
             "type":"item",
             "title":"Redirects",
             "uri":"4.-documentation/e2.configure-redirects.md"
-          }
-      ]
-    },
-    {
-      "type":"group",
-      "title":"Writing Tips",
-      "items":[
+          },
           {
             "type":"item",
             "title":"Markdown Basics",
             "uri":"4.-documentation/markdown-basics.md"
           },
           {
-            "type":"item",
+            "type":"group",
             "title":"Stoplight-flavored Markdown",
-            "uri":"4.-documentation/stoplight-flavored-markdown.md"
+            "uri":"4.-documentation/stoplight-flavored-markdown.md",
+            "items": [
+              {
+                "type":"item",
+                "title":"Customize Images",
+                "uri":"4.-documentation/smd-images.md"
+              }
+            ]
           }
       ]
     },

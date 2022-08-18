@@ -113,35 +113,37 @@ To customize images by adding backgrounds, captions or focus, see [images in Sto
 
 ## Code and Syntax Highlighting
 
-Inline `code` has `back-ticks` around it.
+Inline `code` has back-ticks `` ` `` around it.
 
 Blocks of code are either fenced by lines with three back-ticks or are indented with four spaces. Fenced code blocks are recommended because they're easier to use and they support syntax highlighting.
 
-<!-- theme: warning -->
+The following code block:
 
-> In the examples below, remove the `\` that precedes the three backticks at the start and end of the JavaScript code fence before using.
-
-```
-\```js
+````
+```js
 var s = "JavaScript syntax highlighting";
 alert(s);
-\```
 ```
+````
+
+Would be displayed as:
 
 ```js
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
 
-Use language tags to change the syntax highlighting:
+Use language tags to change the syntax highlighting. For example, the following code block:
 
-```
-\```json
+````
+```json
 {
   "JSON": "Syntax Highlighting"
 }
-\```
 ```
+````
+
+Would have JSON syntax highligting:
 
 ```json
 {
