@@ -1,6 +1,6 @@
 # Create Targets
 
-The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of default targets, but you can add custom targets to reference commonly used areas of API specification documents, such as OpenAPI or AsyncAPI, in rules. 
+Targets, referred to as aliases in [Spectral](https://meta.stoplight.io/docs/spectral/674b27b261c3c-overview), are used in rules to reference commonly used areas of API specification documents, such as `info` or `path` in OpenAPI. The [Stoplight Style Guide](https://apistylebook.stoplight.io/docs/stoplight-style-guide) provides a set of default targets, but you can add custom targets.
 
 Use a JSON path to define the target area. You can add simple targets or more complex targets with multiple specification types (OAS 3.1 and AsyncAPI 2.0, for example) and multiple JSON paths for each specification type.
 

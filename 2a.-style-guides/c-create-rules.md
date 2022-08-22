@@ -27,14 +27,11 @@ To create a rule:
 
 ### 1. Rule Settings
 
-Set severity, name, the message returned in validation, and the description for documenting the rule.
+Set severity, name, the message returned during validation, and the description for documenting the rule.
 
 - **Rule severity**
 
-   Options are error, warning, information, and hint. When applied to an API project, the severity levels appear in the **API Design** editor. 
-   ![Rule severity icons](../assets/images/rule-severity-indicators.png)
-   
-   You can also choose to disable a rule.
+   Options are error, warning, info, and hint. When applied to an API project, the severity levels appear in the **API Design Checker** editor. You can also choose to disable a rule.
 
 - **Name**
 
@@ -42,7 +39,7 @@ Set severity, name, the message returned in validation, and the description for 
 
 - **Message**
   
-   Provide the message that will appear in the validation results list in the **API Design** editor. Add message text or include placeholders that are evaluated at runtime:
+   Provide the message that will appear in the **API Design Checker** as developers work with APIs. Add message text or include placeholders that are evaluated at runtime:
 
    - `{{error}}`: Returns the function error.
    - `{{description}}`: Returns the rule's description.

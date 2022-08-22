@@ -26,7 +26,7 @@ Rule settings:
 
   - **Severity**: *Error* 
   - **Name**: *always-use-https-oas3*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Servers must use the HTTPS protocol unless using localhost.*
   - **Format** (Optional): *oas3.x*
   - **Target**: With the Stoplight Style Guide enabled, select *API > Server> URL* or add this inline target: `$.servers[*].url`
@@ -53,7 +53,7 @@ Rule settings:
 
   - **Severity**: *Error* 
   - **Name**: *always-use-https-oas2*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Servers must use the HTTPS protocol.*
   - **Format** (Optional): *oas2*
   - **Target**: Add this inline target: `$.schemes.*`
@@ -70,7 +70,7 @@ Rule settings:
 
   - **Severity**: *Error* 
   - **Name**: *server-lowercase*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Server URL must be lowercase.*
   - **Format** (Optional): *oas3.x*
   - **Target**: With the Stoplight Style Guide enabled, select *API > Server> URL* or add this inline target: `$.servers[*].url`  
@@ -99,7 +99,7 @@ Rule settings:
 
   - **Severity**: *Error* 
   - **Name**: *server-has-api*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Server must follow /api convention.*
   - **Format** (Optional): *oas3.x*
   - **Target**: With the Stoplight Style Guide enabled, select *API > Server> URL* or add this inline target: `$.servers[*].url`  
@@ -116,7 +116,7 @@ Rule settings:
 
   - **Severity**: *Error* 
   - **Name**: *server-version*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Server must end with a version*
   - **Format** (Optional): *oas3.x*
   - **Target**: With the Stoplight Style Guide enabled, select *API > Server> URL* or add this inline target: `$.servers[*].url` 
@@ -139,7 +139,7 @@ Rule settings:
 
   - **Severity**: *Error* 
   - **Name**: *path-casing*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Paths must be kebab-case.*
   - **Format** (Optional): *oas3.x* and *oas2*
   - **Target**: With the Stoplight Style Guide enabled, select *Path > Object* or add this inline target: `$.paths`
@@ -168,7 +168,7 @@ Rule settings:
 
   - **Severity**: *Warning* 
   - **Name**: *resource-names-plural*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Resource names should be plural.*
   - **Format** (Optional): *oas3.x* and *oas2*
   - **Target**: With the Stoplight Style Guide enabled, select *Path > Object* or add this inline target: `$.paths`
@@ -186,7 +186,7 @@ Rule settings:
 
   - **Severity**: *Warning* 
   - **Name**: *paths-no-trailing-slash*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Paths must not end with a trailing slash.*
   - **Format** (Optional): *oas3.x* and *oas2*
   - **Target**: With the Stoplight Style Guide enabled, select *Path > Object* or add this inline target: `$.paths`
@@ -202,7 +202,7 @@ Rule settings:
 
   - **Severity**: *Error* 
   - **Name**: *paths-no-file-extensions*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Paths must not have file extensions.*
   - **Format** (Optional): *oas3.x* and *oas2*
   - **Target**: With the Stoplight Style Guide enabled, select *Path > Object* or add this inline target: `$.paths`
@@ -220,7 +220,7 @@ Rule settings:
 
   - **Severity**: *Error* 
   - **Name**: *paths-no-http-verbs*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Paths must not include HTTP verbs.*
   - **Format** (Optional): *oas3.x* and *oas2*
   - **Target**: With the Stoplight Style Guide enabled, select *Path > Object* or add this inline target: `$.paths`
@@ -238,7 +238,7 @@ Rule settings:
 
   - **Severity**: *Error* 
   - **Name**: *paths-version-number*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Paths must start with a version*
   - **Format** (Optional): *oas3.x* and *oas2*
   - **Target**: With the Stoplight Style Guide enabled, select *Path > Object* or add this inline target: `$.paths` 
@@ -272,7 +272,7 @@ Rule settings:
 
   - **Severity**: *Warning* 
   - **Name**: *paths-no-query-params*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Paths shouldn't have query parameters in them. They should be defined separately in the OpenAPI.*
   - **Format** (Optional): *oas3.x* and *oas2*
   - **Target**: With the Stoplight Style Guide enabled, select *Path > Object* or add this inline target: `$.paths`
@@ -294,7 +294,7 @@ Rule settings:
 
   - **Severity**: *Error* 
   - **Name**: *path-parameters-camelcase*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Path parameters should be camelCase and not contain digits.*
   - **Format** (Optional): *oas3.x* and *oas2*
   - **Target**: With the Stoplight Style Guide enabled, select *Request > Parameter > Query* or add this inline target: `$..parameters[?(@.in == 'path')]`
@@ -311,7 +311,7 @@ Rule settings:
 
   - **Severity**: *Error* 
   - **Name**: *query-parameters-camelcase*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Query parameters should be camelCase and not contain digits.*
   - **Format** (Optional): *oas3.x* and *oas2*
   - **Target**: With the Stoplight Style Guide enabled, select *Request > Parameter > Query* or add this inline target: `$..parameters[?(@.in == 'query')]`
@@ -328,7 +328,7 @@ Rule settings:
 
   - **Severity**: *Warning* 
   - **Name**: *path-parameters-on-path-only*
-  - **Message**:  *{{description}}* (This returns your provided description in the validation list.) 
+  - **Message**:  *{{description}}* (This returns your provided description in the **API Design Checker**.) 
   - **Description**: *Path parameters should be defined on the path level instead of the operation level.*
   - **Format** (Optional): *oas3.x* and *oas2*
   - **Target**: Add this inline target: `$.paths[*][*].parameters[?(@.in == 'path')]`

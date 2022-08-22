@@ -74,8 +74,11 @@ The APIs in your project are validated against the style guides you enable.
 ### Validate Your API
 
 1. Select the **APIs** tab.
-2. Noticed that your API is automatically validated against the Stoplight rules.
-![Style Guide Validation](https://stoplight.io/api/v1/projects/cHJqOjI/images/67klnepNEPU)
+2. Notice that your API is automatically validated against the Stoplight rules.
+
+![API Designer Checker Feedback](https://stoplight.io/api/v1/projects/cHJqOjI/images/n1wKmilw5uk)
+
+3. Select each entry in the list to go directly to the **Code** view for that problem.
 
 ### Manage Styles
 
