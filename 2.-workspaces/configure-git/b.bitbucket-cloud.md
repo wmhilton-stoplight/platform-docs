@@ -15,7 +15,7 @@ In the setup dialog you can also:
 
 > This feature is available on the Stoplight **Pro** plan and above.
 
-By default, the Bitbucket Cloud integration will use Stoplight's OAuth application, but you can also customize your Bitbucket integration to use your own OAuth app.
+By default, the Bitbucket Cloud integration will use Stoplight's OAuth application, but you can customize your Bitbucket integration to use your own OAuth app.
 
 ### Bitbucket Cloud Setup
 

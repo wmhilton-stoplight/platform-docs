@@ -468,6 +468,11 @@
                 },
                 {
                   "type":"item",
+                  "title":"Azure DevOps Services",
+                  "uri":"2.-workspaces/configure-git/k.azure-devops-services.md"
+                },
+                {
+                  "type":"item",
                   "title":"Azure DevOps Server",
                   "uri":"2.-workspaces/configure-git/i.azure-devops-server.md"
                 },

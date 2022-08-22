@@ -15,7 +15,7 @@ In the setup dialog you can also:
 
 > This feature is available on the Stoplight **Pro** plan and above.
 
-By default, the GitLab integration will use Stoplight's OAuth application, but you can also customize your GitLab integration to use your own OAuth app.
+By default, the GitLab integration will use Stoplight's OAuth application, but you can customize your GitLab integration to use your own OAuth app.
 
 ## GitLab Setup
 

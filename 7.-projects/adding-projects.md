@@ -68,6 +68,8 @@ To add projects from Git:
 
 Once the project is created and the analyzer has completed, it will contain Markdown articles and API descriptions that are stored in the Git repository. Files used by [Stoplight Style Guides](../2a.-style-guides/style-guides-and-git.md) are added to your repository during your first push. Use Stoplight Studio to modify these files.
 
+> When **Creating a Blank Project** for [Azure DevOps Services](../2.-workspaces/configure-git/k.azure-devops-services.md), the repository will be added to the first project in your Azure DevOps organization sorted alphabetically by name.
+
 ### Custom Git Configurations
 
 See [Git Overview](../2.-workspaces/configure-git/a.configuring-git.md) for a list of Git configurations supported by Stoplight.

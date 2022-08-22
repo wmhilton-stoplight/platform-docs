@@ -21,12 +21,17 @@ The main difference that users will see is in their Git commit messages, which w
 
 ![Example of a commit on GitHub after a service account is connected to Stoplight. The commit message includes the user name and appended to it says "on behalf of service-account." The author section also includes both the username and the service account username in the format "user authored and service-account-username committed 3 minutes ago"](../../assets/images/service-accounts-commit-message-2.png)
 
+And on Azure DevOps Services:
+
+![Example of a commit on Azure DevOps Services after a service account is connected to Stoplight. The author section includes both the username and the service account username in the format "user authored and service-account@company.com committed 10 minutes ago"](../../assets/images/azure-devops-services-service-account-commit.png)
+
 Currently, Stoplight supports:
 
 - GitHub
 - GitLab
 - Bitbucket Cloud
 - Bitbucket Server
+- Azure DevOps Services
 - Azure DevOps Server
 
 ## Create a Service Account in Your Git Provider
@@ -61,10 +66,18 @@ The first step for using a Service Account in Stoplight is creating a service ac
 
 ### Bitbucket Server
 
-1. [Create a new account in your Bitbucket Server instance](https://confluence.atlassian.com/bitbucketserver/users-and-groups-776640439.html#Usersandgroups-Creatingauser) (limited to System Admin and Admin users)
+1. [Create a new account in your Bitbucket Server instance](https://confluence.atlassian.com/bitbucketserver/users-and-groups-776640439.html#Usersandgroups-Creatingauser) (limited to System Admin and Admin users).
 2. For users who have their Bitbucket Server accounts integrated with a SAML provider, make sure that you talk to your IT admin so that you can create a new user in your SAML provider to be used as a service account.
 3. [Add your account to a group](https://confluence.atlassian.com/bitbucketserver/users-and-groups-776640439.html#Usersandgroups-Addinguserstogroups).
 4. Make sure the account has [read/write access to the repositories](https://confluence.atlassian.com/bitbucketserver/using-repository-permissions-776639771.html) you want to use in Stoplight.
+
+### Azure DevOps Services
+
+1. [Create a new account in Azure DevOps Services](https://docs.microsoft.com/en-us/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops).
+    - For users who have their Azure DevOps Server accounts integrated with a SAML provider, talk to your IT admin so that you can create a new user in your SAML provider to be used as a service account. 
+2. Add your newly created account to your Azure DevOps Services [organization](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/add-organization-users?view=azure-devops&tabs=browser), or [project](https://docs.microsoft.com/en-us/azure/devops/organizations/security/add-users-team-project?view=azure-devops&tabs=preview-page).
+    - When adding a user to an organization, make sure their **Access level** is set to **Basic**, and their **Azure DevOps Groups** is set to **Project Contributors** at a minimum.
+    - When adding a user to a project, under **Project Settings** -> **Permissions** -> **Groups**, make sure that team is part of the **Contributors** group at a minimum.
 
 ### Azure DevOps Server
 
@@ -150,6 +163,21 @@ To create a personal access token in Bitbucket Server:
 8. Save the token for use in the next section.
 
 You can find more details about generating a new personal access token in the [Bitbucket Server documentation](https://confluence.atlassian.com/bitbucketserver/personal-access-tokens-939515499.html).
+
+### Azure DevOps Services
+
+To create a personal access token in Azure DevOps Services:
+
+1. Log in to your [Azure DevOps Services](https://azure.microsoft.com/en-us/services/devops/?nav=min) account.
+2. Select the **User settings** icon on the top-right, and select **Personal access tokens**.
+3. Select **+ New Token**.
+4. Enter a name for the token in the **Name** field.
+5. Select the expiration time for the token in the **Expiration** field.
+6. Under **Scopes**, select the **Code, Read & write** checkbox.
+7. Select **Create** at the bottom.
+8. Save the token for use in the next section.
+
+You can find more details about generating a new personal access token in the [Azure DevOps Services documentation](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows).
 
 ### Azure DevOps Server
 
