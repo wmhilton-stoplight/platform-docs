@@ -10,51 +10,16 @@ Once you've written custom functions, add them to your style guide and use them 
 
 ## Add a Custom Function
 
-![Style Guide Custom Functions](https://stoplight.io/api/v1/projects/cHJqOjI/images/a1LibPsCCqc)
+![Style Guide Custom Functions](https://stoplight.io/api/v1/projects/cHJqOjI/images/wZwekKMKrbU)
 
 To create a custom function:
 
 1. Edit a style guide project or an API project that has a style guide enabled.
 2. Select the **Styles** tab.
-3. Select the **Add** icon (+), and then select **Add Function**.
+3. In the left pane, select the **Add (+)** icon next to **Functions**. (In a Style Guide project, select the **Add (+)** icon from project toolbar, and then select **Add Function**.)
 4. Use the content editor to write your function. You can also paste the function into the editor.
 5. Add a function name that contains no spaces.
-6. If your function accepts options, provide a JSON Schema that describes those options.
-
-## Adding Custom Function Options
-
-When the custom function is selected for a rule, options can be added in the Rule Editor, as shown in the following example.
-
-<!--
-title: JSON Schema for Function Options
--->
-```JSON
-{
-  "type": "object",
-  "properties": {
-    "oasVersion": {
-      "type": "string",
-      "enum": [
-        "2",
-        "3"
-      ]
-    },
-    "schemaField": {
-      "type": "string"
-    },
-    "type": {
-      "type": "string",
-      "enum": [
-        "media",
-        "schema"
-      ]
-    }
-  }
-}
-```
-The schema options are available in the Rule Editor when you select the custom function.
-
-![Function Options in Rule Editor](https://stoplight.io/api/v1/projects/cHJqOjI/images/mywIMRpcHao)
+6. If your function accepts options, use the **Schema Editor** to describe those options. The schema options are available in the **Rule Editor** when you select the custom function.
 
 ## Apply a Custom Function
 

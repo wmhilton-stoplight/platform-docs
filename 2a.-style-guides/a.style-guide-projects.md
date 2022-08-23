@@ -12,7 +12,7 @@ Stoplight style guides add consistency, reusability, and easy governance to your
 
 Stoplight uses [Spectral](https://meta.stoplight.io/docs/spectral/ZG9jOjYx-overview) to validate your API designs based on enabled style guides. You'll receive immediate feedback in the **API Design Checker** as you work. Select each entry in the list to go directly to the **Code** view for that problem. 
 
-![API Designer Checker Feedback](https://stoplight.io/api/v1/projects/cHJqOjI/images/n1wKmilw5uk)
+![API Design Checker Feedback](https://stoplight.io/api/v1/projects/cHJqOjI/images/n1wKmilw5uk)
 
 See [this blog](https://blog.stoplight.io/explore-these-top-api-style-guide-resources) to learn more about incorporating style guides into your governance program.
 

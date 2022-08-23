@@ -13,8 +13,8 @@ These file types are supported:
 - **Model**: Reusable API components (YAML or JSON)
 - **Article**: Supplemental Markdown files (Markdown)
 - **Image**: Supplemental images (JPEG, JPG, PNG, and GIF)
-- **Configuration Files**: The Stoplight [project configuration file](../2.-workspaces/c.config.md), [table of contents file](../4.-documentation/Sidebar/d.table-of-contents.md), and [imported Spectral files](../2a.-style-guides/style-guides-and-git.md) (Git projects only).
-- **Zip Files** - You can import ZIP files that contain any type of file. Files are extracted, but only the file types in the list above are rendered in Studio or in published documentation. Extracted files follow the organization of the `zip` file. See [Directory Structure](#directory-structure) for guidance on handling these files.
+- **Configuration Files**: The Stoplight [project configuration file](../2.-workspaces/c.config.md), [table of contents file](../4.-documentation/Sidebar/d.table-of-contents.md), and [imported Spectral files](../2a.-style-guides/import-style-guides.md).
+- **Zip Files** - You can import `zip` files that contain any type of file. Files are extracted, but only the file types in the list above are rendered in Studio or in published documentation. Extracted files follow the organization of the `zip` file. See [Directory Structure](#directory-structure) for guidance on handling these files.
 
 <!-- theme: Warning -->
 >**Warning**: You may be able to upload other file types, but they may not be rendered in Studio or in published documentation.
@@ -76,7 +76,11 @@ Adds a folder that you can use to organize content. This is especially useful fo
 
 ### Import Style Guide
 
-Use to add a Spectral ruleset to an API project. This action replaces all local rules, targets, and custom functions in an API project. It doesn't impact rules, targets, and functions that are inherited from an enabled style guide. See the [Style Guides documentation](../2a.-style-guides/a.style-guide-projects.md) for more information.
+Use to add a Spectral ruleset and custom functions to an API or style guide project. This action replaces all local rules, targets, and custom functions in an API project. It doesn't impact rules, targets, and functions that are inherited from an enabled style guide.
+
+You can import a single Spectral ruleset file or a `zip` file that includes a Spectral ruleset file and `.js` files that include custom functions.
+
+For details, see the [Import Style Guides](../2a.-style-guides/import-style-guides.md).
 
 ### Import File
 
