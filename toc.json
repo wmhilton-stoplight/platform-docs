@@ -114,6 +114,12 @@
       "title":"Governance"
     },
     {
+      "type": "item",
+      "title": "Proposals",
+      "uri": "governance/proposals.md",
+      "slug": "governance/proposals"
+    },
+    {
       "type":"group",
       "title":"Style Guides",
       "uri":"2a.-style-guides/a.style-guide-projects.md",
