@@ -14,7 +14,9 @@ To create a rule:
    - A style guide project so the rule can be automatically applied to API projects that use that style guide ([Professional and Enterprise plans only](https://stoplight.io/pricing)). 
    - An API project to add the rule to that project only. 
 2. Select the **Styles** tab.
-3. In the left pane, select the **Add (+)** icon next to **Rules**. (In a Style Guide project, select the **Add (+)** icon from project toolbar, and then select **Add Rule**.)
+3. Use one of these options to add a rule:
+   - In the left pane from any project, select the **Add (+)** icon next to **Rules**. 
+   - In a Style Guide project, select the **Add (+)** icon from project toolbar, and then select **Add Rule**.
 4. In the **Rule** editor, configure the three main rule areas:
     1. [Rule Settings](#Rule-Settings)
     2. [Given Settings](#Given-Settings)
@@ -30,7 +32,7 @@ Set severity, name, the message returned during validation, and the description 
 
 - **Name**: Provide a short descriptive name that contains no spaces. Example: `require-description`.
 
-- **Message**: Provide the message that will appear in the **API Design Checker** as developers work with APIs. Add message text or include placeholders that are evaluated at runtime:
+- **Message**: Provide the message that will appear in the **API Design Checker** as developers work with APIs. Add text or include placeholders that are evaluated at runtime:
 
    - `{{error}}`: Returns the function error.
    - `{{description}}`: Returns the rule's description.
@@ -44,7 +46,7 @@ Set severity, name, the message returned during validation, and the description 
 
 ### 2. Given Settings
 
-Select a **target** to specify an area of an API specification document. Targets are usually predefined and are required for each rule. Targets may be organized into [groups based on their names](b-create-targets.md#organize-targets). If you don't see a target you need, you can [add one here](b-create-targets.md). Note that inline targets can't be reused or start with the # symbol.
+Select a **target** to specify an area of an API specification document. Targets are usually predefined and are required for each rule. Targets may be organized into [groups based on their names](b-create-targets.md#organize-targets). If you don't see a target you need, you can [add one](b-create-targets.md). Note that inline targets can't be reused or start with the # symbol.
 
 ### 3. Then Settings
 
@@ -56,8 +58,10 @@ You must have at least one **Then** setting.
 
 - **Property**: Add properties to reference a specific entity in the specified target. For example, when you target the `API_Tags` area of the OAS 3.1 specification, enter `description` to enforce rules on tag descriptions.
 
-- **Function**: Select a function(required). You can:
-   -  Use Stoplight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions), which are available for every style guide. 
+
+- **Function**: Select a function (required). You can:
+
+  -  Use Stoplight's [core functions](https://meta.stoplight.io/docs/spectral/ZG9jOjExNg-core-functions), which are available for every style guide. 
   - [Enable the Stoplight Style Guide](d-enable-style-guide.md) to use an additional set of custom functions. Functions are listed in alphanumeric order.
   - [Create your own functions](h-create-custom-functions.md).
 

@@ -16,7 +16,9 @@ To create a custom function:
 
 1. Edit a style guide project or an API project that has a style guide enabled.
 2. Select the **Styles** tab.
-3. In the left pane, select the **Add (+)** icon next to **Functions**. (In a Style Guide project, select the **Add (+)** icon from project toolbar, and then select **Add Function**.)
+3. Use one of these options to add a function:
+  - In the left pane from any project, select the **Add (+)** icon next to **Functions**. 
+  - In a Style Guide project, select the **Add (+)** icon from project toolbar, and then select **Add Function**.
 4. Use the content editor to write your function. You can also paste the function into the editor.
 5. Add a function name that contains no spaces.
 6. If your function accepts options, use the **Schema Editor** to describe those options. The schema options are available in the **Rule Editor** when you select the custom function.
