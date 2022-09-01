@@ -531,6 +531,11 @@
                   "uri":"2.-workspaces/saml-walkthroughs/azure-integration-guide.md"
                 },
                 {
+                  "type": "item",
+                  "title": "Google SSO",
+                  "uri":"2.-workspaces/saml-walkthroughs/google-sso-guide.md"
+                },
+                {
                   "type":"item",
                   "title":"Okta",
                   "uri":"2.-workspaces/saml-walkthroughs/okta-integration-guide.md"
