@@ -64,12 +64,14 @@ You can:
 - Edit the default template to personalize it for your company. 
 - Completely replace the default template. 
 
->Use traditional Markdown along with [Stoplight Flavored Markdown](../4.-documentation/stoplight-flavored-markdown.md). 
+> Use traditional Markdown along with [Stoplight Flavored Markdown](../4.-documentation/stoplight-flavored-markdown.md). 
 
 1. Select the right arrow next to **Landing Page**.
 2. Use the **Home Screen Markdown** page to add information to the page. 
 3. Select **Preview** to test your changes. 
 4. Select **Use Default Template** to replace your content with default content provided by Stoplight.
+
+The **HTTP Request Maker** and **JSON Schema** options aren't supported in the Landing Page Markdown editor.
 
 
 
