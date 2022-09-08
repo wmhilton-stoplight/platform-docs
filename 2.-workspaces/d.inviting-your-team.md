@@ -44,7 +44,9 @@ To change the default role or remove the domain, select the arrow to the right o
 
 You must approve join requests when users want to join your workspace. If you allow access by email domain, you must approve join requests for users who register for your workspace with an email address that doesn't match your domain.
 
-Workspace owners and administrators are notified by email when users try to join their workspace. Click the link in the email to approve requests. You can also manually approve join requests from the **Members Settings** page.
+Join requests automatically expire and are deleted after 30 days.
+
+Workspace owners and administrators are notified by email when users try to join their workspace. Select the link in the email to approve requests. You can also manually approve join requests from the **Members Settings** page.
 
 1. From the workspace home page, select **Members**. 
 2. Select members with a role of "pending."
