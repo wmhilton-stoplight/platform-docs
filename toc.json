@@ -57,8 +57,13 @@
           },
           {
             "type":"item",
-            "title":"Work with Media Types",
+            "title":"Media Types",
             "uri":"3.-design/work-with-content-types.md"
+          },
+          {
+            "type":"item",
+            "title":"Extensions",
+            "uri":"3.-design/x-extensions.md"
           },
           {
             "type":"item",
@@ -75,7 +80,7 @@
             "title":"Work with Mock Servers",
             "uri":"3.-design/setting-up-a-mock-server.md"
           },
-        {
+          {
             "type":"item",
             "title":"Validation and Linting",
             "uri":"3.-design/validation-and-linting.md"

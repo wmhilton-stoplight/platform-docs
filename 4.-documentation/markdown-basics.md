@@ -143,7 +143,7 @@ Use language tags to change the syntax highlighting. For example, the following 
 ```
 ````
 
-Would have JSON syntax highligting:
+Would have JSON syntax highlighting:
 
 ```json
 {

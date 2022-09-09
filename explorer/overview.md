@@ -31,7 +31,7 @@ With API artifacts in Explorer, you can:
 
 ### Search and Filter
 
-Search and filter by articles, APIs, endpoints, and models. Developers can avoid duplications and remove inconsistencies. Technical writers can improve documentation. API teams can write specifications, which help your business add value by using what is already available. Discoverable assets for all APIs allow consistent delivery in API design, documentation, code sample tests, and other essential operating aspects of an API.
+Search and filter by articles, APIs, endpoints, and models. Developers can avoid duplications and remove inconsistencies. Technical writers can improve documentation. API teams can write specifications, which help your business add value by using what's already available. Discoverable assets for all APIs allow consistent delivery in API design, documentation, code sample tests, and other essential operating aspects of an API.
 
 ### View Changelogs
 

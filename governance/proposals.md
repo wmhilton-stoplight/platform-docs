@@ -19,7 +19,7 @@ We're committed to providing the best API experience for our users. This feature
 
 Proposals facilitate oversight + governance  oversight within your API program by:
 
-- **Increasing Visiblity**: The proposals screen provides a single point of access that surfaces all in-flight API Design and Documentation changes across the Git-connected projects in your workspace.
+- **Increasing Visibility**: The proposals screen provides a single point of access that surfaces all in-flight API Design and Documentation changes across the Git-connected projects in your workspace.
 - **Mitigating Risk**: Proposals highlight potentially [breaking changes](#about-breaking-changes) to your API.
 - **Surfacing Affected Consumers**: Ever wonder which API operations are affected by the removal of that one shared schema property? Proposals is `$ref` aware, making it easier to understand the true impact of changes to shared components.
 
@@ -46,7 +46,7 @@ To see the list of proposals:
 
 Proposals are created automatically for Git branches that contain changes to API Design or Documentation files, when compared to their baseline Git branch.
 
-On the propsals screen, use the **State** dropdown to filter proposals by:
+On the proposals list, use the **State** dropdown to filter proposals by:
 
 * **All**: Shows all Git branches that contain API design or docs changes vs. their baseline branch (effectively, a "Proposal").
 * **Review**: Proposals that have an associated open pull request.
@@ -97,7 +97,7 @@ Select a file from the left pane to see details for each change in the right pan
 
 ## About Breaking Changes
 
-Stoplight will flag certain changes to APIs and schemas as potentially breaking changes. Breaking changes typically require API consumers to modify ther implementations, so it's important to be aware of breaking changes before you approve and deliver updates to your API. 
+Stoplight will flag certain changes to APIs and schemas as potentially breaking changes. Breaking changes typically require API consumers to modify their implementations, so it's important to be aware of breaking changes before you approve and deliver updates to your API. 
 
 Once you understand breaking changes in your proposal, you can:
 

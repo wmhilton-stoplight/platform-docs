@@ -20,7 +20,7 @@ Use this method to create models that contain data you need to share across a si
 
 3. On the **New Model** dialog:
     * Provide a **name** for the model.
-    * Add **tags** to organize your models. See [Endpoint and Modeling Odering Rules](../4.-documentation/Sidebar/d.table-of-contents.md#endpoint-and-model-ordering-rules) for details.
+    * Add **tags** to organize your models. See [Endpoint and Modeling Ordering Rules](../4.-documentation/Sidebar/d.table-of-contents.md#endpoint-and-model-ordering-rules) for details.
     * For **Scope**:
         * Select **Common** to create a model that can be used for all APIs in the project.
         * Select **Single API** to create a model for a single API in the project, and then select the API.
@@ -44,7 +44,7 @@ The following example shows a data model for user information. This is a common 
 3. **Visibility**: Set the model as internal to hide it in public documentation and from guest users. See [API Visibility](../4.-documentation/set-internal-docs.md) for details.
 4. **JSON Schema Editor**: Use to build a schema object and examples. See [JSON Schema Editor](json-schema-editor.md) for details.
 6. **Examples**: Add examples to your schema. See [Generate Examples](json-schema-editor.md#generate-examples) for details.
-7. **X-Extensions**: Add extensions to your model.
+7. **X-Extensions**: Add extensions to your model. See [Extensions](x-extensions.md) for details.
 
 ## Add a Schema in a Request or Response Body
 
