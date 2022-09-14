@@ -4,11 +4,7 @@ tags: [Workspaces]
 
 # Manage Workspace Members
 
-Stoplight is an all-in-one platform that covers all integral parts of the API lifecycle including design, documentation development, and governance. This requires different stakeholders from inside and possibly outside your organization to use the platform.
-
-Having all your collaborators on a single platform helps promote **visibility** and **reusability** of artifacts across your organization, but you may need different levels of access for your stakeholders. You can limit that by defining their [workspace roles](k.workspace-roles.md) and [project roles](l.project-roles.md).
-
-Once your workspace is set up, you can invite your colleagues and partners. 
+Once your workspace is set up, you can invite your colleagues and partners to collaborate on your API design.
 
 There are two types of workspace users:
 
@@ -31,12 +27,18 @@ Once sent, your invitations are set to pending and your team members are sent an
 
 ## Allow Access by Email Domain
 
-The fastest way to onboard your teammates is by configuring an [approved email domain](./allowed-email-domains.md) and sending them a link to your workspace. This enables them to join your workspace without an invitation.
+> This feature is available on the [**Starter** plan](https://stoplight.io/pricing/) and above.
+
+The fastest way to onboard your teammates is to configure an approved email domain and sending them a link to your workspace. This enables them to join your workspace without an invitation.
+
+To configure an approved domain:
 
 1. From the workspace home page, select **Settings**.
 2. In the **Approved Domains** section, select **Add**.
 3. Add your domain URL, and then select a default role for your domain users. 
 3. Select **Save**.
+
+You can configure one or more approved domains.
 
 To change the default role or remove the domain, select the arrow to the right of the domain.
 
@@ -56,10 +58,9 @@ Workspace owners and administrators are notified by email when users try to join
 
 ![approve-requests.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/eUIWFYsOXOU)
 
-
 ## Manage Workspace Access
 
-Since you will likely invite stakeholders from different parts of the API Lifecycle, you can limit and restrict who gets access to what.
+Since you will likely invite stakeholders from different parts of the API lifecycle, you can limit and restrict who gets access to what.
 
 To change a member's role for your workspace:
 

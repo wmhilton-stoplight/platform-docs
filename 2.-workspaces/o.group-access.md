@@ -1,6 +1,6 @@
 # Manage Group Access
 
-Use a combination of visibility type (public and internal) and roles to assign access to sets of projects organized in groups.
+Use a combination of group visibility type (public and internal) and roles to assign access to sets of projects organized in [groups](m.groups.md).
 
 ## Group Visibility & Access
 Similar to [project visibility](l.project-roles.md), group visibility defines what account types can see or join a group. It also impacts what kinds of projects can belong to that group.

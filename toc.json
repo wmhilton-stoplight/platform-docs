@@ -235,11 +235,6 @@
           },
           {
             "type":"item",
-            "title":"Set Article and API Visibility",
-            "uri":"4.-documentation/set-internal-docs.md"
-          },
-            {
-            "type":"item",
             "title":"Redirects",
             "uri":"4.-documentation/e2.configure-redirects.md"
           },
@@ -409,27 +404,17 @@
     {
       "type":"group",
       "title":"User Access",
+      "uri":"2.-workspaces/p.access-overview.md",
       "items":[
           {
-            "type":"group",
-            "title":"Workspace Access",
-            "items":[
-                {
-                  "type":"item",
-                  "title":"Manage Workspace Members",
-                  "uri":"2.-workspaces/d.inviting-your-team.md"
-                },
-                {
-                  "type":"item",
-                  "title":"Workspace Roles",
-                  "uri":"2.-workspaces/k.workspace-roles.md"
-                },
-                {
-                  "type":"item",
-                  "title":"Allowed Email Domains",
-                  "uri":"2.-workspaces/allowed-email-domains.md"
-                }
-            ]
+            "type":"item",
+            "title":"Manage Workspace Members",
+            "uri":"2.-workspaces/d.inviting-your-team.md"
+          },
+          {
+            "type":"item",
+            "title":"Workspace Roles",
+            "uri":"2.-workspaces/k.workspace-roles.md"
           },
           {
             "type":"item",
@@ -440,6 +425,11 @@
             "type":"item",
             "title":"Manage Group Access",
             "uri":"2.-workspaces/o.group-access.md"
+          },
+          {
+            "type":"item",
+            "title":"Article and API Visibility",
+            "uri":"4.-documentation/set-internal-docs.md"
           }
       ]
     },
