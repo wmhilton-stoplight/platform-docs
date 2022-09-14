@@ -1,11 +1,17 @@
 # Export from Stoplight
 
-Stoplight enables you to export:
+Stoplight offers multiple export options.
 
-* Individual OpenAPI specifications in a project, including models included in the specification.
+
+From published documentation (view mode), you can export:
+
+* Individual API documents in a project, including models included in the specification.
 * Individual models.
-* An entire project, including all OpenAPI specifications, models, and Markdown articles. 
-* Any individual file added to a project.
+
+From the Design Editor (edit mode), you can export:
+
+* An entire project, including all API documents, models, and Markdown articles. 
+* Any individual file in a project.
 
 ## Export API Documents
 
@@ -22,7 +28,7 @@ The following images show an example of both options. An export with the origina
 
 ![$Ref Export Examples](https://stoplight.io/api/v1/projects/cHJqOjI/images/UxXy5sQvKM4)
 
-### Export APIs with Studio Web
+### Export an API from Documentation
 
 1. Log in to your workspace, and then select the project you want to export.
 
@@ -36,54 +42,46 @@ The following images show an example of both options. An export with the origina
 ### Export APIs with Explorer
 
 1. Log in to your workspace, and then select **Explore** on the left pane.
-![export_explorer-2.png](../assets/images/export_explorer-2.png)
-
 2. Find the project you want to export.
-![export_selectproject.png](../assets/images/export_selectproject.png)
-
-3. Within the project, the API overview (shown in the following example or a single model.
+3. Within the project, select the API overview (shown in the following example) or a single model.
 4. Select **Export**, and then select a [reference option](#$ref-options).
 ![export_selectexport.png](../assets/images/export_selectexport.png)
 
-## Export a Project
+## Export an Entire Project
+
 This option exports all API descriptions and markdown files into a zip file.
 
-Downloading projects resolves $refs in OpenAPI and JSON Schema files. Design library users can view references to models in the design library.
+Downloading projects resolves $refs in API and JSON Schema files. Design library users can view references to models in the design library.
 
 ### Download Projects with Studio Web
 
-1. Log in to your workspace, then select the project you want to download in **Edit** mode.
-
-![export_studioedit.png](../assets/images/export_studioedit.png)
-
+1. Log in to your workspace, then select the project you want to download, and then select **Edit**.
 2. From the menu, select **Download Project Zip**.
 
 ![export_studiodownload.png](../assets/images/export_studiodownload.png)
 
 ### Download Projects with Studio Desktop
 
-1. Select the project you want to download.
+1. Open the project you want to download.
 2. From the menu, select **Open project folder**.
-
-![export_desktopmenu.png](../assets/images/export_desktopmenu.png)
-
 3. In the dialog, select **Open** to navigate to the folder.
-
-![export_desktopdirectory.png](../assets/images/export_desktopdirectory.png)
-
 4. Use a local zip tool to create a zip file of the folder contents.
-
-![export_zipfolder.png](../assets/images/export_zipfolder.png)
 
 ## Export Single Files
 
 Use this option to export individual files in your project. The steps apply to Studio Web and Studio Desktop.
 
-> Spectral files can't be exported.
-
 1. Log in to your workspace, and then edit a project.
 2. Select the **Files** tab.
 3. Right-click on the file you want to export.
-4. Select **Export**>**Save File**.
+4. Select **Export**.
 
-![export-singlefiles.png](../assets/images/export-singlefiles.png)
+For API files, the **Export** dialog opens. Select from these options:
+
+- **Format**: Select **JSON** or **YAML** as the exported format. This is an easy way to convert a YAML file to JSON or vice versa.
+- **References**: Select **Bundled** to resolve $refs and place them in the components section. Select **Dereferenced** to export $refs as unresolved.
+- **X-Extensions**: Select **Included** to export [extensions](../3.-design/x-extensions.md) included in the API.
+- **Copy to clipboard** or **Save to file**: Select one of these options.
+
+For other file types, choose to **Copy to clipboard** or **Save to file**.
+

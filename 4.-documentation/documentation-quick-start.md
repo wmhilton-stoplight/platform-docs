@@ -98,7 +98,7 @@ Select the **APIs** tab to view provided APIs and models. You can modify these e
 
 Select the **Docs** tab to switch from the API Design workspace to the documentation workspace. This is where all documentation-related files (Markdown files and image files) can be created, managed, modified, and deleted. Because you added tutorial files, the **Docs** tab includes samples of Markdown and image files.
 
-![Select Docs tab](https://stoplight.io/api/v1/projects/cHJqOjU/images/Tfqz2ZXG65k)
+![Select Docs tab](../assets/images/select-docs-tab.png)
 
 From the Markdown folder, select **basic-syntax**. The **Markdown Basics** article opens in the main panel. You can modify existing content and create new content. Use the **Code** and **Preview** options to switch between edit and preview modes.
 

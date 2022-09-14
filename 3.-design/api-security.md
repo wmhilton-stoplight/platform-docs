@@ -73,7 +73,7 @@ To create an Oauth 2 key:
 
 ### OpenID Connect
 
-OpenID Connect is a set of specifications that extend OAuth 2. Most relevant in the context of OpenAPI is a feature specified in [OpenID Connect Discovery](https://openid.net/specs/openid-connect-discovery-1_0.html) that allows dynamic retrieval of OpenID provider information, including OAuth 2 attributes like URLs, supported flows, and scopes.
+OpenID Connect is a set of specifications that extend OAuth 2. Most relevant in the context of OpenAPI is a feature specified in [OpenID Connect Discovery](https://openid.net/connect/) that allows dynamic retrieval of OpenID provider information, including OAuth 2 attributes like URLs, supported flows, and scopes.
 
 ![OpenID Connect Configuration](https://stoplight.io/api/v1/projects/cHJqOjI/images/efVbwqcHgEI)
 

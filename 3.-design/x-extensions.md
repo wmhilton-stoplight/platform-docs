@@ -10,6 +10,7 @@ Extensions:
 
 - Are always prefixed with `x-`.
 - Don't appear in published documentation.
+- Can optionally be [exported with an API](../7.-projects/export-api-file.md#export-single-files).
 
 You can use the **Form Editor** to add extensions to these areas of your API document:
 
