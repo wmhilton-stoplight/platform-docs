@@ -4,11 +4,6 @@ stoplight-id: e6abea900af9f
 
 # Azure DevOps Services
 
-<!--
-focus: false
--->
-![Feature preview badge](../../assets/images/badge-preview-small.png)
-
 > For the Azure DevOps Services integration to work, your Azure DevOps organization settings must have "**Third-party application access via OAuth**" enabled. You can find more details about that setting [here](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops).
 
 Azure DevOps Services is supported out of the box in Stoplight. To enable your workspace Azure DevOps Services integration:
