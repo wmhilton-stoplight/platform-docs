@@ -33,6 +33,10 @@ Proposals facilitate oversight + governance  oversight within your API program b
 4. Articles with images stored in Git don't render correctly.
 5. Article-to-article links don't resolve correctly.
 
+## Create a Proposal
+
+Proposals are created automatically for Git branches that contain changes to API Design or Documentation files, when compared to their baseline Git branch.
+
 ## View the Proposals List
 
 Proposals are available for users who have the **Makers** role. Internal and public projects are listed. Private projects are only included for users who can view those projects. 
@@ -41,10 +45,6 @@ To see the list of proposals:
 
 1. Log in to your workspace.
 2. Select **Proposals** from the workspace left sidebar.
-
-## Create a Proposal
-
-Proposals are created automatically for Git branches that contain changes to API Design or Documentation files, when compared to their baseline Git branch.
 
 On the proposals list, use the **State** dropdown to filter proposals by:
 
@@ -71,33 +71,40 @@ To review a proposal:
 1. Select **Proposals** from the workspace sidebar.
 2. Select the proposal you want to review.
 
-![Proposals Page](https://stoplight.io/api/v1/projects/cHJqOjI/images/SXvlkvmJJr0)
+![Proposals Page](https://stoplight.io/api/v1/projects/cHJqOjI/images/L3zq6XVSuak)
 
-### `A` Branches and Pull Requests
+
+### `1` Branches and Pull Requests
 
 See the originating branch and the working branch for each proposal. You can also open an existing pull request for a proposal. If there is no pull request, the main repository page opens. 
 
-### `B` List of Proposed Changes 
+### `2` List of Proposed Changes 
 
 Contains a list changes in a branch. You can see which files were added, updated, deleted, or contain [breaking changes](#about-breaking-changes). Files are organized by articles and APIs. API changes include the overview, operations, and schemas. 
 
 > When you change a schema that's referenced in operations or other schemas, impacted files are included in the change list so you can see the impact of the schema change.
 
-### `C` Change View
+### `3` Change View
 
 Select one of three views for each change:
 
+* **Visual Diff**: For API and models, see changes to top-level service details, operation request and response parameters, security schemes, and more. 
 * **Text Diff**: See line-by-line changes for a selected file.
 * **Current**: See the latest update in the branch.
 * **Previous**: See the version of a file from the branch creation.
 
-### `D` Change Details
+### `4` Change Details
 
 Select a file from the left pane to see details for each change in the right pane. You can also see the **affected consumers**, which shows the  operations and schemas impacted by a change. 
 
 ## About Breaking Changes
 
 Stoplight will flag certain changes to APIs and schemas as potentially breaking changes. Breaking changes typically require API consumers to modify their implementations, so it's important to be aware of breaking changes before you approve and deliver updates to your API. 
+
+The easiest way to see a breaking change is to select the **Visual Diff** tab on a proposal, then hover over the breaking change indicator.
+
+![Breaking Change Help Text](https://stoplight.io/api/v1/projects/cHJqOjI/images/0feA2C2LC74)
+
 
 Once you understand breaking changes in your proposal, you can:
 
