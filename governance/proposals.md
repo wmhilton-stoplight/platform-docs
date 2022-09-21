@@ -6,11 +6,6 @@ stoplight-id: jmirdp5mkp3xj
 
 ---
 
-<!--
-focus: false
--->
-![Feature Preview](../assets/images/badge-preview-small.png)
-
 We're committed to providing the best API experience for our users. This feature is being actively improved and you can help by [providing feedback](https://docs.google.com/forms/d/e/1FAIpQLSeW24zIlv0jUgrxrFmIlssk7YDaA_NMYVJVs75_TuEUsM8tYA/viewform).
 
 ---
@@ -44,7 +39,9 @@ Proposals are available for users who have the **Makers** role. Internal and pub
 To see the list of proposals:
 
 1. Log in to your workspace.
-2. Select **Proposals** from the workspace left sidebar.
+2. Select **Proposals** from the workspace left sidebar. 
+
+> A number icon represents changes you haven't yet viewed.
 
 On the proposals list, use the **State** dropdown to filter proposals by:
 
