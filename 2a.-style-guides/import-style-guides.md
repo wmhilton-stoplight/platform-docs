@@ -15,6 +15,12 @@ This is useful when you have a ruleset that's maintained outside of Stoplight. W
 - If your ruleset contains custom functions, first create a `zip` file that contains the Spectral file and the `.js` files that store custom functions. Then, follow the [Import Steps](#import-steps).
 - The import process uses the [Spectral `functionsDir` keyword](https://meta.stoplight.io/docs/spectral/ZG9jOjI1MTkw-custom-functions#changing-directory) in the ruleset you are importing to locate custom functions. 
 
+### Import Limitations
+
+- You can't import JavaScript rulesets.
+- The [`resolved` field](https://docs.stoplight.io/docs/spectral/e5b9616d6d50c-custom-rulesets#resolved) isn't yet supported.
+- [Overrides](https://docs.stoplight.io/docs/spectral/e5b9616d6d50c-custom-rulesets#overrides) aren't yet supported. If overrides are used to disable or change the severity of a rule, remove these overrides from your Spectral file, perform the import, and then use the Rule Editor to [disable or change rule severity](j-disable-rules.md). 
+
 ## Import Steps
 
 To import Spectral files:
