@@ -23,7 +23,7 @@ Azure DevOps organizes repositories inside of [projects](https://docs.microsoft.
 
 > This feature is available on the Stoplight **Pro** plan and above.
 
-By default, the Azure DevOps Services integration will use Stoplight's OAuth application, but you can customize your Azure DevOps Services integration to use your own OAuth app.
+By default, the Azure DevOps Services integration will use Stoplight's OAuth application, but you can customize your Azure DevOps Services integration to use your own OAuth 2.0 app.
 
 ### Azure DevOps Services Setup
 
@@ -38,7 +38,7 @@ By default, the Azure DevOps Services integration will use Stoplight's OAuth app
      * Project and team (read)
 3. Select **Create Application**.
 
-Read more about [creating an Azure DevOps Services OAuth App](https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/oauth?toc=%2Fazure%2Fdevops%2Forganizations%2Ftoc.json&bc=%2Fazure%2Fdevops%2Forganizations%2Fbreadcrumb%2Ftoc.json&view=azure-devops).
+Read more about [creating an Azure DevOps Services OAuth 2.0 App](https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/oauth?toc=%2Fazure%2Fdevops%2Forganizations%2Ftoc.json&bc=%2Fazure%2Fdevops%2Forganizations%2Fbreadcrumb%2Ftoc.json&view=azure-devops).
 
 ### Stoplight Setup
 
