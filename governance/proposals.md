@@ -50,7 +50,7 @@ On the proposals list, use the **State** dropdown to filter proposals by:
 * **Feedback**: Proposals that have an associated open draft pull request.
 * **Work in Progress**: Proposals without an associated pull request. This can occur if you create a new Git branch in Studio and push some changes to your design files, but haven't yet opened a pull request in your VCS.
 
-![Proposal](https://stoplight.io/api/v1/projects/cHJqOjI/images/sCjrQq3oCSg)
+You can also choose to see only those [projects you have pinned](../4.-documentation/Sidebar/a.workspace-sidebar.md#add-projects-to-the-sidebar).
 
 For each proposal, you can see:
 
@@ -58,6 +58,8 @@ For each proposal, you can see:
 2. The name of the branch that contains proposed changes and the state of the branch.
 3. Information about the proposal, including a summary of the changes, the composition of the changes (operations, schema, or article), and when the last change was made and by whom.
 4. [Breaking change](#about-breaking-changes) indicator, if they're found. 
+
+![Proposal](https://stoplight.io/api/v1/projects/cHJqOjI/images/sCjrQq3oCSg)
 
 Once a branch is merged or deleted, it's removed from the **Proposals** list.
 
