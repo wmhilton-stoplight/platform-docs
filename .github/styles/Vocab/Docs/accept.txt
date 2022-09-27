@@ -1,5 +1,6 @@
 allowlist
 APIMatic
+application/problem+json
 autogenerate
 Autogenerate
 Axios
@@ -40,13 +41,15 @@ hostname
 infographic
 JavaScript
 lookup
+NGINX
 Node.js
 noindex
+nullable
 pecl
-PowerShell
 Okta
 openapi
 OpenAPI
+PowerShell
 Replit
 Reclone
 repo
