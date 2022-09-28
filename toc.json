@@ -428,6 +428,11 @@
           },
           {
             "type":"item",
+            "title":"Manage Team Access",
+            "uri":"2.-workspaces/teams.md"
+          },
+          {
+            "type":"item",
             "title":"Article and API Visibility",
             "uri":"4.-documentation/set-internal-docs.md"
           }
