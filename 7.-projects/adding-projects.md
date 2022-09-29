@@ -33,7 +33,7 @@ Stoplight projects offer real-time collaboration. Data is stored in Stoplight. A
 ### Add a Blank Project
 
 1. From the **Create a Project** page, select **Create Blank Project**.
-2. Provide a name for your project, and then set the [project visibility](../2.-workspaces/l.project-roles.md). 
+2. Provide a name for your project, and then set the [project visibility](../2.-workspaces/l.project-access.md). 
 3. Optionally, select a group to help organize your projects (Professional plan and above).
 4. Select **Create API Project**.
 5. Select **Edit** to design your API with Stoplight Studio.
@@ -41,7 +41,7 @@ Stoplight projects offer real-time collaboration. Data is stored in Stoplight. A
 ### Import an OpenAPI File
 
 1. From the **Create a Project** page, select **Import OpenAPI File**.
-2. Provide a name for your project, and then set the [project visibility](../2.-workspaces/l.project-roles.md). 
+2. Provide a name for your project, and then set the [project visibility](../2.-workspaces/l.project-access.md). 
 3. Optionally, select a group to help organize your projects (Professional plan and above).
 4. Select **Create Project & Import File**.
 5. Select the OpenAPI file to import, and then select **Import**.
@@ -86,5 +86,5 @@ Read more about [working with local projects](../2.-workspaces/f.working-with-lo
 
 ## Share Projects
 
-For external users, share your workspace URL with users to let them access your documentation. For internal or private projects, [invite users](../2.-workspaces/d.inviting-your-team.md) to the workspace directly. 
+For external users, share your workspace URL with users to let them access your documentation. For internal or private projects, [invite users](../2.-workspaces/d.workspace-access.md) to the workspace directly. 
 

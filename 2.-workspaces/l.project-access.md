@@ -1,3 +1,7 @@
+---
+stoplight-id: be67e532b4b2a
+---
+
 # Manage Project Access
 
 While workspace roles define workspace-wide access, not all projects need to be accessible or editable by everybody in the workspace. 

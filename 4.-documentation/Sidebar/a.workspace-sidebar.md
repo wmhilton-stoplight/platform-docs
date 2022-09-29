@@ -4,7 +4,7 @@ The sidebar is the primary navigation for all workspaces and contains the follow
 
 1. **Search** - Available to all users, but only returns results for projects users have access to.
 2. **Explore** - Available to logged-in workspace members only. The explorer makes it easier to find, search, and manage all available API artifacts.
-3. **Projects** - For workspace members, all projects that you've pinned or created are shown in the sidebar. External users (those not logged in) see only public projects. Learn to [manage project-level access](../../2.-workspaces/l.project-roles.md).
+3. **Projects** - For workspace members, all projects that you've pinned or created are shown in the sidebar. External users (those not logged in) see only public projects. Learn to [manage project-level access](../../2.-workspaces/l.project-access.md).
 4. **Groups** - Customers on either *Professional* or *Enterprise* plans can further control their sidebars by creating groups of projects. Learn more about [Groups](../../2.-workspaces/m.groups.md).
 
 <!-- focus: center -->

@@ -27,7 +27,7 @@ To create a new workspace:
 
 5. Check your email and confirm your registration using the verification code.
 
-Now that your workspace is ready, start collaborating by [adding your first project](../7.-projects/adding-projects.md) and [inviting users](d.inviting-your-team.md).
+Now that your workspace is ready, start collaborating by [adding your first project](../7.-projects/adding-projects.md) and [inviting users](d.workspace-access.md).
 
 
 ## Delete a Workspace

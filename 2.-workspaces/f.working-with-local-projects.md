@@ -26,7 +26,7 @@ Local projects aren't editable in Studio Web, but you can use Studio Desktop to 
 
 1. Log in to your workspace, and then select the **Add** icon (+) at the top of the left pane.
 2. From **CLI Project** area of the **Create a Project** page, select **Create Blank Project**.
-3. Provide a name for your project, and then set the [project visibility](l.project-roles.md). 
+3. Provide a name for your project, and then set the [project visibility](l.project-access.md). 
 4. Optionally, select a group to help organize your projects (Professional plan and above).
 5. Select **Create CLI Project**. 
 

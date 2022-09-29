@@ -3,7 +3,7 @@
 Use a combination of group visibility type (public and internal) and roles to assign access to sets of projects organized in [groups](m.groups.md).
 
 ## Group Visibility & Access
-Similar to [project visibility](l.project-roles.md), group visibility defines what account types can see or join a group. It also impacts what kinds of projects can belong to that group.
+Similar to [project visibility](l.project-access.md), group visibility defines which users can see a group and its projects. It also impacts what kinds of projects can belong to that group.
 
 **Public** groups, and any public projects in them, are visible to everyone, including logged-out users. Use public groups to organize your public-facing API documentation.
 
@@ -32,7 +32,7 @@ Every member of a group automatically has access to the *non-private* projects i
 
 Guests have restricted access and can only view documentation in published branches. (Guests are automatically given restricted access when they're invited to a group or project.)
 
-However, project administrators can override this default behavior to customize access for the group from the **Share Project** window. See [Project Access](l.project-roles.md#grant-project-permissions).
+However, project administrators can override this default behavior to customize access for the group from the **Share Project** window. See [Project Access](l.project-access.md#grant-project-permissions).
 
 ![project-access-for-group-members.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/RtI9C5YVrMU)
 

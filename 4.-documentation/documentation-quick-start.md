@@ -17,7 +17,7 @@ This quickstart focuses on adding an empty project, creating an API, and  creati
 1. [Create a workspace](../2.-workspaces/a.creating-a-workspace.md).
 2. Select the **Add** icon (+) at the top of the left pane.
 3. From the **Create a Project** page, select **Create Blank Project**.
-4. Provide a name for your project, and then set the [project visibility](../2.-workspaces/l.project-roles.md). 
+4. Provide a name for your project, and then set the [project visibility](../2.-workspaces/l.project-access.md). 
 5. Select **Create Project**.
 
 Once you have a project, you can add APIs, articles, images, and more. See [Work with Files](../7.-projects/working-with-files.md) for details or continue through this quickstart.
@@ -49,9 +49,9 @@ Two starter endpoints (`/users/{userid}` and `/user`) and a model (`user`)are pr
 
 1. Select the **Publish** button.
 2. The first time you publish, the **Share Project** window opens. Here, you can:
-   * [Invite users](../2.-workspaces/d.inviting-your-team.md) by name or email address.
-   * [Set the project visibility](../2.-workspaces/l.project-roles.md#project-visibility).
-   * [Set or change access for invited users](../2.-workspaces/l.project-roles.md#project-visibility).
+   * [Invite users](../2.-workspaces/d.workspace-access.md) by name or email address.
+   * [Set the project visibility](../2.-workspaces/l.project-access.md#project-visibility).
+   * [Set or change access for invited users](../2.-workspaces/l.project-access.md#project-visibility).
 
 Then, select the **Back to Workspace** link to see the published version of the files you added.
 

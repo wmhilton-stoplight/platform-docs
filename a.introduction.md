@@ -9,7 +9,7 @@ See the **[Quickstart Guide](4.-documentation/documentation-quick-start.md)** or
 1. [Create a Workspace](2.-workspaces/a.creating-a-workspace.md)
 2. [Add Projects](7.-projects/adding-projects.md)
 3. [Customize your Workspace](2.-workspaces/b1-change-look-and-feel.md)
-4. [Invite your Team](2.-workspaces/d.inviting-your-team.md)
+4. [Invite your Team](2.-workspaces/d.workspace-access.md)
 5. [Configure Git](2.-workspaces/configure-git/a.configuring-git.md)
 6. [Publish](2.-workspaces/g.automating-publishing.md)
 

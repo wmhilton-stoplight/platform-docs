@@ -37,7 +37,7 @@ The Classic Migration tool can migrate all of your Classic APIs, including group
 
 However, there are a few items that won't be migrated:
 
-- **Members** - the roles and permission system is slightly different in Stoplight Platform (see FAQ below), so Stoplight won't be able to migrate your teammates. You can [configure an allowed email domain](../2.-workspaces/d.inviting-your-team.md#allow-access-by-email-domain) so your teammates can automatically join your workspace or [invite them manually by email](../2.-workspaces/d.inviting-your-team.md).
+- **Members** - the roles and permission system is slightly different in Stoplight Platform (see FAQ below), so Stoplight won't be able to migrate your teammates. You can [configure an allowed email domain](../2.-workspaces/d.workspace-access.md#allow-access-by-email-domain) so your teammates can automatically join your workspace or [invite them manually by email](../2.-workspaces/d.workspace-access.md).
 - **Hosted docs** - Stoplight won't be able to migrate your hosted documentation settings, such as custom domains, themes, layouts, authentication, and integrations. You will need to reconfigure these in your new Workspace's settings.
 
 ### Stoplight Platform vs Stoplight Classic

@@ -41,7 +41,7 @@ The **Guest** role is a special role that can be used to invite external members
 
 Each role also has a different set of permissions. For more details, head to the [Workspace Roles](k.workspace-roles.md) page.
 
-You can set the role when you [invite members](d.inviting-your-team.md) to your workspace.
+You can set the role when you [invite members](d.workspace-access.md) to your workspace.
 
 ### Project Access
 
@@ -55,7 +55,7 @@ User can have the following roles in a project:
 - **Admin**: Can view, edit, and manage the project and project settings.
 - **Owner**: Can view, edit, and manage the project and project settings, as well as remove or transfer ownership of it.
 
-Each role also has a different set of permissions. For more details, head to the [Manage Project Access](l.project-roles.md) page.
+Each role also has a different set of permissions. For more details, head to the [Manage Project Access](l.project-access.md) page.
 
 ### Group Access
 
@@ -93,11 +93,11 @@ Project visibility determines who can view projects within or outside the organi
 
 For example, if you have a public API and would like to provide documentation for all your users, you can set your project visibility to **Public** and it'll be accessible by anyone with the workspace URL.
 
-For more details about project visibility, head to the [Manage Project Access](l.project-roles.md) page.
+For more details about project visibility, head to the [Manage Project Access](l.project-access.md) page.
 
 ### Group Visibility
 
-Similar to [project visibility](l.project-roles.md), group visibility defines what account types can see or join a group. It also impacts what kinds of projects can belong to that group. There are two options for group visibility:
+Similar to [project visibility](l.project-access.md), group visibility defines what account types can see or join a group. It also impacts what kinds of projects can belong to that group. There are two options for group visibility:
 
 - **Public**: The group and any public projects in them are visible to everyone, including logged-out users. Use public groups to organize your public-facing API documentation.
 - **Internal**: The group can only be seen by workspace members. Workspace guests can't see internal groups unless they're added as a group member. Public projects **aren't* allowed in internal groups so you can rest assured that nothing in an internal group will be publicly exposed.

@@ -10,7 +10,7 @@ Select this option to change the name that appears in the upper left corner of y
 
 ## Approved Domains
 
-Set approved email domains that enable users to join your workspace without an invitation. See [Allowed Email Domains](d.inviting-your-team.md#allow-access-by-email-domain) for details.
+Set approved email domains that enable users to join your workspace without an invitation. See [Allowed Email Domains](d.workspace-access.md#allow-access-by-email-domain) for details.
 
 >Available for Starter packages and above.
 

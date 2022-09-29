@@ -107,4 +107,4 @@ This example sets the editor line width at 80 characters, excludes the test file
 }
 ```
 
-Next, [invite team members](./d.inviting-your-team.md) to these excellently configured projects. 
+Next, [invite team members](./d.workspace-access.md) to these excellently configured projects. 

@@ -59,7 +59,7 @@ To add a user to a team:
 5. Select their team role from the drop-down menu.
 6. Select **Send**.
 
-Once you select **Send**, users in the workspace are automatically added to the team. Users who aren't in the workspace will receive an email [invite to join the workspace](d.inviting-your-team.md#invite-members-to-your-workspace). Once they accept the invite, they will be automatically added to the team.
+Once you select **Send**, users in the workspace are automatically added to the team. Users who aren't in the workspace will receive an email [invite to join the workspace](d.workspace-access.md#invite-members-to-your-workspace). Once they accept the invite, they will be automatically added to the team.
 
 ### Remove User from Team
 
@@ -105,7 +105,7 @@ In any of the options above:
 
 1. Search for a team name on the invite field.
 2. Select the team or teams you'd like to add to the project.
-3. Select the [project role](l.project-roles.md).
+3. Select the [project role](l.project-access.md).
 4. Select **Send**.
 
 ## Remove Team from Project
@@ -194,7 +194,7 @@ When a team is deleted, that team is removed from any projects it had been added
 
 ### Project Access for Team Members
 
-Every member of a team automatically has access to any projects that team has been added to. Project administrators can change the permissions in a project for a team from the **Share Project** window. See [Project Access](l.project-roles.md#grant-project-permissions).
+Every member of a team automatically has access to any projects that team has been added to. Project administrators can change the permissions in a project for a team from the **Share Project** window. See [Project Access](l.project-access.md#grant-project-permissions).
 
 ![Share Project window showing two teams, one with the Editor and one with the Viewer role, and one member as the project owner ](../assets/images/share-teams.png)
 

@@ -409,7 +409,7 @@
           {
             "type":"item",
             "title":"Manage Workspace Members",
-            "uri":"2.-workspaces/d.inviting-your-team.md"
+            "uri":"2.-workspaces/d.workspace-access.md"
           },
           {
             "type":"item",
@@ -419,7 +419,7 @@
           {
             "type":"item",
             "title":"Manage Project Access",
-            "uri":"2.-workspaces/l.project-roles.md"
+            "uri":"2.-workspaces/l.project-access.md"
           },
           {
             "type":"item",

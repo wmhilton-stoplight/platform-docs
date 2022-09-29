@@ -210,7 +210,7 @@ To add a service account to your project, you need to be a Workspace Owner, or a
 7. If everything is working correctly, select **Save Information**.
 8. Select **Save** in the popup dialog.
 
-And you're all set. Stoplight will now use the service account credentials to do any Git operations for this project, and Stoplight users without a Git account should now be able to contribute to this project (as long as they have the [correct permissions](../l.project-roles.md#project-roles)).
+And you're all set. Stoplight will now use the service account credentials to do any Git operations for this project, and Stoplight users without a Git account should now be able to contribute to this project (as long as they have the [correct permissions](../l.project-access.md#project-roles)).
 
 ### Edit a Service Account
 
