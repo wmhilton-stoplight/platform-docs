@@ -1,6 +1,7 @@
 allowlist
 APIMatic
 application/problem+json
+Asana
 autogenerate
 Autogenerate
 Axios
@@ -40,6 +41,7 @@ HTTPie
 hostname
 infographic
 JavaScript
+Jira
 lookup
 NGINX
 Node.js
@@ -57,6 +59,7 @@ reusability
 Ruleset
 ruleset
 Runkit
+Slackbot
 Slideshare
 Sourcetree
 Spotify
