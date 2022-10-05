@@ -8,6 +8,7 @@ There are several components that Stoplight provides to control user access at d
 
 - Workspace Access
 - Project Access
+- Team Access
 - Group Access
 
 You can use different access levels to have fine-grained control on which users can access your Stoplight projects. You can also assign users different roles, to control the permissions a user has in the workspace and projects.
@@ -57,27 +58,34 @@ User can have the following roles in a project:
 
 Each role also has a different set of permissions. For more details, head to the [Manage Project Access](l.project-access.md) page.
 
+### Team Access
+
+<!-- theme: info -->
+> Groups are available on the Stoplight **Professional** and **Enterprise** plans.
+
+[Teams](teams.md) are a way to organize workspace members into teams, which allows users to more easily manage access to projects.
+
+Similar to **project roles**, you can assign the following roles to a team in a project:
+
+- Viewer
+- Editor
+- Admin
+
+Users in a team can also have two roles:
+
+- **Member**: Can access any projects the team has been added to.
+- **Admin**: Can access any projects the team has been added to, as well as manage the team and team settings.
+
+For more details about team access, head to the [Teams](teams.md) page.
+
 ### Group Access
 
 <!-- theme: info -->
 > Groups are available on the Stoplight **Professional** and **Enterprise** plans.
 
-Groups are a way to organize projects into folders, which allows users to more easily manage access and visibility settings for multiple projects and users at once.
+[Groups](m.groups.md) are a way to organize projects into folders, which allows users to more easily manage visibility settings for multiple projects, and organize the project sidebar.
 
-Similar to **project roles**, you can assign the following roles to users in a group:
-
-- Viewer
-- Editor
-- Admin
-- Owner (limited to one owner per group)
-
-And once a project is part of a group, you can choose the following access options in the Share dialog:
-
-- Editor
-- Inherit
-- Viewer
-
-That will allow you to define bulk access to any users in that group for a specific project.
+Groups only have one specific role: **group admin**. A group admin can update the group visibility, manage group settings, and manage group admins.
 
 For more details about group access, head to the [Manage Group Access](o.group-access.md) page.
 

@@ -49,7 +49,7 @@ For details, see [Add Projects](adding-projects.md).
 
 Select the **Projects** tab on the **Workspace** toolbar to see the projects in your workspace.
 
-![Projects List](https://stoplight.io/api/v1/projects/cHJqOjI/images/wf8jEUEHy3s)
+![Projects List](../assets/images/projects-list.png)
 
 1. All projects are shown in a list, with groups (Professional and Enterprise plans only) organized into collapsible folders.
 2. Sort the list by name, owner, nodes (the number of items in a project), project type, the last edit of project or group settings, or visibility. 
@@ -59,8 +59,7 @@ Select the **Projects** tab on the **Workspace** toolbar to see the projects in 
 
 Select a project from the list to see the **Overview** tab.
 
-<!-- focus: false -->
-![Project Overview Page](https://stoplight.io/api/v1/projects/cHJqOjI/images/pGTpVZtmPRE)
+![Project Overview Page](../assets/images/projects-overview.png)
 
 For API projects, you can:
 
@@ -71,6 +70,7 @@ For API projects, you can:
 
 For API and Style Guide projects, you can:
 
+* View the teams that have access to the project.
 * Edit the [version or branch](project-settings.md). (This option isn't available for [Stoplight CLI projects](../2.-workspaces/f.working-with-local-projects.md).)
 * Go to the published documentation for the project.
 * Manage [project settings](project-settings.md).
@@ -79,15 +79,15 @@ For API and Style Guide projects, you can:
 
 Select a project from the list, and then select the **Members** tab. 
 
-<!-- focus: false -->
-![project-members-tab.png](https://stoplight.io/api/v1/projects/cHJqOjI/images/8DKgkn5xPP8)
+<!-- focus: true -->
+![project-members-tab.png](../assets/images/project-members-tab-2.png)
 
 Here, you can:
 
-* Invite members to the project by name or email address. You can set the role to the same or lower access as yours as you invite members.
+* Invite members or teams to the project by user name, team name, or email address. You can set the role to the same or lower access as yours as you invite members.
 * Set the [project visibility](../2.-workspaces/l.project-access.md#project-visibility) for API projects. (Style Guide projects always have internal visibility.)
-* See the list of project members and change [project access](../2.-workspaces/l.project-access.md) to the same or lower access as yours. 
-* Remove members (project and workspace owners only).
+* See the list of teams and members and change [project access](../2.-workspaces/l.project-access.md) to the same or lower access as yours. 
+* Remove teams and members (project and workspace owners only).
 
 
 

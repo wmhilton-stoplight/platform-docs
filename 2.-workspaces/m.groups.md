@@ -3,6 +3,8 @@
 <!-- theme: info -->
 > This feature is available on the Stoplight **Professional** and **Enterprise** plans.
 
+> As of October 5, 2022, if you were using the Groups feature to manage user access to projects this functionality has been moved to [Teams](teams.md). The Groups feature is now only used for organizing projects and the project sidebar.
+
 Groups provide a way to organize projects for easy navigation and maintenance.
 
 For example, Stoplight uses groups to organize its public documentation into two groups: one primarily focused on the Stoplight platform and one for open-source products.
@@ -14,7 +16,7 @@ These groups help users navigate the documentation projects in the workspace sid
 
 Groups also make maintenance easier by organizing the Projects list. Groups are organized into collapsible folders. Folders are collapsed by default, and the list is sorted alphanumerically. You can sort the list by name, owner, type, etc.
 
-![Groups in Projects List](https://stoplight.io/api/v1/projects/cHJqOjI/images/r2aJCJqAlfk)
+![Groups in Projects List](../assets/images/projects-list-group.png)
 
 ## Create Groups
 
@@ -42,7 +44,7 @@ Project owners can move individual projects in and out of groups they own. Works
 
 **Option 1: Move a Single Project to a Group**
 
-![Move a project to a group](https://stoplight.io/api/v1/projects/cHJqOjI/images/4fQKzIw9pUE)
+![Move a project to a group](../assets/images/projects-list-options.png)
 
 1. Log in to your workspace, and then select the **Projects** tab. 
 2. Select the **ellipsis** at the right of the project you want to move.
@@ -52,7 +54,7 @@ Project owners can move individual projects in and out of groups they own. Works
 
 Workspace owners can move multiple projects to a group. 
 
-![Move Multiple Projects](https://stoplight.io/api/v1/projects/cHJqOjI/images/4w5YkL8O1r4)
+![Move Multiple Projects](../assets/images/projects-list-bulk.png)
 
 1. Log in to your workspace, and then select the **Projects** tab.
 2. Select the **checkbox** for each project you want to move, and then select the **folder** icon.
@@ -66,39 +68,38 @@ Workspace owners can move multiple projects to a group.
 Select a group from the list to see the **Overview** page.
 
 <!--
-focus: false
+focus: true
 -->
-![Group Overview Page](https://stoplight.io/api/v1/projects/cHJqOjI/images/1GQmnR2gllU)
-
+![Group Overview Page](../assets/images/groups-overview.png)
 
 Here, you can:
 
 * See the group owner.
-* See the number of projects, members, guests, and pending members.
+* See the number of projects, admins, and pending admins.
 
-### Group Members
+### Group Admins
 
-Select a group from the list, and then select the **Members** page. 
+Select a group from the list, and then select the **Admins** page. 
 
 <!--
-focus: false
+focus: true
 -->
-![Group Members Page](https://stoplight.io/api/v1/projects/cHJqOjI/images/GRdyCAo4XPE)
+![Group Admins Page](../assets/images/groups-admins-teams-callout.png)
 
 Here, you can:
 
-* Invite members to the group by name or email address. You can set the role to the same or lower access as yours as you invite members.
+* Invite admins to the group by name or email address.
 * Set the group visibility to internal or public (group or workspace owners only).
-* See the list of group members and [set the role for each user](o.group-access.md) to the same or lower access as yours.
+* See the list of group admins and remove members.
 
 ### Group Settings
 
 Select a group from the list, and then select the **Settings** page.
 
 <!--
-focus: false
+focus: true
 -->
-![Group Settings Page](https://stoplight.io/api/v1/projects/cHJqOjI/images/Wn8wTmgEpLk)
+![Group Settings Page](../assets/images/groups-settings.png)
 
 Here, a group owner or administrator can:
 

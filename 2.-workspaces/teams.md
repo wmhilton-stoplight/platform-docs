@@ -4,13 +4,10 @@ stoplight-id: g7kitzvxc69l8
 
 # Teams
 
-<!-- focus: false -->
-![Feature Preview](../assets/images/badge-preview-small.png)
-
 <!-- theme: info -->
-> This feature will be available on the Stoplight **Professional** and **Enterprise** plans.
+> This feature is available on the Stoplight **Professional** and **Enterprise** plans.
 
-<!-- > As of October 5, 2022, if you were using the [Groups](m.groups.md) feature to manage user access to projects this functionality has been moved to Teams. The Groups feature is now only used for organizing projects and the project sidebar.    -->
+> As of October 5, 2022, if you were using the [Groups](m.groups.md) feature to manage user access to projects this functionality has been moved to Teams. The Groups feature is now only used for organizing projects and the project sidebar.
 
 Teams are a powerful and flexible way for larger organizations to more easily manage which users have access to Stoplight projects, as well as controlling project permissions. This can make it easier for more users to collaborate on projects, while giving administrators more security over access controls.
 
@@ -84,7 +81,7 @@ To remove a user from a team:
 
 Adding a team to a project will give all team members access to that project with the selected role permissions.
 
-> **Note**: If a user belongs to multiple teams with different project permissions, the user will have the highest project permissions assigned to them.
+> **Note**: If a user belongs to multiple teams with different project permissions, the user will have the highest permissions assigned to them. See [Manage Project Access](l.project-access.md#manage-project-permissions) for details.
 
 There are three ways to add a team to a project:
 
@@ -174,35 +171,21 @@ When a team is deleted, that team is removed from any projects it had been added
 
 ### Team Permission Workspace Roles
 
-|                            | Guest | Viewer | Maker | Admin | Owner |
-|----------------------------|--------|-------|-------|-------|-------|
-| Can be invited to teams    | ✅     | ✅     | ✅    | ✅    | ✅    |
-| Can create teams           |        |       | ✅    | ✅    | ✅    |
-| Can have team admin role   |        |       | ✅    | ✅    | ✅    |
-| Can manage teams (if team admin) |  |       | ✅    | ✅    | ✅    |
-| Can delete teams (if team admin) |  |       |  ✅   |  ✅   | ✅    |
-| Can manage all teams       |        |       |       |      | ✅    |  
-| Can delete all teams       |        |       |       |      | ✅    |  
-| Can bulk delete teams      |        |       |       |      | ✅    |
-| Can add teams to projects*  |        | ✅    | ✅    | ✅    | ✅    |
-| Can update team project role* |      | ✅    | ✅   | ✅    | ✅    |
-| Can remove team from project** |     |       | ✅   | ✅    | ✅    |
+|                            | Guest | Viewer | Maker | Admin | Billing Admin | Owner |
+|----------------------------|--------|-------|-------|-------|----------|-------|
+| Can be invited to teams    | ✅     | ✅     | ✅    | ✅    | ✅    | ✅    |
+| Can view team members      |        | ✅     | ✅    | ✅    | ✅    | ✅    |
+| Can create teams           |        |       | ✅    | ✅    | ✅    | ✅    |
+| Can have team admin role   |        |       | ✅    | ✅    | ✅    | ✅    |
+| Can manage teams (if team admin) |  |       | ✅    | ✅    | ✅    | ✅    |
+| Can delete teams (if team admin) |  |       |  ✅   |  ✅   | ✅    | ✅    |
+| Can manage all teams       |        |       |       |      |     | ✅    |  
+| Can delete all teams       |        |       |       |      |     | ✅    |  
+| Can bulk delete teams      |        |       |       |      |     | ✅    |
+| Can add teams to projects*  |        | ✅    | ✅    | ✅    | ✅    | ✅    |
+| Can update team project role* |      | ✅    | ✅   | ✅    | ✅    | ✅    | ✅    |
+| Can remove team from project** |     |       | ✅   | ✅    | ✅    | ✅    |
 
 \* Users can only add or update a team's project role with their project level of permissions or lower.
 
 ** Workspace makers and admins can only remove a team from a project if they're also a project owner or project admin.
-
-### Project Access for Team Members
-
-Every member of a team automatically has access to any projects that team has been added to. Project administrators can change the permissions in a project for a team from the **Share Project** window. See [Project Access](l.project-access.md#grant-project-permissions).
-
-![Share Project window showing two teams, one with the Editor and one with the Viewer role, and one member as the project owner ](../assets/images/share-teams.png)
-
-Guests have restricted access and can only view documentation in published branches. (Guests are automatically given restricted access when they're invited to a project.)
-
-#### User Permissions
-
-Users can be added to projects directly as members, or they can be added to projects as part of a team. A user can also belong to multiple teams that can have different project permissions. To understand what permissions a user has on a project, there's an order of priority:
-
-- If a user is added to a project as a member and as part of a team, the member project permissions take precedence over any team permissions.
-- If a user is added to a project via multiple teams, the team with the highest permissions takes precedence over other team permissions.
