@@ -1,47 +1,63 @@
 # Billing
 
-Stoplight currently has three paid plans: Starter, Professional, and Enterprise. Your Stoplight workspace includes features that enable a self-serve billing process. This article offers guidance on managing your billing account, subscription, and payments.
+Stoplight currently has three paid plans: **Starter**, **Professional**, and **Enterprise**. Your Stoplight workspace includes features that enable a self-serve billing process. This article offers guidance on managing your billing account, subscription, and payments.
 
 <!-- markdown-link-check-disable-next-line -->
-Contact Stoplight's support team via the [Support Center](https://support.stoplight.io/hc/en-us/requests/new) for assistance if you experience any billing issues.
+Contact Stoplight's support team via the [Support Center](https://support.stoplight.io/) for assistance if you experience any billing issues.
 
 ## Billing Dashboard
 
-Manage your workspace billing via the billing dashboard. You must be logged in and have the `owner` or `billing admin` role to access the **Billing** tab.
+![Workspace billing tab, showing a workspace on the Professional plan](../assets/images/billing-dashboard.png)
 
-![billing dashboard overview](../assets/images/billing-dashboard.png)
+Manage your workspace billing via the billing dashboard. You must be logged in and have the owner, billing admin, or admin role to access the **Billing** tab.
 
-### `[A]` Current Subscription
+### A - Current Subscription
 
 See an overview of your active subscription.
 
-- **Plan**: The plan associated with your active subscription. One of `Free`, `Starter`, `Professional`, or `Enterprise`.
-- **Monthly - renews on**: Displays your billing interval (`monthly` or `yearly`), and your subscription renewal date. For monthly subscriptions, this date will always equal the "Next Invoice" date (from `[B]`).
-- **Change Plan**: Press this button if you want to upgrade or cancel your subscription.
-- **Switch to Yearly**: Press this button if you want to change your billing interval from a monthly subscription to a yearly subscription. Note that this button only displays if you are currently on a monthly subscription.
+- **Plan**: The plan associated with your active subscription. One of Free, Starter, Professional, or Enterprise.
+- **Monthly - Renews On**: Displays your billing interval (monthly or yearly), and your subscription renewal date. For monthly subscriptions, this date will always equal the "Next Invoice" date.
+- **Change Plan**: Select this if you want to upgrade or cancel your subscription.
+- **Switch to Yearly**: Select this if you want to change your billing interval from a monthly subscription to a yearly subscription. Note that this button only displays if you are currently on a monthly subscription.
 
-### `[B]` Current Billing Period
+### B - Current Billing Period
 
 Information about your current billing period and next invoice.
 
 - **Next invoice**: The date of your next invoice. This will display your next [true-up](#quarterly-true-up) invoice date for yearly subscriptions unless you are in the fourth quarter of your annual billing cycle.
 - **Projected total**: The expected total of your next invoice is based on the current number of member seats in use, the number of member seats included in your base plan, and the number of member seats you have already paid for during this billing cycle.
-- **Details**: Press to see a breakdown of your next invoice. Note that this projection won't reflect a coupon if one is active on your subscription. However, the coupon will apply when the invoice is issued.
+- **Details**: Select to see a breakdown of your next invoice. Note that this projection won't reflect a coupon if one is active on your subscription. However, the coupon will apply when the invoice is issued.
 
-### `[C]` Usage
+### Usage
+
+![Workspace billing tab, showing the Seat Usage and Workspace Usage sections with number of Members, Guest, and Current Projects](../assets/images/billing-dashboard-usage.png)
 
 Information about your billable usage.
 
-- **# Members paid for**: The total number of member seats you have paid for in this billing cycle.
-- **# Members in use today**: The number of member seats currently in use in your workspace. If you are on a yearly subscription and the number of seats exceeds the members you have paid for, you will be issued a [true-up billing](#quarterly-true-up) invoice at the 3/6/9 month mark. This information is also reflected in the **Projected total** from `[B]`.
+#### Seats Usage
+
+Seats usage includes a detailed view of total workspace users and the assigned limits for your workspace in this billing cycle. Depending on the subscription plan you have, you will see:
+
+- **Members**: Members are workspace users with the Viewer, Maker, Admin, Billing Admin, or Owner roles.
+- **Guests**: Guests are workspace users with the Guest role. 
+- **Viewers**: Viewers are workspace users with the Viewer role.
+- **Makers+**: Makers+ are workspace users with the Maker, Admin, Billing Admin, or Owner roles.
+
+See [Workspace Roles](k.workspace-roles.md) for more details about roles.
+
+If you are on a yearly subscription and the number of seats exceeds the members you have paid for, you will be issued a [true-up billing](#quarterly-true-up) invoice at the three/six/nine month mark. This information is also reflected in the **Projected total**.
+
+#### Workspace Usage
+
+Workspace usage includes information about the total number of projects in the workspace, and the maximum number of projects allowed based on your plan.
 
 ## Manage Billing
 
 ### Upgrade Plan
 
-To upgrade your plan from `Starter` to `Professional`, navigate to your billing dashboard and select **Change Plan**.
+To upgrade your plan from Starter to Professional, navigate to your billing dashboard and select **Change Plan**.
 
-If you are interested in the `Enterprise` plan, [contact the Stoplight sales team](mailto:sales@stoplight.io).
+If you are interested in the Enterprise plan, [contact the Stoplight sales team](mailto:sales@stoplight.io).
 
 ### Change Payment Method
 
@@ -51,13 +67,13 @@ To change your payment method, navigate to your billing dashboard and select **P
 
 ### Change Billing Contact
 
-Stoplight emails invoice receipts and open/past due invoice notifications to the primary billing contact. The billing contact email address **doesn't** need to be associated with a member of the workspace. This can save you a seat in certain situations. For example, you could set the billing contact email to `payables@yourco.com`, even though `payables@yourco.com` isn't a member of your workspace.
+Stoplight emails invoice receipts and open/past due invoice notifications to the primary billing contact. The billing contact email address **doesn't** need to be associated with a member of the workspace. This can save you a seat in certain situations. For example, you could set the billing contact email to payables@yourco.com, even though payables@yourco.com isn't a member of your workspace.
 
 Navigate to your billing dashboard and select "Billing Contact" to change your primary billing contact. This will open a form for you to adjust the billing contact email.
 
 ### Change Billing Interval
 
-Workspaces on a monthly subscription can switch to a yearly subscription at any time by navigating to the billing dashboard and pressing the **Switch to Yearly** button.
+Workspaces on a monthly subscription can switch to a yearly subscription at any time by navigating to the billing dashboard and selecting the **Switch to Yearly** button.
 
 You will be invoiced for a new yearly subscription **at the end of your current monthly billing cycle**. You may cancel/revert this decision before the end of your current monthly cycle if you change your mind!
 
@@ -65,13 +81,13 @@ You will be invoiced for a new yearly subscription **at the end of your current 
 
 ### View Past Invoices
 
-In your workspace billing dashboard, press **Invoices**. This will display your invoice history in descending order. The most recent invoice is at the top. For each invoice, Stoplight will include:
+In your workspace billing dashboard, select **Invoices**. This will display your invoice history in descending order. The most recent invoice is at the top. For each invoice, Stoplight will include:
 
-- Date invoice was created
-- Description of the invoice
-- The number of member seats paid for. Note that each plan includes some member seats as part of the base cost, which is included in this count. For example, if you are the only member of your workspace when you subscribe, and the plan you subscribe to includes 3 member seats as part of its base cost, the number of member seats paid for in the invoice list will be "3."
-- The billed amount in $USD
-- Invoice status, with a link to pay or view the invoice details. Press **View Invoice** for paid invoices or **Pay Invoice** for open or past due invoices.
+- Date invoice was created.
+- Description of the invoice.
+- The number of member seats paid for. Note that each plan includes some member seats as part of the base cost, which is included in this count. For example, if you are the only member of your workspace when you subscribe, and the plan you subscribe to includes three member seats as part of its base cost, the number of member seats paid for in the invoice list will be "3."
+- The billed amount in $USD.
+- Invoice status, with a link to pay or view the invoice details. Select **View Invoice** for paid invoices or **Pay Invoice** for open or past due invoices.
 
 <!-- focus: center -->
 
@@ -91,21 +107,17 @@ Open invoices can be found in the invoices list via your workspace billing dashb
 
 ### Failed Payments
 
-If you have a credit card on file, Stoplight will automatically attempt to charge it. Every now and then a subscription payment may fail. Stoplight will attempt the payment again up to 3 times. If this is unsuccessful, workspace `owners`, `billing admins`, and the billing contact will be notified by email.
+If you have a credit card on file, Stoplight will automatically attempt to charge it. If a credit card payment fails, Stoplight will attempt the payment again up to three times. If this is unsuccessful, workspace owners, billing admins, and the billing contact will be notified by email.
 
-If your payment fails 3 times, Stoplight may temporarily lock your workspace. During this time, you will only be able to view your projects, but not edit them.
+If your payment fails three times, Stoplight may temporarily lock your workspace. During this time, you will only be able to view your projects, but not edit them.
 
 To unlock your workspace, you will need to make a successful payment. To force another payment attempt, you can update your payment method.
 
 Once you have made a successful payment, your workspace will be unlocked automatically and edit access will be restored.
 
-<!-- markdown-link-check-disable -->
+If you are facing ongoing issues with failed payments or a locked workspace, contact Stoplight's support team via the [Support Center](https://support.stoplight.io/) for assistance.
 
-If you are facing ongoing issues with failed payments or a locked workspace, contact Stoplight's support team via the [Support Center](https://support.stoplight.io/hc/en-us/requests/new) for assistance.
-
-<!-- markdown-link-check-enable -->
-
-> Tip! The most common causes for failed payments are insufficient funds or an expired credit card.
+> **Note**: The most common causes for failed payments are insufficient funds or an expired credit card.
 
 ## Renewals
 
@@ -135,11 +147,9 @@ You won't be billed if the number of members has remained unchanged from quarter
 
 A short example true-up scenario:
 
-![billing true-up example](../assets/images/billing-true-up-example.png)
-
-1. This workspace subscribed to the `Starter` plan on September 16, 2021.
-2. `A` - They **were using/paid for 10 member seats** at the time of their subscription.
-3. `B` - In the months following their original subscription, they **added 7 more members** to their workspace, bringing their total members in use today to 17.
-4. `C` - Since they're using 7 more member seats than they have paid for, their billing dashboard indicates that their **next true-up invoice is projected to be $378**.
-5. `D` - Pressing on the "Details" button shows a breakdown of the projected true-up invoice. In this case, 7 additional members for the three quarters remaining on this billing cycle.
+1. A workspace subscribed to the Starter plan on September 16, 2021.
+2. They were using/paid for 10 member seats at the time of their subscription.
+3. In the months following their original subscription, they added 7 more members to their workspace, bringing their total members in use today to 17.
+4. Since they're using 7 more member seats than they have paid for, their billing dashboard indicates that their next true-up invoice is projected to be higher than the Starter plan base price.
+5. Selecting **Details** under "Projected Total" shows a breakdown of the projected true-up invoice. In this case, 7 additional members for the three quarters remaining on this billing cycle.
 6. Workspace owners and billing admins will receive emails on December 2nd (14 days prior) and December 13th (3 days prior), notifying them of the upcoming true-up invoice. This gives them time to adjust membership as needed before the invoice is finalized on December 16th. In this example, if all 7 members are removed before December 16th, bringing the # members in use today down to 10, then there will be no additional bill. On the other hand, it's possible for the true-up invoice to increase if the number of members in the workspace increases beyond 17 before the invoice is issued on December 16th.
