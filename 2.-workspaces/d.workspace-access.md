@@ -18,9 +18,11 @@ Learn more about [Workspace Roles](k.workspace-roles.md).
 
 ## Invite Members to Your Workspace 
 
-1. From the workspace home page, select **Members**. 
-2. On the **Member settings** page, select **Invite Members**. 
-3. Enter one or more work **Email Addresses** of your teammates, select a **Role**, and then select **Send Invite**. 
+1. From the workspace home page, select the **Members** tab. 
+2. Select **Invite Members** on the top-right corner. 
+3. Enter one or more **email addresses** of your teammates, select a **Role**, and then select **Send Invites**.
+
+> You can copy and paste a comma-separated list of email addresses to add members in bulk.
 
 ![Add Members](../assets/images/invite-add-member.png)
 
