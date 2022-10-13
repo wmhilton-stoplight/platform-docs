@@ -16,7 +16,7 @@ For OneLogin you will need to create a SAML Test Connector (Advanced) app. The r
 #### Parameters Tab:
 
 <!-- theme: info -->
-> follow the [guide](https://meta.stoplight.io/docs/platform/ZG9jOjQ1NTQxMg-single-sign-on#saml-assertion-requirements) in platform docs for configuring parameters. Below are the minimum required parameters to get this working.
+> Follow the [guide](https://docs.stoplight.io/docs/platform/ZG9jOjQ1NTQxMg-single-sign-on#saml-assertion-requirements) in platform docs for configuring parameters. Below are the minimum required parameters to get this working.
 
 1. NameID --> Email
 2. mail --> Email
@@ -28,6 +28,7 @@ For OneLogin you will need to create a SAML Test Connector (Advanced) app. The r
 1. Entry Point --> `SAML 2.0 Endpoint (HTTP)` from the SSO Tab in OneLogin App
 2. Identifier Format --> `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
 3. Identity Provider Public Certificate --> `X.509 Certificate` from the SSO Tab in OneLogin App
+    - Make sure to remove "BEGIN CERT" and "END CERT" from your certificate string
 4. Issuer --> `Issuer URL` from the SSO Tab in OneLogin App
 5. Request Specific Authentication Context --> `Enabled`
 

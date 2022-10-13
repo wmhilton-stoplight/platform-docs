@@ -20,7 +20,7 @@ The rest of this document outlines how to configure that app.
 #### Attribute Mappings Tab:
 
 <!-- theme: info -->
-> follow the [guide](https://meta.stoplight.io/docs/platform/ZG9jOjQ1NTQxMg-single-sign-on#saml-assertion-requirements) in platform docs for configuring parameters. Below are the minimum required parameters to get this working.
+> Follow the [guide](https://docs.stoplight.io/docs/platform/ZG9jOjQ1NTQxMg-single-sign-on#saml-assertion-requirements) in platform docs for configuring parameters. Below are the minimum required parameters to get this working.
 1. User ID --> saml_subject
 2. Email Address --> mail
 
@@ -31,6 +31,7 @@ The rest of this document outlines how to configure that app.
 1. Entry Point --> `Single SignOn Service` from the Configuration Tab in Ping App
 2. Identifier Format --> `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
 3. Identity Provider Public Certificate --> `Download Signing Certificate` from the Configuration Tab in Ping App. Select the `X509 PEM (.crt)` format
+    - Make sure to remove "BEGIN CERT" and "END CERT" from your certificate string
 4. Issuer --> `stoplight` (this must match the Entity ID configured in the Ping app)
 5. Request Specific Authentication Context --> `Enabled`
 

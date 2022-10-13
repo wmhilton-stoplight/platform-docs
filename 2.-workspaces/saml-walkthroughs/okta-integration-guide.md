@@ -19,7 +19,7 @@ The rest of this document outlines how to configure that app.
 #### Attribute Statements (Optional):
 
 <!-- theme: info -->
-> Follow the [guide](https://meta.stoplight.io/docs/platform/ZG9jOjQ1NTQxMg-single-sign-on#saml-assertion-requirements) in platform docs for configuring parameters. Below are the minimum required parameters to get this working.
+> Follow the [guide](https://docs.stoplight.io/docs/platform/ZG9jOjQ1NTQxMg-single-sign-on#saml-assertion-requirements) in platform docs for configuring parameters. Below are the minimum required parameters to get this working.
 1. mail -> user.email
 
 ![The Attribute Statements (optional) page section in Okta, with a row and the Name field set to "mail," the Name format field set to "Unspecified," and the Value field set to "user.email"](https://stoplight.io/api/v1/projects/cHJqOjI/images/vILKgAP5SGo)
@@ -34,6 +34,7 @@ The rest of this document outlines how to configure that app.
 1. Entry Point -> `Identity Provider Single Sign-On URL`
 2. Identifier Format -> `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
 3. Identity Provider Public Certificate -> `X.509 Certificate`
+    - Make sure to remove "BEGIN CERT" and "END CERT" from your certificate string
 4. Issuer -> `Identity Provider Issuer`
 5. Request Specific Authentication Context -> `Enabled`
 
