@@ -17,6 +17,8 @@ Creating a service account in your Git provider and using that in Stoplight can 
 
 Once you configure a service account in your Stoplight project, **any Git operations will be done using the service account credentials**. Besides the benefits listed above, this shouldn't have any impact on the user's ability to view, clone, edit, or publish changes to Git projects in Stoplight. Users will be able to view or edit projects based on their [project role](../l.project-access.md).
 
+> Service accounts are only used for Git operations inside a Stoplight project (`pull`, `push`, `branch`, `checkout`). They're not used to create projects in Stoplight.
+
 The main difference that users will see is in their Git commit messages, which will use the service account for the commit operation, and the Stoplight user as the author of the commit. The commit message will also be modified to include details about the service account. For example, this is what a commit will look like on GitHub:
 
 ![Example of a commit on GitHub after a service account is connected to Stoplight. The commit message includes the user name and appended to it says "on behalf of service-account." The author section also includes both the username and the service account username in the format "user authored and service-account-username committed 3 minutes ago"](../../assets/images/service-accounts-commit-message-2.png)
