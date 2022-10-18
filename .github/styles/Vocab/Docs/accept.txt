@@ -40,9 +40,11 @@ HTTPS
 HTTPie
 hostname
 infographic
+iri
 JavaScript
 Jira
 lookup
+multiselect
 NGINX
 Node.js
 noindex
@@ -67,8 +69,11 @@ Strikethrough
 strikethrough
 subpath
 Subpath
+subschema
+subschemas
 subtree
 truthy
 Unirest
 Unprocessable
+uri
 Wget
