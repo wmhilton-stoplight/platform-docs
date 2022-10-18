@@ -42,6 +42,8 @@ If you have an existing repository or import a directory or zip file with Markdo
 
 **Import Existing Files**: You can also import an existing YAML or JSON OpenAPI file, or import a [Postman Collection](../6.-migrations/postman.md) file.
 
+> To easily convert API files between JSON and YAML formats, rename the file and change the extension to the format you need (.yaml or .json). You can also [export an API](export-api-file.md#export-single-files) to one of these format types to convert it.
+
 ### Endpoint
 
 Select the API to add the endpoint. Select or create a tag to group similar endpoints together. Provide a path. 
