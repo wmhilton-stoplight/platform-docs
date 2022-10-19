@@ -2,8 +2,8 @@
 
 There are two ways to add images to a project:
 
-- **Drag-and-drop (recommended for Web projects)**: Drag-and-drop an image file from your local computer directly into a Markdown file. The image will be stored in Stoplight and respect [project permissions](../2.-workspaces/l.project-access.md). You must have **Editor** permissions or higher to drag-and-drop images onto Markdown files. This is supported for both Web and Git projects.
-- **Import File/Add Image (recommended for Git projects)**: Select the **Add** (+) icon at the top of the left panel, and then select **Import File** or **Image**. Use this method if tracking changes to images is important to you or if the image is shared with another publishing tool. This is only supported for Git projects.
+- **Drag-and-drop**: Drag-and-drop an image file from your local computer directly into a Markdown file. The image will be stored in Stoplight and respect [project permissions](../2.-workspaces/l.project-access.md). You must have **Editor** permissions or higher to drag-and-drop images onto Markdown files.
+- **Import File/Add Image**: Select the **Add** (+) icon at the top of the left panel, and then select **Import File** or **Image**. Use this method if tracking changes to images is important to you or if the image is shared with another publishing tool.
 
 You can add multiple images to any documentation file. Supported image formats include: **JPEG,** **JPG**, **PNG**, and **GIF**.
 
@@ -17,9 +17,6 @@ You can add multiple images to any documentation file. Supported image formats i
 
 ## Import Images
 
-<!-- theme: warning -->
-> **Warning**: This option is only available for public Git repositories. Use the drag-and-drop method for adding images to projects that aren't connected to public Git repositories.
-
 1. Edit a project.
 2. Select the **Add** (+) icon at the top of the left panel, and then select **Import File** or **Image**.
 3. Navigate to and select the image file you want to import. An `assets/images` folder is added to your **Files** tab if the folder doesn't already exist, and the image is imported into this new folder.
@@ -29,6 +26,20 @@ You can add multiple images to any documentation file. Supported image formats i
 ## Customize Images
 
 To customize images, such as adding backgrounds, captions or focus, check out [images in Stoplight Flavored Markdown](stoplight-flavored-markdown.md).
+
+## Image Visibility
+
+Images that are uploaded to Stoplight via the drag-and-drop method will have a image URL such as: https://stoplight.io/api/v1/projects/cHJqOjI/images/f411rdRcvGA.
+
+The image URL has the same visibility as the Stoplight project visibility, so images uploaded to a public project will be visible by anyone who has access to the image URL, while images uploaded to internal or private projects will only be visible by users who have access to those projects in Stoplight.
+
+For private Git repositories that are connected to a public Stoplight project, Stoplight will display a public copy of any images in the repository that are included in a Markdown article or API documentation. That way users can view a project's documentation as it was intended without having access to a Stoplight project, and Stoplight users can still use a private Git repository.
+
+## Limitations
+
+Stoplight supports uploading images with a file size of up to 15 MB.
+
+If you have an image in a Git repository that's larger than 15 MB, that image won't be displayed in your Stoplight project.
 
 ## Next Steps
 
