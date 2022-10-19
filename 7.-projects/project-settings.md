@@ -15,7 +15,7 @@ Use one of these methods to open the **Project Settings** page:
 
 * **Slug**: The value used in project URLs. Project slugs must be unique in a workspace.
 
-* **ID**: Used to identify the project by the [Elements Dev Portal](https://meta.stoplight.io/docs/elements/ZG9jOjEyMDU2Njc2-introduction-to-elements-dev-portal).
+* **ID**: Used by the [Elements Dev Portal](https://meta.stoplight.io/docs/elements/ZG9jOjEyMDU2Njc2-introduction-to-elements-dev-portal) to identify the project.
 
 * **Tagline**: Text here is shown below the project name in the workspace sidebar.
 

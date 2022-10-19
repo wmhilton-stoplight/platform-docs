@@ -8,6 +8,14 @@ To customize workspace settings, select **Settings** from the workspace home pag
 
 Select this option to change the name that appears in the upper left corner of your workspace if you have the portal enabled. 
 
+## Workspace Identifier
+
+Used by the [Elements Dev Portal](https://meta.stoplight.io/docs/elements/ZG9jOjEyMDU2Njc2-introduction-to-elements-dev-portal) to identify the workspace.
+
+## Allow Join Requests
+
+Used to control join requests. Once disabled, new members must be invited to join your workspace. See [Invite Workspace Members](d.workspace-access.md#invite-members-to-your-workspace) for details.
+
 ## Approved Domains
 
 Set approved email domains that enable users to join your workspace without an invitation. See [Allowed Email Domains](d.workspace-access.md#allow-access-by-email-domain) for details.
