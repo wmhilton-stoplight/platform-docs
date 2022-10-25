@@ -1,6 +1,6 @@
 # Welcome to the Stoplight Docs!
 
-Stoplight Platform is a API design management tool that can be used to design, develop, test, and document HTTP APIs using industry standards like OpenAPI and Markdown for written-form documentation.
+Stoplight Platform is an API design management tool that can be used to design, develop, test, and document HTTP APIs using industry standards like OpenAPI and Markdown for written-form documentation.
 
 ## Get Started with API Projects
 
