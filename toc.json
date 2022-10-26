@@ -271,6 +271,11 @@
             "uri":"2.-workspaces/a.creating-a-workspace.md"
           },
           {
+            "type":"item",
+            "title":"Log In to a Workspace",
+            "uri":"2.-workspaces/login.md"
+          },
+          {
             "type":"group",
             "title":"Workspace Settings",
             "items":[
