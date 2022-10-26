@@ -10,6 +10,7 @@ Backend
 blockquote
 Blockquote
 boolean
+Boolean
 callout
 Callout
 camelcase
@@ -75,5 +76,6 @@ subtree
 truthy
 Unirest
 Unprocessable
+uuid
 uri
 Wget
