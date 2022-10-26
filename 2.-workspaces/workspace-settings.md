@@ -1,10 +1,14 @@
-# Change Workspace Look and Feel
+---
+stoplight-id: 1ce578a7794e8
+---
+
+# Workspace Settings
 
 To customize workspace settings, select **Settings** from the workspace home page. This opens the **Workspace Settings** page.
 
 ![Workspace Settings Page](../assets/images/workspace-settings.png)
 
-## Workspace Display Name
+## Display Name
 
 Select this option to change the name that appears in the upper left corner of your workspace if you have the portal enabled. 
 
@@ -14,7 +18,11 @@ Used by the [Elements Dev Portal](https://meta.stoplight.io/docs/elements/ZG9jOj
 
 ## Allow Join Requests
 
-Used to control join requests. Once disabled, new members must be invited to join your workspace. See [Invite Workspace Members](d.workspace-access.md#invite-members-to-your-workspace) for details.
+Use to control join requests. Once disabled, new members must be invited to join your workspace. See [Invite Workspace Members](d.workspace-access.md#invite-members-to-your-workspace) for details.
+
+## Send Daily Digest to Guests
+
+Use to control whether users with the [**guest**](d.workspace-access.md) workspace role can disable daily digest emails in their [**Account Settings**](q-account-settings.md#notifications). Disable this option to prevent guests from receiving daily digest emails.
 
 ## Approved Domains
 
@@ -80,9 +88,3 @@ You can:
 4. Select **Use Default Template** to replace your content with default content provided by Stoplight.
 
 The **HTTP Request Maker** and **JSON Schema** options aren't supported in the Landing Page Markdown editor.
-
-
-
-
-
-

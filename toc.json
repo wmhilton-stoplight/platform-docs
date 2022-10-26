@@ -278,12 +278,8 @@
           {
             "type":"group",
             "title":"Workspace Settings",
+            "uri": "2.-workspaces/workspace-settings.md",
             "items":[
-                {
-                  "type":"item",
-                  "title":"Change the Look and Feel",
-                  "uri":"2.-workspaces/b1-change-look-and-feel.md"
-                },
                 {
                   "type":"item",
                   "title":"Custom Domains",

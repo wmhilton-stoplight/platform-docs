@@ -18,14 +18,20 @@ To modify account settings:
 - **First Name** and **Last Name**: Your first and last name are used as your primary display name throughout Stoplight. 
 
 ## Emails
-- **Emails**: Your primary email is the one used when you created or joined your workspace. You can add a secondary email. This is useful for switching your primary email address if needed. Note that the primary email is used by your source control provider to register commits in Stoplight. 
+
+Your primary email is the one used when you created or joined your workspace. You can add a secondary email. This is useful for switching your primary email address if needed. Note that the primary email is used by your source control provider to register commits in Stoplight. 
 
 ## Notifications
-- **Daily Summary Email**: Subscribe to receive a list of changes to the current workspace in your primary email each day at 8 AM in your local time zone. Emails are only sent when changes are made. 
 
-  You can see changes for the projects you have [pinned to your workspace sidebar](../4.-documentation/Sidebar/a.workspace-sidebar.md). Changes to APIs, models, endpoints, and articles are included in the digest.
+### Stoplight Daily Digest
 
-  Disable the digest to stop receiving daily updates.
+Subscribe to receive a list of changes to the current workspace in your primary email each day at 8 AM in your local time zone. Emails are only sent when changes are made. 
+
+You can see changes for the projects you have [pinned to your workspace sidebar](../4.-documentation/Sidebar/a.workspace-sidebar.md). Changes to APIs, models, endpoints, and articles are included in the digest.
+
+You can disable the digest to stop receiving daily updates for your workspace.
+
+Workspace admins and owners can disable daily digest emails to be sent to users with the guest workspace role. See [Workspace Settings](./workspace-settings.md#send-daily-digest-to-guests) for details.
 
 ## Security
 

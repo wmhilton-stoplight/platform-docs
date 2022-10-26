@@ -49,7 +49,7 @@ To change the default role or remove the domain, select the arrow to the right o
 
 You must approve join requests when users want to join your workspace. If you allow access by email domain, you must approve join requests for users who register for your workspace with an email address that doesn't match your domain.
 
-> You can disable join requests for your workspace. See [Workspace Settings](b1-change-look-and-feel.md#allow-join-requests) for details.
+> You can disable join requests for your workspace. See [Workspace Settings](workspace-settings.md#allow-join-requests) for details.
 
 Join requests automatically expire and are deleted after 30 days.
 
