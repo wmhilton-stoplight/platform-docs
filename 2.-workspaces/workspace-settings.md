@@ -22,7 +22,7 @@ Use to control join requests. Once disabled, new members must be invited to join
 
 ## Send Daily Digest to Guests
 
-Use to control whether users with the [**guest**](d.workspace-access.md) workspace role can disable daily digest emails in their [**Account Settings**](q-account-settings.md#notifications). Disable this option to prevent guests from receiving daily digest emails.
+Use to control whether users with the [**guest**](d.workspace-access.md) workspace role can enable or disable daily digest emails in their [**Account Settings**](q-account-settings.md#notifications). Disable this option to prevent guests from receiving daily digest emails.
 
 ## Approved Domains
 
